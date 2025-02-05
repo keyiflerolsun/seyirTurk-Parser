@@ -1,0 +1,3029 @@
+{
+  "links": [
+    {
+      "ID": 1,
+      "Name": "TRT 1",
+      "Link": "https://tr.canlitv.digital/trt1-canli-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-1-m-izle.png",
+      "Summary": "TRT 1"
+    },
+    {
+      "ID": 2,
+      "Name": "Tv8",
+      "Link": "https://tr.canlitv.digital/tv8-izle-hd-canli",
+      "Image": "https://tr.canlitv.digital/channels/tv8-canli-yayin.png",
+      "Summary": "Tv8"
+    },
+    {
+      "ID": 3,
+      "Name": "Star TV",
+      "Link": "https://tr.canlitv.digital/startv-hd-izle",
+      "Image": "https://tr.canlitv.digital/channels/star-tv-izle.png",
+      "Summary": "Star TV"
+    },
+    {
+      "ID": 4,
+      "Name": "Kanal D",
+      "Link": "https://tr.canlitv.digital/canli-kanald-izle",
+      "Image": "https://tr.canlitv.digital/channels/kanal-d-canli.png",
+      "Summary": "Kanal D"
+    },
+    {
+      "ID": 5,
+      "Name": "Kanal 7",
+      "Link": "https://tr.canlitv.digital/kanal7",
+      "Image": "https://tr.canlitv.digital/channels/kanal-7.png",
+      "Summary": "Kanal 7"
+    },
+    {
+      "ID": 6,
+      "Name": "ATV",
+      "Link": "https://tr.canlitv.digital/atvhd-izle",
+      "Image": "https://tr.canlitv.digital/channels/atv-izle.png",
+      "Summary": "ATV"
+    },
+    {
+      "ID": 7,
+      "Name": "Now TV",
+      "Link": "https://tr.canlitv.digital/now-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/now-tv-izle.png",
+      "Summary": "Now TV"
+    },
+    {
+      "ID": 8,
+      "Name": "Beyaz TV",
+      "Link": "https://tr.canlitv.digital/beyaz-tv",
+      "Image": "https://tr.canlitv.digital/channels/beyaz-tv-canli.png",
+      "Summary": "Beyaz TV"
+    },
+    {
+      "ID": 9,
+      "Name": "A Haber",
+      "Link": "https://tr.canlitv.digital/a-haber-izle",
+      "Image": "https://tr.canlitv.digital/channels/a-haber-canli-yayin.png",
+      "Summary": "A Haber"
+    },
+    {
+      "ID": 10,
+      "Name": "NTV",
+      "Link": "https://tr.canlitv.digital/ntv-hd-izle",
+      "Image": "https://tr.canlitv.digital/channels/ntv-canli-yayin.png",
+      "Summary": "NTV"
+    },
+    {
+      "ID": 11,
+      "Name": "Halk TV",
+      "Link": "https://tr.canlitv.digital/halk-tv",
+      "Image": "https://tr.canlitv.digital/channels/halk-tv-izle.png",
+      "Summary": "Halk TV"
+    },
+    {
+      "ID": 12,
+      "Name": "Habertürk TV",
+      "Link": "https://tr.canlitv.digital/haberturk-canli",
+      "Image": "https://tr.canlitv.digital/channels/haberturk-izle.png",
+      "Summary": "Habertürk TV"
+    },
+    {
+      "ID": 13,
+      "Name": "TRT Haber",
+      "Link": "https://tr.canlitv.digital/trt-haber-canli",
+      "Image": "https://tr.canlitv.digital/channels/trt-haber-izle.png",
+      "Summary": "TRT Haber"
+    },
+    {
+      "ID": 14,
+      "Name": "CNN Türk",
+      "Link": "https://tr.canlitv.digital/cnn-turk-izle",
+      "Image": "https://tr.canlitv.digital/channels/cnnturk-izle.png",
+      "Summary": "CNN Türk"
+    },
+    {
+      "ID": 15,
+      "Name": "SZC TV",
+      "Link": "https://tr.canlitv.digital/szc-tv",
+      "Image": "https://tr.canlitv.digital/channels/szc-tv.png",
+      "Summary": "SZC TV"
+    },
+    {
+      "ID": 16,
+      "Name": "Ülke TV",
+      "Link": "https://tr.canlitv.digital/ulke-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/ulke-tv.png",
+      "Summary": "Ülke TV"
+    },
+    {
+      "ID": 17,
+      "Name": "TV100",
+      "Link": "https://tr.canlitv.digital/tv100",
+      "Image": "https://tr.canlitv.digital/channels/tv-100-izle.png",
+      "Summary": "TV100"
+    },
+    {
+      "ID": 18,
+      "Name": "Haber Global",
+      "Link": "https://tr.canlitv.digital/haber-global",
+      "Image": "https://tr.canlitv.digital/channels/haber-global.png",
+      "Summary": "Haber Global"
+    },
+    {
+      "ID": 19,
+      "Name": "Tele 1",
+      "Link": "https://tr.canlitv.digital/tele-1",
+      "Image": "https://tr.canlitv.digital/channels/tele1-tv.png",
+      "Summary": "Tele 1"
+    },
+    {
+      "ID": 20,
+      "Name": "Kanal 24",
+      "Link": "https://tr.canlitv.digital/kanal24",
+      "Image": "https://tr.canlitv.digital/channels/kanal24.png",
+      "Summary": "Kanal 24"
+    },
+    {
+      "ID": 21,
+      "Name": "CBC Sport",
+      "Link": "https://tr.canlitv.digital/cbc-sport",
+      "Image": "https://tr.canlitv.digital/channels/cbc-sport-canli.png",
+      "Summary": "CBC Sport"
+    },
+    {
+      "ID": 22,
+      "Name": "A Spor",
+      "Link": "https://tr.canlitv.digital/a-spor-canli",
+      "Image": "https://tr.canlitv.digital/channels/a-spor-canli-yayin.png",
+      "Summary": "A Spor"
+    },
+    {
+      "ID": 23,
+      "Name": "TRT Spor",
+      "Link": "https://tr.canlitv.digital/trt-spor-canli",
+      "Image": "https://tr.canlitv.digital/channels/trt-spor-canli.png",
+      "Summary": "TRT Spor"
+    },
+    {
+      "ID": 24,
+      "Name": "Bein Sports Haber",
+      "Link": "https://tr.canlitv.digital/bein-sports-haber",
+      "Image": "https://tr.canlitv.digital/channels/bein-sports-haber.png",
+      "Summary": "Bein Sports Haber"
+    },
+    {
+      "ID": 25,
+      "Name": "GS TV",
+      "Link": "https://tr.canlitv.digital/gs-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/gs-tv-izle.png",
+      "Summary": "GS TV"
+    },
+    {
+      "ID": 26,
+      "Name": "FB TV",
+      "Link": "https://tr.canlitv.digital/fb-tv",
+      "Image": "https://tr.canlitv.digital/channels/fb-tv-izle.png",
+      "Summary": "FB TV"
+    },
+    {
+      "ID": 27,
+      "Name": "TJK TV",
+      "Link": "https://tr.canlitv.digital/tjktv-canli",
+      "Image": "https://tr.canlitv.digital/channels/tjk-tv-izle.png",
+      "Summary": "TJK TV"
+    },
+    {
+      "ID": 28,
+      "Name": "TRT Spor Yıldız",
+      "Link": "https://tr.canlitv.digital/trt-spor-yildiz-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-spor-yildiz-izle.png",
+      "Summary": "TRT Spor Yıldız"
+    },
+    {
+      "ID": 29,
+      "Name": "TLC Tv",
+      "Link": "https://tr.canlitv.digital/tlc-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/tlc-tv.png",
+      "Summary": "TLC Tv"
+    },
+    {
+      "ID": 30,
+      "Name": "DMAX",
+      "Link": "https://tr.canlitv.digital/d-max-izle",
+      "Image": "https://tr.canlitv.digital/channels/dmax-yayin.png",
+      "Summary": "DMAX"
+    },
+    {
+      "ID": 31,
+      "Name": "Yaban TV",
+      "Link": "https://tr.canlitv.digital/yaban-tv",
+      "Image": "https://tr.canlitv.digital/channels/yaban-tv.png",
+      "Summary": "Yaban TV"
+    },
+    {
+      "ID": 32,
+      "Name": "TV8,5",
+      "Link": "https://tr.canlitv.digital/tv8-5-canli",
+      "Image": "https://tr.canlitv.digital/channels/tv8-5-canli-yayin.png",
+      "Summary": "TV8,5"
+    },
+    {
+      "ID": 33,
+      "Name": "A2 TV",
+      "Link": "https://tr.canlitv.digital/a2-tv-canli",
+      "Image": "https://tr.canlitv.digital/channels/a2-tv-canli.png",
+      "Summary": "A2 TV"
+    },
+    {
+      "ID": 34,
+      "Name": "Teve2",
+      "Link": "https://tr.canlitv.digital/teve-2",
+      "Image": "https://tr.canlitv.digital/channels/teve2-canli.png",
+      "Summary": "Teve2"
+    },
+    {
+      "ID": 35,
+      "Name": "KRT TV",
+      "Link": "https://tr.canlitv.digital/krt-tv",
+      "Image": "https://tr.canlitv.digital/channels/krt-tv-izle.png",
+      "Summary": "KRT TV"
+    },
+    {
+      "ID": 36,
+      "Name": "Atv Avrupa",
+      "Link": "https://tr.canlitv.digital/atv-avrupa-canli",
+      "Image": "https://tr.canlitv.digital/channels/atv-avrupa-canli.png",
+      "Summary": "Atv Avrupa"
+    },
+    {
+      "ID": 37,
+      "Name": "Bloomberg HT",
+      "Link": "https://tr.canlitv.digital/bloomberg-ht-canli",
+      "Image": "https://tr.canlitv.digital/channels/bloomberg-ht-canli.png",
+      "Summary": "Bloomberg HT"
+    },
+    {
+      "ID": 38,
+      "Name": "Minika GO",
+      "Link": "https://tr.canlitv.digital/minika-go",
+      "Image": "https://tr.canlitv.digital/channels/minika-go-izle.png",
+      "Summary": "Minika GO"
+    },
+    {
+      "ID": 39,
+      "Name": "Minika Çocuk",
+      "Link": "https://tr.canlitv.digital/minika-cocuk",
+      "Image": "https://tr.canlitv.digital/channels/minika-cocuk.png",
+      "Summary": "Minika Çocuk"
+    },
+    {
+      "ID": 40,
+      "Name": "TRT Çocuk",
+      "Link": "https://tr.canlitv.digital/trt-cocuk-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-cocuk-izle.png",
+      "Summary": "TRT Çocuk"
+    },
+    {
+      "ID": 41,
+      "Name": "TRT Eba TV İlkokul",
+      "Link": "https://tr.canlitv.digital/trt-eba-tv-ilkokul",
+      "Image": "https://tr.canlitv.digital/channels/eba-tv-ilkokul.png",
+      "Summary": "TRT Eba TV İlkokul"
+    },
+    {
+      "ID": 42,
+      "Name": "TRT Eba Ortaokul",
+      "Link": "https://tr.canlitv.digital/trt-eba-tv-ortaokul",
+      "Image": "https://tr.canlitv.digital/channels/eba-tv-ortaokul.png",
+      "Summary": "TRT Eba Ortaokul"
+    },
+    {
+      "ID": 43,
+      "Name": "TRT Eba TV Lise",
+      "Link": "https://tr.canlitv.digital/trt-eba-tv-lise",
+      "Image": "https://tr.canlitv.digital/channels/eba-tv-lise.png",
+      "Summary": "TRT Eba TV Lise"
+    },
+    {
+      "ID": 44,
+      "Name": "HT Spor",
+      "Link": "https://tr.canlitv.digital/ht-spor",
+      "Image": "https://tr.canlitv.digital/channels/ht-spor.png",
+      "Summary": "HT Spor"
+    },
+    {
+      "ID": 45,
+      "Name": "Fox TV",
+      "Link": "https://tr.canlitv.digital/foxtv-hd-canli",
+      "Image": "https://tr.canlitv.digital/channels/fox-tv-izle.png",
+      "Summary": "Fox TV"
+    },
+    {
+      "ID": 46,
+      "Name": "Cine5",
+      "Link": "https://tr.canlitv.digital/cine5",
+      "Image": "https://tr.canlitv.digital/channels/cine5-tv-izle.png",
+      "Summary": "Cine5"
+    },
+    {
+      "ID": 47,
+      "Name": "TRT Belgesel",
+      "Link": "https://tr.canlitv.digital/trt-belgesel-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-belgesel-izle.png",
+      "Summary": "TRT Belgesel"
+    },
+    {
+      "ID": 48,
+      "Name": "CNBC-e",
+      "Link": "https://tr.canlitv.digital/cnbc-e",
+      "Image": "https://tr.canlitv.digital/channels/cnbc-e-izle.png",
+      "Summary": "CNBC-e"
+    },
+    {
+      "ID": 50,
+      "Name": "A News",
+      "Link": "https://tr.canlitv.digital/a-news",
+      "Image": "https://tr.canlitv.digital/channels/a-news.png",
+      "Summary": "A News"
+    },
+    {
+      "ID": 51,
+      "Name": "TRT Arapça",
+      "Link": "https://tr.canlitv.digital/trt-arapca-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-arapca-izle.png",
+      "Summary": "TRT Arapça"
+    },
+    {
+      "ID": 52,
+      "Name": "TRT Spor 2",
+      "Link": "https://tr.canlitv.digital/trt-spor-2-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-spor-2-izle.png",
+      "Summary": "TRT Spor 2"
+    },
+    {
+      "ID": 53,
+      "Name": "Tay TV",
+      "Link": "https://tr.canlitv.digital/taytv-canli-izle",
+      "Image": "https://tr.canlitv.digital/channels/tay-tv-canli.png",
+      "Summary": "Tay TV"
+    },
+    {
+      "ID": 54,
+      "Name": "TRT Avaz",
+      "Link": "https://tr.canlitv.digital/trt-avaz-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-avaz-izle.png",
+      "Summary": "TRT Avaz"
+    },
+    {
+      "ID": 55,
+      "Name": "TV 360",
+      "Link": "https://tr.canlitv.digital/tv-360",
+      "Image": "https://tr.canlitv.digital/channels/tv-360.png",
+      "Summary": "TV 360"
+    },
+    {
+      "ID": 56,
+      "Name": "Kıbrıs Genç TV",
+      "Link": "https://tr.canlitv.digital/kibris-genc-tv",
+      "Image": "https://tr.canlitv.digital/channels/kibris-genc-tv.png",
+      "Summary": "Kıbrıs Genç TV"
+    },
+    {
+      "ID": 57,
+      "Name": "Cartoon Network",
+      "Link": "https://tr.canlitv.digital/cartoon-network-canli",
+      "Image": "https://tr.canlitv.digital/channels/cartoon-network-tv.png",
+      "Summary": "Cartoon Network"
+    },
+    {
+      "ID": 58,
+      "Name": "TRT World",
+      "Link": "https://tr.canlitv.digital/trt-world-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-world-izle.png",
+      "Summary": "TRT World"
+    },
+    {
+      "ID": 59,
+      "Name": "Cem TV",
+      "Link": "https://tr.canlitv.digital/cem-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/cem-tv.png",
+      "Summary": "Cem TV"
+    },
+    {
+      "ID": 60,
+      "Name": "Tivibu Spor",
+      "Link": "https://tr.canlitv.digital/tivibu-spor",
+      "Image": "https://tr.canlitv.digital/channels/tivibu-spor-canli.png",
+      "Summary": "Tivibu Spor"
+    },
+    {
+      "ID": 61,
+      "Name": "Az TV",
+      "Link": "https://tr.canlitv.digital/az-tv",
+      "Image": "https://tr.canlitv.digital/channels/aztv.png",
+      "Summary": "Az TV"
+    },
+    {
+      "ID": 62,
+      "Name": "TBMM Tv",
+      "Link": "https://tr.canlitv.digital/tbmm-tv",
+      "Image": "https://tr.canlitv.digital/channels/tbmm-tv.png",
+      "Summary": "TBMM Tv"
+    },
+    {
+      "ID": 63,
+      "Name": "A Para",
+      "Link": "https://tr.canlitv.digital/a-para",
+      "Image": "https://tr.canlitv.digital/channels/a-para.png",
+      "Summary": "A Para"
+    },
+    {
+      "ID": 64,
+      "Name": "TGRT Haber",
+      "Link": "https://tr.canlitv.digital/tgrthaber-izle",
+      "Image": "https://tr.canlitv.digital/channels/tgrt-haber.png",
+      "Summary": "TGRT Haber"
+    },
+    {
+      "ID": 65,
+      "Name": "Uçankuş TV",
+      "Link": "https://tr.canlitv.digital/ucankus-tv",
+      "Image": "https://tr.canlitv.digital/channels/ucankus-tv.png",
+      "Summary": "Uçankuş TV"
+    },
+    {
+      "ID": 66,
+      "Name": "TRT 2",
+      "Link": "https://tr.canlitv.digital/trt-2",
+      "Image": "https://tr.canlitv.digital/channels/trt2-izle.png",
+      "Summary": "TRT 2"
+    },
+    {
+      "ID": 67,
+      "Name": "İdman TV",
+      "Link": "https://tr.canlitv.digital/idman-tv",
+      "Image": "https://tr.canlitv.digital/channels/idman-tv-canli.png",
+      "Summary": "İdman TV"
+    },
+    {
+      "ID": 68,
+      "Name": "TVNET",
+      "Link": "https://tr.canlitv.digital/tvnet",
+      "Image": "https://tr.canlitv.digital/channels/tvnet.png",
+      "Summary": "TVNET"
+    },
+    {
+      "ID": 69,
+      "Name": "Fashion One TV",
+      "Link": "https://tr.canlitv.digital/fashion-one-tv",
+      "Image": "https://tr.canlitv.digital/channels/fashion-one-tv-canli.png",
+      "Summary": "Fashion One TV"
+    },
+    {
+      "ID": 70,
+      "Name": "Semerkand TV",
+      "Link": "https://tr.canlitv.digital/semerkand-tv",
+      "Image": "https://tr.canlitv.digital/channels/semerkand-tv.png",
+      "Summary": "Semerkand TV"
+    },
+    {
+      "ID": 71,
+      "Name": "Diyanet TV",
+      "Link": "https://tr.canlitv.digital/diyanet-tv",
+      "Image": "https://tr.canlitv.digital/channels/diyanet-tv.png",
+      "Summary": "Diyanet TV"
+    },
+    {
+      "ID": 72,
+      "Name": "Vav TV",
+      "Link": "https://tr.canlitv.digital/vav-tv",
+      "Image": "https://tr.canlitv.digital/channels/vav-tv.png",
+      "Summary": "Vav TV"
+    },
+    {
+      "ID": 73,
+      "Name": "Dost TV",
+      "Link": "https://tr.canlitv.digital/dost-tv",
+      "Image": "https://tr.canlitv.digital/channels/dost-tv-i.png",
+      "Summary": "Dost TV"
+    },
+    {
+      "ID": 74,
+      "Name": "FM Tv",
+      "Link": "https://tr.canlitv.digital/fm-tv",
+      "Image": "https://tr.canlitv.digital/channels/fm-tv.png",
+      "Summary": "FM Tv"
+    },
+    {
+      "ID": 75,
+      "Name": "Rehber TV",
+      "Link": "https://tr.canlitv.digital/rehber-tv",
+      "Image": "https://tr.canlitv.digital/channels/rehber-tv.png",
+      "Summary": "Rehber TV"
+    },
+    {
+      "ID": 76,
+      "Name": "Medine TV",
+      "Link": "https://tr.canlitv.digital/medine-tv",
+      "Image": "https://tr.canlitv.digital/channels/medine-tv.png",
+      "Summary": "Medine TV"
+    },
+    {
+      "ID": 77,
+      "Name": "Mekke TV",
+      "Link": "https://tr.canlitv.digital/mekke-tv",
+      "Image": "https://tr.canlitv.digital/channels/mekke-tv.png",
+      "Summary": "Mekke TV"
+    },
+    {
+      "ID": 78,
+      "Name": "Euro Star",
+      "Link": "https://tr.canlitv.digital/euro-star",
+      "Image": "https://tr.canlitv.digital/channels/euro-star.png",
+      "Summary": "Euro Star"
+    },
+    {
+      "ID": 79,
+      "Name": "Euro D",
+      "Link": "https://tr.canlitv.digital/euro-d",
+      "Image": "https://tr.canlitv.digital/channels/euro-d-izle.png",
+      "Summary": "Euro D"
+    },
+    {
+      "ID": 80,
+      "Name": "Show Türk",
+      "Link": "https://tr.canlitv.digital/show-turk-canli",
+      "Image": "https://tr.canlitv.digital/channels/show-turk.png",
+      "Summary": "Show Türk"
+    },
+    {
+      "ID": 81,
+      "Name": "Tv8 İNT",
+      "Link": "https://tr.canlitv.digital/tv8-int-canli-izle",
+      "Image": "https://tr.canlitv.digital/channels/tv8-int.png",
+      "Summary": "Tv8 İNT"
+    },
+    {
+      "ID": 82,
+      "Name": "Kanal 7 Avrupa",
+      "Link": "https://tr.canlitv.digital/kanal-7-avrupa-izle",
+      "Image": "https://tr.canlitv.digital/channels/kanal-7-avrupa.png",
+      "Summary": "Kanal 7 Avrupa"
+    },
+    {
+      "ID": 83,
+      "Name": "Woman TV",
+      "Link": "https://tr.canlitv.digital/woman-tv",
+      "Image": "https://tr.canlitv.digital/channels/women-tv-izle.png",
+      "Summary": "Woman TV"
+    },
+    {
+      "ID": 84,
+      "Name": "Lalegül Tv",
+      "Link": "https://tr.canlitv.digital/lalegul-tv",
+      "Image": "https://tr.canlitv.digital/channels/lalegul-tv.png",
+      "Summary": "Lalegül Tv"
+    },
+    {
+      "ID": 85,
+      "Name": "Tv5",
+      "Link": "https://tr.canlitv.digital/tv5",
+      "Image": "https://tr.canlitv.digital/channels/tv5.png",
+      "Summary": "Tv5"
+    },
+    {
+      "ID": 86,
+      "Name": "Ulusal Kanal",
+      "Link": "https://tr.canlitv.digital/ulusal-kanal",
+      "Image": "https://tr.canlitv.digital/channels/ulusal-kanal.png",
+      "Summary": "Ulusal Kanal"
+    },
+    {
+      "ID": 87,
+      "Name": "Bengütürk TV",
+      "Link": "https://tr.canlitv.digital/benguturk-tv",
+      "Image": "https://tr.canlitv.digital/channels/benguturk-tv.png",
+      "Summary": "Bengütürk TV"
+    },
+    {
+      "ID": 88,
+      "Name": "TGRT EU",
+      "Link": "https://tr.canlitv.digital/tgrt-eu",
+      "Image": "https://tr.canlitv.digital/channels/tgrt-eu.png",
+      "Summary": "TGRT EU"
+    },
+    {
+      "ID": 89,
+      "Name": "Kral Pop TV",
+      "Link": "https://tr.canlitv.digital/kral-pop-tv",
+      "Image": "https://tr.canlitv.digital/channels/kral-pop-tv.png",
+      "Summary": "Kral Pop TV"
+    },
+    {
+      "ID": 90,
+      "Name": "Show Max",
+      "Link": "https://tr.canlitv.digital/show-max-canli",
+      "Image": "https://tr.canlitv.digital/channels/show-max.png",
+      "Summary": "Show Max"
+    },
+    {
+      "ID": 91,
+      "Name": "Sports TV",
+      "Link": "https://tr.canlitv.digital/sports-tv",
+      "Image": "https://tr.canlitv.digital/channels/sports-tv.png",
+      "Summary": "Sports TV"
+    },
+    {
+      "ID": 92,
+      "Name": "Kral TV",
+      "Link": "https://tr.canlitv.digital/kral-tv",
+      "Image": "https://tr.canlitv.digital/channels/kral-tv.png",
+      "Summary": "Kral TV"
+    },
+    {
+      "ID": 93,
+      "Name": "TGRT Belgesel",
+      "Link": "https://tr.canlitv.digital/tgrt-belgesel",
+      "Image": "https://tr.canlitv.digital/channels/tgrt-belgesel.png",
+      "Summary": "TGRT Belgesel"
+    },
+    {
+      "ID": 94,
+      "Name": "Dream TV",
+      "Link": "https://tr.canlitv.digital/dream-tv-izle",
+      "Image": "https://tr.canlitv.digital/channels/dream-tv-izle.png",
+      "Summary": "Dream TV"
+    },
+    {
+      "ID": 95,
+      "Name": "Dream Türk",
+      "Link": "https://tr.canlitv.digital/dream-turk-izle",
+      "Image": "https://tr.canlitv.digital/channels/dream-turk-izle.png",
+      "Summary": "Dream Türk"
+    },
+    {
+      "ID": 96,
+      "Name": "TV 264",
+      "Link": "https://tr.canlitv.digital/tv-264",
+      "Image": "https://tr.canlitv.digital/channels/tv264.png",
+      "Summary": "TV 264"
+    },
+    {
+      "ID": 97,
+      "Name": "Kon TV",
+      "Link": "https://tr.canlitv.digital/kon-tv",
+      "Image": "https://tr.canlitv.digital/channels/kon-tv.png",
+      "Summary": "Kon TV"
+    },
+    {
+      "ID": 98,
+      "Name": "Çay TV",
+      "Link": "https://tr.canlitv.digital/cay-tv",
+      "Image": "https://tr.canlitv.digital/channels/cay-tv.png",
+      "Summary": "Çay TV"
+    },
+    {
+      "ID": 99,
+      "Name": "Number1 TV",
+      "Link": "https://tr.canlitv.digital/number1",
+      "Image": "https://tr.canlitv.digital/channels/number-one-tv.png",
+      "Summary": "Number1 TV"
+    },
+    {
+      "ID": 100,
+      "Name": "Number1 Türk TV",
+      "Link": "https://tr.canlitv.digital/number1-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/number-one-turk.png",
+      "Summary": "Number1 Türk TV"
+    },
+    {
+      "ID": 101,
+      "Name": "Number1 Aşk TV",
+      "Link": "https://tr.canlitv.digital/number-one-ask-tv",
+      "Image": "https://tr.canlitv.digital/channels/number-one-ask.png",
+      "Summary": "Number1 Aşk TV"
+    },
+    {
+      "ID": 102,
+      "Name": "NR1 Dance TV",
+      "Link": "https://tr.canlitv.digital/number-one-dance-tv",
+      "Image": "https://tr.canlitv.digital/channels/number-one-dance.png",
+      "Summary": "NR1 Dance TV"
+    },
+    {
+      "ID": 103,
+      "Name": "NR1 Damar TV",
+      "Link": "https://tr.canlitv.digital/number-one-damar-tv",
+      "Image": "https://tr.canlitv.digital/channels/number-one-damar.png",
+      "Summary": "NR1 Damar TV"
+    },
+    {
+      "ID": 104,
+      "Name": "On4 TV",
+      "Link": "https://tr.canlitv.digital/on4-tv",
+      "Image": "https://tr.canlitv.digital/channels/on4-izle.png",
+      "Summary": "On4 TV"
+    },
+    {
+      "ID": 105,
+      "Name": "Xezer TV",
+      "Link": "https://tr.canlitv.digital/xezer-tv",
+      "Image": "https://tr.canlitv.digital/channels/xezer-tv.png",
+      "Summary": "Xezer TV"
+    },
+    {
+      "ID": 106,
+      "Name": "ATV Azad Tv",
+      "Link": "https://tr.canlitv.digital/atv-azad-tv",
+      "Image": "https://tr.canlitv.digital/channels/atv-azad-tv.png",
+      "Summary": "ATV Azad Tv"
+    },
+    {
+      "ID": 107,
+      "Name": "İctimai Tv",
+      "Link": "https://tr.canlitv.digital/ictimai-tv",
+      "Image": "https://tr.canlitv.digital/channels/ictimai-tv-izle.png",
+      "Summary": "İctimai Tv"
+    },
+    {
+      "ID": 108,
+      "Name": "Çiftçi TV",
+      "Link": "https://tr.canlitv.digital/ciftci-tv",
+      "Image": "https://tr.canlitv.digital/channels/ciftci-tv.png",
+      "Summary": "Çiftçi TV"
+    },
+    {
+      "ID": 109,
+      "Name": "1 TV Georgia",
+      "Link": "https://tr.canlitv.digital/1-tv-georgia",
+      "Image": "https://tr.canlitv.digital/channels/1-tv-georgia-canli.png",
+      "Summary": "1 TV Georgia"
+    },
+    {
+      "ID": 110,
+      "Name": "Al Jazeera Arabic",
+      "Link": "https://tr.canlitv.digital/al-azeera-arabic",
+      "Image": "https://tr.canlitv.digital/channels/al-azeera-arabic-canli.png",
+      "Summary": "Al Jazeera Arabic"
+    },
+    {
+      "ID": 111,
+      "Name": "Al Jazeera Balkans",
+      "Link": "https://tr.canlitv.digital/al-azeera-balkans",
+      "Image": "https://tr.canlitv.digital/channels/al-azeera-balkans-canli.png",
+      "Summary": "Al Jazeera Balkans"
+    },
+    {
+      "ID": 112,
+      "Name": "Al Jazeera English",
+      "Link": "https://tr.canlitv.digital/al-jezeera-english",
+      "Image": "https://tr.canlitv.digital/channels/al-azeera-english-canli.png",
+      "Summary": "Al Jazeera English"
+    },
+    {
+      "ID": 113,
+      "Name": "TRT Müzik",
+      "Link": "https://tr.canlitv.digital/trt-muzik-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-muzik-izle.png",
+      "Summary": "TRT Müzik"
+    },
+    {
+      "ID": 114,
+      "Name": "Akit TV",
+      "Link": "https://tr.canlitv.digital/akit-tv",
+      "Image": "https://tr.canlitv.digital/channels/akit-tv-canli.png",
+      "Summary": "Akit TV"
+    },
+    {
+      "ID": 115,
+      "Name": "Kabe TV",
+      "Link": "https://tr.canlitv.digital/kabe-tv",
+      "Image": "https://tr.canlitv.digital/channels/kabetv-izle.png",
+      "Summary": "Kabe TV"
+    },
+    {
+      "ID": 116,
+      "Name": "Finanstürk TV",
+      "Link": "https://tr.canlitv.digital/finansturk-tv",
+      "Image": "https://tr.canlitv.digital/channels/finans-turk-tv.png",
+      "Summary": "Finanstürk TV"
+    },
+    {
+      "ID": 117,
+      "Name": "Baku Tv",
+      "Link": "https://tr.canlitv.digital/baku-tv",
+      "Image": "https://tr.canlitv.digital/channels/bakutv.png",
+      "Summary": "Baku Tv"
+    },
+    {
+      "ID": 118,
+      "Name": "Ekotürk TV",
+      "Link": "https://tr.canlitv.digital/ekoturk-tv",
+      "Image": "https://tr.canlitv.digital/channels/ekoturk-tv.png",
+      "Summary": "Ekotürk TV"
+    },
+    {
+      "ID": 119,
+      "Name": "APA Tv",
+      "Link": "https://tr.canlitv.digital/apa-tv",
+      "Image": "https://tr.canlitv.digital/channels/apa-tv.png",
+      "Summary": "APA Tv"
+    },
+    {
+      "ID": 120,
+      "Name": "İBB Tv",
+      "Link": "https://tr.canlitv.digital/ibb-tv",
+      "Image": "https://tr.canlitv.digital/channels/ibb-tv.png",
+      "Summary": "İBB Tv"
+    },
+    {
+      "ID": 121,
+      "Name": "Edirne TV",
+      "Link": "https://tr.canlitv.digital/edirne-tv",
+      "Image": "https://tr.canlitv.digital/channels/edirne-tv.png",
+      "Summary": "Edirne TV"
+    },
+    {
+      "ID": 122,
+      "Name": "Kanal 5",
+      "Link": "https://tr.canlitv.digital/kanal-5",
+      "Image": "https://tr.canlitv.digital/channels/kanal5-izle.png",
+      "Summary": "Kanal 5"
+    },
+    {
+      "ID": 123,
+      "Name": "Kanal 42",
+      "Link": "https://tr.canlitv.digital/kanal-42",
+      "Image": "https://tr.canlitv.digital/channels/tv-42.png",
+      "Summary": "Kanal 42"
+    },
+    {
+      "ID": 124,
+      "Name": "Flash Haber TV",
+      "Link": "https://tr.canlitv.digital/flash-haber-tv",
+      "Image": "https://tr.canlitv.digital/channels/flash-haber-tv.png",
+      "Summary": "Flash Haber TV"
+    },
+    {
+      "ID": 125,
+      "Name": "Oe24 TV",
+      "Link": "https://tr.canlitv.digital/oe24-tv",
+      "Image": "https://tr.canlitv.digital/channels/oe-24-tv-canli.png",
+      "Summary": "Oe24 TV"
+    },
+    {
+      "ID": 126,
+      "Name": "Uzay Haber",
+      "Link": "https://tr.canlitv.digital/uzay-haber",
+      "Image": "https://tr.canlitv.digital/channels/uzayhabertv.png",
+      "Summary": "Uzay Haber"
+    },
+    {
+      "ID": 127,
+      "Name": "Euro90 TV",
+      "Link": "https://tr.canlitv.digital/euro90-tv",
+      "Image": "https://tr.canlitv.digital/channels/euro90tv.png",
+      "Summary": "Euro90 TV"
+    },
+    {
+      "ID": 128,
+      "Name": "Diyalog Tv",
+      "Link": "https://tr.canlitv.digital/diyalog-tv",
+      "Image": "https://tr.canlitv.digital/channels/diyalog-tv.png",
+      "Summary": "Diyalog Tv"
+    },
+    {
+      "ID": 129,
+      "Name": "Kanal 19",
+      "Link": "https://tr.canlitv.digital/kanal-19",
+      "Image": "https://tr.canlitv.digital/channels/kanal-19.png",
+      "Summary": "Kanal 19"
+    },
+    {
+      "ID": 130,
+      "Name": "RTL",
+      "Link": "https://tr.canlitv.digital/rtl",
+      "Image": "https://tr.canlitv.digital/channels/rtl-tv.png",
+      "Summary": "RTL"
+    },
+    {
+      "ID": 131,
+      "Name": "Super RTL",
+      "Link": "https://tr.canlitv.digital/super-rtl",
+      "Image": "https://tr.canlitv.digital/channels/super-rtl.png",
+      "Summary": "Super RTL"
+    },
+    {
+      "ID": 132,
+      "Name": "RTL 2",
+      "Link": "https://tr.canlitv.digital/rtl-zwei",
+      "Image": "https://tr.canlitv.digital/channels/rtl-2.png",
+      "Summary": "RTL 2"
+    },
+    {
+      "ID": 133,
+      "Name": "RTL Nitro",
+      "Link": "https://tr.canlitv.digital/rtl-nitro",
+      "Image": "https://tr.canlitv.digital/channels/rtl-nitro.png",
+      "Summary": "RTL Nitro"
+    },
+    {
+      "ID": 134,
+      "Name": "ZDF",
+      "Link": "https://tr.canlitv.digital/zdf",
+      "Image": "https://tr.canlitv.digital/channels/zdf.png",
+      "Summary": "ZDF"
+    },
+    {
+      "ID": 135,
+      "Name": "VOX",
+      "Link": "https://tr.canlitv.digital/vox",
+      "Image": "https://tr.canlitv.digital/channels/vox-tv.png",
+      "Summary": "VOX"
+    },
+    {
+      "ID": 136,
+      "Name": "Pro 7",
+      "Link": "https://tr.canlitv.digital/pro-7",
+      "Image": "https://tr.canlitv.digital/channels/pro7.png",
+      "Summary": "Pro 7"
+    },
+    {
+      "ID": 137,
+      "Name": "Kabel Eins",
+      "Link": "https://tr.canlitv.digital/kabel-eins",
+      "Image": "https://tr.canlitv.digital/channels/kabel-eins.png",
+      "Summary": "Kabel Eins"
+    },
+    {
+      "ID": 138,
+      "Name": "N-TV",
+      "Link": "https://tr.canlitv.digital/n-tv",
+      "Image": "https://tr.canlitv.digital/channels/n-tv.png",
+      "Summary": "N-TV"
+    },
+    {
+      "ID": 139,
+      "Name": "Tele 5",
+      "Link": "https://tr.canlitv.digital/tele-5",
+      "Image": "https://tr.canlitv.digital/channels/tele5.png",
+      "Summary": "Tele 5"
+    },
+    {
+      "ID": 140,
+      "Name": "Sat1",
+      "Link": "https://tr.canlitv.digital/sat1",
+      "Image": "https://tr.canlitv.digital/channels/sat1.png",
+      "Summary": "Sat1"
+    },
+    {
+      "ID": 141,
+      "Name": "3Sat",
+      "Link": "https://tr.canlitv.digital/3sat",
+      "Image": "https://tr.canlitv.digital/channels/3sat.png",
+      "Summary": "3Sat"
+    },
+    {
+      "ID": 142,
+      "Name": "ARD",
+      "Link": "https://tr.canlitv.digital/ard",
+      "Image": "https://tr.canlitv.digital/channels/ard-1.png",
+      "Summary": "ARD"
+    },
+    {
+      "ID": 143,
+      "Name": "ZDFneo",
+      "Link": "https://tr.canlitv.digital/zdf-neo",
+      "Image": "https://tr.canlitv.digital/channels/zdf-neo.png",
+      "Summary": "ZDFneo"
+    },
+    {
+      "ID": 144,
+      "Name": "Pro7 Maxx",
+      "Link": "https://tr.canlitv.digital/pro7-maxx-prosieben-maxx",
+      "Image": "https://tr.canlitv.digital/channels/pro7-maxx.png",
+      "Summary": "Pro7 Maxx"
+    },
+    {
+      "ID": 145,
+      "Name": "Sat1 Gold",
+      "Link": "https://tr.canlitv.digital/sat1-gold",
+      "Image": "https://tr.canlitv.digital/channels/sat1-gold.png",
+      "Summary": "Sat1 Gold"
+    },
+    {
+      "ID": 146,
+      "Name": "123 TV",
+      "Link": "https://tr.canlitv.digital/123-tv",
+      "Image": "https://tr.canlitv.digital/channels/123-tv.png",
+      "Summary": "123 TV"
+    },
+    {
+      "ID": 147,
+      "Name": "Sixx",
+      "Link": "https://tr.canlitv.digital/sixx",
+      "Image": "https://tr.canlitv.digital/channels/sixx-tv.png",
+      "Summary": "Sixx"
+    },
+    {
+      "ID": 148,
+      "Name": "ORF 1",
+      "Link": "https://tr.canlitv.digital/orf-1",
+      "Image": "https://tr.canlitv.digital/channels/orf-1.png",
+      "Summary": "ORF 1"
+    },
+    {
+      "ID": 149,
+      "Name": "Kanal 60",
+      "Link": "https://tr.canlitv.digital/kanal-60",
+      "Image": "https://tr.canlitv.digital/channels/kanal-60-tv.png",
+      "Summary": "Kanal 60"
+    },
+    {
+      "ID": 150,
+      "Name": "ZDFinfo",
+      "Link": "https://tr.canlitv.digital/zdf-info",
+      "Image": "https://tr.canlitv.digital/channels/zdf-info.png",
+      "Summary": "ZDFinfo"
+    },
+    {
+      "ID": 151,
+      "Name": "Kanal 43",
+      "Link": "https://tr.canlitv.digital/kanal-43",
+      "Image": "https://tr.canlitv.digital/channels/kanal-43.png",
+      "Summary": "Kanal 43"
+    },
+    {
+      "ID": 152,
+      "Name": "Comedy Central",
+      "Link": "https://tr.canlitv.digital/comedy-central",
+      "Image": "https://tr.canlitv.digital/channels/comedy-central-de.png",
+      "Summary": "Comedy Central"
+    },
+    {
+      "ID": 153,
+      "Name": "Kanal 26",
+      "Link": "https://tr.canlitv.digital/kanal-26",
+      "Image": "https://tr.canlitv.digital/channels/kanal26.png",
+      "Summary": "Kanal 26"
+    },
+    {
+      "ID": 154,
+      "Name": "Kanal 68",
+      "Link": "https://tr.canlitv.digital/kanal-68",
+      "Image": "https://tr.canlitv.digital/channels/kanal-68.png",
+      "Summary": "Kanal 68"
+    },
+    {
+      "ID": 155,
+      "Name": "Kocaeli TV",
+      "Link": "https://tr.canlitv.digital/kocaeli-tv",
+      "Image": "https://tr.canlitv.digital/channels/kocaeli-tv.png",
+      "Summary": "Kocaeli TV"
+    },
+    {
+      "ID": 156,
+      "Name": "Kanal Fırat",
+      "Link": "https://tr.canlitv.digital/kanal-firat",
+      "Image": "https://tr.canlitv.digital/channels/kanal-firat.png",
+      "Summary": "Kanal Fırat"
+    },
+    {
+      "ID": 157,
+      "Name": "Kanal Urfa",
+      "Link": "https://tr.canlitv.digital/kanal-urfa",
+      "Image": "https://tr.canlitv.digital/channels/kanal-urfa.png",
+      "Summary": "Kanal Urfa"
+    },
+    {
+      "ID": 158,
+      "Name": "Ton Tv",
+      "Link": "https://tr.canlitv.digital/ton-tv",
+      "Image": "https://tr.canlitv.digital/channels/ton-tv.png",
+      "Summary": "Ton Tv"
+    },
+    {
+      "ID": 159,
+      "Name": "TV 52",
+      "Link": "https://tr.canlitv.digital/tv-52",
+      "Image": "https://tr.canlitv.digital/channels/tv-52.png",
+      "Summary": "TV 52"
+    },
+    {
+      "ID": 160,
+      "Name": "EuroNews",
+      "Link": "https://tr.canlitv.digital/euronews",
+      "Image": "https://tr.canlitv.digital/channels/euro-news-canli.png",
+      "Summary": "EuroNews"
+    },
+    {
+      "ID": 161,
+      "Name": "Nasa TV",
+      "Link": "https://tr.canlitv.digital/nasa-tv",
+      "Image": "https://tr.canlitv.digital/channels/nasa-tv-canli.png",
+      "Summary": "Nasa TV"
+    },
+    {
+      "ID": 162,
+      "Name": "Earth TV",
+      "Link": "https://tr.canlitv.digital/earth-tv",
+      "Image": "https://tr.canlitv.digital/channels/earth-tv-canli.png",
+      "Summary": "Earth TV"
+    },
+    {
+      "ID": 163,
+      "Name": "RT News",
+      "Link": "https://tr.canlitv.digital/rt-news",
+      "Image": "https://tr.canlitv.digital/channels/rt-news-canli.png",
+      "Summary": "RT News"
+    },
+    {
+      "ID": 164,
+      "Name": "France 24",
+      "Link": "https://tr.canlitv.digital/france-24",
+      "Image": "https://tr.canlitv.digital/channels/france-24-canli.png",
+      "Summary": "France 24"
+    },
+    {
+      "ID": 165,
+      "Name": "Sky News",
+      "Link": "https://tr.canlitv.digital/sky-news",
+      "Image": "https://tr.canlitv.digital/channels/sky-news-canli.png",
+      "Summary": "Sky News"
+    },
+    {
+      "ID": 166,
+      "Name": "DW News",
+      "Link": "https://tr.canlitv.digital/dw-news",
+      "Image": "https://tr.canlitv.digital/channels/dw-news-canli.png",
+      "Summary": "DW News"
+    },
+    {
+      "ID": 167,
+      "Name": "CNA",
+      "Link": "https://tr.canlitv.digital/channel-newsasia",
+      "Image": "https://tr.canlitv.digital/channels/cna-tv-canli.png",
+      "Summary": "CNA"
+    },
+    {
+      "ID": 168,
+      "Name": "KBS News",
+      "Link": "https://tr.canlitv.digital/kbs-news",
+      "Image": "https://tr.canlitv.digital/channels/kbs-news-canli.png",
+      "Summary": "KBS News"
+    },
+    {
+      "ID": 169,
+      "Name": "ABC News Australia",
+      "Link": "https://tr.canlitv.digital/abc-news-australia",
+      "Image": "https://tr.canlitv.digital/channels/abc-news-australia-canli.png",
+      "Summary": "ABC News Australia"
+    },
+    {
+      "ID": 170,
+      "Name": "Al Arabiya",
+      "Link": "https://tr.canlitv.digital/al-arabiya",
+      "Image": "https://tr.canlitv.digital/channels/al-arabiya-canli.png",
+      "Summary": "Al Arabiya"
+    },
+    {
+      "ID": 171,
+      "Name": "African News English",
+      "Link": "https://tr.canlitv.digital/african-news-english",
+      "Image": "https://tr.canlitv.digital/channels/africa-news-canli.png",
+      "Summary": "African News English"
+    },
+    {
+      "ID": 172,
+      "Name": "ABC News",
+      "Link": "https://tr.canlitv.digital/abc-news",
+      "Image": "https://tr.canlitv.digital/channels/abc-news-canli.png",
+      "Summary": "ABC News"
+    },
+    {
+      "ID": 173,
+      "Name": "Tv4",
+      "Link": "https://tr.canlitv.digital/tv4",
+      "Image": "https://tr.canlitv.digital/channels/tv4.png",
+      "Summary": "Tv4"
+    },
+    {
+      "ID": 174,
+      "Name": "Milyon TV",
+      "Link": "https://tr.canlitv.digital/milyon-tv",
+      "Image": "https://tr.canlitv.digital/channels/milyon-tv.png",
+      "Summary": "Milyon TV"
+    },
+    {
+      "ID": 175,
+      "Name": "Tv Kayseri",
+      "Link": "https://tr.canlitv.digital/tv-kayseri",
+      "Image": "https://tr.canlitv.digital/channels/tv-kayseri.png",
+      "Summary": "Tv Kayseri"
+    },
+    {
+      "ID": 176,
+      "Name": "ARB 24",
+      "Link": "https://tr.canlitv.digital/arb-24",
+      "Image": "https://tr.canlitv.digital/channels/arb24.png",
+      "Summary": "ARB 24"
+    },
+    {
+      "ID": 177,
+      "Name": "Power TV",
+      "Link": "https://tr.canlitv.digital/power-tv",
+      "Image": "https://tr.canlitv.digital/channels/power-tv.png",
+      "Summary": "Power TV"
+    },
+    {
+      "ID": 178,
+      "Name": "TMB TV",
+      "Link": "https://tr.canlitv.digital/tmb-tv",
+      "Image": "https://tr.canlitv.digital/channels/tmb-tv.png",
+      "Summary": "TMB TV"
+    },
+    {
+      "ID": 179,
+      "Name": "Real TV",
+      "Link": "https://tr.canlitv.digital/real-tv",
+      "Image": "https://tr.canlitv.digital/channels/real-tv.png",
+      "Summary": "Real TV"
+    },
+    {
+      "ID": 180,
+      "Name": "Qafqaz TV",
+      "Link": "https://tr.canlitv.digital/qafqaz-tv",
+      "Image": "https://tr.canlitv.digital/channels/qafqaz-tv.png",
+      "Summary": "Qafqaz TV"
+    },
+    {
+      "ID": 181,
+      "Name": "El Tv",
+      "Link": "https://tr.canlitv.digital/el-tv",
+      "Image": "https://tr.canlitv.digital/channels/el-tv.png",
+      "Summary": "El Tv"
+    },
+    {
+      "ID": 182,
+      "Name": "Medeniyyet TV",
+      "Link": "https://tr.canlitv.digital/medeniyyet-tv",
+      "Image": "https://tr.canlitv.digital/channels/medeniyyet-tv.png",
+      "Summary": "Medeniyyet TV"
+    },
+    {
+      "ID": 183,
+      "Name": "ARB Tv",
+      "Link": "https://tr.canlitv.digital/arb-tv-canli",
+      "Image": "https://tr.canlitv.digital/channels/arb-tv.png",
+      "Summary": "ARB Tv"
+    },
+    {
+      "ID": 184,
+      "Name": "ARB Güneş TV",
+      "Link": "https://tr.canlitv.digital/arb-gunes-tv",
+      "Image": "https://tr.canlitv.digital/channels/arb-gunes-tv.png",
+      "Summary": "ARB Güneş TV"
+    },
+    {
+      "ID": 185,
+      "Name": "CBC Az TV",
+      "Link": "https://tr.canlitv.digital/cbc-az-tv",
+      "Image": "https://tr.canlitv.digital/channels/cbc-az-tv.png",
+      "Summary": "CBC Az TV"
+    },
+    {
+      "ID": 186,
+      "Name": "Vostok TV",
+      "Link": "https://tr.canlitv.digital/vostok-tv",
+      "Image": "https://tr.canlitv.digital/channels/vostok-tv.png",
+      "Summary": "Vostok TV"
+    },
+    {
+      "ID": 187,
+      "Name": "Space TV",
+      "Link": "https://tr.canlitv.digital/space-tv",
+      "Image": "https://tr.canlitv.digital/channels/space-tv-az.png",
+      "Summary": "Space TV"
+    },
+    {
+      "ID": 188,
+      "Name": "Muz TV",
+      "Link": "https://tr.canlitv.digital/muz-tv",
+      "Image": "https://tr.canlitv.digital/channels/mtv-az.png",
+      "Summary": "Muz TV"
+    },
+    {
+      "ID": 189,
+      "Name": "Az Star Tv",
+      "Link": "https://tr.canlitv.digital/az-start-tv",
+      "Image": "https://tr.canlitv.digital/channels/az-start-tv.png",
+      "Summary": "Az Star Tv"
+    },
+    {
+      "ID": 190,
+      "Name": "Power Türk TV",
+      "Link": "https://tr.canlitv.digital/power-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/power-turk-tv.png",
+      "Summary": "Power Türk TV"
+    },
+    {
+      "ID": 191,
+      "Name": "Vuslat TV",
+      "Link": "https://tr.canlitv.digital/vuslat-tv",
+      "Image": "https://tr.canlitv.digital/channels/vuslat-tv-izle.png",
+      "Summary": "Vuslat TV"
+    },
+    {
+      "ID": 192,
+      "Name": "Düğün TV",
+      "Link": "https://tr.canlitv.digital/dugun-tv",
+      "Image": "https://tr.canlitv.digital/channels/dugun-tv.png",
+      "Summary": "Düğün TV"
+    },
+    {
+      "ID": 193,
+      "Name": "Tv Em",
+      "Link": "https://tr.canlitv.digital/tv-em",
+      "Image": "https://tr.canlitv.digital/channels/tv-em.png",
+      "Summary": "Tv Em"
+    },
+    {
+      "ID": 194,
+      "Name": "TvO",
+      "Link": "https://tr.canlitv.digital/tvo",
+      "Image": "https://tr.canlitv.digital/channels/tvo.png",
+      "Summary": "TvO"
+    },
+    {
+      "ID": 195,
+      "Name": "Kanal B",
+      "Link": "https://tr.canlitv.digital/kanal-b",
+      "Image": "https://tr.canlitv.digital/channels/kanal-b.png",
+      "Summary": "Kanal B"
+    },
+    {
+      "ID": 196,
+      "Name": "ER TV",
+      "Link": "https://tr.canlitv.digital/malatya-er-tv",
+      "Image": "https://tr.canlitv.digital/channels/ertv.png",
+      "Summary": "ER TV"
+    },
+    {
+      "ID": 197,
+      "Name": "S Sport",
+      "Link": "https://tr.canlitv.digital/s-sport",
+      "Image": "https://tr.canlitv.digital/channels/s-sport-canli.png",
+      "Summary": "S Sport"
+    },
+    {
+      "ID": 198,
+      "Name": "Toprak TV",
+      "Link": "https://tr.canlitv.digital/toprak-tv",
+      "Image": "https://tr.canlitv.digital/channels/toprak-tv.png",
+      "Summary": "Toprak TV"
+    },
+    {
+      "ID": 199,
+      "Name": "Vatan Tv",
+      "Link": "https://tr.canlitv.digital/vatan-tv",
+      "Image": "https://tr.canlitv.digital/channels/vatan-tv.png",
+      "Summary": "Vatan Tv"
+    },
+    {
+      "ID": 200,
+      "Name": "Köy TV",
+      "Link": "https://tr.canlitv.digital/koy-tv",
+      "Image": "https://tr.canlitv.digital/channels/koy-tv.png",
+      "Summary": "Köy TV"
+    },
+    {
+      "ID": 201,
+      "Name": "Agro TV",
+      "Link": "https://tr.canlitv.digital/agro-tv",
+      "Image": "https://tr.canlitv.digital/channels/agro-tv.png",
+      "Summary": "Agro TV"
+    },
+    {
+      "ID": 202,
+      "Name": "Bizimev TV",
+      "Link": "https://tr.canlitv.digital/bizimev-tv",
+      "Image": "https://tr.canlitv.digital/channels/bizimev-tv.png",
+      "Summary": "Bizimev TV"
+    },
+    {
+      "ID": 203,
+      "Name": "BBN Türk",
+      "Link": "https://tr.canlitv.digital/bbn-turk",
+      "Image": "https://tr.canlitv.digital/channels/bbn-turk.png",
+      "Summary": "BBN Türk"
+    },
+    {
+      "ID": 204,
+      "Name": "Merkez TV",
+      "Link": "https://tr.canlitv.digital/merkez-tv",
+      "Image": "https://tr.canlitv.digital/channels/merkez-tv.png",
+      "Summary": "Merkez TV"
+    },
+    {
+      "ID": 205,
+      "Name": "Gonca TV",
+      "Link": "https://tr.canlitv.digital/gonca-tv",
+      "Image": "https://tr.canlitv.digital/channels/gonca-tv.png",
+      "Summary": "Gonca TV"
+    },
+    {
+      "ID": 206,
+      "Name": "Kent Türk TV",
+      "Link": "https://tr.canlitv.digital/kent-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/kent-turk-tv.png",
+      "Summary": "Kent Türk TV"
+    },
+    {
+      "ID": 207,
+      "Name": "Meltem TV",
+      "Link": "https://tr.canlitv.digital/meltem-tv",
+      "Image": "https://tr.canlitv.digital/channels/meltem-tv.png",
+      "Summary": "Meltem TV"
+    },
+    {
+      "ID": 208,
+      "Name": "Kudüs TV",
+      "Link": "https://tr.canlitv.digital/kudus-tv",
+      "Image": "https://tr.canlitv.digital/channels/kudus-tv.png",
+      "Summary": "Kudüs TV"
+    },
+    {
+      "ID": 209,
+      "Name": "Diyar TV",
+      "Link": "https://tr.canlitv.digital/diyar-tv",
+      "Image": "https://tr.canlitv.digital/channels/diyar-tv.png",
+      "Summary": "Diyar TV"
+    },
+    {
+      "ID": 210,
+      "Name": "Camia TV",
+      "Link": "https://tr.canlitv.digital/camia-tv",
+      "Image": "https://tr.canlitv.digital/channels/camia-tv.png",
+      "Summary": "Camia TV"
+    },
+    {
+      "ID": 211,
+      "Name": "Tatlıses TV",
+      "Link": "https://tr.canlitv.digital/tatlises-tv",
+      "Image": "https://tr.canlitv.digital/channels/tatlises-tv.png",
+      "Summary": "Tatlıses TV"
+    },
+    {
+      "ID": 212,
+      "Name": "Tempo TV",
+      "Link": "https://tr.canlitv.digital/tempo-tv",
+      "Image": "https://tr.canlitv.digital/channels/tempo-tv.png",
+      "Summary": "Tempo TV"
+    },
+    {
+      "ID": 213,
+      "Name": "Anadolu Dernek TV",
+      "Link": "https://tr.canlitv.digital/anadolu-dernek-tv",
+      "Image": "https://tr.canlitv.digital/channels/anadolu-dernek.png",
+      "Summary": "Anadolu Dernek TV"
+    },
+    {
+      "ID": 214,
+      "Name": "Afyon Türk TV",
+      "Link": "https://tr.canlitv.digital/afyon-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/afyon-turktv.png",
+      "Summary": "Afyon Türk TV"
+    },
+    {
+      "ID": 215,
+      "Name": "Aksu TV",
+      "Link": "https://tr.canlitv.digital/aksu-tv",
+      "Image": "https://tr.canlitv.digital/channels/aksu-tv.png",
+      "Summary": "Aksu TV"
+    },
+    {
+      "ID": 216,
+      "Name": "Ege TV",
+      "Link": "https://tr.canlitv.digital/ege-tv",
+      "Image": "https://tr.canlitv.digital/channels/ege-tv.png",
+      "Summary": "Ege TV"
+    },
+    {
+      "ID": 217,
+      "Name": "Kanal 23",
+      "Link": "https://tr.canlitv.digital/kanal-23",
+      "Image": "https://tr.canlitv.digital/channels/kanal-23.png",
+      "Summary": "Kanal 23"
+    },
+    {
+      "ID": 218,
+      "Name": "Kanal V",
+      "Link": "https://tr.canlitv.digital/kanal-v",
+      "Image": "https://tr.canlitv.digital/channels/kanal-v.png",
+      "Summary": "Kanal V"
+    },
+    {
+      "ID": 219,
+      "Name": "Aktif TV",
+      "Link": "https://tr.canlitv.digital/aktif-tv",
+      "Image": "https://tr.canlitv.digital/channels/aktif-tv.png",
+      "Summary": "Aktif TV"
+    },
+    {
+      "ID": 220,
+      "Name": "Deha TV",
+      "Link": "https://tr.canlitv.digital/deha-tv",
+      "Image": "https://tr.canlitv.digital/channels/deha-tv.png",
+      "Summary": "Deha TV"
+    },
+    {
+      "ID": 221,
+      "Name": "Es TV",
+      "Link": "https://tr.canlitv.digital/es-tv",
+      "Image": "https://tr.canlitv.digital/channels/es-tv.png",
+      "Summary": "Es TV"
+    },
+    {
+      "ID": 222,
+      "Name": "Deniz Postası TV",
+      "Link": "https://tr.canlitv.digital/deniz-postasi-tv",
+      "Image": "https://tr.canlitv.digital/channels/deniz-postasi-tv.png",
+      "Summary": "Deniz Postası TV"
+    },
+    {
+      "ID": 223,
+      "Name": "Kay TV",
+      "Link": "https://tr.canlitv.digital/kay-tv",
+      "Image": "https://tr.canlitv.digital/channels/kay-tv.png",
+      "Summary": "Kay TV"
+    },
+    {
+      "ID": 224,
+      "Name": "As TV",
+      "Link": "https://tr.canlitv.digital/as-tv",
+      "Image": "https://tr.canlitv.digital/channels/as-tv.png",
+      "Summary": "As TV"
+    },
+    {
+      "ID": 225,
+      "Name": "Life TV",
+      "Link": "https://tr.canlitv.digital/life-tv",
+      "Image": "https://tr.canlitv.digital/channels/life-tv.png",
+      "Summary": "Life TV"
+    },
+    {
+      "ID": 226,
+      "Name": "GRT Tv",
+      "Link": "https://tr.canlitv.digital/grt-tv",
+      "Image": "https://tr.canlitv.digital/channels/grt-tv-izle.png",
+      "Summary": "GRT Tv"
+    },
+    {
+      "ID": 227,
+      "Name": "Kanal 15",
+      "Link": "https://tr.canlitv.digital/kanal-15",
+      "Image": "https://tr.canlitv.digital/channels/kanal-15.png",
+      "Summary": "Kanal 15"
+    },
+    {
+      "ID": 228,
+      "Name": "Mercan TV",
+      "Link": "https://tr.canlitv.digital/mercan-tv",
+      "Image": "https://tr.canlitv.digital/channels/mercan-tv.png",
+      "Summary": "Mercan TV"
+    },
+    {
+      "ID": 229,
+      "Name": "Mavi Karadeniz TV",
+      "Link": "https://tr.canlitv.digital/mavi-karadeniz-tv",
+      "Image": "https://tr.canlitv.digital/channels/mavi-karadeniz-tv.png",
+      "Summary": "Mavi Karadeniz TV"
+    },
+    {
+      "ID": 230,
+      "Name": "Sun RTV",
+      "Link": "https://tr.canlitv.digital/sun-rtv",
+      "Image": "https://tr.canlitv.digital/channels/sun-rtv.png",
+      "Summary": "Sun RTV"
+    },
+    {
+      "ID": 231,
+      "Name": "Olay Türk",
+      "Link": "https://tr.canlitv.digital/olay-turk",
+      "Image": "https://tr.canlitv.digital/channels/olay-turk.png",
+      "Summary": "Olay Türk"
+    },
+    {
+      "ID": 232,
+      "Name": "Sat 7 Türk",
+      "Link": "https://tr.canlitv.digital/sat-7-turk",
+      "Image": "https://tr.canlitv.digital/channels/sat-7-turk.png",
+      "Summary": "Sat 7 Türk"
+    },
+    {
+      "ID": 233,
+      "Name": "Dim TV",
+      "Link": "https://tr.canlitv.digital/dim-tv",
+      "Image": "https://tr.canlitv.digital/channels/dim-tv.png",
+      "Summary": "Dim TV"
+    },
+    {
+      "ID": 234,
+      "Name": "Hunat TV",
+      "Link": "https://tr.canlitv.digital/hunat-tv",
+      "Image": "https://tr.canlitv.digital/channels/hunat-tv.png",
+      "Summary": "Hunat TV"
+    },
+    {
+      "ID": 235,
+      "Name": "Yeşilyurt TV",
+      "Link": "https://tr.canlitv.digital/yesilyurt-tv",
+      "Image": "https://tr.canlitv.digital/channels/yesilyurt-tv.png",
+      "Summary": "Yeşilyurt TV"
+    },
+    {
+      "ID": 236,
+      "Name": "Kanal Z",
+      "Link": "https://tr.canlitv.digital/kanal-z",
+      "Image": "https://tr.canlitv.digital/channels/kanal-z.png",
+      "Summary": "Kanal Z"
+    },
+    {
+      "ID": 237,
+      "Name": "BRTV",
+      "Link": "https://tr.canlitv.digital/brtv",
+      "Image": "https://tr.canlitv.digital/channels/brtv-karabuk.png",
+      "Summary": "BRTV"
+    },
+    {
+      "ID": 238,
+      "Name": "Brt 1",
+      "Link": "https://tr.canlitv.digital/brt-1",
+      "Image": "https://tr.canlitv.digital/channels/brt-1-kibris.png",
+      "Summary": "Brt 1"
+    },
+    {
+      "ID": 239,
+      "Name": "Brt 2",
+      "Link": "https://tr.canlitv.digital/brt-2",
+      "Image": "https://tr.canlitv.digital/channels/brt-2-kibris.png",
+      "Summary": "Brt 2"
+    },
+    {
+      "ID": 240,
+      "Name": "Brt 3",
+      "Link": "https://tr.canlitv.digital/brt-3",
+      "Image": "https://tr.canlitv.digital/channels/brt-3-kibris.png",
+      "Summary": "Brt 3"
+    },
+    {
+      "ID": 241,
+      "Name": "Sim TV",
+      "Link": "https://tr.canlitv.digital/sim-tv",
+      "Image": "https://tr.canlitv.digital/channels/sim-tv.png",
+      "Summary": "Sim TV"
+    },
+    {
+      "ID": 242,
+      "Name": "Ada TV",
+      "Link": "https://tr.canlitv.digital/ada-tv",
+      "Image": "https://tr.canlitv.digital/channels/ada-tv.png",
+      "Summary": "Ada TV"
+    },
+    {
+      "ID": 243,
+      "Name": "Kıbrıs Kanal T",
+      "Link": "https://tr.canlitv.digital/kibris-kanal-t",
+      "Image": "https://tr.canlitv.digital/channels/kibris-kanal-t.png",
+      "Summary": "Kıbrıs Kanal T"
+    },
+    {
+      "ID": 244,
+      "Name": "Kıbrıs TV",
+      "Link": "https://tr.canlitv.digital/kibris-tv",
+      "Image": "https://tr.canlitv.digital/channels/kibris-tv.png",
+      "Summary": "Kıbrıs TV"
+    },
+    {
+      "ID": 245,
+      "Name": "TV 2020",
+      "Link": "https://tr.canlitv.digital/tv2020",
+      "Image": "https://tr.canlitv.digital/channels/tv-2020.png",
+      "Summary": "TV 2020"
+    },
+    {
+      "ID": 246,
+      "Name": "Kıbrıs Güneş TV",
+      "Link": "https://tr.canlitv.digital/kibris-gunes-tv",
+      "Image": "https://tr.canlitv.digital/channels/kibris-gunes-tv-canli.png",
+      "Summary": "Kıbrıs Güneş TV"
+    },
+    {
+      "ID": 247,
+      "Name": "Kuzey Kıbrıs TV",
+      "Link": "https://tr.canlitv.digital/kuzey-kibris-tv",
+      "Image": "https://tr.canlitv.digital/channels/kuzey-kibris-tv.png",
+      "Summary": "Kuzey Kıbrıs TV"
+    },
+    {
+      "ID": 248,
+      "Name": "TV 1",
+      "Link": "https://tr.canlitv.digital/tv-1",
+      "Image": "https://tr.canlitv.digital/channels/tv-1.png",
+      "Summary": "TV 1"
+    },
+    {
+      "ID": 249,
+      "Name": "Yol TV",
+      "Link": "https://tr.canlitv.digital/yol-tv",
+      "Image": "https://tr.canlitv.digital/channels/yol-tv.jpg",
+      "Summary": "Yol TV"
+    },
+    {
+      "ID": 250,
+      "Name": "Düzce TV",
+      "Link": "https://tr.canlitv.digital/duzce-tv",
+      "Image": "https://tr.canlitv.digital/channels/duzce-tv.png",
+      "Summary": "Düzce TV"
+    },
+    {
+      "ID": 251,
+      "Name": "DRT Denizli TV",
+      "Link": "https://tr.canlitv.digital/drt-denizli-tv",
+      "Image": "https://tr.canlitv.digital/channels/drt-denizli-tv.png",
+      "Summary": "DRT Denizli TV"
+    },
+    {
+      "ID": 252,
+      "Name": "Tokat TV",
+      "Link": "https://tr.canlitv.digital/tokat-tv",
+      "Image": "https://tr.canlitv.digital/channels/tokat-tv.png",
+      "Summary": "Tokat TV"
+    },
+    {
+      "ID": 253,
+      "Name": "Line TV",
+      "Link": "https://tr.canlitv.digital/line-tv",
+      "Image": "https://tr.canlitv.digital/channels/line-tv.png",
+      "Summary": "Line TV"
+    },
+    {
+      "ID": 254,
+      "Name": "Mayıs Tv",
+      "Link": "https://tr.canlitv.digital/mayis-tv",
+      "Image": "https://tr.canlitv.digital/channels/mayis-tv.png",
+      "Summary": "Mayıs Tv"
+    },
+    {
+      "ID": 255,
+      "Name": "Altaş TV",
+      "Link": "https://tr.canlitv.digital/altas-tv",
+      "Image": "https://tr.canlitv.digital/channels/altas-tv.png",
+      "Summary": "Altaş TV"
+    },
+    {
+      "ID": 256,
+      "Name": "Marmara TV",
+      "Link": "https://tr.canlitv.digital/marmara-tv",
+      "Image": "https://tr.canlitv.digital/channels/marmara-tv.png",
+      "Summary": "Marmara TV"
+    },
+    {
+      "ID": 257,
+      "Name": "TV 38",
+      "Link": "https://tr.canlitv.digital/tv-38",
+      "Image": "https://tr.canlitv.digital/channels/tv-38.png",
+      "Summary": "TV 38"
+    },
+    {
+      "ID": 258,
+      "Name": "Kanal 38",
+      "Link": "https://tr.canlitv.digital/kanal-38",
+      "Image": "https://tr.canlitv.digital/channels/kanal-38.png",
+      "Summary": "Kanal 38"
+    },
+    {
+      "ID": 259,
+      "Name": "Ege A Türk Tv",
+      "Link": "https://tr.canlitv.digital/ege-a-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/ege-a-turk-tv.png",
+      "Summary": "Ege A Türk Tv"
+    },
+    {
+      "ID": 260,
+      "Name": "TV 35",
+      "Link": "https://tr.canlitv.digital/tv-35",
+      "Image": "https://tr.canlitv.digital/channels/tv-35.png",
+      "Summary": "TV 35"
+    },
+    {
+      "ID": 261,
+      "Name": "Alanya TV",
+      "Link": "https://tr.canlitv.digital/alanya-tv",
+      "Image": "https://tr.canlitv.digital/channels/alanya-tv.png",
+      "Summary": "Alanya TV"
+    },
+    {
+      "ID": 262,
+      "Name": "Türk Haber TV",
+      "Link": "https://tr.canlitv.digital/turk-haber-tv",
+      "Image": "https://tr.canlitv.digital/channels/turk-haber-tv.png",
+      "Summary": "Türk Haber TV"
+    },
+    {
+      "ID": 263,
+      "Name": "Koza TV",
+      "Link": "https://tr.canlitv.digital/koza-tv",
+      "Image": "https://tr.canlitv.digital/channels/koza-tv.png",
+      "Summary": "Koza TV"
+    },
+    {
+      "ID": 264,
+      "Name": "Beykent TV",
+      "Link": "https://tr.canlitv.digital/beykent-tv",
+      "Image": "https://tr.canlitv.digital/channels/beykent-tv.png",
+      "Summary": "Beykent TV"
+    },
+    {
+      "ID": 265,
+      "Name": "Aras TV",
+      "Link": "https://tr.canlitv.digital/aras-tv",
+      "Image": "https://tr.canlitv.digital/channels/aras-tv-erzurum.png",
+      "Summary": "Aras TV"
+    },
+    {
+      "ID": 266,
+      "Name": "Çorum ÇRT Tv",
+      "Link": "https://tr.canlitv.digital/corum-crt-tv",
+      "Image": "https://tr.canlitv.digital/channels/corum-crt-tv.png",
+      "Summary": "Çorum ÇRT Tv"
+    },
+    {
+      "ID": 267,
+      "Name": "ERT Şah Tv",
+      "Link": "https://tr.canlitv.digital/ert-sah-tv",
+      "Image": "https://tr.canlitv.digital/channels/ert-sah-tv.png",
+      "Summary": "ERT Şah Tv"
+    },
+    {
+      "ID": 268,
+      "Name": "Kanal Antalya",
+      "Link": "https://tr.canlitv.digital/kanal-antalya",
+      "Image": "https://tr.canlitv.digital/channels/kanal-antalya.png",
+      "Summary": "Kanal Antalya"
+    },
+    {
+      "ID": 269,
+      "Name": "Elmas 67 Tv",
+      "Link": "https://tr.canlitv.digital/elmas-67-tv",
+      "Image": "https://tr.canlitv.digital/channels/elmas-67-tv.png",
+      "Summary": "Elmas 67 Tv"
+    },
+    {
+      "ID": 270,
+      "Name": "TRT Kürdi",
+      "Link": "https://tr.canlitv.digital/trt-kurdi-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-kurdi-izle.png",
+      "Summary": "TRT Kürdi"
+    },
+    {
+      "ID": 271,
+      "Name": "TRT Türk",
+      "Link": "https://tr.canlitv.digital/trt-turk",
+      "Image": "https://tr.canlitv.digital/channels/trt-turk.png",
+      "Summary": "TRT Türk"
+    },
+    {
+      "ID": 272,
+      "Name": "TRT 4K",
+      "Link": "https://tr.canlitv.digital/trt-4k-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-4k.png",
+      "Summary": "TRT 4K"
+    },
+    {
+      "ID": 273,
+      "Name": "TRT 3 Spor",
+      "Link": "https://tr.canlitv.digital/trt-3-spor-izle",
+      "Image": "https://tr.canlitv.digital/channels/trt-3-spor-izle.png",
+      "Summary": "TRT 3 Spor"
+    },
+    {
+      "ID": 274,
+      "Name": "İçel TV",
+      "Link": "https://tr.canlitv.digital/icel-tv",
+      "Image": "https://tr.canlitv.digital/channels/icel-tv.png",
+      "Summary": "İçel TV"
+    },
+    {
+      "ID": 275,
+      "Name": "Pamukkale TV",
+      "Link": "https://tr.canlitv.digital/pamukkale-tv",
+      "Image": "https://tr.canlitv.digital/channels/pamukkale-tv.png",
+      "Summary": "Pamukkale TV"
+    },
+    {
+      "ID": 276,
+      "Name": "Muğla Türk TV",
+      "Link": "https://tr.canlitv.digital/mugla-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/mturk-tv.png",
+      "Summary": "Muğla Türk TV"
+    },
+    {
+      "ID": 277,
+      "Name": "Rize TV",
+      "Link": "https://tr.canlitv.digital/rize-tv",
+      "Image": "https://tr.canlitv.digital/channels/rize-tv.png",
+      "Summary": "Rize TV"
+    },
+    {
+      "ID": 278,
+      "Name": "Metro TV",
+      "Link": "https://tr.canlitv.digital/metro-tv",
+      "Image": "https://tr.canlitv.digital/channels/metro-tv.png",
+      "Summary": "Metro TV"
+    },
+    {
+      "ID": 279,
+      "Name": "ERT Erbaa",
+      "Link": "https://tr.canlitv.digital/ert-erbaa",
+      "Image": "https://tr.canlitv.digital/channels/ert-erbaa.png",
+      "Summary": "ERT Erbaa"
+    },
+    {
+      "ID": 280,
+      "Name": "Kanal 32",
+      "Link": "https://tr.canlitv.digital/kanal-32",
+      "Image": "https://tr.canlitv.digital/channels/kanal-32.png",
+      "Summary": "Kanal 32"
+    },
+    {
+      "ID": 281,
+      "Name": "Kanal 33",
+      "Link": "https://tr.canlitv.digital/kanal-33",
+      "Image": "https://tr.canlitv.digital/channels/kanal-33.png",
+      "Summary": "Kanal 33"
+    },
+    {
+      "ID": 282,
+      "Name": "Bartın BTV",
+      "Link": "https://tr.canlitv.digital/bartin-btv",
+      "Image": "https://tr.canlitv.digital/channels/bartin-btv.png",
+      "Summary": "Bartın BTV"
+    },
+    {
+      "ID": 283,
+      "Name": "Etv Kayseri",
+      "Link": "https://tr.canlitv.digital/etv-kayseri",
+      "Image": "https://tr.canlitv.digital/channels/etv-kayseri.png",
+      "Summary": "Etv Kayseri"
+    },
+    {
+      "ID": 284,
+      "Name": "Boztepe TV",
+      "Link": "https://tr.canlitv.digital/boztepe-tv",
+      "Image": "https://tr.canlitv.digital/channels/boztepe-tv.png",
+      "Summary": "Boztepe TV"
+    },
+    {
+      "ID": 285,
+      "Name": "Kent 77 Tv",
+      "Link": "https://tr.canlitv.digital/kent-77-tv",
+      "Image": "https://tr.canlitv.digital/channels/kent-77-tv.png",
+      "Summary": "Kent 77 Tv"
+    },
+    {
+      "ID": 286,
+      "Name": "Kardelen TV",
+      "Link": "https://tr.canlitv.digital/kardelen-tv",
+      "Image": "https://tr.canlitv.digital/channels/kardelen-tv.png",
+      "Summary": "Kardelen TV"
+    },
+    {
+      "ID": 287,
+      "Name": "Kanal 3",
+      "Link": "https://tr.canlitv.digital/kanal-3",
+      "Image": "https://tr.canlitv.digital/channels/kanal-3.png",
+      "Summary": "Kanal 3"
+    },
+    {
+      "ID": 288,
+      "Name": "Gurbet24 Tv",
+      "Link": "https://tr.canlitv.digital/gurbet24-tv",
+      "Image": "https://tr.canlitv.digital/channels/gurbet24-tv.png",
+      "Summary": "Gurbet24 Tv"
+    },
+    {
+      "ID": 289,
+      "Name": "Kanal 58",
+      "Link": "https://tr.canlitv.digital/kanal-58",
+      "Image": "https://tr.canlitv.digital/channels/kanal-58.png",
+      "Summary": "Kanal 58"
+    },
+    {
+      "ID": 290,
+      "Name": "Ege Türk Tv",
+      "Link": "https://tr.canlitv.digital/egeturk-tv",
+      "Image": "https://tr.canlitv.digital/channels/ege-turk-tv.png",
+      "Summary": "Ege Türk Tv"
+    },
+    {
+      "ID": 291,
+      "Name": "Manisa Tv",
+      "Link": "https://tr.canlitv.digital/manisa-tv",
+      "Image": "https://tr.canlitv.digital/channels/manisa-tv.png",
+      "Summary": "Manisa Tv"
+    },
+    {
+      "ID": 292,
+      "Name": "Nur TV",
+      "Link": "https://tr.canlitv.digital/nur-tv",
+      "Image": "https://tr.canlitv.digital/channels/nur-tv.png",
+      "Summary": "Nur TV"
+    },
+    {
+      "ID": 293,
+      "Name": "Mihrap TV",
+      "Link": "https://tr.canlitv.digital/mihrap-tv",
+      "Image": "https://tr.canlitv.digital/channels/mihrap-tv.png",
+      "Summary": "Mihrap TV"
+    },
+    {
+      "ID": 294,
+      "Name": "MPL TV",
+      "Link": "https://tr.canlitv.digital/mpl-tv",
+      "Image": "https://tr.canlitv.digital/channels/mpl-tv.png",
+      "Summary": "MPL TV"
+    },
+    {
+      "ID": 295,
+      "Name": "Haber 61 TV",
+      "Link": "https://tr.canlitv.digital/haber-61-tv",
+      "Image": "https://tr.canlitv.digital/channels/haber-61-tv.png",
+      "Summary": "Haber 61 TV"
+    },
+    {
+      "ID": 296,
+      "Name": "Ekol TV",
+      "Link": "https://tr.canlitv.digital/ekol-tv",
+      "Image": "https://tr.canlitv.digital/channels/ekol-tv-izle.png",
+      "Summary": "Ekol TV"
+    },
+    {
+      "ID": 297,
+      "Name": "Berat TV",
+      "Link": "https://tr.canlitv.digital/berat-tv",
+      "Image": "https://tr.canlitv.digital/channels/berat-tv-i.png",
+      "Summary": "Berat TV"
+    },
+    {
+      "ID": 298,
+      "Name": "Üniversite TV",
+      "Link": "https://tr.canlitv.digital/universite-tv",
+      "Image": "https://tr.canlitv.digital/channels/universite-tv.png",
+      "Summary": "Üniversite TV"
+    },
+    {
+      "ID": 299,
+      "Name": "ETV Manisa",
+      "Link": "https://tr.canlitv.digital/etv-manisa",
+      "Image": "https://tr.canlitv.digital/channels/etv-manisa.png",
+      "Summary": "ETV Manisa"
+    },
+    {
+      "ID": 300,
+      "Name": "Can TV",
+      "Link": "https://tr.canlitv.digital/can-tv",
+      "Image": "https://tr.canlitv.digital/channels/can-tv.png",
+      "Summary": "Can TV"
+    },
+    {
+      "ID": 301,
+      "Name": "Kanal 13",
+      "Link": "https://tr.canlitv.digital/kanal-13",
+      "Image": "https://tr.canlitv.digital/channels/kanal-13.png",
+      "Summary": "Kanal 13"
+    },
+    {
+      "ID": 302,
+      "Name": "TV 41",
+      "Link": "https://tr.canlitv.digital/tv-41",
+      "Image": "https://tr.canlitv.digital/channels/tv-41.png",
+      "Summary": "TV 41"
+    },
+    {
+      "ID": 303,
+      "Name": "Konya Ün TV",
+      "Link": "https://tr.canlitv.digital/konya-un-tv",
+      "Image": "https://tr.canlitv.digital/channels/konya-un-tv.png",
+      "Summary": "Konya Ün TV"
+    },
+    {
+      "ID": 304,
+      "Name": "Kanal 34",
+      "Link": "https://tr.canlitv.digital/kanal-34",
+      "Image": "https://tr.canlitv.digital/channels/kanal-34.png",
+      "Summary": "Kanal 34"
+    },
+    {
+      "ID": 305,
+      "Name": "İstanbul TV",
+      "Link": "https://tr.canlitv.digital/istanbul-tv",
+      "Image": "https://tr.canlitv.digital/channels/istanbul-tv.png",
+      "Summary": "İstanbul TV"
+    },
+    {
+      "ID": 306,
+      "Name": "4 Eylül TV",
+      "Link": "https://tr.canlitv.digital/4-eylul-tv",
+      "Image": "https://tr.canlitv.digital/channels/4-eylul-tv.png",
+      "Summary": "4 Eylül TV"
+    },
+    {
+      "ID": 307,
+      "Name": "Güney TV Tarsus",
+      "Link": "https://tr.canlitv.digital/guney-tv-tarsus",
+      "Image": "https://tr.canlitv.digital/channels/32423423.png",
+      "Summary": "Güney TV Tarsus"
+    },
+    {
+      "ID": 308,
+      "Name": "Kanal Likya",
+      "Link": "https://tr.canlitv.digital/kanal-likya",
+      "Image": "https://tr.canlitv.digital/channels/kanal-likya.png",
+      "Summary": "Kanal Likya"
+    },
+    {
+      "ID": 309,
+      "Name": "Kanal 56",
+      "Link": "https://tr.canlitv.digital/kanal-56",
+      "Image": "https://tr.canlitv.digital/channels/kanal-56.png",
+      "Summary": "Kanal 56"
+    },
+    {
+      "ID": 310,
+      "Name": "Ahi TV",
+      "Link": "https://tr.canlitv.digital/ahi-tv",
+      "Image": "https://tr.canlitv.digital/channels/ahi-tv.png",
+      "Summary": "Ahi TV"
+    },
+    {
+      "ID": 311,
+      "Name": "Türkmeneli TV",
+      "Link": "https://tr.canlitv.digital/turkmeneli-tv",
+      "Image": "https://tr.canlitv.digital/channels/turkmeneli-tv.png",
+      "Summary": "Türkmeneli TV"
+    },
+    {
+      "ID": 312,
+      "Name": "Fethiye FRT TV",
+      "Link": "https://tr.canlitv.digital/fethiye-frt-tv",
+      "Image": "https://tr.canlitv.digital/channels/fethiye-frt-tv.png",
+      "Summary": "Fethiye FRT TV"
+    },
+    {
+      "ID": 313,
+      "Name": "On6 TV",
+      "Link": "https://tr.canlitv.digital/on6-tv",
+      "Image": "https://tr.canlitv.digital/channels/on6-tv.png",
+      "Summary": "On6 TV"
+    },
+    {
+      "ID": 314,
+      "Name": "Öncü TV",
+      "Link": "https://tr.canlitv.digital/oncu-tv",
+      "Image": "https://tr.canlitv.digital/channels/oncu-tv.png",
+      "Summary": "Öncü TV"
+    },
+    {
+      "ID": 315,
+      "Name": "Tv DEN",
+      "Link": "https://tr.canlitv.digital/tv-den",
+      "Image": "https://tr.canlitv.digital/channels/tv-den.png",
+      "Summary": "Tv DEN"
+    },
+    {
+      "ID": 316,
+      "Name": "Bitlis TV",
+      "Link": "https://tr.canlitv.digital/bitlis-tv",
+      "Image": "https://tr.canlitv.digital/channels/bitlis-tv.png",
+      "Summary": "Bitlis TV"
+    },
+    {
+      "ID": 317,
+      "Name": "Otağ TV",
+      "Link": "https://tr.canlitv.digital/otag-tv",
+      "Image": "https://tr.canlitv.digital/channels/otag-tv.png",
+      "Summary": "Otağ TV"
+    },
+    {
+      "ID": 318,
+      "Name": "Ümüd TV",
+      "Link": "https://tr.canlitv.digital/umud-tv",
+      "Image": "https://tr.canlitv.digital/channels/umid-tv.png",
+      "Summary": "Ümüd TV"
+    },
+    {
+      "ID": 319,
+      "Name": "Tek Rumeli TV",
+      "Link": "https://tr.canlitv.digital/tek-rumeli-tv",
+      "Image": "https://tr.canlitv.digital/channels/tek-rumeli-tv.png",
+      "Summary": "Tek Rumeli TV"
+    },
+    {
+      "ID": 320,
+      "Name": "Köroğlu TV",
+      "Link": "https://tr.canlitv.digital/koroglu-tv",
+      "Image": "https://tr.canlitv.digital/channels/koroglu-tv.png",
+      "Summary": "Köroğlu TV"
+    },
+    {
+      "ID": 321,
+      "Name": "Büyük Alanya TV",
+      "Link": "https://tr.canlitv.digital/buyuk-alanya-tv",
+      "Image": "https://tr.canlitv.digital/channels/buyuk-alanya-tv.png",
+      "Summary": "Büyük Alanya TV"
+    },
+    {
+      "ID": 322,
+      "Name": "Sinop 57 TV",
+      "Link": "https://tr.canlitv.digital/sinop-57-tv",
+      "Image": "https://tr.canlitv.digital/channels/sinop-57-tv.png",
+      "Summary": "Sinop 57 TV"
+    },
+    {
+      "ID": 323,
+      "Name": "Dersim 62 TV",
+      "Link": "https://tr.canlitv.digital/dersim-62-tv",
+      "Image": "https://tr.canlitv.digital/channels/dersim-62-tv.png",
+      "Summary": "Dersim 62 TV"
+    },
+    {
+      "ID": 324,
+      "Name": "Afrika NTR",
+      "Link": "https://tr.canlitv.digital/afrika-natural-tv",
+      "Image": "https://tr.canlitv.digital/channels/afrika-natural-tv.png",
+      "Summary": "Afrika NTR"
+    },
+    {
+      "ID": 325,
+      "Name": "ARB Kepez",
+      "Link": "https://tr.canlitv.digital/arb-kepez",
+      "Image": "https://tr.canlitv.digital/channels/arb-kepez.png",
+      "Summary": "ARB Kepez"
+    },
+    {
+      "ID": 326,
+      "Name": "Aznews TV",
+      "Link": "https://tr.canlitv.digital/aznews-tv",
+      "Image": "https://tr.canlitv.digital/channels/aznews-tv.png",
+      "Summary": "Aznews TV"
+    },
+    {
+      "ID": 327,
+      "Name": "Alvin Channel",
+      "Link": "https://tr.canlitv.digital/alvin-channel",
+      "Image": "https://tr.canlitv.digital/channels/alvin-channel.png",
+      "Summary": "Alvin Channel"
+    },
+    {
+      "ID": 328,
+      "Name": "Günaz TV",
+      "Link": "https://tr.canlitv.digital/gunaz-tv",
+      "Image": "https://tr.canlitv.digital/channels/gunaz-tv.png",
+      "Summary": "Günaz TV"
+    },
+    {
+      "ID": 329,
+      "Name": "Kanal 15 AZ",
+      "Link": "https://tr.canlitv.digital/kanal-15-az",
+      "Image": "https://tr.canlitv.digital/channels/kanal-15-az-izle.png",
+      "Summary": "Kanal 15 AZ"
+    },
+    {
+      "ID": 330,
+      "Name": "Mugan TV",
+      "Link": "https://tr.canlitv.digital/mugan-tv",
+      "Image": "https://tr.canlitv.digital/channels/mugan-tv.png",
+      "Summary": "Mugan TV"
+    },
+    {
+      "ID": 331,
+      "Name": "Ses Tv AZ",
+      "Link": "https://tr.canlitv.digital/ses-tv-az",
+      "Image": "https://tr.canlitv.digital/channels/ses-tv-az.png",
+      "Summary": "Ses Tv AZ"
+    },
+    {
+      "ID": 332,
+      "Name": "Sahar TV Azeri",
+      "Link": "https://tr.canlitv.digital/sahar-tv-azeri",
+      "Image": "https://tr.canlitv.digital/channels/sahar-tv-az.png",
+      "Summary": "Sahar TV Azeri"
+    },
+    {
+      "ID": 333,
+      "Name": "Akıllı TV",
+      "Link": "https://tr.canlitv.digital/akilli-tv",
+      "Image": "https://tr.canlitv.digital/channels/akilli-tv.png",
+      "Summary": "Akıllı TV"
+    },
+    {
+      "ID": 334,
+      "Name": "Türkmenistan TV",
+      "Link": "https://tr.canlitv.digital/turkmenistan-tv",
+      "Image": "https://tr.canlitv.digital/channels/tukmenistan-tv.png",
+      "Summary": "Türkmenistan TV"
+    },
+    {
+      "ID": 335,
+      "Name": "Rudaw TV",
+      "Link": "https://tr.canlitv.digital/rudaw-tv",
+      "Image": "https://tr.canlitv.digital/channels/rudaw-tv.png",
+      "Summary": "Rudaw TV"
+    },
+    {
+      "ID": 336,
+      "Name": "Türkmen Owazy TV",
+      "Link": "https://tr.canlitv.digital/turkmen-owazy-tv",
+      "Image": "https://tr.canlitv.digital/channels/turkmen-owazy-tv.png",
+      "Summary": "Türkmen Owazy TV"
+    },
+    {
+      "ID": 337,
+      "Name": "Yaşlık Tv",
+      "Link": "https://tr.canlitv.digital/yaslik-tv",
+      "Image": "https://tr.canlitv.digital/channels/yaslik-tv.png",
+      "Summary": "Yaşlık Tv"
+    },
+    {
+      "ID": 338,
+      "Name": "Güneydoğu TV",
+      "Link": "https://tr.canlitv.digital/guneydogu-tv",
+      "Image": "https://tr.canlitv.digital/channels/guneydogu-tv.png",
+      "Summary": "Güneydoğu TV"
+    },
+    {
+      "ID": 339,
+      "Name": "Tarım TV",
+      "Link": "https://tr.canlitv.digital/tarim-tv",
+      "Image": "https://tr.canlitv.digital/channels/tarim-tv.png",
+      "Summary": "Tarım TV"
+    },
+    {
+      "ID": 340,
+      "Name": "Günaydın TV",
+      "Link": "https://tr.canlitv.digital/gunaydin-tv",
+      "Image": "https://tr.canlitv.digital/channels/gunaydin-tv.png",
+      "Summary": "Günaydın TV"
+    },
+    {
+      "ID": 341,
+      "Name": "Kanal Ege",
+      "Link": "https://tr.canlitv.digital/kanal-ege",
+      "Image": "https://tr.canlitv.digital/channels/kanal-ege.png",
+      "Summary": "Kanal Ege"
+    },
+    {
+      "ID": 342,
+      "Name": "Kanal 65",
+      "Link": "https://tr.canlitv.digital/kanal-65",
+      "Image": "https://tr.canlitv.digital/channels/kanal-65.png",
+      "Summary": "Kanal 65"
+    },
+    {
+      "ID": 343,
+      "Name": "Tivi 6",
+      "Link": "https://tr.canlitv.digital/tivi-6",
+      "Image": "https://tr.canlitv.digital/channels/tivi-6.png",
+      "Summary": "Tivi 6"
+    },
+    {
+      "ID": 344,
+      "Name": "Çekmeköy Web TV",
+      "Link": "https://tr.canlitv.digital/cekmekoy-web-tv",
+      "Image": "https://tr.canlitv.digital/channels/cekmekoy-web-tv.png",
+      "Summary": "Çekmeköy Web TV"
+    },
+    {
+      "ID": 345,
+      "Name": "Aşgabat TV",
+      "Link": "https://tr.canlitv.digital/asgabat-tv",
+      "Image": "https://tr.canlitv.digital/channels/asgabat-tv.png",
+      "Summary": "Aşgabat TV"
+    },
+    {
+      "ID": 346,
+      "Name": "Naxcivan TV",
+      "Link": "https://tr.canlitv.digital/naxcivan-tv",
+      "Image": "https://tr.canlitv.digital/channels/naxcivan-tv-canli.png",
+      "Summary": "Naxcivan TV"
+    },
+    {
+      "ID": 347,
+      "Name": "Al Zahra TV",
+      "Link": "https://tr.canlitv.digital/al-zahra-tv",
+      "Image": "https://tr.canlitv.digital/channels/al-zahra-tv.png",
+      "Summary": "Al Zahra TV"
+    },
+    {
+      "ID": 348,
+      "Name": "Hadi TV",
+      "Link": "https://tr.canlitv.digital/hadi-tv",
+      "Image": "https://tr.canlitv.digital/channels/hadi-tv.png",
+      "Summary": "Hadi TV"
+    },
+    {
+      "ID": 349,
+      "Name": "Kazakh TV",
+      "Link": "https://tr.canlitv.digital/kazakh-tv",
+      "Image": "https://tr.canlitv.digital/channels/kazakh-tv.png",
+      "Summary": "Kazakh TV"
+    },
+    {
+      "ID": 350,
+      "Name": "ABB TV",
+      "Link": "https://tr.canlitv.digital/abb-tv",
+      "Image": "https://tr.canlitv.digital/channels/abb-tv.png",
+      "Summary": "ABB TV"
+    },
+    {
+      "ID": 351,
+      "Name": "Altın Asır TV",
+      "Link": "https://tr.canlitv.digital/altin-asir-tv",
+      "Image": "https://tr.canlitv.digital/channels/altin-asir-tv.png",
+      "Summary": "Altın Asır TV"
+    },
+    {
+      "ID": 352,
+      "Name": "India Today TV",
+      "Link": "https://tr.canlitv.digital/india-today-tv",
+      "Image": "https://tr.canlitv.digital/channels/india-today-tv.png",
+      "Summary": "India Today TV"
+    },
+    {
+      "ID": 353,
+      "Name": "KTK Kazakistan",
+      "Link": "https://tr.canlitv.digital/ktk-kazakistan-tv",
+      "Image": "https://tr.canlitv.digital/channels/ktk-tv.png",
+      "Summary": "KTK Kazakistan"
+    },
+    {
+      "ID": 354,
+      "Name": "İmedi TV",
+      "Link": "https://tr.canlitv.digital/imedi-tv",
+      "Image": "https://tr.canlitv.digital/channels/imedi-tv.png",
+      "Summary": "İmedi TV"
+    },
+    {
+      "ID": 355,
+      "Name": "Joy News",
+      "Link": "https://tr.canlitv.digital/joy-news",
+      "Image": "https://tr.canlitv.digital/channels/joy-news-canli.png",
+      "Summary": "Joy News"
+    },
+    {
+      "ID": 356,
+      "Name": "Miras TV",
+      "Link": "https://tr.canlitv.digital/miras-tv",
+      "Image": "https://tr.canlitv.digital/channels/miras-tv.png",
+      "Summary": "Miras TV"
+    },
+    {
+      "ID": 357,
+      "Name": "Dubai TV",
+      "Link": "https://tr.canlitv.digital/dubai-tv",
+      "Image": "https://tr.canlitv.digital/channels/dubai-tv-canli.png",
+      "Summary": "Dubai TV"
+    },
+    {
+      "ID": 358,
+      "Name": "World Türk TV",
+      "Link": "https://tr.canlitv.digital/world-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/world-turk-tv.png",
+      "Summary": "World Türk TV"
+    },
+    {
+      "ID": 359,
+      "Name": "Power Dance TV",
+      "Link": "https://tr.canlitv.digital/power-dance-tv",
+      "Image": "https://tr.canlitv.digital/channels/power-dance-tv.png",
+      "Summary": "Power Dance TV"
+    },
+    {
+      "ID": 360,
+      "Name": "Power Türk Akustik TV",
+      "Link": "https://tr.canlitv.digital/power-turk-akustik-tv",
+      "Image": "https://tr.canlitv.digital/channels/power-turk-akustik-tv.png",
+      "Summary": "Power Türk Akustik TV"
+    },
+    {
+      "ID": 361,
+      "Name": "Power Love TV",
+      "Link": "https://tr.canlitv.digital/power-love-tv",
+      "Image": "https://tr.canlitv.digital/channels/power-love-tv.png",
+      "Summary": "Power Love TV"
+    },
+    {
+      "ID": 362,
+      "Name": "Power Türk Slow TV",
+      "Link": "https://tr.canlitv.digital/power-turk-slow",
+      "Image": "https://tr.canlitv.digital/channels/power-turk-slow.png",
+      "Summary": "Power Türk Slow TV"
+    },
+    {
+      "ID": 363,
+      "Name": "Power Türk Taptaze TV",
+      "Link": "https://tr.canlitv.digital/power-turk-taptaze",
+      "Image": "https://tr.canlitv.digital/channels/power-turk-taptaze.png",
+      "Summary": "Power Türk Taptaze TV"
+    },
+    {
+      "ID": 364,
+      "Name": "Power Türk En Yeniler TV",
+      "Link": "https://tr.canlitv.digital/power-turk-en-yeniler",
+      "Image": "https://tr.canlitv.digital/channels/power-turk-en-yeniler.png",
+      "Summary": "Power Türk En Yeniler TV"
+    },
+    {
+      "ID": 365,
+      "Name": "Alanya Medya TV",
+      "Link": "https://tr.canlitv.digital/alanya-medya-tv",
+      "Image": "https://tr.canlitv.digital/channels/alanya-medya-tv.png",
+      "Summary": "Alanya Medya TV"
+    },
+    {
+      "ID": 366,
+      "Name": "Ege Live TV",
+      "Link": "https://tr.canlitv.digital/ege-live-tv",
+      "Image": "https://tr.canlitv.digital/channels/ege-live-tv.png",
+      "Summary": "Ege Live TV"
+    },
+    {
+      "ID": 367,
+      "Name": "Kanal S",
+      "Link": "https://tr.canlitv.digital/kanal-s",
+      "Image": "https://tr.canlitv.digital/channels/kanal-s.png",
+      "Summary": "Kanal S"
+    },
+    {
+      "ID": 368,
+      "Name": "Sehiyye TV",
+      "Link": "https://tr.canlitv.digital/sehiyye-tv",
+      "Image": "https://tr.canlitv.digital/channels/sehiyye-tv.png",
+      "Summary": "Sehiyye TV"
+    },
+    {
+      "ID": 369,
+      "Name": "Fortuna TV",
+      "Link": "https://tr.canlitv.digital/fortuna-tv",
+      "Image": "https://tr.canlitv.digital/channels/fortuna-tv.png",
+      "Summary": "Fortuna TV"
+    },
+    {
+      "ID": 370,
+      "Name": "Kanal S Az",
+      "Link": "https://tr.canlitv.digital/kanal-s-az",
+      "Image": "https://tr.canlitv.digital/channels/kanal-s-az.png",
+      "Summary": "Kanal S Az"
+    },
+    {
+      "ID": 371,
+      "Name": "Lider Haber",
+      "Link": "https://tr.canlitv.digital/lider-haber",
+      "Image": "https://tr.canlitv.digital/channels/lider-haber.png",
+      "Summary": "Lider Haber"
+    },
+    {
+      "ID": 372,
+      "Name": "TVA Adana",
+      "Link": "https://tr.canlitv.digital/tva-adana",
+      "Image": "https://tr.canlitv.digital/channels/tva-adana.png",
+      "Summary": "TVA Adana"
+    },
+    {
+      "ID": 373,
+      "Name": "Tokat Süper TV",
+      "Link": "https://tr.canlitv.digital/tokat-super-tv",
+      "Image": "https://tr.canlitv.digital/channels/tokat-super-tv.png",
+      "Summary": "Tokat Süper TV"
+    },
+    {
+      "ID": 374,
+      "Name": "İlke TV",
+      "Link": "https://tr.canlitv.digital/ilke-tv",
+      "Image": "https://tr.canlitv.digital/channels/ilke-tv.png",
+      "Summary": "İlke TV"
+    },
+    {
+      "ID": 375,
+      "Name": "Trakya Türk TV",
+      "Link": "https://tr.canlitv.digital/trakya-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/trakya-turk-tv.png",
+      "Summary": "Trakya Türk TV"
+    },
+    {
+      "ID": 376,
+      "Name": "Urfanatik TV",
+      "Link": "https://tr.canlitv.digital/urfanatik-tv",
+      "Image": "https://tr.canlitv.digital/channels/urfanatik-tv.png",
+      "Summary": "Urfanatik TV"
+    },
+    {
+      "ID": 377,
+      "Name": "Anadolu Net Tv",
+      "Link": "https://tr.canlitv.digital/anadolu-net-tv",
+      "Image": "https://tr.canlitv.digital/channels/anadolu-net-tv.png",
+      "Summary": "Anadolu Net Tv"
+    },
+    {
+      "ID": 378,
+      "Name": "Uşak Egem TV",
+      "Link": "https://tr.canlitv.digital/usak-egem-tv",
+      "Image": "https://tr.canlitv.digital/channels/usak-egem-tv.png",
+      "Summary": "Uşak Egem TV"
+    },
+    {
+      "ID": 379,
+      "Name": "Bir TV",
+      "Link": "https://tr.canlitv.digital/bir-tv",
+      "Image": "https://tr.canlitv.digital/channels/bir-tv.png",
+      "Summary": "Bir TV"
+    },
+    {
+      "ID": 380,
+      "Name": "Cadde TV",
+      "Link": "https://tr.canlitv.digital/cadde-tv",
+      "Image": "https://tr.canlitv.digital/channels/cadde-tv.png",
+      "Summary": "Cadde TV"
+    },
+    {
+      "ID": 381,
+      "Name": "Kanal 35 AZ",
+      "Link": "https://tr.canlitv.digital/kanal-35-az",
+      "Image": "https://tr.canlitv.digital/channels/kanal-35-az.png",
+      "Summary": "Kanal 35 AZ"
+    },
+    {
+      "ID": 382,
+      "Name": "Milli Piyango TV",
+      "Link": "https://tr.canlitv.digital/milli-piyango-tv",
+      "Image": "https://tr.canlitv.digital/channels/milli-piyango-tv.png",
+      "Summary": "Milli Piyango TV"
+    },
+    {
+      "ID": 383,
+      "Name": "Dünya TV",
+      "Link": "https://tr.canlitv.digital/dunya-tv",
+      "Image": "https://tr.canlitv.digital/channels/dunya-tv.png",
+      "Summary": "Dünya TV"
+    },
+    {
+      "ID": 384,
+      "Name": "Teve 63",
+      "Link": "https://tr.canlitv.digital/teve-63",
+      "Image": "https://tr.canlitv.digital/channels/teve-63.png",
+      "Summary": "Teve 63"
+    },
+    {
+      "ID": 385,
+      "Name": "Artı TV",
+      "Link": "https://tr.canlitv.digital/arti-tv",
+      "Image": "https://tr.canlitv.digital/channels/arti-tv-izle.png",
+      "Summary": "Artı TV"
+    },
+    {
+      "ID": 386,
+      "Name": "Semerkand Way",
+      "Link": "https://tr.canlitv.digital/semerkand-way",
+      "Image": "https://tr.canlitv.digital/channels/semerkand-way.png",
+      "Summary": "Semerkand Way"
+    },
+    {
+      "ID": 387,
+      "Name": "Metropol TV",
+      "Link": "https://tr.canlitv.digital/metropol-tv",
+      "Image": "https://tr.canlitv.digital/channels/metropol-tv.png",
+      "Summary": "Metropol TV"
+    },
+    {
+      "ID": 388,
+      "Name": "Cine 1",
+      "Link": "https://tr.canlitv.digital/cine-1",
+      "Image": "https://tr.canlitv.digital/channels/cine-1.png",
+      "Summary": "Cine 1"
+    },
+    {
+      "ID": 389,
+      "Name": "Aksaray ART TV",
+      "Link": "https://tr.canlitv.digital/aksaray-art-tv",
+      "Image": "https://tr.canlitv.digital/channels/aksaray-artv-tv.png",
+      "Summary": "Aksaray ART TV"
+    },
+    {
+      "ID": 390,
+      "Name": "Konya Olay TV",
+      "Link": "https://tr.canlitv.digital/konya-olay-tv",
+      "Image": "https://tr.canlitv.digital/channels/konya-olay-tv.png",
+      "Summary": "Konya Olay TV"
+    },
+    {
+      "ID": 391,
+      "Name": "Ekin Türk TV",
+      "Link": "https://tr.canlitv.digital/ekin-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/ekin-turk-tv.png",
+      "Summary": "Ekin Türk TV"
+    },
+    {
+      "ID": 392,
+      "Name": "TJK TV 2",
+      "Link": "https://tr.canlitv.digital/tjk-tv-2-yurt-disi",
+      "Image": "https://tr.canlitv.digital/channels/tjk-tv-2-yurtdisi.png",
+      "Summary": "TJK TV 2"
+    },
+    {
+      "ID": 393,
+      "Name": "Konul TV",
+      "Link": "https://tr.canlitv.digital/konul-tv",
+      "Image": "https://tr.canlitv.digital/channels/konul-tv.png",
+      "Summary": "Konul TV"
+    },
+    {
+      "ID": 394,
+      "Name": "Süper Kanal TV",
+      "Link": "https://tr.canlitv.digital/super-kanal-tv",
+      "Image": "https://tr.canlitv.digital/channels/super-kanal-tv.png",
+      "Summary": "Süper Kanal TV"
+    },
+    {
+      "ID": 395,
+      "Name": "SAM TV",
+      "Link": "https://tr.canlitv.digital/sam-tv",
+      "Image": "https://tr.canlitv.digital/channels/sam-tv.png",
+      "Summary": "SAM TV"
+    },
+    {
+      "ID": 396,
+      "Name": "MEK TV",
+      "Link": "https://tr.canlitv.digital/mek-tv",
+      "Image": "https://tr.canlitv.digital/channels/mek-tv.png",
+      "Summary": "MEK TV"
+    },
+    {
+      "ID": 397,
+      "Name": "Yeşilyol TV",
+      "Link": "https://tr.canlitv.digital/yesilyol-tv",
+      "Image": "https://tr.canlitv.digital/channels/yesil-yol-tv.png",
+      "Summary": "Yeşilyol TV"
+    },
+    {
+      "ID": 398,
+      "Name": "Zaza TV",
+      "Link": "https://tr.canlitv.digital/zaza-tv",
+      "Image": "https://tr.canlitv.digital/channels/zaza-tv.png",
+      "Summary": "Zaza TV"
+    },
+    {
+      "ID": 399,
+      "Name": "Gözde TV",
+      "Link": "https://tr.canlitv.digital/gozde-tv",
+      "Image": "https://tr.canlitv.digital/channels/gozde-tv.png",
+      "Summary": "Gözde TV"
+    },
+    {
+      "ID": 400,
+      "Name": "Diyanet Çocuk",
+      "Link": "https://tr.canlitv.digital/diyanet-cocuk",
+      "Image": "https://tr.canlitv.digital/channels/diyanet-cocuk.png",
+      "Summary": "Diyanet Çocuk"
+    },
+    {
+      "ID": 401,
+      "Name": "İkra TV",
+      "Link": "https://tr.canlitv.digital/ikra-tv",
+      "Image": "https://tr.canlitv.digital/channels/ikra-tv.png",
+      "Summary": "İkra TV"
+    },
+    {
+      "ID": 402,
+      "Name": "TRT Diyanet Çocuk",
+      "Link": "https://tr.canlitv.digital/trt-diyanet-cocuk",
+      "Image": "https://tr.canlitv.digital/channels/trt-diyanet-cocuk.png",
+      "Summary": "TRT Diyanet Çocuk"
+    },
+    {
+      "ID": 403,
+      "Name": "EVA TV",
+      "Link": "https://tr.canlitv.digital/eva-tv",
+      "Image": "https://tr.canlitv.digital/channels/eva-tv.png",
+      "Summary": "EVA TV"
+    },
+    {
+      "ID": 404,
+      "Name": "Anadolu Ajansı",
+      "Link": "https://tr.canlitv.digital/anadolu-ajansi",
+      "Image": "https://tr.canlitv.digital/channels/anadolu-ajansi.png",
+      "Summary": "Anadolu Ajansı"
+    },
+    {
+      "ID": 405,
+      "Name": "Serhat TV",
+      "Link": "https://tr.canlitv.digital/serhat-tv",
+      "Image": "https://tr.canlitv.digital/channels/serhat-tv.png",
+      "Summary": "Serhat TV"
+    },
+    {
+      "ID": 406,
+      "Name": "Yıldız EN TV",
+      "Link": "https://tr.canlitv.digital/yildiz-en-tv",
+      "Image": "https://tr.canlitv.digital/channels/yildiz-en-tv.png",
+      "Summary": "Yıldız EN TV"
+    },
+    {
+      "ID": 407,
+      "Name": "TRT Afrika",
+      "Link": "https://tr.canlitv.digital/trt-afrika",
+      "Image": "https://tr.canlitv.digital/channels/trt-afrika.png",
+      "Summary": "TRT Afrika"
+    },
+    {
+      "ID": 408,
+      "Name": "Bülten TV",
+      "Link": "https://tr.canlitv.digital/bulten-tv",
+      "Image": "https://tr.canlitv.digital/channels/bulten-tv.png",
+      "Summary": "Bülten TV"
+    },
+    {
+      "ID": 409,
+      "Name": "Rumeli TV",
+      "Link": "https://tr.canlitv.digital/rumeli-tv",
+      "Image": "https://tr.canlitv.digital/channels/rumeli-tv.png",
+      "Summary": "Rumeli TV"
+    },
+    {
+      "ID": 410,
+      "Name": "Qebele TV",
+      "Link": "https://tr.canlitv.digital/qebele-tv",
+      "Image": "https://tr.canlitv.digital/channels/qebele-tv.png",
+      "Summary": "Qebele TV"
+    },
+    {
+      "ID": 411,
+      "Name": "365 TV",
+      "Link": "https://tr.canlitv.digital/365-tv",
+      "Image": "https://tr.canlitv.digital/channels/365-tv.png",
+      "Summary": "365 TV"
+    },
+    {
+      "ID": 412,
+      "Name": "Kanal G 28",
+      "Link": "https://tr.canlitv.digital/kanal-g-28",
+      "Image": "https://tr.canlitv.digital/channels/kanal-g-28.png",
+      "Summary": "Kanal G 28"
+    },
+    {
+      "ID": 413,
+      "Name": "Bodrum Kent TV",
+      "Link": "https://tr.canlitv.digital/bodrum-kent-tv",
+      "Image": "https://tr.canlitv.digital/channels/bodrum-kent-tv.png",
+      "Summary": "Bodrum Kent TV"
+    },
+    {
+      "ID": 414,
+      "Name": "Sivas SRT",
+      "Link": "https://tr.canlitv.digital/sivas-srt",
+      "Image": "https://tr.canlitv.digital/channels/sivas-srt-tv.png",
+      "Summary": "Sivas SRT"
+    },
+    {
+      "ID": 415,
+      "Name": "Mesaj TV",
+      "Link": "https://tr.canlitv.digital/mesaj-tv",
+      "Image": "https://tr.canlitv.digital/channels/mesaj-tv.png",
+      "Summary": "Mesaj TV"
+    },
+    {
+      "ID": 416,
+      "Name": "Dalğa Tv",
+      "Link": "https://tr.canlitv.digital/dalga-tv",
+      "Image": "https://tr.canlitv.digital/channels/dalga-tv.png",
+      "Summary": "Dalğa Tv"
+    },
+    {
+      "ID": 417,
+      "Name": "İnter AZ",
+      "Link": "https://tr.canlitv.digital/inter-az",
+      "Image": "https://tr.canlitv.digital/channels/inter-az.png",
+      "Summary": "İnter AZ"
+    },
+    {
+      "ID": 418,
+      "Name": "Lider TV",
+      "Link": "https://tr.canlitv.digital/lider-tv-az",
+      "Image": "https://tr.canlitv.digital/channels/lider-tv.png",
+      "Summary": "Lider TV"
+    },
+    {
+      "ID": 419,
+      "Name": "Av TV",
+      "Link": "https://tr.canlitv.digital/av-tv",
+      "Image": "https://tr.canlitv.digital/channels/av-tv.png",
+      "Summary": "Av TV"
+    },
+    {
+      "ID": 420,
+      "Name": "Tarım Türk TV",
+      "Link": "https://tr.canlitv.digital/tarim-turk-tv",
+      "Image": "https://tr.canlitv.digital/channels/tarim-turk-tv.png",
+      "Summary": "Tarım Türk TV"
+    },
+    {
+      "ID": 421,
+      "Name": "Pepee TV",
+      "Link": "https://tr.canlitv.digital/pepee-tv",
+      "Image": "https://tr.canlitv.digital/channels/pepee-tv.png",
+      "Summary": "Pepee TV"
+    },
+    {
+      "ID": 422,
+      "Name": "Disney Channel",
+      "Link": "https://tr.canlitv.digital/disney-channel",
+      "Image": "https://tr.canlitv.digital/channels/disney-channel-tv.png",
+      "Summary": "Disney Channel"
+    },
+    {
+      "ID": 423,
+      "Name": "Sıla TV",
+      "Link": "https://tr.canlitv.digital/sila-tv",
+      "Image": "https://tr.canlitv.digital/channels/sila-tv.png",
+      "Summary": "Sıla TV"
+    },
+    {
+      "ID": 424,
+      "Name": "Yeni MalatyaSpor TV",
+      "Link": "https://tr.canlitv.digital/yeni-malatyaspor-tv",
+      "Image": "https://tr.canlitv.digital/channels/yeni-malatyaspor-tv.png",
+      "Summary": "Yeni MalatyaSpor TV"
+    },
+    {
+      "ID": 425,
+      "Name": "STK TV",
+      "Link": "https://tr.canlitv.digital/stk-tv",
+      "Image": "https://tr.canlitv.digital/channels/stk-tv.png",
+      "Summary": "STK TV"
+    },
+    {
+      "ID": 426,
+      "Name": "Medya 24",
+      "Link": "https://tr.canlitv.digital/medya-24",
+      "Image": "https://tr.canlitv.digital/channels/medya24-tv.png",
+      "Summary": "Medya 24"
+    },
+    {
+      "ID": 427,
+      "Name": "Tasc TV",
+      "Link": "https://tr.canlitv.digital/tasc-tv",
+      "Image": "https://tr.canlitv.digital/channels/tasc-tv.png",
+      "Summary": "Tasc TV"
+    },
+    {
+      "ID": 428,
+      "Name": "Meteoroloji TV",
+      "Link": "https://tr.canlitv.digital/meteoroloji-tv",
+      "Image": "https://tr.canlitv.digital/channels/meteoroloji-tv.png",
+      "Summary": "Meteoroloji TV"
+    },
+    {
+      "ID": 429,
+      "Name": "BJK TV",
+      "Link": "https://tr.canlitv.digital/bjk-tv",
+      "Image": "https://tr.canlitv.digital/channels/bjk-tv-izle.png",
+      "Summary": "BJK TV"
+    },
+    {
+      "ID": 430,
+      "Name": "Bursa TV",
+      "Link": "https://tr.canlitv.digital/bursa-tv",
+      "Image": "https://tr.canlitv.digital/channels/bursa-tv.png",
+      "Summary": "Bursa TV"
+    },
+    {
+      "ID": 431,
+      "Name": "Gaziantep Olay TV",
+      "Link": "https://tr.canlitv.digital/gaziantep-olay-tv",
+      "Image": "https://tr.canlitv.digital/channels/gaziantep-olay-tv.png",
+      "Summary": "Gaziantep Olay TV"
+    },
+    {
+      "ID": 432,
+      "Name": "Kanal 12",
+      "Link": "https://tr.canlitv.digital/kanal-12",
+      "Image": "https://tr.canlitv.digital/channels/kanal-12-izle.png",
+      "Summary": "Kanal 12"
+    },
+    {
+      "ID": 433,
+      "Name": "Vizyon 58",
+      "Link": "https://tr.canlitv.digital/vizyon-58",
+      "Image": "https://tr.canlitv.digital/channels/vizyon-58.png",
+      "Summary": "Vizyon 58"
+    }
+  ],
+  "isIPTV": 1
+}

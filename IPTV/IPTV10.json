@@ -1,0 +1,706 @@
+{
+  "links": [
+    {
+      "ID": "0",
+      "Name": "24 TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/24-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/24-tv-logo.png"
+    },
+    {
+      "ID": "1",
+      "Name": "A Haber HD ",
+      "Link": "https://canlitvulusal.com/tv-show/a-haber-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/ahaber-logo.png"
+    },
+    {
+      "ID": "2",
+      "Name": "A2 TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/a2-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/a2tv-logo.png"
+    },
+    {
+      "ID": "3",
+      "Name": "Ada TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ada-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/ada-tv-logo.png"
+    },
+    {
+      "ID": "4",
+      "Name": "Agro TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/agro-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/agro-tv-logo.png"
+    },
+    {
+      "ID": "5",
+      "Name": "Akit TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/akit-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/akit-tv-logo.png"
+    },
+    {
+      "ID": "6",
+      "Name": "Aksu TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/aksu-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/08/aksutv.png"
+    },
+    {
+      "ID": "7",
+      "Name": "Alanya Posta TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/alanya-posta-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/08/alanyaposta-tv.png"
+    },
+    {
+      "ID": "8",
+      "Name": "Altaş TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/altas-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/altas-tv.png"
+    },
+    {
+      "ID": "9",
+      "Name": "Alvin Channel HD ",
+      "Link": "https://canlitvulusal.com/tv-show/alvin-channel-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/02/alvinchannel-logo.png"
+    },
+    {
+      "ID": "10",
+      "Name": "Anadolunet TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/anadolunet-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/anadolu-net-tv.png"
+    },
+    {
+      "ID": "11",
+      "Name": "Apara HD ",
+      "Link": "https://canlitvulusal.com/tv-show/apara-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/a-para-logo.png"
+    },
+    {
+      "ID": "12",
+      "Name": "As TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/as-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/08/as-tv.png"
+    },
+    {
+      "ID": "13",
+      "Name": "ATV Alanya HD ",
+      "Link": "https://canlitvulusal.com/tv-show/atv-alanya-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/Basliksiz-1.png"
+    },
+    {
+      "ID": "14",
+      "Name": "AZ TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/az-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/az-tv-logo.png"
+    },
+    {
+      "ID": "15",
+      "Name": "Azad TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/azad-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/azad-tv-logo.png"
+    },
+    {
+      "ID": "16",
+      "Name": "Bakü TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/baku-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/baku-tv-logo.png"
+    },
+    {
+      "ID": "17",
+      "Name": "Beinsportshaber HD ",
+      "Link": "https://canlitvulusal.com/tv-show/beinsportshaber-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/beinsportshaber-logo.png"
+    },
+    {
+      "ID": "18",
+      "Name": "Bengütürk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/benguturk-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/bengutur-tv-logo.png"
+    },
+    {
+      "ID": "19",
+      "Name": "Berat TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/berat-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/berat-tv-logo.png"
+    },
+    {
+      "ID": "20",
+      "Name": "Beyaz TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/beyaz-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/beyaz-tv-logo.png"
+    },
+    {
+      "ID": "21",
+      "Name": "Bir TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/bir-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/08/birtv.png"
+    },
+    {
+      "ID": "22",
+      "Name": "Bloomberght HD ",
+      "Link": "https://canlitvulusal.com/tv-show/bloomberght-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/bloomber-ht-logo.png"
+    },
+    {
+      "ID": "23",
+      "Name": "BR TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/br-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/08/br-tv.png"
+    },
+    {
+      "ID": "24",
+      "Name": "BRT 1 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/brt-1-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/brt1hd.png"
+    },
+    {
+      "ID": "25",
+      "Name": "BRT 2 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/brt-2-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/brt2-logo.png"
+    },
+    {
+      "ID": "26",
+      "Name": "Cartoon Network HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cartoon-network-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/cartoonnetwork-logo.png"
+    },
+    {
+      "ID": "27",
+      "Name": "Çay TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cay-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/cay-tv-logo.png"
+    },
+    {
+      "ID": "28",
+      "Name": "CBC Sport HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cbc-sport-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/12/cbc-sport-logo.png"
+    },
+    {
+      "ID": "29",
+      "Name": "Çiftçi TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ciftci-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/ciftci-tv-logo.png"
+    },
+    {
+      "ID": "30",
+      "Name": "Cine1 TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cine1-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/cine1-tv.png"
+    },
+    {
+      "ID": "31",
+      "Name": "Cine5 TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cine5-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/cine5-logo.png"
+    },
+    {
+      "ID": "32",
+      "Name": "CNBC E HD ",
+      "Link": "https://canlitvulusal.com/tv-show/cnbc-e-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/cnbc-e.png"
+    },
+    {
+      "ID": "33",
+      "Name": "Deha TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/deha-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/deha-tv.png"
+    },
+    {
+      "ID": "34",
+      "Name": "Denizpostası TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/denizpostasi-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/denizpostasitv.png"
+    },
+    {
+      "ID": "35",
+      "Name": "Dim TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/dim-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/dim-tv.png"
+    },
+    {
+      "ID": "36",
+      "Name": "Diyanet TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/diyanet-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/diyanet-logo.png"
+    },
+    {
+      "ID": "37",
+      "Name": "Dmax HD ",
+      "Link": "https://canlitvulusal.com/tv-show/dmax-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/dmax-logo.png"
+    },
+    {
+      "ID": "38",
+      "Name": "Dost TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/dost-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/dost-tv-logo.png"
+    },
+    {
+      "ID": "39",
+      "Name": "Edessa TV ",
+      "Link": "https://canlitvulusal.com/tv-show/edessa-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/edessa-tv.png"
+    },
+    {
+      "ID": "40",
+      "Name": "Ekol TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ekol-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/ekol-tv.png"
+    },
+    {
+      "ID": "41",
+      "Name": "Ekotürk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ekoturk-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/ekoturk-tv-logo.png"
+    },
+    {
+      "ID": "42",
+      "Name": "Elmas TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/elmas-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/elmas-tv-logo.png"
+    },
+    {
+      "ID": "43",
+      "Name": "Erciş TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ercis-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/10/ercis-tv.png"
+    },
+    {
+      "ID": "44",
+      "Name": "Es TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/es-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/es-tv-logo.png"
+    },
+    {
+      "ID": "45",
+      "Name": "Eurostar HD ",
+      "Link": "https://canlitvulusal.com/tv-show/eurostar-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/eurostar-logo.png"
+    },
+    {
+      "ID": "46",
+      "Name": "Fenerbahçe TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/fenerbahce-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/fener-tv-logo.png"
+    },
+    {
+      "ID": "47",
+      "Name": "Finanstürk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/finansturk-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/finansturk-tv-logo.png"
+    },
+    {
+      "ID": "48",
+      "Name": "Flash Haber HD ",
+      "Link": "https://canlitvulusal.com/tv-show/flash-haber-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/flashhaber-logo.png"
+    },
+    {
+      "ID": "49",
+      "Name": "Gonca TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/gonca-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/gonca-tv-logo.png"
+    },
+    {
+      "ID": "50",
+      "Name": "GS TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/gs-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/gs-tv-logo.png"
+    },
+    {
+      "ID": "51",
+      "Name": "Haber Global TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/haber-global-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/haber-global-logo-png.png"
+    },
+    {
+      "ID": "52",
+      "Name": "Habertürk HD ",
+      "Link": "https://canlitvulusal.com/tv-show/haberturk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/haber-turk-logo.png"
+    },
+    {
+      "ID": "53",
+      "Name": "Halk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/halk-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/halk-tv-loho.png"
+    },
+    {
+      "ID": "54",
+      "Name": "HT Spor HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ht-spor-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/08/htspor.png"
+    },
+    {
+      "ID": "55",
+      "Name": "İdman TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/idman-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/idmantv-logo.png"
+    },
+    {
+      "ID": "56",
+      "Name": "ikra TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ikra-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/11/ikra-tv.png"
+    },
+    {
+      "ID": "57",
+      "Name": "Kanal7 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/kanal7-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/kanal-7-logo.png"
+    },
+    {
+      "ID": "58",
+      "Name": "Kanal B HD ",
+      "Link": "https://canlitvulusal.com/tv-show/kanalb-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/Kanalb-logo.png"
+    },
+    {
+      "ID": "59",
+      "Name": "Kıbrıs Genç TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/kibris-genc-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/kibris-genc-tv-logo.png"
+    },
+    {
+      "ID": "60",
+      "Name": "Kralpop HD ",
+      "Link": "https://canlitvulusal.com/tv-show/kralpop-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/kralpop-canli.png"
+    },
+    {
+      "ID": "61",
+      "Name": "KRT HD ",
+      "Link": "https://canlitvulusal.com/tv-show/krt-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/krt-canli-tv-logo.png"
+    },
+    {
+      "ID": "62",
+      "Name": "Lalegül TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/lalegul-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/lalegul-tv-logo.png"
+    },
+    {
+      "ID": "63",
+      "Name": "Life TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/life-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/life-tv-logo.png"
+    },
+    {
+      "ID": "64",
+      "Name": "Line TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/line-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/08/bursa-line-tv.png"
+    },
+    {
+      "ID": "65",
+      "Name": "Meclis TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/meclis-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/meclis-tv-logo.png"
+    },
+    {
+      "ID": "66",
+      "Name": "Medeniyyet TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/medeniyyet-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/02/medeniyyet-tv-logo.png"
+    },
+    {
+      "ID": "67",
+      "Name": "Medine TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/medine-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/medine-tv-logo.png"
+    },
+    {
+      "ID": "68",
+      "Name": "Mekke TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/mekke-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/mekke-tv-logo.png"
+    },
+    {
+      "ID": "69",
+      "Name": "Meltem TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/meltem-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/meltemtv-logo.png"
+    },
+    {
+      "ID": "70",
+      "Name": "Milyon TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/milyon-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/milyon-tv-logo.png"
+    },
+    {
+      "ID": "71",
+      "Name": "NTV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ntv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/ntv-logo-png.png"
+    },
+    {
+      "ID": "72",
+      "Name": "Number One Türk HD ",
+      "Link": "https://canlitvulusal.com/tv-show/number-one-turk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/noturk-logo.png"
+    },
+    {
+      "ID": "73",
+      "Name": "Numberone HD ",
+      "Link": "https://canlitvulusal.com/tv-show/numberone-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/number-one-logo.png"
+    },
+    {
+      "ID": "74",
+      "Name": "ON6 TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/on6-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/09/on-6-tv.png"
+    },
+    {
+      "ID": "75",
+      "Name": "Power TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/power-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/power-tv-logo.png"
+    },
+    {
+      "ID": "76",
+      "Name": "Powertürk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/powerturk-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/powerturk-tv-logo.png"
+    },
+    {
+      "ID": "77",
+      "Name": "Semerkand TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/semerkand-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/semerkandtv-logo.png"
+    },
+    {
+      "ID": "78",
+      "Name": "Semerkand Way HD ",
+      "Link": "https://canlitvulusal.com/tv-show/semerkand-way-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/semerkandtv-logo.png"
+    },
+    {
+      "ID": "79",
+      "Name": "Show TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/show-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/show-tv-logo-png.png"
+    },
+    {
+      "ID": "80",
+      "Name": "Showmax HD ",
+      "Link": "https://canlitvulusal.com/tv-show/showmax-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/showmax-tv-logo.png"
+    },
+    {
+      "ID": "81",
+      "Name": "Showtürk HD ",
+      "Link": "https://canlitvulusal.com/tv-show/showturk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/showturk-logo.png"
+    },
+    {
+      "ID": "82",
+      "Name": "Sözcü TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/sozcu-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/sozcu-tv-logo.png"
+    },
+    {
+      "ID": "83",
+      "Name": "Sports TV ",
+      "Link": "https://canlitvulusal.com/tv-show/sports-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/sports-tv-logo.png"
+    },
+    {
+      "ID": "84",
+      "Name": "Star TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/star-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/startv-logo.png"
+    },
+    {
+      "ID": "85",
+      "Name": "Tarım TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tarim-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tarim-logo.png"
+    },
+    {
+      "ID": "86",
+      "Name": "Tatlıses TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tatlises-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/talises-logo.png"
+    },
+    {
+      "ID": "87",
+      "Name": "Tele1 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tele1-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/tele-1-logo.png"
+    },
+    {
+      "ID": "88",
+      "Name": "TGRT Belgesel HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tgrt-belgesel-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/tgrtbelgesel-logo.png"
+    },
+    {
+      "ID": "89",
+      "Name": "TGRT EU HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tgrt-eu-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tgrt-eu-logo-png.png"
+    },
+    {
+      "ID": "90",
+      "Name": "TGRT Haber HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tgrt-haber-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/11/tgrthaber-logo.png"
+    },
+    {
+      "ID": "91",
+      "Name": "Tivi 6 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tivi-6-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tivi-6.png"
+    },
+    {
+      "ID": "92",
+      "Name": "Tivibuspor HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tivibuspor-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tivibu-spor-logo-png.png"
+    },
+    {
+      "ID": "93",
+      "Name": "Tivitürk TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tiviturk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/10/tiviturk-logo-png-tv.png"
+    },
+    {
+      "ID": "94",
+      "Name": "TLC HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tlc-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tlc-logo-png.png"
+    },
+    {
+      "ID": "95",
+      "Name": "TRT Avaz HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-avaz-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trtavaz-logo.png"
+    },
+    {
+      "ID": "96",
+      "Name": "TRT Belgesel HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-belgesel-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trtbelgesel-logo.png"
+    },
+    {
+      "ID": "97",
+      "Name": "TRT Çocuk HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-cocuk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trt-cocuk-logo.png"
+    },
+    {
+      "ID": "98",
+      "Name": "TRT Haber HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-haber-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trt-haber-logo.png"
+    },
+    {
+      "ID": "99",
+      "Name": "TRT Kurdi HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-kurdi-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/trt-kurdi-logo.png"
+    },
+    {
+      "ID": "100",
+      "Name": "TRT Müzik HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-muzik-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trt-muzik-logo-png.png"
+    },
+    {
+      "ID": "101",
+      "Name": "TRT Sporyıldız HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-sporyildiz-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/trtsporyildiz-logo.png"
+    },
+    {
+      "ID": "102",
+      "Name": "TRT Türk HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-turk-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/trt-turk-logo.png"
+    },
+    {
+      "ID": "103",
+      "Name": "TRT World HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt-world-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/trt-world-logo.png"
+    },
+    {
+      "ID": "104",
+      "Name": "TRT2 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/trt2-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/trt-2-logo.png"
+    },
+    {
+      "ID": "105",
+      "Name": "Türkiye Jokey Kulübü",
+      "Link": "https://canlitvulusal.com/tv-show/turkiye-jokey-kulubu-hd-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/tjk-tv-logo.png"
+    },
+    {
+      "ID": "106",
+      "Name": "Türkmeneli TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/turkmeneli-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/12/turkmeneli-tv-logo.png"
+    },
+    {
+      "ID": "107",
+      "Name": "TV 360 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tv-360-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tv360-logo.png"
+    },
+    {
+      "ID": "108",
+      "Name": "TV 5 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tv-5-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tv-5-logo.png"
+    },
+    {
+      "ID": "109",
+      "Name": "TV EM HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tv-em-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tvem-logo.png"
+    },
+    {
+      "ID": "110",
+      "Name": "TV100 ",
+      "Link": "https://canlitvulusal.com/tv-show/tv100-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/tv-100-logo.png"
+    },
+    {
+      "ID": "111",
+      "Name": "TV4 HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tv4-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tv4-logo.png"
+    },
+    {
+      "ID": "112",
+      "Name": "TVNET HD ",
+      "Link": "https://canlitvulusal.com/tv-show/tvnet-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/tv-net-logo.png"
+    },
+    {
+      "ID": "113",
+      "Name": "Ülke TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ulke-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2023/12/ulketv-logo.png"
+    },
+    {
+      "ID": "114",
+      "Name": "Ulusal Kanal HD ",
+      "Link": "https://canlitvulusal.com/tv-show/ulusal-kanal-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/ulusal-kanal-logo.png"
+    },
+    {
+      "ID": "115",
+      "Name": "Woman TV ",
+      "Link": "https://canlitvulusal.com/tv-show/woman-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/woman-tv-logo.png"
+    },
+    {
+      "ID": "116",
+      "Name": "Yol TV HD ",
+      "Link": "https://canlitvulusal.com/tv-show/yol-tv-canli-yayin/",
+      "Image": "https://canlitvulusal.tr/wp-content/uploads/2024/01/yol-tv-logo.png"
+    }
+  ]
+}

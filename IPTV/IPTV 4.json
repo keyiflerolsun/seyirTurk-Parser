@@ -1,0 +1,1902 @@
+{
+  "links": [
+    {
+      "ID": 1,
+      "Name": "Show Tv",
+      "Link": "https://www.canlitv.ws/showtv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Show Tv"
+    },
+    {
+      "ID": 2,
+      "Name": "Star Tv",
+      "Link": "https://www.canlitv.ws/startv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Star Tv"
+    },
+    {
+      "ID": 3,
+      "Name": "Kanal 7",
+      "Link": "https://www.canlitv.ws/kanal-7-canli",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 7"
+    },
+    {
+      "ID": 5,
+      "Name": "Kanal D",
+      "Link": "https://www.canlitv.ws/kanald-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal D"
+    },
+    {
+      "ID": 8,
+      "Name": "TRT Haber",
+      "Link": "https://www.canlitv.ws/trt-haber",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Haber"
+    },
+    {
+      "ID": 10,
+      "Name": "NTV",
+      "Link": "https://www.canlitv.ws/ntv-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "NTV"
+    },
+    {
+      "ID": 11,
+      "Name": "A Haber",
+      "Link": "https://www.canlitv.ws/a-haber-canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "A Haber"
+    },
+    {
+      "ID": 12,
+      "Name": "Haber Türk",
+      "Link": "https://www.canlitv.ws/haberturk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Haber Türk"
+    },
+    {
+      "ID": 13,
+      "Name": "Halk Tv",
+      "Link": "https://www.canlitv.ws/halk-tv-canli",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Halk Tv"
+    },
+    {
+      "ID": 14,
+      "Name": "Sözcü Tv",
+      "Link": "https://www.canlitv.ws/sozcu-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Sözcü Tv"
+    },
+    {
+      "ID": 16,
+      "Name": "Haber Global",
+      "Link": "https://www.canlitv.ws/haber-global",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Haber Global"
+    },
+    {
+      "ID": 17,
+      "Name": "TV 100",
+      "Link": "https://www.canlitv.ws/tv-100",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV 100"
+    },
+    {
+      "ID": 18,
+      "Name": "360 Tv",
+      "Link": "https://www.canlitv.ws/360-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "360 Tv"
+    },
+    {
+      "ID": 19,
+      "Name": "TRT Spor",
+      "Link": "https://www.canlitv.ws/trt-spor-canli",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Spor"
+    },
+    {
+      "ID": 20,
+      "Name": "Beyaz Tv",
+      "Link": "https://www.canlitv.ws/beyaz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Beyaz Tv"
+    },
+    {
+      "ID": 21,
+      "Name": "Bein Sports Haber",
+      "Link": "https://www.canlitv.ws/bein-sports-haber",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bein Sports Haber"
+    },
+    {
+      "ID": 22,
+      "Name": "HT Spor",
+      "Link": "https://www.canlitv.ws/ht-spor",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "HT Spor"
+    },
+    {
+      "ID": 23,
+      "Name": "TLC",
+      "Link": "https://www.canlitv.ws/tlc",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TLC"
+    },
+    {
+      "ID": 24,
+      "Name": "Dmax",
+      "Link": "https://www.canlitv.ws/dmax",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dmax"
+    },
+    {
+      "ID": 25,
+      "Name": "TRT Belgesel",
+      "Link": "https://www.canlitv.ws/trt-belgesel",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Belgesel"
+    },
+    {
+      "ID": 26,
+      "Name": "Yaban Tv",
+      "Link": "https://www.canlitv.ws/yaban-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Yaban Tv"
+    },
+    {
+      "ID": 27,
+      "Name": "Diyanet Çocuk",
+      "Link": "https://www.canlitv.ws/diyanet-cocuk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Diyanet Çocuk"
+    },
+    {
+      "ID": 28,
+      "Name": "TRT Çocuk",
+      "Link": "https://www.canlitv.ws/trt-cocuk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Çocuk"
+    },
+    {
+      "ID": 29,
+      "Name": "Cartoon Network",
+      "Link": "https://www.canlitv.ws/cartoon-network",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Cartoon Network"
+    },
+    {
+      "ID": 30,
+      "Name": "Minika Çocuk",
+      "Link": "https://www.canlitv.ws/minika-cocuk-canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Minika Çocuk"
+    },
+    {
+      "ID": 31,
+      "Name": "Spacetoon Kids TV",
+      "Link": "https://www.canlitv.ws/spacetoon-kids-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Spacetoon Kids TV"
+    },
+    {
+      "ID": 32,
+      "Name": "Minika Go",
+      "Link": "https://www.canlitv.ws/minika-go-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Minika Go"
+    },
+    {
+      "ID": 33,
+      "Name": "Zarok Tv",
+      "Link": "https://www.canlitv.ws/zaroktv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Zarok Tv"
+    },
+    {
+      "ID": 34,
+      "Name": "ARB Güneş TV",
+      "Link": "https://www.canlitv.ws/arb-gunes-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB Güneş TV"
+    },
+    {
+      "ID": 35,
+      "Name": "TGRT Haber",
+      "Link": "https://www.canlitv.ws/tgrt-haber",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TGRT Haber"
+    },
+    {
+      "ID": 36,
+      "Name": "FB TV",
+      "Link": "https://www.canlitv.ws/fb-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "FB TV"
+    },
+    {
+      "ID": 37,
+      "Name": "Tjk Tv",
+      "Link": "https://www.canlitv.ws/tjk-tv-izle-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tjk Tv"
+    },
+    {
+      "ID": 38,
+      "Name": "A Spor ",
+      "Link": "https://www.canlitv.ws/aspor-canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "A Spor "
+    },
+    {
+      "ID": 39,
+      "Name": "KRT TV",
+      "Link": "https://www.canlitv.ws/krt-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "KRT TV"
+    },
+    {
+      "ID": 40,
+      "Name": "Tivibu Spor",
+      "Link": "https://www.canlitv.ws/tivibu-spor",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tivibu Spor"
+    },
+    {
+      "ID": 41,
+      "Name": "Ulusal Kanal",
+      "Link": "https://www.canlitv.ws/ulusal-kanal",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ulusal Kanal"
+    },
+    {
+      "ID": 42,
+      "Name": "Bengü Türk TV",
+      "Link": "https://www.canlitv.ws/bengu-turk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bengü Türk TV"
+    },
+    {
+      "ID": 43,
+      "Name": "Bloomberg HT",
+      "Link": "https://www.canlitv.ws/bloomberg-ht-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bloomberg HT"
+    },
+    {
+      "ID": 44,
+      "Name": "Akit Tv",
+      "Link": "https://www.canlitv.ws/akit-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Akit Tv"
+    },
+    {
+      "ID": 45,
+      "Name": "Flash Haber Tv",
+      "Link": "https://www.canlitv.ws/flash-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Flash Haber Tv"
+    },
+    {
+      "ID": 46,
+      "Name": "Ülke Tv",
+      "Link": "https://www.canlitv.ws/ulke-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ülke Tv"
+    },
+    {
+      "ID": 47,
+      "Name": "İlke Tv",
+      "Link": "https://www.canlitv.ws/ilke-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İlke Tv"
+    },
+    {
+      "ID": 48,
+      "Name": "Tele1 TV",
+      "Link": "https://www.canlitv.ws/tele1-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tele1 TV"
+    },
+    {
+      "ID": 49,
+      "Name": "Yol Tv",
+      "Link": "https://www.canlitv.ws/yol-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Yol Tv"
+    },
+    {
+      "ID": 50,
+      "Name": "Lider Haber TV",
+      "Link": "https://www.canlitv.ws/lider-haber-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Lider Haber TV"
+    },
+    {
+      "ID": 52,
+      "Name": "Cine 1",
+      "Link": "https://www.canlitv.ws/cine-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Cine 1"
+    },
+    {
+      "ID": 53,
+      "Name": "Ekol TV",
+      "Link": "https://www.canlitv.ws/ekol-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ekol TV"
+    },
+    {
+      "ID": 54,
+      "Name": "Ekotürk TV",
+      "Link": "https://www.canlitv.ws/ekoturk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ekotürk TV"
+    },
+    {
+      "ID": 55,
+      "Name": "Tvnet",
+      "Link": "https://www.canlitv.ws/tv-net",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tvnet"
+    },
+    {
+      "ID": 56,
+      "Name": "TV 5",
+      "Link": "https://www.canlitv.ws/tv-5",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV 5"
+    },
+    {
+      "ID": 57,
+      "Name": "24 Tv",
+      "Link": "https://www.canlitv.ws/24-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "24 Tv"
+    },
+    {
+      "ID": 58,
+      "Name": "GZT TV",
+      "Link": "https://www.canlitv.ws/gzt-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "GZT TV"
+    },
+    {
+      "ID": 59,
+      "Name": "TBMM TV",
+      "Link": "https://www.canlitv.ws/tbmm-tv-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TBMM TV"
+    },
+    {
+      "ID": 60,
+      "Name": "Kabe Tv",
+      "Link": "https://www.canlitv.ws/kabe-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kabe Tv"
+    },
+    {
+      "ID": 61,
+      "Name": "Lalegül Tv",
+      "Link": "https://www.canlitv.ws/lalegul-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Lalegül Tv"
+    },
+    {
+      "ID": 62,
+      "Name": "Semerkand Tv",
+      "Link": "https://www.canlitv.ws/semerkand-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Semerkand Tv"
+    },
+    {
+      "ID": 63,
+      "Name": "Rehber Tv",
+      "Link": "https://www.canlitv.ws/rehber-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Rehber Tv"
+    },
+    {
+      "ID": 64,
+      "Name": "Dost Tv",
+      "Link": "https://www.canlitv.ws/dost-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dost Tv"
+    },
+    {
+      "ID": 65,
+      "Name": "Diyanet TV",
+      "Link": "https://www.canlitv.ws/diyanet-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Diyanet TV"
+    },
+    {
+      "ID": 66,
+      "Name": "İkra TV",
+      "Link": "https://www.canlitv.ws/ikra-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İkra TV"
+    },
+    {
+      "ID": 67,
+      "Name": "Meltem TV",
+      "Link": "https://www.canlitv.ws/meltem-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Meltem TV"
+    },
+    {
+      "ID": 68,
+      "Name": "TRT Eba TV İlkokul",
+      "Link": "https://www.canlitv.ws/trt-eba-tv-ilkokul",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Eba TV İlkokul"
+    },
+    {
+      "ID": 69,
+      "Name": "TRT Eba TV Ortaokul",
+      "Link": "https://www.canlitv.ws/trt-eba-tv-ortaokul",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Eba TV Ortaokul"
+    },
+    {
+      "ID": 70,
+      "Name": "TRT Eba TV Lise",
+      "Link": "https://www.canlitv.ws/trt-eba-tv-lise",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Eba TV Lise"
+    },
+    {
+      "ID": 71,
+      "Name": "TRT 2",
+      "Link": "https://www.canlitv.ws/trt-2",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT 2"
+    },
+    {
+      "ID": 72,
+      "Name": "TRT Türk",
+      "Link": "https://www.canlitv.ws/trt-turk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Türk"
+    },
+    {
+      "ID": 73,
+      "Name": "TRT Spor Yıldız",
+      "Link": "https://www.canlitv.ws/trt-spor-2",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Spor Yıldız"
+    },
+    {
+      "ID": 74,
+      "Name": "TH Türk Haber",
+      "Link": "https://www.canlitv.ws/th-turk-haber",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TH Türk Haber"
+    },
+    {
+      "ID": 75,
+      "Name": "TRT World",
+      "Link": "https://www.canlitv.ws/trt-world",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT World"
+    },
+    {
+      "ID": 76,
+      "Name": "TRT Avaz",
+      "Link": "https://www.canlitv.ws/trt-avaz",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Avaz"
+    },
+    {
+      "ID": 77,
+      "Name": "TRT 6 Kürdi",
+      "Link": "https://www.canlitv.ws/trt-6-kurdi",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT 6 Kürdi"
+    },
+    {
+      "ID": 78,
+      "Name": "Konya Olay Tv",
+      "Link": "https://www.canlitv.ws/konya-olay-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Konya Olay Tv"
+    },
+    {
+      "ID": 79,
+      "Name": "Luys TV",
+      "Link": "https://www.canlitv.ws/luys-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Luys TV"
+    },
+    {
+      "ID": 80,
+      "Name": "TRT Arapça",
+      "Link": "https://www.canlitv.ws/trt-arapca",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TRT Arapça"
+    },
+    {
+      "ID": 81,
+      "Name": "On4 Tv",
+      "Link": "https://www.canlitv.ws/on4-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "On4 Tv"
+    },
+    {
+      "ID": 82,
+      "Name": "Kanal V",
+      "Link": "https://www.canlitv.ws/kanal-v",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal V"
+    },
+    {
+      "ID": 83,
+      "Name": "Kon TV",
+      "Link": "https://www.canlitv.ws/kon-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kon TV"
+    },
+    {
+      "ID": 84,
+      "Name": "Kanal 33",
+      "Link": "https://www.canlitv.ws/kanal-33",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 33"
+    },
+    {
+      "ID": 85,
+      "Name": "Tv3",
+      "Link": "https://www.canlitv.ws/tv3",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv3"
+    },
+    {
+      "ID": 86,
+      "Name": "Kanal 38",
+      "Link": "https://www.canlitv.ws/kanal38",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 38"
+    },
+    {
+      "ID": 87,
+      "Name": "Al Rafidain TV",
+      "Link": "https://www.canlitv.ws/al-rafidain-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Al Rafidain TV"
+    },
+    {
+      "ID": 88,
+      "Name": "Tv Kayseri",
+      "Link": "https://www.canlitv.ws/tv-kayseri",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv Kayseri"
+    },
+    {
+      "ID": 89,
+      "Name": "TV 41",
+      "Link": "https://www.canlitv.ws/tv-41",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV 41"
+    },
+    {
+      "ID": 90,
+      "Name": "Kanal 58",
+      "Link": "https://www.canlitv.ws/kanal-58",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 58"
+    },
+    {
+      "ID": 91,
+      "Name": "Bir TV",
+      "Link": "https://www.canlitv.ws/bir-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bir TV"
+    },
+    {
+      "ID": 92,
+      "Name": "Edessa Tv",
+      "Link": "https://www.canlitv.ws/edessa-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Edessa Tv"
+    },
+    {
+      "ID": 93,
+      "Name": "Gözde TV",
+      "Link": "https://www.canlitv.ws/gozde-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Gözde TV"
+    },
+    {
+      "ID": 94,
+      "Name": "Düzce Tv",
+      "Link": "https://www.canlitv.ws/duzce-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Düzce Tv"
+    },
+    {
+      "ID": 95,
+      "Name": "TV 2020",
+      "Link": "https://www.canlitv.ws/tv-2020",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV 2020"
+    },
+    {
+      "ID": 96,
+      "Name": "Kıbrıs Genç Tv",
+      "Link": "https://www.canlitv.ws/kibris-genc-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kıbrıs Genç Tv"
+    },
+    {
+      "ID": 97,
+      "Name": "Kıbrıs Ada Tv",
+      "Link": "https://www.canlitv.ws/kibris-ada-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kıbrıs Ada Tv"
+    },
+    {
+      "ID": 98,
+      "Name": "Kardelen Tv",
+      "Link": "https://www.canlitv.ws/kardelen-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kardelen Tv"
+    },
+    {
+      "ID": 99,
+      "Name": "Torba Tv",
+      "Link": "https://www.canlitv.ws/torba-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Torba Tv"
+    },
+    {
+      "ID": 100,
+      "Name": "Kanal Sim",
+      "Link": "https://www.canlitv.ws/sim-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Sim"
+    },
+    {
+      "ID": 101,
+      "Name": "Tarım Tv",
+      "Link": "https://www.canlitv.ws/tarim-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tarım Tv"
+    },
+    {
+      "ID": 102,
+      "Name": "Köy Tv",
+      "Link": "https://www.canlitv.ws/koy-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Köy Tv"
+    },
+    {
+      "ID": 103,
+      "Name": "TGRT Belgesel",
+      "Link": "https://www.canlitv.ws/tgrt-belgesel",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TGRT Belgesel"
+    },
+    {
+      "ID": 104,
+      "Name": "Çiftçi Tv",
+      "Link": "https://www.canlitv.ws/cifci-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Çiftçi Tv"
+    },
+    {
+      "ID": 105,
+      "Name": "Toprak TV",
+      "Link": "https://www.canlitv.ws/toprak-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Toprak TV"
+    },
+    {
+      "ID": 106,
+      "Name": "Xezer Tv",
+      "Link": "https://www.canlitv.ws/xezer-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Xezer Tv"
+    },
+    {
+      "ID": 107,
+      "Name": "Az TV",
+      "Link": "https://www.canlitv.ws/az-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Az TV"
+    },
+    {
+      "ID": 108,
+      "Name": "ARB TV",
+      "Link": "https://www.canlitv.ws/arb-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB TV"
+    },
+    {
+      "ID": 109,
+      "Name": "Medeniyet Tv",
+      "Link": "https://www.canlitv.ws/medeniyet-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Medeniyet Tv"
+    },
+    {
+      "ID": 110,
+      "Name": "Kanal S Az",
+      "Link": "https://www.canlitv.ws/kanal-s-azerbaycan",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal S Az"
+    },
+    {
+      "ID": 111,
+      "Name": "OKKU Tv",
+      "Link": "https://www.canlitv.ws/okku-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "OKKU Tv"
+    },
+    {
+      "ID": 112,
+      "Name": "CBC Tv",
+      "Link": "https://www.canlitv.ws/cbc-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "CBC Tv"
+    },
+    {
+      "ID": 113,
+      "Name": "İctimai Tv",
+      "Link": "https://www.canlitv.ws/ictimai-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İctimai Tv"
+    },
+    {
+      "ID": 114,
+      "Name": "Salihli Sonsöz TV",
+      "Link": "https://www.canlitv.ws/salihli-sonsoz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Salihli Sonsöz TV"
+    },
+    {
+      "ID": 115,
+      "Name": "CBC Sport",
+      "Link": "https://www.canlitv.ws/cbc-sport-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "CBC Sport"
+    },
+    {
+      "ID": 116,
+      "Name": "İdman Tv",
+      "Link": "https://www.canlitv.ws/idman-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İdman Tv"
+    },
+    {
+      "ID": 117,
+      "Name": "Space TV",
+      "Link": "https://www.canlitv.ws/space-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Space TV"
+    },
+    {
+      "ID": 118,
+      "Name": "ARB 24 TV",
+      "Link": "https://www.canlitv.ws/arb-24-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB 24 TV"
+    },
+    {
+      "ID": 119,
+      "Name": "Dünya TV",
+      "Link": "https://www.canlitv.ws/dunyatv-az",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dünya TV"
+    },
+    {
+      "ID": 121,
+      "Name": "Real Tv",
+      "Link": "https://www.canlitv.ws/real-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Real Tv"
+    },
+    {
+      "ID": 122,
+      "Name": "Bakü TV",
+      "Link": "https://www.canlitv.ws/baku-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bakü TV"
+    },
+    {
+      "ID": 123,
+      "Name": "Alvin Channel",
+      "Link": "https://www.canlitv.ws/alvin-channel",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Alvin Channel"
+    },
+    {
+      "ID": 124,
+      "Name": "Kanal 12",
+      "Link": "https://www.canlitv.ws/kanal-12",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 12"
+    },
+    {
+      "ID": 125,
+      "Name": "Tv 1",
+      "Link": "https://www.canlitv.ws/tv-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv 1"
+    },
+    {
+      "ID": 126,
+      "Name": "Kanal 3",
+      "Link": "https://www.canlitv.ws/kanal-3",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 3"
+    },
+    {
+      "ID": 127,
+      "Name": "Kanal 5",
+      "Link": "https://www.canlitv.ws/kanal-5",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 5"
+    },
+    {
+      "ID": 128,
+      "Name": "Az Star TV",
+      "Link": "https://www.canlitv.ws/azstar-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Az Star TV"
+    },
+    {
+      "ID": 129,
+      "Name": "Topaz TV",
+      "Link": "https://www.canlitv.ws/topaz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Topaz TV"
+    },
+    {
+      "ID": 130,
+      "Name": "Kanal 19",
+      "Link": "https://www.canlitv.ws/kanal-19",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 19"
+    },
+    {
+      "ID": 131,
+      "Name": "Kanal 23",
+      "Link": "https://www.canlitv.ws/kanal-23",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 23"
+    },
+    {
+      "ID": 132,
+      "Name": "ON6 TV",
+      "Link": "https://www.canlitv.ws/on6-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ON6 TV"
+    },
+    {
+      "ID": 133,
+      "Name": "Kanal 26",
+      "Link": "https://www.canlitv.ws/kanal-26",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 26"
+    },
+    {
+      "ID": 134,
+      "Name": "Süper Kanal",
+      "Link": "https://www.canlitv.ws/super-kanal",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Süper Kanal"
+    },
+    {
+      "ID": 135,
+      "Name": "Kanal 32",
+      "Link": "https://www.canlitv.ws/kanal-32",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 32"
+    },
+    {
+      "ID": 136,
+      "Name": "Drt Denizli TV",
+      "Link": "https://www.canlitv.ws/drt-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Drt Denizli TV"
+    },
+    {
+      "ID": 137,
+      "Name": "Kanal 34",
+      "Link": "https://www.canlitv.ws/kanal-34",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 34"
+    },
+    {
+      "ID": 138,
+      "Name": "Kapadokya Tv",
+      "Link": "https://www.canlitv.ws/kapadokya-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kapadokya Tv"
+    },
+    {
+      "ID": 139,
+      "Name": "Tv 52",
+      "Link": "https://www.canlitv.ws/tv-52",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv 52"
+    },
+    {
+      "ID": 140,
+      "Name": "Kanal 56",
+      "Link": "https://www.canlitv.ws/kanal-56",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 56"
+    },
+    {
+      "ID": 141,
+      "Name": "Güneydoğu Tv",
+      "Link": "https://www.canlitv.ws/guneydogu-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Güneydoğu Tv"
+    },
+    {
+      "ID": 142,
+      "Name": "Haber 61",
+      "Link": "https://www.canlitv.ws/haber-61",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Haber 61"
+    },
+    {
+      "ID": 143,
+      "Name": "Engelsiz TV",
+      "Link": "https://www.canlitv.ws/engelsiz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Engelsiz TV"
+    },
+    {
+      "ID": 144,
+      "Name": "Kanal 68",
+      "Link": "https://www.canlitv.ws/kanal-68",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 68"
+    },
+    {
+      "ID": 145,
+      "Name": "Mercan Tv",
+      "Link": "https://www.canlitv.ws/mercan-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Mercan Tv"
+    },
+    {
+      "ID": 146,
+      "Name": "Es Tv",
+      "Link": "https://www.canlitv.ws/es-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Es Tv"
+    },
+    {
+      "ID": 147,
+      "Name": "Köroğlu Tv",
+      "Link": "https://www.canlitv.ws/koroglu-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Köroğlu Tv"
+    },
+    {
+      "ID": 148,
+      "Name": "Aksu Tv",
+      "Link": "https://www.canlitv.ws/aksu-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Aksu Tv"
+    },
+    {
+      "ID": 149,
+      "Name": "Ekin Türk Tv",
+      "Link": "https://www.canlitv.ws/ekin-turk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ekin Türk Tv"
+    },
+    {
+      "ID": 150,
+      "Name": "World Türk TV",
+      "Link": "https://www.canlitv.ws/world-turk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "World Türk TV"
+    },
+    {
+      "ID": 151,
+      "Name": "As Tv",
+      "Link": "https://www.canlitv.ws/as-tv-bursa",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "As Tv"
+    },
+    {
+      "ID": 152,
+      "Name": "Kay Tv",
+      "Link": "https://www.canlitv.ws/kay-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kay Tv"
+    },
+    {
+      "ID": 153,
+      "Name": "Kanal Urfa",
+      "Link": "https://www.canlitv.ws/kanal-urfa",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Urfa"
+    },
+    {
+      "ID": 154,
+      "Name": "Edirne Tv",
+      "Link": "https://www.canlitv.ws/edirne-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Edirne Tv"
+    },
+    {
+      "ID": 155,
+      "Name": "Malatya Vuslat TV",
+      "Link": "https://www.canlitv.ws/vuslat-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Malatya Vuslat TV"
+    },
+    {
+      "ID": 156,
+      "Name": "Ahi Tv",
+      "Link": "https://www.canlitv.ws/ahi-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ahi Tv"
+    },
+    {
+      "ID": 157,
+      "Name": "Urfanatik TV",
+      "Link": "https://www.canlitv.ws/urfanatik-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Urfanatik TV"
+    },
+    {
+      "ID": 158,
+      "Name": "Kanal S",
+      "Link": "https://www.canlitv.ws/kanal-s-samsun",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal S"
+    },
+    {
+      "ID": 159,
+      "Name": "Milli Piyango TV",
+      "Link": "https://www.canlitv.ws/milli-piyango-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Milli Piyango TV"
+    },
+    {
+      "ID": 160,
+      "Name": "Kanal Fırat",
+      "Link": "https://www.canlitv.ws/kanal-firat",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Fırat"
+    },
+    {
+      "ID": 161,
+      "Name": "Diyar Tv",
+      "Link": "https://www.canlitv.ws/diyar-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Diyar Tv"
+    },
+    {
+      "ID": 162,
+      "Name": "Disney Channel",
+      "Link": "https://www.canlitv.ws/disney-channel",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Disney Channel"
+    },
+    {
+      "ID": 163,
+      "Name": "Tgrt Eu",
+      "Link": "https://www.canlitv.ws/tgrt-eu",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tgrt Eu"
+    },
+    {
+      "ID": 164,
+      "Name": "Kanal T",
+      "Link": "https://www.canlitv.ws/kanal-t",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal T"
+    },
+    {
+      "ID": 165,
+      "Name": "Tempo Tv",
+      "Link": "https://www.canlitv.ws/tempo-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tempo Tv"
+    },
+    {
+      "ID": 166,
+      "Name": "Kanal 7 Avrupa",
+      "Link": "https://www.canlitv.ws/kanal-7-avrupa",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 7 Avrupa"
+    },
+    {
+      "ID": 167,
+      "Name": "İçel Tv",
+      "Link": "https://www.canlitv.ws/icel-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İçel Tv"
+    },
+    {
+      "ID": 168,
+      "Name": "Kanal B",
+      "Link": "https://www.canlitv.ws/kanal-b",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal B"
+    },
+    {
+      "ID": 169,
+      "Name": "Kanal Z",
+      "Link": "https://www.canlitv.ws/kanal-z",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Z"
+    },
+    {
+      "ID": 170,
+      "Name": "Akıllı Tv ",
+      "Link": "https://www.canlitv.ws/akilli-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Akıllı Tv "
+    },
+    {
+      "ID": 171,
+      "Name": "Çay Tv",
+      "Link": "https://www.canlitv.ws/cay-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Çay Tv"
+    },
+    {
+      "ID": 172,
+      "Name": "Mavi Karadeniz Tv",
+      "Link": "https://www.canlitv.ws/mavi-karadeniz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Mavi Karadeniz Tv"
+    },
+    {
+      "ID": 173,
+      "Name": "Kudüs Tv",
+      "Link": "https://www.canlitv.ws/kudus-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kudüs Tv"
+    },
+    {
+      "ID": 174,
+      "Name": "Nur Tv",
+      "Link": "https://www.canlitv.ws/nur-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Nur Tv"
+    },
+    {
+      "ID": 175,
+      "Name": "Mpl Tv",
+      "Link": "https://www.canlitv.ws/mpl-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Mpl Tv"
+    },
+    {
+      "ID": 176,
+      "Name": "Tay Tv",
+      "Link": "https://www.canlitv.ws/tay-tv-canli",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tay Tv"
+    },
+    {
+      "ID": 177,
+      "Name": "Sports Tv",
+      "Link": "https://www.canlitv.ws/sports-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Sports Tv"
+    },
+    {
+      "ID": 178,
+      "Name": "Tv4",
+      "Link": "https://www.canlitv.ws/tv-4",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv4"
+    },
+    {
+      "ID": 179,
+      "Name": "Kanal Avrupa",
+      "Link": "https://www.canlitv.ws/kanal-avrupa",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Avrupa"
+    },
+    {
+      "ID": 180,
+      "Name": "Teve 2",
+      "Link": "https://www.canlitv.ws/teve-2",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Teve 2"
+    },
+    {
+      "ID": 181,
+      "Name": "BRT 1",
+      "Link": "https://www.canlitv.ws/brt-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "BRT 1"
+    },
+    {
+      "ID": 182,
+      "Name": "BRT 2",
+      "Link": "https://www.canlitv.ws/brt-2",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "BRT 2"
+    },
+    {
+      "ID": 183,
+      "Name": "Erciyes Tv",
+      "Link": "https://www.canlitv.ws/erciyes-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Erciyes Tv"
+    },
+    {
+      "ID": 184,
+      "Name": "Kanal Likya",
+      "Link": "https://www.canlitv.ws/kanal-likya",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal Likya"
+    },
+    {
+      "ID": 185,
+      "Name": "Amasya Art Tv ",
+      "Link": "https://www.canlitv.ws/art-tv-amasya",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Amasya Art Tv "
+    },
+    {
+      "ID": 186,
+      "Name": "Rumeli Tv",
+      "Link": "https://www.canlitv.ws/rumeli-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Rumeli Tv"
+    },
+    {
+      "ID": 187,
+      "Name": "Marmara Tv",
+      "Link": "https://www.canlitv.ws/marmara-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Marmara Tv"
+    },
+    {
+      "ID": 188,
+      "Name": "Sun Tv",
+      "Link": "https://www.canlitv.ws/sun-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Sun Tv"
+    },
+    {
+      "ID": 189,
+      "Name": "Konya Ün Tv",
+      "Link": "https://www.canlitv.ws/un-tv-konya",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Konya Ün Tv"
+    },
+    {
+      "ID": 190,
+      "Name": "Line Tv",
+      "Link": "https://www.canlitv.ws/line-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Line Tv"
+    },
+    {
+      "ID": 191,
+      "Name": "Kent Deha Tv",
+      "Link": "https://www.canlitv.ws/kent-deha-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kent Deha Tv"
+    },
+    {
+      "ID": 192,
+      "Name": "Tarsus Güney TV",
+      "Link": "https://www.canlitv.ws/tarsus-guney-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tarsus Güney TV"
+    },
+    {
+      "ID": 193,
+      "Name": "Etv Manisa",
+      "Link": "https://www.canlitv.ws/e-tv-manisa",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Etv Manisa"
+    },
+    {
+      "ID": 194,
+      "Name": "Aras Tv",
+      "Link": "https://www.canlitv.ws/arastv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Aras Tv"
+    },
+    {
+      "ID": 195,
+      "Name": "Anadolu TV",
+      "Link": "https://www.canlitv.ws/anadolutv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Anadolu TV"
+    },
+    {
+      "ID": 196,
+      "Name": "Er TV",
+      "Link": "https://www.canlitv.ws/ertv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Er TV"
+    },
+    {
+      "ID": 197,
+      "Name": "Can Tv",
+      "Link": "https://www.canlitv.ws/can-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Can Tv"
+    },
+    {
+      "ID": 198,
+      "Name": "Euro Genç TV",
+      "Link": "https://www.canlitv.ws/euro-genc-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Euro Genç TV"
+    },
+    {
+      "ID": 199,
+      "Name": "Anadolu Dost TV",
+      "Link": "https://www.canlitv.ws/anadolu-dost-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Anadolu Dost TV"
+    },
+    {
+      "ID": 200,
+      "Name": "Üniversite TV",
+      "Link": "https://www.canlitv.ws/universite-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Üniversite TV"
+    },
+    {
+      "ID": 201,
+      "Name": "BRTV",
+      "Link": "https://www.canlitv.ws/brtv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "BRTV"
+    },
+    {
+      "ID": 202,
+      "Name": "GRT TV",
+      "Link": "https://www.canlitv.ws/grt-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "GRT TV"
+    },
+    {
+      "ID": 203,
+      "Name": "München Tv",
+      "Link": "https://www.canlitv.ws/munchen-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "München Tv"
+    },
+    {
+      "ID": 204,
+      "Name": "QVC",
+      "Link": "https://www.canlitv.ws/qvc",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "QVC"
+    },
+    {
+      "ID": 205,
+      "Name": "Euronews German",
+      "Link": "https://www.canlitv.ws/euronews-german",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Euronews German"
+    },
+    {
+      "ID": 206,
+      "Name": "Medine Tv",
+      "Link": "https://www.canlitv.ws/medine-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Medine Tv"
+    },
+    {
+      "ID": 207,
+      "Name": "Euro News",
+      "Link": "https://www.canlitv.ws/euro-news",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Euro News"
+    },
+    {
+      "ID": 208,
+      "Name": "İmedi Tv",
+      "Link": "https://www.canlitv.ws/imedi-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İmedi Tv"
+    },
+    {
+      "ID": 209,
+      "Name": "Ege Live TV",
+      "Link": "https://www.canlitv.ws/ege-live-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ege Live TV"
+    },
+    {
+      "ID": 210,
+      "Name": "Al Jazeera English",
+      "Link": "https://www.canlitv.ws/aljazeera",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Al Jazeera English"
+    },
+    {
+      "ID": 211,
+      "Name": "Huda Tv",
+      "Link": "https://www.canlitv.ws/huda-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Huda Tv"
+    },
+    {
+      "ID": 212,
+      "Name": "Agro TV",
+      "Link": "https://www.canlitv.ws/agro-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Agro TV"
+    },
+    {
+      "ID": 213,
+      "Name": "Tokat Süper Tv",
+      "Link": "https://www.canlitv.ws/tokat-super-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tokat Süper Tv"
+    },
+    {
+      "ID": 214,
+      "Name": "Hunat TV",
+      "Link": "https://www.canlitv.ws/hunat-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Hunat TV"
+    },
+    {
+      "ID": 215,
+      "Name": "Ton Tv",
+      "Link": "https://www.canlitv.ws/ton-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ton Tv"
+    },
+    {
+      "ID": 216,
+      "Name": "TV A",
+      "Link": "https://www.canlitv.ws/tv-a",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV A"
+    },
+    {
+      "ID": 217,
+      "Name": "Bizimev Tv",
+      "Link": "https://www.canlitv.ws/bizimev-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bizimev Tv"
+    },
+    {
+      "ID": 218,
+      "Name": "Altaş Tv",
+      "Link": "https://www.canlitv.ws/altas-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Altaş Tv"
+    },
+    {
+      "ID": 219,
+      "Name": "Deniz Postası TV",
+      "Link": "https://www.canlitv.ws/deniz-postasi-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Deniz Postası TV"
+    },
+    {
+      "ID": 220,
+      "Name": "Finans Türk Tv",
+      "Link": "https://www.canlitv.ws/finans-turk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Finans Türk Tv"
+    },
+    {
+      "ID": 221,
+      "Name": "Kanal 15",
+      "Link": "https://www.canlitv.ws/kanal15",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kanal 15"
+    },
+    {
+      "ID": 222,
+      "Name": "Natural TV",
+      "Link": "https://www.canlitv.ws/natural-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Natural TV"
+    },
+    {
+      "ID": 223,
+      "Name": "Atürk Tv",
+      "Link": "https://www.canlitv.ws/ege-aturk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Atürk Tv"
+    },
+    {
+      "ID": 224,
+      "Name": "Anadolu Net TV",
+      "Link": "https://www.canlitv.ws/anadolu-net-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Anadolu Net TV"
+    },
+    {
+      "ID": 225,
+      "Name": "RT (Russia Today)",
+      "Link": "https://www.canlitv.ws/russia-today",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "RT (Russia Today)"
+    },
+    {
+      "ID": 226,
+      "Name": "Sönmez TV",
+      "Link": "https://www.canlitv.ws/sonmez-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Sönmez TV"
+    },
+    {
+      "ID": 227,
+      "Name": "Olay Türk",
+      "Link": "https://www.canlitv.ws/olay-turk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Olay Türk"
+    },
+    {
+      "ID": 228,
+      "Name": "Life Tv",
+      "Link": "https://www.canlitv.ws/kayseri-life-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Life Tv"
+    },
+    {
+      "ID": 229,
+      "Name": "Üsküdar Üniversitesi TV",
+      "Link": "https://www.canlitv.ws/uskudar-universitesi-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Üsküdar Üniversitesi TV"
+    },
+    {
+      "ID": 230,
+      "Name": "Dim TV",
+      "Link": "https://www.canlitv.ws/dim-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dim TV"
+    },
+    {
+      "ID": 231,
+      "Name": "İbb TV",
+      "Link": "https://www.canlitv.ws/ibb-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İbb TV"
+    },
+    {
+      "ID": 232,
+      "Name": "ERT Erbaa Radyo Ve TV",
+      "Link": "https://www.canlitv.ws/ert-tokat",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ERT Erbaa Radyo Ve TV"
+    },
+    {
+      "ID": 233,
+      "Name": "Ankara Büyükşehir Belediyesi TV",
+      "Link": "https://www.canlitv.ws/abb-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ankara Büyükşehir Belediyesi TV"
+    },
+    {
+      "ID": 234,
+      "Name": "Al Sunnah TV",
+      "Link": "https://www.canlitv.ws/al-sunnah-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Al Sunnah TV"
+    },
+    {
+      "ID": 235,
+      "Name": "TV38",
+      "Link": "https://www.canlitv.ws/tv-38",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TV38"
+    },
+    {
+      "ID": 236,
+      "Name": "ETV Kayseri",
+      "Link": "https://www.canlitv.ws/etv-kayseri",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ETV Kayseri"
+    },
+    {
+      "ID": 237,
+      "Name": "SKY News",
+      "Link": "https://www.canlitv.ws/sky-news",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "SKY News"
+    },
+    {
+      "ID": 238,
+      "Name": "Tivi6",
+      "Link": "https://www.canlitv.ws/tivi6",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tivi6"
+    },
+    {
+      "ID": 239,
+      "Name": "DW TV Europe",
+      "Link": "https://www.canlitv.ws/dw-tv-europe",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "DW TV Europe"
+    },
+    {
+      "ID": 240,
+      "Name": "Press Tv",
+      "Link": "https://www.canlitv.ws/press-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Press Tv"
+    },
+    {
+      "ID": 241,
+      "Name": "Fortuna Tv",
+      "Link": "https://www.canlitv.ws/fortunatv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Fortuna Tv"
+    },
+    {
+      "ID": 242,
+      "Name": "KTV Kazakistan",
+      "Link": "https://www.canlitv.ws/ktv-kazakistan",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "KTV Kazakistan"
+    },
+    {
+      "ID": 243,
+      "Name": "Çekmeköy Web TV",
+      "Link": "https://www.canlitv.ws/cekmekoy",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Çekmeköy Web TV"
+    },
+    {
+      "ID": 244,
+      "Name": "Kontra Tv",
+      "Link": "https://www.canlitv.ws/kontratv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kontra Tv"
+    },
+    {
+      "ID": 245,
+      "Name": "Elmas Tv",
+      "Link": "https://www.canlitv.ws/elmas-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Elmas Tv"
+    },
+    {
+      "ID": 246,
+      "Name": "Çankırı Tv",
+      "Link": "https://www.canlitv.ws/cankiri-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Çankırı Tv"
+    },
+    {
+      "ID": 247,
+      "Name": "ERT Şah Tv",
+      "Link": "https://www.canlitv.ws/ert-sah-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ERT Şah Tv"
+    },
+    {
+      "ID": 248,
+      "Name": "Silk Way TV",
+      "Link": "https://www.canlitv.ws/silk-way-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Silk Way TV"
+    },
+    {
+      "ID": 249,
+      "Name": "NASA TV",
+      "Link": "https://www.canlitv.ws/nasa-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "NASA TV"
+    },
+    {
+      "ID": 250,
+      "Name": "NOA4 Hamburg",
+      "Link": "https://www.canlitv.ws/noa4-hamburg",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "NOA4 Hamburg"
+    },
+    {
+      "ID": 251,
+      "Name": "Sat7 Türk",
+      "Link": "https://www.canlitv.ws/sat-7",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Sat7 Türk"
+    },
+    {
+      "ID": 252,
+      "Name": "Tv Sudbaden",
+      "Link": "https://www.canlitv.ws/tv-sudbaden",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv Sudbaden"
+    },
+    {
+      "ID": 253,
+      "Name": "RFH",
+      "Link": "https://www.canlitv.ws/rfh",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "RFH"
+    },
+    {
+      "ID": 254,
+      "Name": "Kadırga Tv",
+      "Link": "https://www.canlitv.ws/kadirga-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kadırga Tv"
+    },
+    {
+      "ID": 255,
+      "Name": "Franken Tv",
+      "Link": "https://www.canlitv.ws/franken-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Franken Tv"
+    },
+    {
+      "ID": 256,
+      "Name": "HSE 24",
+      "Link": "https://www.canlitv.ws/hse-24",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "HSE 24"
+    },
+    {
+      "ID": 257,
+      "Name": "Offener Kanal Berlin",
+      "Link": "https://www.canlitv.ws/offener-kanal-berlin",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Offener Kanal Berlin"
+    },
+    {
+      "ID": 258,
+      "Name": "Oberpfalz Tv",
+      "Link": "https://www.canlitv.ws/oberpfalz-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Oberpfalz Tv"
+    },
+    {
+      "ID": 259,
+      "Name": "FRT TV",
+      "Link": "https://www.canlitv.ws/frt-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "FRT TV"
+    },
+    {
+      "ID": 260,
+      "Name": "Niederbayern TV",
+      "Link": "https://www.canlitv.ws/niederbayern-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Niederbayern TV"
+    },
+    {
+      "ID": 261,
+      "Name": "Rudaw Tv",
+      "Link": "https://www.canlitv.ws/rudawtv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Rudaw Tv"
+    },
+    {
+      "ID": 262,
+      "Name": "Altın Asır Tv",
+      "Link": "https://www.canlitv.ws/altin-asir-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Altın Asır Tv"
+    },
+    {
+      "ID": 263,
+      "Name": "Askabat TV",
+      "Link": "https://www.canlitv.ws/askabat-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Askabat TV"
+    },
+    {
+      "ID": 264,
+      "Name": "India Today",
+      "Link": "https://www.canlitv.ws/india-today",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "India Today"
+    },
+    {
+      "ID": 265,
+      "Name": "Makkah Tv",
+      "Link": "https://www.canlitv.ws/makkah-tv ",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Makkah Tv"
+    },
+    {
+      "ID": 266,
+      "Name": "Kent Türk TV",
+      "Link": "https://www.canlitv.ws/kent-turk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kent Türk TV"
+    },
+    {
+      "ID": 267,
+      "Name": "Milyon Tv",
+      "Link": "https://www.canlitv.ws/milyon-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Milyon Tv"
+    },
+    {
+      "ID": 268,
+      "Name": "OWAZY TV ",
+      "Link": "https://www.canlitv.ws/owazy-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "OWAZY TV "
+    },
+    {
+      "ID": 269,
+      "Name": "Woman Tv",
+      "Link": "https://www.canlitv.ws/woman-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Woman Tv"
+    },
+    {
+      "ID": 270,
+      "Name": "A News",
+      "Link": "https://www.canlitv.ws/a-news",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "A News"
+    },
+    {
+      "ID": 271,
+      "Name": "Deutsche Welle English",
+      "Link": "https://www.canlitv.ws/deutsche-welle",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Deutsche Welle English"
+    },
+    {
+      "ID": 272,
+      "Name": "Blue Sky Tv",
+      "Link": "https://www.canlitv.ws/blue-sky-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Blue Sky Tv"
+    },
+    {
+      "ID": 273,
+      "Name": "Manorama News TV",
+      "Link": "https://www.canlitv.ws/manorama-news-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Manorama News TV"
+    },
+    {
+      "ID": 274,
+      "Name": "News Nation TV",
+      "Link": "https://www.canlitv.ws/news-nation-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "News Nation TV"
+    },
+    {
+      "ID": 275,
+      "Name": "Kıbrıs Tv",
+      "Link": "https://www.canlitv.ws/kibris-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kıbrıs Tv"
+    },
+    {
+      "ID": 276,
+      "Name": "Trakya Türk Tv",
+      "Link": "https://www.canlitv.ws/trakya-turk-tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Trakya Türk Tv"
+    },
+    {
+      "ID": 277,
+      "Name": "Tv9 İzmir",
+      "Link": "https://www.canlitv.ws/tv9-izmir",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tv9 İzmir"
+    },
+    {
+      "ID": 278,
+      "Name": "",
+      "Link": "https://www.canlitv.ws/",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": ""
+    }
+  ],
+  "isIPTV": 1
+}

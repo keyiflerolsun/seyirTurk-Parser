@@ -1,0 +1,3792 @@
+{
+  "links": [
+    {
+      "ID": 0,
+      "Name": "Show Hd  7",
+      "Link": "https://tv.canlitvvolo.com/show-tv-canli-hd-yayin-izle-7/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/showtvhd-hdtvler-gqkl.png",
+      "Summary": "Show Hd  7"
+    },
+    {
+      "ID": 1,
+      "Name": "Star",
+      "Link": "https://tv.canlitvvolo.com/star-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/startv-tvlive-nsqo.png",
+      "Summary": "Star"
+    },
+    {
+      "ID": 2,
+      "Name": "Beyaz",
+      "Link": "https://tv.canlitvvolo.com/beyaz-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/beyaztvhd-hdtvler-3knp.png",
+      "Summary": "Beyaz"
+    },
+    {
+      "ID": 3,
+      "Name": "Kanal7 Hd",
+      "Link": "https://tv.canlitvvolo.com/kanal7-izle-hd/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal7-hdtvler-ij8e.png",
+      "Summary": "Kanal7 Hd"
+    },
+    {
+      "ID": 4,
+      "Name": "360",
+      "Link": "https://tv.canlitvvolo.com/360-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/360tv-hdtvler-6x0e.png",
+      "Summary": "360"
+    },
+    {
+      "ID": 5,
+      "Name": "Tv 100",
+      "Link": "https://tv.canlitvvolo.com/tv-100-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv100-hdtvler-8zqh.png",
+      "Summary": "Tv 100"
+    },
+    {
+      "ID": 6,
+      "Name": "Flash",
+      "Link": "https://tv.canlitvvolo.com/flash-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/flashtv-hdtvlertv-tvlive-5nhb.png",
+      "Summary": "Flash"
+    },
+    {
+      "ID": 7,
+      "Name": "A Spor Hd ",
+      "Link": "https://tv.canlitvvolo.com/a-spor-canli-hd-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aspor-volotv-tvlive-ws3y.png",
+      "Summary": "A Spor Hd "
+    },
+    {
+      "ID": 8,
+      "Name": "Trt Spor",
+      "Link": "https://tv.canlitvvolo.com/trt-spor-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trtsportv-tvlive-0epy.png",
+      "Summary": "Trt Spor"
+    },
+    {
+      "ID": 9,
+      "Name": "Ht Spor",
+      "Link": "https://tv.canlitvvolo.com/ht-spor-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/htsportvlogo-tvlive-shm2.png",
+      "Summary": "Ht Spor"
+    },
+    {
+      "ID": 10,
+      "Name": "Haberturk Hde",
+      "Link": "https://tv.canlitvvolo.com/haberturk-tv-hd-izlee/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/haberturktv-hdtvler-871o.png",
+      "Summary": "Haberturk Hde"
+    },
+    {
+      "ID": 11,
+      "Name": "A Haber Hd",
+      "Link": "https://tv.canlitvvolo.com/a-haber-hd-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ahaber-hdtvler-7n41.png",
+      "Summary": "A Haber Hd"
+    },
+    {
+      "ID": 12,
+      "Name": "Ulke Hd",
+      "Link": "https://tv.canlitvvolo.com/ulke-tv-canli-hd-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ulketv-hdtvler-w3cu.png",
+      "Summary": "Ulke Hd"
+    },
+    {
+      "ID": 13,
+      "Name": "Trt Haber",
+      "Link": "https://tv.canlitvvolo.com/trt-haber-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trthabertv-tvlive-05w1.png",
+      "Summary": "Trt Haber"
+    },
+    {
+      "ID": 14,
+      "Name": "Sozcu",
+      "Link": "https://tv.canlitvvolo.com/sozcu-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sozcutv-tv-tvlive-n2y0.png",
+      "Summary": "Sozcu"
+    },
+    {
+      "ID": 15,
+      "Name": "Halk",
+      "Link": "https://tv.canlitvvolo.com/halk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/halktv-hdtvler-pcf4.png",
+      "Summary": "Halk"
+    },
+    {
+      "ID": 16,
+      "Name": "Atv Azad",
+      "Link": "https://tv.canlitvvolo.com/atv-azad-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/atvazadtv-hdtvler-0lk8.png",
+      "Summary": "Atv Azad"
+    },
+    {
+      "ID": 17,
+      "Name": "Arb Az",
+      "Link": "https://tv.canlitvvolo.com/arb-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/arbtvaz-hdtvler-5jl9.png",
+      "Summary": "Arb Az"
+    },
+    {
+      "ID": 18,
+      "Name": "Xezer",
+      "Link": "https://tv.canlitvvolo.com/xezer-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/xezertvaz-logo-tvlive-8nmp.png",
+      "Summary": "Xezer"
+    },
+    {
+      "ID": 19,
+      "Name": "Start Az",
+      "Link": "https://tv.canlitvvolo.com/start-tv-az-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanals-az-tv-tvlive-6tbd.png",
+      "Summary": "Start Az"
+    },
+    {
+      "ID": 20,
+      "Name": "Space Az",
+      "Link": "https://tv.canlitvvolo.com/space-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/spacetvaz-hdtvler-c3jt.png",
+      "Summary": "Space Az"
+    },
+    {
+      "ID": 21,
+      "Name": "Idman",
+      "Link": "https://tv.canlitvvolo.com/idman-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/idman-tv-hdtvler-z82r.png",
+      "Summary": "Idman"
+    },
+    {
+      "ID": 22,
+      "Name": "Az",
+      "Link": "https://tv.canlitvvolo.com/az-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aztv-hdtvler-cx6q.png",
+      "Summary": "Az"
+    },
+    {
+      "ID": 23,
+      "Name": "Ictimai",
+      "Link": "https://tv.canlitvvolo.com/ictimai-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ictimaitv-hdtvler-pc30.png",
+      "Summary": "Ictimai"
+    },
+    {
+      "ID": 0,
+      "Name": "Arb 24 Az",
+      "Link": "https://tv.canlitvvolo.com/arb-24-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/arb24tvaz-hdtvler-4ytp.png",
+      "Summary": "Arb 24 Az"
+    },
+    {
+      "ID": 1,
+      "Name": "Cbc Sport Az",
+      "Link": "https://tv.canlitvvolo.com/cbc-sport-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cbcsportaz-hdtvler-loux.png",
+      "Summary": "Cbc Sport Az"
+    },
+    {
+      "ID": 2,
+      "Name": "Baku",
+      "Link": "https://tv.canlitvvolo.com/baku-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bakutv-hdtvler-i3ht.png",
+      "Summary": "Baku"
+    },
+    {
+      "ID": 3,
+      "Name": "Cbc Az",
+      "Link": "https://tv.canlitvvolo.com/cbc-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cbctvaz-hdtvler-oysu.png",
+      "Summary": "Cbc Az"
+    },
+    {
+      "ID": 4,
+      "Name": "Dunya",
+      "Link": "https://tv.canlitvvolo.com/dunya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dunyatvaz-hdtvler-lksc.png",
+      "Summary": "Dunya"
+    },
+    {
+      "ID": 5,
+      "Name": "Medeniyet ",
+      "Link": "https://tv.canlitvvolo.com/medeniyet-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/medeniyettv-hdtvler-dynt.png",
+      "Summary": "Medeniyet "
+    },
+    {
+      "ID": 6,
+      "Name": "Az News",
+      "Link": "https://tv.canlitvvolo.com/az-news-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aznewstv-hdtvler-8bvl.png",
+      "Summary": "Az News"
+    },
+    {
+      "ID": 7,
+      "Name": "Real Az",
+      "Link": "https://tv.canlitvvolo.com/real-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/realaztv-hdtvler-pgiv.png",
+      "Summary": "Real Az"
+    },
+    {
+      "ID": 8,
+      "Name": "Xeyal Az",
+      "Link": "https://tv.canlitvvolo.com/xeyal-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/qafqaztv-tvlive-bx3c.png",
+      "Summary": "Xeyal Az"
+    },
+    {
+      "ID": 9,
+      "Name": "Tmb",
+      "Link": "https://tv.canlitvvolo.com/tmb-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tmbtvaz-hdtvler-few5.png",
+      "Summary": "Tmb"
+    },
+    {
+      "ID": 10,
+      "Name": "Muz Az",
+      "Link": "https://tv.canlitvvolo.com/muz-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/muztvaz-hdtvler-nvsf.png",
+      "Summary": "Muz Az"
+    },
+    {
+      "ID": 11,
+      "Name": "Arb Gunes",
+      "Link": "https://tv.canlitvvolo.com/arb-gunes-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/arbgunestvaz-hdtvler-c72g.png",
+      "Summary": "Arb Gunes"
+    },
+    {
+      "ID": 12,
+      "Name": "Show Plus",
+      "Link": "https://tv.canlitvvolo.com/show-plus-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/show-plus-tv-tvlive-gfjx.png",
+      "Summary": "Show Plus"
+    },
+    {
+      "ID": 13,
+      "Name": "Sehiyye",
+      "Link": "https://tv.canlitvvolo.com/sehiyye-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sehiyyetvcanli-tvlive-nf00.png",
+      "Summary": "Sehiyye"
+    },
+    {
+      "ID": 14,
+      "Name": "Arb Kepez Az",
+      "Link": "https://tv.canlitvvolo.com/arb-kepez-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kepeztv-hdtvler-hgrs.png",
+      "Summary": "Arb Kepez Az"
+    },
+    {
+      "ID": 15,
+      "Name": "Inter Az",
+      "Link": "https://tv.canlitvvolo.com/inter-az-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/interaztv-hdtvler-2tob.png",
+      "Summary": "Inter Az"
+    },
+    {
+      "ID": 16,
+      "Name": "Gunaz",
+      "Link": "https://tv.canlitvvolo.com/gunaz-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gunaztvaz-hdtvler-brj8.png",
+      "Summary": "Gunaz"
+    },
+    {
+      "ID": 17,
+      "Name": "El Az",
+      "Link": "https://tv.canlitvvolo.com/el-tv-az-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/eltv-az-hdtvler-1tti.png",
+      "Summary": "El Az"
+    },
+    {
+      "ID": 18,
+      "Name": "Naxcivan Az",
+      "Link": "https://tv.canlitvvolo.com/naxcivan-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/naxcivantv-tvlive-hy7w.png",
+      "Summary": "Naxcivan Az"
+    },
+    {
+      "ID": 19,
+      "Name": "Trt 1 Hd",
+      "Link": "https://tv.canlitvvolo.com/trt-1-hd-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-tvlive-d17h.png",
+      "Summary": "Trt 1 Hd"
+    },
+    {
+      "ID": 20,
+      "Name": "Tv8",
+      "Link": "https://tv.canlitvvolo.com/tv8-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-tvlive-un3h.png",
+      "Summary": "Tv8"
+    },
+    {
+      "ID": 21,
+      "Name": "Tv8 5",
+      "Link": "https://tv.canlitvvolo.com/tv8-5-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-tvlive-ys8b.png",
+      "Summary": "Tv8 5"
+    },
+    {
+      "ID": 22,
+      "Name": "Atv",
+      "Link": "https://tv.canlitvvolo.com/atv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-tvlive-mqj8.png",
+      "Summary": "Atv"
+    },
+    {
+      "ID": 23,
+      "Name": "Kanal Dme",
+      "Link": "https://tv.canlitvvolo.com/kanal-d-izleme/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanaldtv-hdtvler-5typ.png",
+      "Summary": "Kanal Dme"
+    },
+    {
+      "ID": 1,
+      "Name": "Tivibu Spor",
+      "Link": "https://tv.canlitvvolo.com/tivibu-spor-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tivibu-sport-hdtvlertv-tvlive-grr8.png",
+      "Summary": "Tivibu Spor"
+    },
+    {
+      "ID": 2,
+      "Name": "Tlc Turkiye",
+      "Link": "https://tv.canlitvvolo.com/tlc-tv-turkiye-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tlctv-hdtvler-x65b.png",
+      "Summary": "Tlc Turkiye"
+    },
+    {
+      "ID": 3,
+      "Name": "Dmax",
+      "Link": "https://tv.canlitvvolo.com/dmax-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dmaxtv-hdtvler-qoxu.png",
+      "Summary": "Dmax"
+    },
+    {
+      "ID": 4,
+      "Name": "Ntv Haber Hde",
+      "Link": "https://tv.canlitvvolo.com/ntv-haber-hd-canli-izlee/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ntv-hdtvler-canlitvkanal-tvlive-63wq.png",
+      "Summary": "Ntv Haber Hde"
+    },
+    {
+      "ID": 5,
+      "Name": "Tgrt Haber",
+      "Link": "https://tv.canlitvvolo.com/tgrt-haber-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tgrthabertv-hdtvler-idjt.png",
+      "Summary": "Tgrt Haber"
+    },
+    {
+      "ID": 6,
+      "Name": "Cnn Turk ",
+      "Link": "https://tv.canlitvvolo.com/cnn-turk-canli-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cnnturktv-hdtvler-p54s.png",
+      "Summary": "Cnn Turk "
+    },
+    {
+      "ID": 7,
+      "Name": "Haber Global",
+      "Link": "https://tv.canlitvvolo.com/haber-global-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/haberglobaltv-hdtvler-tugm.png",
+      "Summary": "Haber Global"
+    },
+    {
+      "ID": 8,
+      "Name": "24",
+      "Link": "https://tv.canlitvvolo.com/24-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/24tv-hdtvler-jm40.png",
+      "Summary": "24"
+    },
+    {
+      "ID": 9,
+      "Name": "Akit",
+      "Link": "https://tv.canlitvvolo.com/akit-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/akittv-hdtvler-z33b.png",
+      "Summary": "Akit"
+    },
+    {
+      "ID": 10,
+      "Name": "Bloomberg",
+      "Link": "https://tv.canlitvvolo.com/bloomberg-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bloombergtv-hdtvler-gp37.png",
+      "Summary": "Bloomberg"
+    },
+    {
+      "ID": 11,
+      "Name": "A Para",
+      "Link": "https://tv.canlitvvolo.com/a-para-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aparatv-hdtvler-w44r.png",
+      "Summary": "A Para"
+    },
+    {
+      "ID": 12,
+      "Name": "Ekoturk Canlı",
+      "Link": "https://tv.canlitvvolo.com/ekoturk-tv-canlı/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ekoturktv-hdtvler-khpf.png",
+      "Summary": "Ekoturk Canlı"
+    },
+    {
+      "ID": 13,
+      "Name": "Tv Net",
+      "Link": "https://tv.canlitvvolo.com/tv-net-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvnet-tv-hdtvlertv-tvlive-2fy2.png",
+      "Summary": "Tv Net"
+    },
+    {
+      "ID": 14,
+      "Name": "Tele 1",
+      "Link": "https://tv.canlitvvolo.com/tele-1-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tele1tv-hdtvler-ebpw.png",
+      "Summary": "Tele 1"
+    },
+    {
+      "ID": 15,
+      "Name": "Karadeniz",
+      "Link": "https://tv.canlitvvolo.com/karadeniz-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/krtkaradeniztv-hdtvler-te31.png",
+      "Summary": "Karadeniz"
+    },
+    {
+      "ID": 16,
+      "Name": "Ulusal Kanal",
+      "Link": "https://tv.canlitvvolo.com/ulusal-kanal-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ulusalkanal-hdtvler-3zrd.png",
+      "Summary": "Ulusal Kanal"
+    },
+    {
+      "ID": 17,
+      "Name": "Trt Belgesel",
+      "Link": "https://tv.canlitvvolo.com/trt-belgesel-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-belgesel-hdtvlertv-tvlive-f2k4.png",
+      "Summary": "Trt Belgesel"
+    },
+    {
+      "ID": 18,
+      "Name": "Ucankus",
+      "Link": "https://tv.canlitvvolo.com/ucankus-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ucankustv-hdtvler-opzr.png",
+      "Summary": "Ucankus"
+    },
+    {
+      "ID": 19,
+      "Name": "Fenerbahce",
+      "Link": "https://tv.canlitvvolo.com/fenerbahce-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fbtv-izle-tvlive-900u.png",
+      "Summary": "Fenerbahce"
+    },
+    {
+      "ID": 20,
+      "Name": "Galatasaray",
+      "Link": "https://tv.canlitvvolo.com/galatasaray-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gstv-hdtvler-4yx3.png",
+      "Summary": "Galatasaray"
+    },
+    {
+      "ID": 21,
+      "Name": "Trt Spor 2",
+      "Link": "https://tv.canlitvvolo.com/trt-spor-2-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trtsporyildiztv-tvlive-8kvk.png",
+      "Summary": "Trt Spor 2"
+    },
+    {
+      "ID": 22,
+      "Name": "Sports",
+      "Link": "https://tv.canlitvvolo.com/sports-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sportstv-hdtvler-uygl.png",
+      "Summary": "Sports"
+    },
+    {
+      "ID": 23,
+      "Name": "Tjk",
+      "Link": "https://tv.canlitvvolo.com/tjk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-tvlive-tw9e.png",
+      "Summary": "Tjk"
+    },
+    {
+      "ID": 0,
+      "Name": "A2 Hd 2",
+      "Link": "https://tv.canlitvvolo.com/a2-tv-hd-izle-2/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/a2tv-hdtvler-j1ok.png",
+      "Summary": "A2 Hd 2"
+    },
+    {
+      "ID": 1,
+      "Name": "Teve 2",
+      "Link": "https://tv.canlitvvolo.com/teve-2-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/teve2tv-hdtvler-0gsf.png",
+      "Summary": "Teve 2"
+    },
+    {
+      "ID": 2,
+      "Name": "Euro Star",
+      "Link": "https://tv.canlitvvolo.com/euro-star-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/eurostartv-hdtvler-2iic.png",
+      "Summary": "Euro Star"
+    },
+    {
+      "ID": 3,
+      "Name": "Euro D Link",
+      "Link": "https://tv.canlitvvolo.com/euro-d-canli-izle-link/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-tvlive-gjhy.png",
+      "Summary": "Euro D Link"
+    },
+    {
+      "ID": 4,
+      "Name": "Bjk",
+      "Link": "https://tv.canlitvvolo.com/bjk-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bjktv-hdtvler-bh6i.png",
+      "Summary": "Bjk"
+    },
+    {
+      "ID": 5,
+      "Name": "Cine 5",
+      "Link": "https://tv.canlitvvolo.com/cine-5-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cine5tv-hdtvler-3s0c.png",
+      "Summary": "Cine 5"
+    },
+    {
+      "ID": 6,
+      "Name": "Tv Em",
+      "Link": "https://tv.canlitvvolo.com/tv-em-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvem-hdtvler-ipfc.png",
+      "Summary": "Tv Em"
+    },
+    {
+      "ID": 7,
+      "Name": "Ekin",
+      "Link": "https://tv.canlitvvolo.com/ekin-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ekintv-hdtvler-kvq5.png",
+      "Summary": "Ekin"
+    },
+    {
+      "ID": 8,
+      "Name": "Cartoon Network",
+      "Link": "https://tv.canlitvvolo.com/cartoon-network-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cartoonnetworktvtr-hdtvler-b8ki.png",
+      "Summary": "Cartoon Network"
+    },
+    {
+      "ID": 9,
+      "Name": "Disney Channel Tr",
+      "Link": "https://tv.canlitvvolo.com/disney-channel-tr/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-canlitvkanal-uyky.png",
+      "Summary": "Disney Channel Tr"
+    },
+    {
+      "ID": 10,
+      "Name": "Minikago",
+      "Link": "https://tv.canlitvvolo.com/minikago-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/minikagotv-hdtvler-9je0.png",
+      "Summary": "Minikago"
+    },
+    {
+      "ID": 11,
+      "Name": "Minika Cocuk",
+      "Link": "https://tv.canlitvvolo.com/minika-cocuk-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/minikacocuktv-hdtvler-yjpn.png",
+      "Summary": "Minika Cocuk"
+    },
+    {
+      "ID": 12,
+      "Name": "Trt Cocuk",
+      "Link": "https://tv.canlitvvolo.com/trt-cocuk-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-cocuk-hdtvlertv-tvlive-brsc.png",
+      "Summary": "Trt Cocuk"
+    },
+    {
+      "ID": 13,
+      "Name": "Yaban Hd",
+      "Link": "https://tv.canlitvvolo.com/yaban-tv-hd-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yabantv-hdtvler-xzty.png",
+      "Summary": "Yaban Hd"
+    },
+    {
+      "ID": 14,
+      "Name": "Kanal B",
+      "Link": "https://tv.canlitvvolo.com/kanal-b-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalbtv-hdtvler-ltqb.png",
+      "Summary": "Kanal B"
+    },
+    {
+      "ID": 15,
+      "Name": "Benguturk",
+      "Link": "https://tv.canlitvvolo.com/benguturk-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/benguturktv-hdtvler-l0nk.png",
+      "Summary": "Benguturk"
+    },
+    {
+      "ID": 16,
+      "Name": "Lalegul",
+      "Link": "https://tv.canlitvvolo.com/lalegul-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/lalegultv-hdtvler-2li3.png",
+      "Summary": "Lalegul"
+    },
+    {
+      "ID": 17,
+      "Name": "Number One Tr",
+      "Link": "https://tv.canlitvvolo.com/number-one-tv-tr-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nr1turk-hdtvler-oyem.png",
+      "Summary": "Number One Tr"
+    },
+    {
+      "ID": 18,
+      "Name": "Number One",
+      "Link": "https://tv.canlitvvolo.com/number-one-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nr1tv-hdtvler-fqmn.png",
+      "Summary": "Number One"
+    },
+    {
+      "ID": 19,
+      "Name": "Kral",
+      "Link": "https://tv.canlitvvolo.com/kral-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kraltvtrtv-hdtvler-etpx.png",
+      "Summary": "Kral"
+    },
+    {
+      "ID": 20,
+      "Name": "Kral Pop",
+      "Link": "https://tv.canlitvvolo.com/kral-pop-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kralpoptv-tvlive-2ceo.png",
+      "Summary": "Kral Pop"
+    },
+    {
+      "ID": 21,
+      "Name": "Powerturk",
+      "Link": "https://tv.canlitvvolo.com/powerturk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/powerturktv-hdtvler-7npt.png",
+      "Summary": "Powerturk"
+    },
+    {
+      "ID": 22,
+      "Name": "Semerkand",
+      "Link": "https://tv.canlitvvolo.com/semerkand-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/semerkandtv-hdtvler-gk71.png",
+      "Summary": "Semerkand"
+    },
+    {
+      "ID": 23,
+      "Name": "Tv 5",
+      "Link": "https://tv.canlitvvolo.com/tv-5-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv5-hdtvler-g58s.png",
+      "Summary": "Tv 5"
+    },
+    {
+      "ID": 0,
+      "Name": "Dost",
+      "Link": "https://tv.canlitvvolo.com/dost-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dosttv-hdtvler-pjkd.png",
+      "Summary": "Dost"
+    },
+    {
+      "ID": 1,
+      "Name": "Bursaspor",
+      "Link": "https://tv.canlitvvolo.com/bursaspor-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bursasportv-hdtvler-52rz.png",
+      "Summary": "Bursaspor"
+    },
+    {
+      "ID": 2,
+      "Name": "Atv Avrupa 4",
+      "Link": "https://tv.canlitvvolo.com/atv-avrupa-tv-canli-izle-4/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/atvavrupa-hdtvler-lpkd.png",
+      "Summary": "Atv Avrupa 4"
+    },
+    {
+      "ID": 3,
+      "Name": "Showturk",
+      "Link": "https://tv.canlitvvolo.com/showturk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/showturktv-hdtvler-6gkx.png",
+      "Summary": "Showturk"
+    },
+    {
+      "ID": 4,
+      "Name": "Kanal7 Avrupa ",
+      "Link": "https://tv.canlitvvolo.com/kanal7-avrupa-canli-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal7avrupatv-hdtvler-703z.png",
+      "Summary": "Kanal7 Avrupa "
+    },
+    {
+      "ID": 5,
+      "Name": "Trt Turk",
+      "Link": "https://tv.canlitvvolo.com/trt-turk-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-turk-tv-tvlive-rsti.png",
+      "Summary": "Trt Turk"
+    },
+    {
+      "ID": 6,
+      "Name": "Trt Muzik",
+      "Link": "https://tv.canlitvvolo.com/trt-muzik-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-muzik-hdtvlertv-tvlive-zg6w.png",
+      "Summary": "Trt Muzik"
+    },
+    {
+      "ID": 7,
+      "Name": "Aksu",
+      "Link": "https://tv.canlitvvolo.com/aksu-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aksutv-hdtvler-yhuz.png",
+      "Summary": "Aksu"
+    },
+    {
+      "ID": 8,
+      "Name": "Anadolu",
+      "Link": "https://tv.canlitvvolo.com/anadolu-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/anadolu-net-tv-tvlive-69xh.png",
+      "Summary": "Anadolu"
+    },
+    {
+      "ID": 9,
+      "Name": "As",
+      "Link": "https://tv.canlitvvolo.com/as-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/astv-hdtvler-ov5v.png",
+      "Summary": "As"
+    },
+    {
+      "ID": 10,
+      "Name": "Bir Izmir",
+      "Link": "https://tv.canlitvvolo.com/bir-tv-izmir-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/birtv-izmir-tvlive-xgrp.png",
+      "Summary": "Bir Izmir"
+    },
+    {
+      "ID": 11,
+      "Name": "Brtv",
+      "Link": "https://tv.canlitvvolo.com/brtv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/brtvtv-hdtvler-cq4l.png",
+      "Summary": "Brtv"
+    },
+    {
+      "ID": 12,
+      "Name": "Cine1",
+      "Link": "https://tv.canlitvvolo.com/cine1-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cine-1-tv-tvlive-hr36.png",
+      "Summary": "Cine1"
+    },
+    {
+      "ID": 13,
+      "Name": "Ciftci",
+      "Link": "https://tv.canlitvvolo.com/ciftci-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ciftcitv-hdtvler-djj8.png",
+      "Summary": "Ciftci"
+    },
+    {
+      "ID": 14,
+      "Name": "Deha",
+      "Link": "https://tv.canlitvvolo.com/deha-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dehatv-hdtvler-xz0t.png",
+      "Summary": "Deha"
+    },
+    {
+      "ID": 15,
+      "Name": "Dim",
+      "Link": "https://tv.canlitvvolo.com/dim-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/alanyadimtv-hdtvler-80o6.png",
+      "Summary": "Dim"
+    },
+    {
+      "ID": 16,
+      "Name": "Ikra",
+      "Link": "https://tv.canlitvvolo.com/ikra-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ikratv-tvlive-wdrp.png",
+      "Summary": "Ikra"
+    },
+    {
+      "ID": 17,
+      "Name": "Er Malatya",
+      "Link": "https://tv.canlitvvolo.com/er-tv-malatya-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ertv-hdtvler-843v.png",
+      "Summary": "Er Malatya"
+    },
+    {
+      "ID": 18,
+      "Name": "Estv",
+      "Link": "https://tv.canlitvvolo.com/estv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/estv-hdtvler-h69r.png",
+      "Summary": "Estv"
+    },
+    {
+      "ID": 19,
+      "Name": "Etv Kayseri",
+      "Link": "https://tv.canlitvvolo.com/etv-kayseri/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/etvkayseri-tvlive-r5u1.png",
+      "Summary": "Etv Kayseri"
+    },
+    {
+      "ID": 20,
+      "Name": "Kocaeli",
+      "Link": "https://tv.canlitvvolo.com/kocaeli-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kocaelitv-hdtvler-03p6.png",
+      "Summary": "Kocaeli"
+    },
+    {
+      "ID": 21,
+      "Name": "Deniz Haber",
+      "Link": "https://tv.canlitvvolo.com/deniz-tv-haber/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/deniz-postasi-tv-tvlive-q9kj.png",
+      "Summary": "Deniz Haber"
+    },
+    {
+      "ID": 22,
+      "Name": "Olay",
+      "Link": "https://tv.canlitvvolo.com/olay-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/olaytv-hdtvler-k363.png",
+      "Summary": "Olay"
+    },
+    {
+      "ID": 23,
+      "Name": "Kon",
+      "Link": "https://tv.canlitvvolo.com/kon-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kontv-hdtvler-42qh.png",
+      "Summary": "Kon"
+    },
+    {
+      "ID": 0,
+      "Name": "Vuslat",
+      "Link": "https://tv.canlitvvolo.com/vuslat-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vuslattv-hdtvler-8pvq.png",
+      "Summary": "Vuslat"
+    },
+    {
+      "ID": 1,
+      "Name": "Gunes",
+      "Link": "https://tv.canlitvvolo.com/gunes-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gunestv-hdtvler-u159.png",
+      "Summary": "Gunes"
+    },
+    {
+      "ID": 2,
+      "Name": "Tv 41 Kocaeli",
+      "Link": "https://tv.canlitvvolo.com/tv-41-kocaeli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv41-hdtvler-x52f.png",
+      "Summary": "Tv 41 Kocaeli"
+    },
+    {
+      "ID": 3,
+      "Name": "Tgrt Belgesel",
+      "Link": "https://tv.canlitvvolo.com/tgrt-belgesel-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tgrtbelgeseltv-hdtvler-z0l7.png",
+      "Summary": "Tgrt Belgesel"
+    },
+    {
+      "ID": 4,
+      "Name": "Tv 1 Kayseri",
+      "Link": "https://tv.canlitvvolo.com/tv-1-kayseri-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv1kayseri-hdtvler-k1y0.png",
+      "Summary": "Tv 1 Kayseri"
+    },
+    {
+      "ID": 5,
+      "Name": "Haber 61",
+      "Link": "https://tv.canlitvvolo.com/haber-61-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/haber61-hdtvler-56ut.png",
+      "Summary": "Haber 61"
+    },
+    {
+      "ID": 6,
+      "Name": "Tv 35 Izmir",
+      "Link": "https://tv.canlitvvolo.com/tv-35-izmir/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv35-hdtvler-vio2.png",
+      "Summary": "Tv 35 Izmir"
+    },
+    {
+      "ID": 7,
+      "Name": "Kanal 3",
+      "Link": "https://tv.canlitvvolo.com/kanal-3-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal3-hdtvler-ox4c.png",
+      "Summary": "Kanal 3"
+    },
+    {
+      "ID": 8,
+      "Name": "Trt El Arabia",
+      "Link": "https://tv.canlitvvolo.com/trt-el-arabia-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-4jqi.png",
+      "Summary": "Trt El Arabia"
+    },
+    {
+      "ID": 9,
+      "Name": "Kackar Karadeniz",
+      "Link": "https://tv.canlitvvolo.com/kackar-tv-karadeniz-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kackartv-hdtvler-1hvj.png",
+      "Summary": "Kackar Karadeniz"
+    },
+    {
+      "ID": 10,
+      "Name": "Tv 4",
+      "Link": "https://tv.canlitvvolo.com/tv-4-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv4-tvlive-zf6x.png",
+      "Summary": "Tv 4"
+    },
+    {
+      "ID": 11,
+      "Name": "Rehber",
+      "Link": "https://tv.canlitvvolo.com/rehber-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rehbertv-hdtvler-645q.png",
+      "Summary": "Rehber"
+    },
+    {
+      "ID": 12,
+      "Name": "Koroglu",
+      "Link": "https://tv.canlitvvolo.com/koroglu-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/koroglutv-hdtvler-64h9.png",
+      "Summary": "Koroglu"
+    },
+    {
+      "ID": 13,
+      "Name": "Tbmm",
+      "Link": "https://tv.canlitvvolo.com/tbmm-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tbmmtv-hdtvler-ose4.png",
+      "Summary": "Tbmm"
+    },
+    {
+      "ID": 14,
+      "Name": "Mavi Karadeniz",
+      "Link": "https://tv.canlitvvolo.com/mavi-karadeniz-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mavikaradeniz-hdtvler-5e24.png",
+      "Summary": "Mavi Karadeniz"
+    },
+    {
+      "ID": 15,
+      "Name": "42 Konya",
+      "Link": "https://tv.canlitvvolo.com/42-konya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/42konyatv-hdtvler-z0rv.png",
+      "Summary": "42 Konya"
+    },
+    {
+      "ID": 16,
+      "Name": "Cay",
+      "Link": "https://tv.canlitvvolo.com/cay-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/caytv-hdtvler-e1gs.png",
+      "Summary": "Cay"
+    },
+    {
+      "ID": 17,
+      "Name": "Tv Kayseri",
+      "Link": "https://tv.canlitvvolo.com/tv-kayseri-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvkayseri-hdtvler-u2e0.png",
+      "Summary": "Tv Kayseri"
+    },
+    {
+      "ID": 18,
+      "Name": "Damar",
+      "Link": "https://tv.canlitvvolo.com/damar-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/damartv-hdtvler-eupw.png",
+      "Summary": "Damar"
+    },
+    {
+      "ID": 19,
+      "Name": "Adana Koza",
+      "Link": "https://tv.canlitvvolo.com/adana-koza-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kozatv-hdtvler-tr5i.png",
+      "Summary": "Adana Koza"
+    },
+    {
+      "ID": 20,
+      "Name": "Corum",
+      "Link": "https://tv.canlitvvolo.com/corum-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/19corumtv-hdtvler-btgi.png",
+      "Summary": "Corum"
+    },
+    {
+      "ID": 21,
+      "Name": "Tyt Turk",
+      "Link": "https://tv.canlitvvolo.com/tyt-turk-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tytturktv-hdtvler-qyby.png",
+      "Summary": "Tyt Turk"
+    },
+    {
+      "ID": 22,
+      "Name": "Trt Kurdi",
+      "Link": "https://tv.canlitvvolo.com/trt-kurdi-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-kurdi-tvlive-jngm.png",
+      "Summary": "Trt Kurdi"
+    },
+    {
+      "ID": 23,
+      "Name": "Bitlis",
+      "Link": "https://tv.canlitvvolo.com/bitlis-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bitlis13tv-hdtvler-v1x0.png",
+      "Summary": "Bitlis"
+    },
+    {
+      "ID": 0,
+      "Name": "Seymen",
+      "Link": "https://tv.canlitvvolo.com/seymen-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/seymentv-hdtvler-4tfg.png",
+      "Summary": "Seymen"
+    },
+    {
+      "ID": 1,
+      "Name": "Yol",
+      "Link": "https://tv.canlitvvolo.com/yol-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yoltv-hdtvler-8e0d.png",
+      "Summary": "Yol"
+    },
+    {
+      "ID": 2,
+      "Name": "Alanya",
+      "Link": "https://tv.canlitvvolo.com/alanya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/atvalanyatv-hdtvler-4g52.png",
+      "Summary": "Alanya"
+    },
+    {
+      "ID": 3,
+      "Name": "Tv Malatya",
+      "Link": "https://tv.canlitvvolo.com/tv-malatya-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvmalatya-hdtvler-dfq3.png",
+      "Summary": "Tv Malatya"
+    },
+    {
+      "ID": 4,
+      "Name": "Euronews",
+      "Link": "https://tv.canlitvvolo.com/euronews-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/euronewstv-hdtvler-6glr.png",
+      "Summary": "Euronews"
+    },
+    {
+      "ID": 5,
+      "Name": "Vizyon",
+      "Link": "https://tv.canlitvvolo.com/vizyon-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vizyontv-hdtvler-y48m.png",
+      "Summary": "Vizyon"
+    },
+    {
+      "ID": 6,
+      "Name": "Str Sivas",
+      "Link": "https://tv.canlitvvolo.com/str-tv-sivas/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/srtsivastv-hdtvler-n2d6.png",
+      "Summary": "Str Sivas"
+    },
+    {
+      "ID": 7,
+      "Name": "Karadeniz Turk",
+      "Link": "https://tv.canlitvvolo.com/karadeniz-turk-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/karadenizturktv-hdtvler-ipbw.png",
+      "Summary": "Karadeniz Turk"
+    },
+    {
+      "ID": 8,
+      "Name": "Akilli",
+      "Link": "https://tv.canlitvvolo.com/akilli-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/akillitv-hdtvler-56g1.png",
+      "Summary": "Akilli"
+    },
+    {
+      "ID": 9,
+      "Name": "Altas",
+      "Link": "https://tv.canlitvvolo.com/altas-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/altastv-hdtvler-wkb3.png",
+      "Summary": "Altas"
+    },
+    {
+      "ID": 10,
+      "Name": "Canakkale",
+      "Link": "https://tv.canlitvvolo.com/canakkale-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/canakkaletv-hdtvler-ivh1.png",
+      "Summary": "Canakkale"
+    },
+    {
+      "ID": 11,
+      "Name": "Ege Turk",
+      "Link": "https://tv.canlitvvolo.com/ege-turk-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/egeturktv-hdtvler-2olb.png",
+      "Summary": "Ege Turk"
+    },
+    {
+      "ID": 12,
+      "Name": "Uzay",
+      "Link": "https://tv.canlitvvolo.com/uzay-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/uzayhabertv-hdtvler-7f0u.png",
+      "Summary": "Uzay"
+    },
+    {
+      "ID": 13,
+      "Name": "Berat",
+      "Link": "https://tv.canlitvvolo.com/berat-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/berattv-hdtvler-l7dl.png",
+      "Summary": "Berat"
+    },
+    {
+      "ID": 14,
+      "Name": "Ton",
+      "Link": "https://tv.canlitvvolo.com/ton-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tontv-hdtvler-08jp.png",
+      "Summary": "Ton"
+    },
+    {
+      "ID": 15,
+      "Name": "Meltem",
+      "Link": "https://tv.canlitvvolo.com/meltem-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/meltemtv-hdtvler-90op.png",
+      "Summary": "Meltem"
+    },
+    {
+      "ID": 16,
+      "Name": "Kanak 16",
+      "Link": "https://tv.canlitvvolo.com/kanak-16-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal16-hdtvler-yb8t.png",
+      "Summary": "Kanak 16"
+    },
+    {
+      "ID": 17,
+      "Name": "Medine",
+      "Link": "https://tv.canlitvvolo.com/medine-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/medinetv-hdtvler-u4dp.png",
+      "Summary": "Medine"
+    },
+    {
+      "ID": 18,
+      "Name": "Medine",
+      "Link": "https://tv.canlitvvolo.com/medine-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/medinecanli-hdtvler-1liz.png",
+      "Summary": "Medine"
+    },
+    {
+      "ID": 19,
+      "Name": "Kabe",
+      "Link": "https://tv.canlitvvolo.com/kabe-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kabecanlitv-hdtvler-jvpp.png",
+      "Summary": "Kabe"
+    },
+    {
+      "ID": 20,
+      "Name": "Kanal 26",
+      "Link": "https://tv.canlitvvolo.com/kanal-26-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/26tv-hdtvler-91px.png",
+      "Summary": "Kanal 26"
+    },
+    {
+      "ID": 21,
+      "Name": "Nur",
+      "Link": "https://tv.canlitvvolo.com/nur-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nurtvn-hdtvler-x3xc.png",
+      "Summary": "Nur"
+    },
+    {
+      "ID": 22,
+      "Name": "Kanal Firat",
+      "Link": "https://tv.canlitvvolo.com/kanal-firat-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalfirattv-hdtvler-ilxh.png",
+      "Summary": "Kanal Firat"
+    },
+    {
+      "ID": 23,
+      "Name": "Mesaj",
+      "Link": "https://tv.canlitvvolo.com/mesaj-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mesajtv-hdtvler-0sxb.png",
+      "Summary": "Mesaj"
+    },
+    {
+      "ID": 0,
+      "Name": "Mpl",
+      "Link": "https://tv.canlitvvolo.com/mpl-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mpltv-hdtvler-mrqs.png",
+      "Summary": "Mpl"
+    },
+    {
+      "ID": 1,
+      "Name": "Duzce",
+      "Link": "https://tv.canlitvvolo.com/duzce-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/duzcetv-hdtvler-m7vb.png",
+      "Summary": "Duzce"
+    },
+    {
+      "ID": 2,
+      "Name": "Bea",
+      "Link": "https://tv.canlitvvolo.com/bea-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/beykenttv-hdtvler-mod3.png",
+      "Summary": "Bea"
+    },
+    {
+      "ID": 3,
+      "Name": "Dugun",
+      "Link": "https://tv.canlitvvolo.com/dugun-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/duguntv-hdtvler-fbsl.png",
+      "Summary": "Dugun"
+    },
+    {
+      "ID": 4,
+      "Name": "Erciyes",
+      "Link": "https://tv.canlitvvolo.com/erciyes-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/erciyestv-hdtvler-g73n.png",
+      "Summary": "Erciyes"
+    },
+    {
+      "ID": 5,
+      "Name": "Kanal 34",
+      "Link": "https://tv.canlitvvolo.com/kanal-34-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/34tv-hdtvler-xr8u.png",
+      "Summary": "Kanal 34"
+    },
+    {
+      "ID": 6,
+      "Name": "Tarim",
+      "Link": "https://tv.canlitvvolo.com/tarim-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tarimtv-hdtvler-ordx.png",
+      "Summary": "Tarim"
+    },
+    {
+      "ID": 7,
+      "Name": "Av",
+      "Link": "https://tv.canlitvvolo.com/av-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/avtv-hdtvler-tzqs.png",
+      "Summary": "Av"
+    },
+    {
+      "ID": 8,
+      "Name": "Pamukkale",
+      "Link": "https://tv.canlitvvolo.com/pamukkale-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/pamukkaletv-hdtvler-e3qo.png",
+      "Summary": "Pamukkale"
+    },
+    {
+      "ID": 9,
+      "Name": "Turkmenelitv",
+      "Link": "https://tv.canlitvvolo.com/turkmenelitv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/turkmenelitv-hdtvler-posd.png",
+      "Summary": "Turkmenelitv"
+    },
+    {
+      "ID": 10,
+      "Name": "Marmara",
+      "Link": "https://tv.canlitvvolo.com/marmara-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/martv-hdtvler-kq2d.png",
+      "Summary": "Marmara"
+    },
+    {
+      "ID": 11,
+      "Name": "Edirne",
+      "Link": "https://tv.canlitvvolo.com/edirne-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/edirnetv-hdtvler-spf9.png",
+      "Summary": "Edirne"
+    },
+    {
+      "ID": 12,
+      "Name": "Medya",
+      "Link": "https://tv.canlitvvolo.com/medya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/medyatvmanisa-hdtvler-pjwu.png",
+      "Summary": "Medya"
+    },
+    {
+      "ID": 13,
+      "Name": "Kanal 43",
+      "Link": "https://tv.canlitvvolo.com/kanal-43/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal43-hdtvler-0314.png",
+      "Summary": "Kanal 43"
+    },
+    {
+      "ID": 14,
+      "Name": "Diyalog",
+      "Link": "https://tv.canlitvvolo.com/diyalog-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/diyalogtv-hdtvler-9ml6.png",
+      "Summary": "Diyalog"
+    },
+    {
+      "ID": 15,
+      "Name": "Htv ",
+      "Link": "https://tv.canlitvvolo.com/htv-izle/ ",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/htv-hdtvler-vp6g.png",
+      "Summary": "Htv "
+    },
+    {
+      "ID": 16,
+      "Name": "Kanal Vip",
+      "Link": "https://tv.canlitvvolo.com/kanal-vip-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalv-hdtvler-1n9x.png",
+      "Summary": "Kanal Vip"
+    },
+    {
+      "ID": 17,
+      "Name": "Bereket",
+      "Link": "https://tv.canlitvvolo.com/bereket-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/berekettv-hdtvler-gojy.png",
+      "Summary": "Bereket"
+    },
+    {
+      "ID": 18,
+      "Name": "Edessa",
+      "Link": "https://tv.canlitvvolo.com/edessa-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/edessatv-hdtvler-c2qi.png",
+      "Summary": "Edessa"
+    },
+    {
+      "ID": 19,
+      "Name": "Tempo",
+      "Link": "https://tv.canlitvvolo.com/tempo-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tempotv-hdtvler-9jlg.png",
+      "Summary": "Tempo"
+    },
+    {
+      "ID": 20,
+      "Name": "Kanal 28",
+      "Link": "https://tv.canlitvvolo.com/kanal-28-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal28-hdtvler-pzc5.png",
+      "Summary": "Kanal 28"
+    },
+    {
+      "ID": 21,
+      "Name": "Koy",
+      "Link": "https://tv.canlitvvolo.com/koy-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/koytv-hdtvler-99nc.png",
+      "Summary": "Koy"
+    },
+    {
+      "ID": 22,
+      "Name": "Kanal 32 Isparta",
+      "Link": "https://tv.canlitvvolo.com/kanal-32-isparta-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal32-hdtvler-v78k.png",
+      "Summary": "Kanal 32 Isparta"
+    },
+    {
+      "ID": 23,
+      "Name": "Kay",
+      "Link": "https://tv.canlitvvolo.com/kay-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kaytv-hdtvler-6o3c.png",
+      "Summary": "Kay"
+    },
+    {
+      "ID": 0,
+      "Name": "Kanal 38",
+      "Link": "https://tv.canlitvvolo.com/kanal-38/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal38-hdtvler-8m3d.png",
+      "Summary": "Kanal 38"
+    },
+    {
+      "ID": 1,
+      "Name": "Art Amasya",
+      "Link": "https://tv.canlitvvolo.com/art-amasya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/artamasya-hdtvler-etr7.png",
+      "Summary": "Art Amasya"
+    },
+    {
+      "ID": 2,
+      "Name": "Merkez",
+      "Link": "https://tv.canlitvvolo.com/merkez-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/merkeztv-hdtvler-crrr.png",
+      "Summary": "Merkez"
+    },
+    {
+      "ID": 3,
+      "Name": "Genc",
+      "Link": "https://tv.canlitvvolo.com/genc-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/genctv-hdtvler-8ngr.png",
+      "Summary": "Genc"
+    },
+    {
+      "ID": 4,
+      "Name": "Abant",
+      "Link": "https://tv.canlitvvolo.com/abant-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/abanttv-hdtvler-z6cs.png",
+      "Summary": "Abant"
+    },
+    {
+      "ID": 5,
+      "Name": "Can 24",
+      "Link": "https://tv.canlitvvolo.com/can-24-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/can24tv-hdtvler-m6zw.png",
+      "Summary": "Can 24"
+    },
+    {
+      "ID": 6,
+      "Name": "Karesi",
+      "Link": "https://tv.canlitvvolo.com/karesi-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/karasitv-hdtvler-gve9.png",
+      "Summary": "Karesi"
+    },
+    {
+      "ID": 7,
+      "Name": "Guneydogu",
+      "Link": "https://tv.canlitvvolo.com/guneydogu-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/guneydogutv-hdtvler-4opl.png",
+      "Summary": "Guneydogu"
+    },
+    {
+      "ID": 8,
+      "Name": "Kudus",
+      "Link": "https://tv.canlitvvolo.com/kudus-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kudustv-hdtvler-szfz.png",
+      "Summary": "Kudus"
+    },
+    {
+      "ID": 9,
+      "Name": "Vizyon 58",
+      "Link": "https://tv.canlitvvolo.com/vizyon-58-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vizyon58-hdtvler-on2y.png",
+      "Summary": "Vizyon 58"
+    },
+    {
+      "ID": 10,
+      "Name": "Kanal 58",
+      "Link": "https://tv.canlitvvolo.com/kanal-58/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal58-hdtvler-k2qg.png",
+      "Summary": "Kanal 58"
+    },
+    {
+      "ID": 11,
+      "Name": "Mercan",
+      "Link": "https://tv.canlitvvolo.com/mercan-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mercantv-hdtvler-xlex.png",
+      "Summary": "Mercan"
+    },
+    {
+      "ID": 12,
+      "Name": "Trt Okul",
+      "Link": "https://tv.canlitvvolo.com/trt-okul/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-zfc6.png",
+      "Summary": "Trt Okul"
+    },
+    {
+      "ID": 13,
+      "Name": "Hrt Akdeniz",
+      "Link": "https://tv.canlitvvolo.com/hrt-akdeniz-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hrtakdeniz-hdtvler-e7uz.png",
+      "Summary": "Hrt Akdeniz"
+    },
+    {
+      "ID": 14,
+      "Name": "Vatan",
+      "Link": "https://tv.canlitvvolo.com/vatan-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vatantv-hdtvler-xseq.png",
+      "Summary": "Vatan"
+    },
+    {
+      "ID": 15,
+      "Name": "Baris",
+      "Link": "https://tv.canlitvvolo.com/baris-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/baristv-hdtvler-mqdy.png",
+      "Summary": "Baris"
+    },
+    {
+      "ID": 16,
+      "Name": "Ada",
+      "Link": "https://tv.canlitvvolo.com/ada-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/adatv-hdtvler-vuj8.png",
+      "Summary": "Ada"
+    },
+    {
+      "ID": 17,
+      "Name": "Drt",
+      "Link": "https://tv.canlitvvolo.com/drt-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/drttv-hdtvler-gzmk.png",
+      "Summary": "Drt"
+    },
+    {
+      "ID": 18,
+      "Name": "Kibris Genc",
+      "Link": "https://tv.canlitvvolo.com/kibris-genc-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kibrisgenctv-hdtvler-b0p4.png",
+      "Summary": "Kibris Genc"
+    },
+    {
+      "ID": 19,
+      "Name": "Kadirga",
+      "Link": "https://tv.canlitvvolo.com/kadirga-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kadirgatv-hdtvler-du8s.png",
+      "Summary": "Kadirga"
+    },
+    {
+      "ID": 20,
+      "Name": "Rumeli",
+      "Link": "https://tv.canlitvvolo.com/rumeli-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rumelitv-hdtvler-x3cr.png",
+      "Summary": "Rumeli"
+    },
+    {
+      "ID": 21,
+      "Name": "Tek Rumeli",
+      "Link": "https://tv.canlitvvolo.com/tek-rumeli-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tekrumelitv-hdtvler-r92r.png",
+      "Summary": "Tek Rumeli"
+    },
+    {
+      "ID": 22,
+      "Name": "Kanal Avrupa",
+      "Link": "https://tv.canlitvvolo.com/kanal-avrupa-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalavrupa-hdtvler-m87k.png",
+      "Summary": "Kanal Avrupa"
+    },
+    {
+      "ID": 23,
+      "Name": "Z",
+      "Link": "https://tv.canlitvvolo.com/z-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalztv-hdtvler-m9nf.png",
+      "Summary": "Z"
+    },
+    {
+      "ID": 0,
+      "Name": "Bayrak",
+      "Link": "https://tv.canlitvvolo.com/bayrak-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/brt1-hdtvler-r0x4.png",
+      "Summary": "Bayrak"
+    },
+    {
+      "ID": 1,
+      "Name": "Trt Avaz",
+      "Link": "https://tv.canlitvvolo.com/trt-avaz/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-avaz-tvlive-e265.png",
+      "Summary": "Trt Avaz"
+    },
+    {
+      "ID": 2,
+      "Name": "Nhk World",
+      "Link": "https://tv.canlitvvolo.com/nhk-world-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nhkworld-hdtvler-8rcs.png",
+      "Summary": "Nhk World"
+    },
+    {
+      "ID": 3,
+      "Name": "Bursa Line",
+      "Link": "https://tv.canlitvvolo.com/bursa-line-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/linetv-hdtvler-o9ty.png",
+      "Summary": "Bursa Line"
+    },
+    {
+      "ID": 4,
+      "Name": "Bursa",
+      "Link": "https://tv.canlitvvolo.com/bursa-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bursatv-hdtvler-p4j9.png",
+      "Summary": "Bursa"
+    },
+    {
+      "ID": 5,
+      "Name": "Roman",
+      "Link": "https://tv.canlitvvolo.com/roman-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/romentv-hdtvler-5ntt.png",
+      "Summary": "Roman"
+    },
+    {
+      "ID": 6,
+      "Name": "Trt Word",
+      "Link": "https://tv.canlitvvolo.com/trt-word/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-world-tv-tvlive-3kch.png",
+      "Summary": "Trt Word"
+    },
+    {
+      "ID": 7,
+      "Name": "Trt Diyanet",
+      "Link": "https://tv.canlitvvolo.com/trt-diyanet/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trtdiyanet-hdtvler-x4fz.png",
+      "Summary": "Trt Diyanet"
+    },
+    {
+      "ID": 8,
+      "Name": "Duru",
+      "Link": "https://tv.canlitvvolo.com/duru-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/durutv-hdtvler-u2m1.png",
+      "Summary": "Duru"
+    },
+    {
+      "ID": 9,
+      "Name": "Cem",
+      "Link": "https://tv.canlitvvolo.com/cem-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cemtv-hdtvler-zb8v.png",
+      "Summary": "Cem"
+    },
+    {
+      "ID": 10,
+      "Name": "A News",
+      "Link": "https://tv.canlitvvolo.com/a-news/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/anews-hdtvler-ult3.png",
+      "Summary": "A News"
+    },
+    {
+      "ID": 11,
+      "Name": "Aks",
+      "Link": "https://tv.canlitvvolo.com/aks-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/akstv-hdtvler-h7fo.png",
+      "Summary": "Aks"
+    },
+    {
+      "ID": 12,
+      "Name": "Tv M",
+      "Link": "https://tv.canlitvvolo.com/tv-m/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvm-hdtvler-2m2m.png",
+      "Summary": "Tv M"
+    },
+    {
+      "ID": 13,
+      "Name": "Tv Den",
+      "Link": "https://tv.canlitvvolo.com/tv-den/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvden-hdtvler-5tkc.png",
+      "Summary": "Tv Den"
+    },
+    {
+      "ID": 14,
+      "Name": "Tva Adana",
+      "Link": "https://tv.canlitvvolo.com/tva-adana/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvaadana-hdtvler-0dgc.png",
+      "Summary": "Tva Adana"
+    },
+    {
+      "ID": 15,
+      "Name": "Tv 52 Ordu",
+      "Link": "https://tv.canlitvvolo.com/tv-52-ordu/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv52ordu-hdtvler-sluz.png",
+      "Summary": "Tv 52 Ordu"
+    },
+    {
+      "ID": 16,
+      "Name": "2000",
+      "Link": "https://tv.canlitvvolo.com/2000-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/2000tv-hdtvler-p3np.png",
+      "Summary": "2000"
+    },
+    {
+      "ID": 17,
+      "Name": "Sun Mersin",
+      "Link": "https://tv.canlitvvolo.com/sun-tv-mersin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/suntv-hdtvler-3kqy.png",
+      "Summary": "Sun Mersin"
+    },
+    {
+      "ID": 18,
+      "Name": "Kanal Urfa",
+      "Link": "https://tv.canlitvvolo.com/kanal-urfa/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/urfatv-hdtvler-6v57.png",
+      "Summary": "Kanal Urfa"
+    },
+    {
+      "ID": 19,
+      "Name": "Etv Manisa",
+      "Link": "https://tv.canlitvvolo.com/etv-manisa/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/etv-hdtvler-77qk.png",
+      "Summary": "Etv Manisa"
+    },
+    {
+      "ID": 20,
+      "Name": "Kanal 68 Aksaray",
+      "Link": "https://tv.canlitvvolo.com/kanal-68-aksaray/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/68tv-hdtvler-363d.png",
+      "Summary": "Kanal 68 Aksaray"
+    },
+    {
+      "ID": 21,
+      "Name": "Kanal 33 Mersin",
+      "Link": "https://tv.canlitvvolo.com/kanal-33-mersin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/k33tv-hdtvler-vxu7.png",
+      "Summary": "Kanal 33 Mersin"
+    },
+    {
+      "ID": 22,
+      "Name": "Icel",
+      "Link": "https://tv.canlitvvolo.com/icel-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/iceltv-hdtvler-o9w4.png",
+      "Summary": "Icel"
+    },
+    {
+      "ID": 23,
+      "Name": "Gonca",
+      "Link": "https://tv.canlitvvolo.com/gonca-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/goncatv-hdtvler-c5cy.png",
+      "Summary": "Gonca"
+    },
+    {
+      "ID": 0,
+      "Name": "Olay Gaziantep",
+      "Link": "https://tv.canlitvvolo.com/olay-tv-gaziantep/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gaziantepolaytv-hdtvler-nsik.png",
+      "Summary": "Olay Gaziantep"
+    },
+    {
+      "ID": 1,
+      "Name": "Səhər Az",
+      "Link": "https://tv.canlitvvolo.com/səhər-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sahartv-hdtvler-7xlz.png",
+      "Summary": "Səhər Az"
+    },
+    {
+      "ID": 2,
+      "Name": "Turan Az",
+      "Link": "https://tv.canlitvvolo.com/turan-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/turantv-hdtvler-s81v.png",
+      "Summary": "Turan Az"
+    },
+    {
+      "ID": 3,
+      "Name": "Apatv Az",
+      "Link": "https://tv.canlitvvolo.com/apatv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/apatv-volotv-tvlive-rz15.png",
+      "Summary": "Apatv Az"
+    },
+    {
+      "ID": 4,
+      "Name": "Dalga Az",
+      "Link": "https://tv.canlitvvolo.com/dalga-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dalgatv-hdtvler-mt68.png",
+      "Summary": "Dalga Az"
+    },
+    {
+      "ID": 5,
+      "Name": "Lider Az",
+      "Link": "https://tv.canlitvvolo.com/lider-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/lidertvaz-hdtvler-mg7s.png",
+      "Summary": "Lider Az"
+    },
+    {
+      "ID": 6,
+      "Name": "Umud Az",
+      "Link": "https://tv.canlitvvolo.com/umud-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/umidtvaz-hdtvler-j95x.png",
+      "Summary": "Umud Az"
+    },
+    {
+      "ID": 7,
+      "Name": "Utvshow Az",
+      "Link": "https://tv.canlitvvolo.com/utvshow-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/utvshowtvaz-hdtvler-089p.png",
+      "Summary": "Utvshow Az"
+    },
+    {
+      "ID": 8,
+      "Name": "Arb Ulduz",
+      "Link": "https://tv.canlitvvolo.com/arb-ulduz-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ulduzarbtv-hdtvler-qeql.png",
+      "Summary": "Arb Ulduz"
+    },
+    {
+      "ID": 9,
+      "Name": "Can Azerbaycan",
+      "Link": "https://tv.canlitvvolo.com/can-azerbaycan-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/canazerbaycantv-hdtvler-bd7x.png",
+      "Summary": "Can Azerbaycan"
+    },
+    {
+      "ID": 10,
+      "Name": "Tnt Rusya",
+      "Link": "https://tv.canlitvvolo.com/tnt-rusya-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/thttv-hdtvler-84uv.png",
+      "Summary": "Tnt Rusya"
+    },
+    {
+      "ID": 11,
+      "Name": "Tv3 Rus",
+      "Link": "https://tv.canlitvvolo.com/tv3-rus/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tb3-hdtvler-glbm.png",
+      "Summary": "Tv3 Rus"
+    },
+    {
+      "ID": 12,
+      "Name": "Perviy Russiae",
+      "Link": "https://tv.canlitvvolo.com/perviy-tv-russia-izlee/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/perviyru-hdtvler-xx1g.png",
+      "Summary": "Perviy Russiae"
+    },
+    {
+      "ID": 13,
+      "Name": "МИР",
+      "Link": "https://tv.canlitvvolo.com/МИР-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mirtv-hdtvler-sk6p.png",
+      "Summary": "МИР"
+    },
+    {
+      "ID": 14,
+      "Name": "Rossiya 1 Rusya",
+      "Link": "https://tv.canlitvvolo.com/rossiya-1-rusya/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/russia1-hdtvler-w5bt.png",
+      "Summary": "Rossiya 1 Rusya"
+    },
+    {
+      "ID": 15,
+      "Name": "Ren Russ",
+      "Link": "https://tv.canlitvvolo.com/ren-tv-russ/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rentv-hdtvler-wwqz.png",
+      "Summary": "Ren Russ"
+    },
+    {
+      "ID": 16,
+      "Name": "Tnt Comedy Russia",
+      "Link": "https://tv.canlitvvolo.com/tnt-comedy-russia-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tntcomedy-hdtvler-7hr2.png",
+      "Summary": "Tnt Comedy Russia"
+    },
+    {
+      "ID": 17,
+      "Name": "Domashniy Russia",
+      "Link": "https://tv.canlitvvolo.com/domashniy-tv-russia/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/domasnihtv-hdtvler-4ysn.png",
+      "Summary": "Domashniy Russia"
+    },
+    {
+      "ID": 18,
+      "Name": "Ntv Rusya",
+      "Link": "https://tv.canlitvvolo.com/ntv-rusya/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ntvru-hdtvler-pe71.png",
+      "Summary": "Ntv Rusya"
+    },
+    {
+      "ID": 19,
+      "Name": "Mir 24",
+      "Link": "https://tv.canlitvvolo.com/mir-24-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mir24-hdtvler-r0zo.png",
+      "Summary": "Mir 24"
+    },
+    {
+      "ID": 20,
+      "Name": "Tv Center",
+      "Link": "https://tv.canlitvvolo.com/tv-center/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tburu-hdtvler-6rdj.png",
+      "Summary": "Tv Center"
+    },
+    {
+      "ID": 21,
+      "Name": "Ru",
+      "Link": "https://tv.canlitvvolo.com/ru-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rumuziktv-hdtvler-n2k0.png",
+      "Summary": "Ru"
+    },
+    {
+      "ID": 22,
+      "Name": "Zvezda",
+      "Link": "https://tv.canlitvvolo.com/zvezda-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/zvezdatv-hdtvler-771h.png",
+      "Summary": "Zvezda"
+    },
+    {
+      "ID": 23,
+      "Name": "Friday Ru",
+      "Link": "https://tv.canlitvvolo.com/friday-tv-ru/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/feridaytv-hdtvler-vu0n.png",
+      "Summary": "Friday Ru"
+    },
+    {
+      "ID": 0,
+      "Name": "Rtvi Rusya",
+      "Link": "https://tv.canlitvvolo.com/rtvi-rusya-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rtvi-rusyatv-hdtvler-vvmi.png",
+      "Summary": "Rtvi Rusya"
+    },
+    {
+      "ID": 1,
+      "Name": "Perec",
+      "Link": "https://tv.canlitvvolo.com/perec-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/perectv-hdtvler-dwfg.png",
+      "Summary": "Perec"
+    },
+    {
+      "ID": 2,
+      "Name": "Russia Today",
+      "Link": "https://tv.canlitvvolo.com/russia-today-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/russia-today-tv-tvlive-5u5y.png",
+      "Summary": "Russia Today"
+    },
+    {
+      "ID": 3,
+      "Name": "Rusya 24",
+      "Link": "https://tv.canlitvvolo.com/rusya-24/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/russia24tv-hdtvler-krx4.png",
+      "Summary": "Rusya 24"
+    },
+    {
+      "ID": 4,
+      "Name": "Rt Documentary",
+      "Link": "https://tv.canlitvvolo.com/rt-documentary-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rtdoktv-hdtvler-63zb.png",
+      "Summary": "Rt Documentary"
+    },
+    {
+      "ID": 5,
+      "Name": "Feniks Plus Kino",
+      "Link": "https://tv.canlitvvolo.com/feniks-plus-kino/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fenikspluskino-hdtvler-tjw1.png",
+      "Summary": "Feniks Plus Kino"
+    },
+    {
+      "ID": 6,
+      "Name": "Tv 1000 Action",
+      "Link": "https://tv.canlitvvolo.com/tv-1000-action-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/1000actrutv-hdtvler-8x55.png",
+      "Summary": "Tv 1000 Action"
+    },
+    {
+      "ID": 7,
+      "Name": "Tv1000rukino Russia",
+      "Link": "https://tv.canlitvvolo.com/tv1000rukino-russia-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv1000ru-hdtvler-u4wx.png",
+      "Summary": "Tv1000rukino Russia"
+    },
+    {
+      "ID": 8,
+      "Name": "Tv1000east Russia",
+      "Link": "https://tv.canlitvvolo.com/tv1000east-russia-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv1000east-hdtvler-cxst.png",
+      "Summary": "Tv1000east Russia"
+    },
+    {
+      "ID": 9,
+      "Name": "Rusya 1000",
+      "Link": "https://tv.canlitvvolo.com/rusya-tv-1000/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv1000east-hdtvler-i29o.png",
+      "Summary": "Rusya 1000"
+    },
+    {
+      "ID": 10,
+      "Name": "Dom Kino",
+      "Link": "https://tv.canlitvvolo.com/dom-kino/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/domkinorutv-hdtvler-kfuv.png",
+      "Summary": "Dom Kino"
+    },
+    {
+      "ID": 11,
+      "Name": "Eurokino Russia",
+      "Link": "https://tv.canlitvvolo.com/eurokino-russia-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/eurokinotv-hdtvler-sh0l.png",
+      "Summary": "Eurokino Russia"
+    },
+    {
+      "ID": 12,
+      "Name": "Amedia 1",
+      "Link": "https://tv.canlitvvolo.com/amedia-1/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/amedia1-hdtvler-v7et.png",
+      "Summary": "Amedia 1"
+    },
+    {
+      "ID": 13,
+      "Name": "Amedia Preminyum Tb",
+      "Link": "https://tv.canlitvvolo.com/amedia-preminyum-tb/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/amediapremuyum-hdtvler-rlpk.png",
+      "Summary": "Amedia Preminyum Tb"
+    },
+    {
+      "ID": 14,
+      "Name": "Rus Illuzion",
+      "Link": "https://tv.canlitvvolo.com/rus-illuzion-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rusilluziontv-hdtvler-htzg.png",
+      "Summary": "Rus Illuzion"
+    },
+    {
+      "ID": 15,
+      "Name": "Illuzionplus",
+      "Link": "https://tv.canlitvvolo.com/illuzionplus-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/illuzionplustv-hdtvler-obt4.png",
+      "Summary": "Illuzionplus"
+    },
+    {
+      "ID": 16,
+      "Name": "Muz",
+      "Link": "https://tv.canlitvvolo.com/muz-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/muztvru-hdtvler-vx1r.png",
+      "Summary": "Muz"
+    },
+    {
+      "ID": 17,
+      "Name": "8 Kanal",
+      "Link": "https://tv.canlitvvolo.com/8-kanal-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/8kanalru-hdtvler-0878.png",
+      "Summary": "8 Kanal"
+    },
+    {
+      "ID": 18,
+      "Name": "Zoo Park",
+      "Link": "https://tv.canlitvvolo.com/zoo-park-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/zooparktv-hdtvler-8pyr.png",
+      "Summary": "Zoo Park"
+    },
+    {
+      "ID": 19,
+      "Name": "English Clup",
+      "Link": "https://tv.canlitvvolo.com/english-clup-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/englishcluptv-hdtvler-zppp.png",
+      "Summary": "English Clup"
+    },
+    {
+      "ID": 20,
+      "Name": "V21 Xx1",
+      "Link": "https://tv.canlitvvolo.com/v21-xx1/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv21ru-hdtvler-bk5s.png",
+      "Summary": "V21 Xx1"
+    },
+    {
+      "ID": 21,
+      "Name": "My Planet Tb",
+      "Link": "https://tv.canlitvvolo.com/my-planet-tb/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/myplanetru-hdtvler-gxpb.png",
+      "Summary": "My Planet Tb"
+    },
+    {
+      "ID": 22,
+      "Name": "Yabanci Hitt Muzik Dinle",
+      "Link": "https://tv.canlitvvolo.com/yabanci-hitt-muzik-dinle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/muziklertv-hdtvler-0x8b.png",
+      "Summary": "Yabanci Hitt Muzik Dinle"
+    },
+    {
+      "ID": 23,
+      "Name": "Comedy",
+      "Link": "https://tv.canlitvvolo.com/comedy-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tnt4-hdtvler-r43p.png",
+      "Summary": "Comedy"
+    },
+    {
+      "ID": 0,
+      "Name": "Cbs Reality",
+      "Link": "https://tv.canlitvvolo.com/cbs-reality/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cbcrealityru-hdtvler-j5gv.png",
+      "Summary": "Cbs Reality"
+    },
+    {
+      "ID": 1,
+      "Name": "Che Russia",
+      "Link": "https://tv.canlitvvolo.com/che-tv-russia/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cherutv-hdtvler-7tki.png",
+      "Summary": "Che Russia"
+    },
+    {
+      "ID": 2,
+      "Name": "1hd Russia Muzik",
+      "Link": "https://tv.canlitvvolo.com/1hd-russia-muzik-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/1hdmuzik-hdtvler-ij8n.png",
+      "Summary": "1hd Russia Muzik"
+    },
+    {
+      "ID": 3,
+      "Name": "Zdf Hd",
+      "Link": "https://tv.canlitvvolo.com/zdf-hd/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/zdftv-hdtvler-1pf1.png",
+      "Summary": "Zdf Hd"
+    },
+    {
+      "ID": 4,
+      "Name": "Sat 1",
+      "Link": "https://tv.canlitvvolo.com/sat-1/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sat1tv-hdtvler-zyf5.png",
+      "Summary": "Sat 1"
+    },
+    {
+      "ID": 5,
+      "Name": "Tele 5",
+      "Link": "https://tv.canlitvvolo.com/tele-5/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tele5de-hdtvler-5zoh.png",
+      "Summary": "Tele 5"
+    },
+    {
+      "ID": 6,
+      "Name": "Pro 7 Hd",
+      "Link": "https://tv.canlitvvolo.com/pro-7-hd/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/pro7-hdtvler-01y4.png",
+      "Summary": "Pro 7 Hd"
+    },
+    {
+      "ID": 7,
+      "Name": "Kabel 1",
+      "Link": "https://tv.canlitvvolo.com/kabel-1-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kabeleinstv-hdtvler-uwox.png",
+      "Summary": "Kabel 1"
+    },
+    {
+      "ID": 8,
+      "Name": "Kabel Eins Duku",
+      "Link": "https://tv.canlitvvolo.com/kabel-eins-duku-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kabeleinsdoku-hdtvler-gdcf.png",
+      "Summary": "Kabel Eins Duku"
+    },
+    {
+      "ID": 9,
+      "Name": "Ard Hd",
+      "Link": "https://tv.canlitvvolo.com/ard-hd/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ardtv-hdtvler-vedt.png",
+      "Summary": "Ard Hd"
+    },
+    {
+      "ID": 10,
+      "Name": "Sat 1 Gold",
+      "Link": "https://tv.canlitvvolo.com/sat-1-gold-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sat1gold-hdtvler-1e6f.png",
+      "Summary": "Sat 1 Gold"
+    },
+    {
+      "ID": 11,
+      "Name": "Dmax Germany",
+      "Link": "https://tv.canlitvvolo.com/dmax-germany-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dmaxde-hdtvler-n0fc.png",
+      "Summary": "Dmax Germany"
+    },
+    {
+      "ID": 12,
+      "Name": "3 Sat",
+      "Link": "https://tv.canlitvvolo.com/3-sat/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/3sat-hdtvler-ksmh.png",
+      "Summary": "3 Sat"
+    },
+    {
+      "ID": 13,
+      "Name": "Deutsche Welle",
+      "Link": "https://tv.canlitvvolo.com/deutsche-welle-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dwde-hdtvler-z577.png",
+      "Summary": "Deutsche Welle"
+    },
+    {
+      "ID": 14,
+      "Name": "Sixx De",
+      "Link": "https://tv.canlitvvolo.com/sixx-tv-de-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sixxtv-hdtvler-pr3h.png",
+      "Summary": "Sixx De"
+    },
+    {
+      "ID": 15,
+      "Name": "Pro 7 Maxx",
+      "Link": "https://tv.canlitvvolo.com/pro-7-maxx/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/pro7maxx-hdtvler-2uqz.png",
+      "Summary": "Pro 7 Maxx"
+    },
+    {
+      "ID": 16,
+      "Name": "Arte De",
+      "Link": "https://tv.canlitvvolo.com/arte-de-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/artedetv-hdtvler-5ohq.png",
+      "Summary": "Arte De"
+    },
+    {
+      "ID": 17,
+      "Name": "Vox",
+      "Link": "https://tv.canlitvvolo.com/vox-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/voxtv-hdtvler-dykz.png",
+      "Summary": "Vox"
+    },
+    {
+      "ID": 18,
+      "Name": "Vox Up",
+      "Link": "https://tv.canlitvvolo.com/vox-up-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/voxup-logo-tvlive-gsev.png",
+      "Summary": "Vox Up"
+    },
+    {
+      "ID": 19,
+      "Name": "Comedy Central De",
+      "Link": "https://tv.canlitvvolo.com/comedy-central-de-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/comedycentraltv-tvlive-5dks.png",
+      "Summary": "Comedy Central De"
+    },
+    {
+      "ID": 20,
+      "Name": "Zdf Neo",
+      "Link": "https://tv.canlitvvolo.com/zdf-neo-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/zdfneotv-hdtvler-tsb1.png",
+      "Summary": "Zdf Neo"
+    },
+    {
+      "ID": 21,
+      "Name": "Rtl",
+      "Link": "https://tv.canlitvvolo.com/rtl-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rtltv-hdtvler-hl08.png",
+      "Summary": "Rtl"
+    },
+    {
+      "ID": 22,
+      "Name": "Rtl 2",
+      "Link": "https://tv.canlitvvolo.com/rtl-2-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rtl2tv-hdtvler-lj8h.png",
+      "Summary": "Rtl 2"
+    },
+    {
+      "ID": 23,
+      "Name": "Rtl Nitro",
+      "Link": "https://tv.canlitvvolo.com/rtl-nitro/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rtlnitrotv-hdtvler-dgcn.png",
+      "Summary": "Rtl Nitro"
+    },
+    {
+      "ID": 0,
+      "Name": "Super Rtl",
+      "Link": "https://tv.canlitvvolo.com/super-rtl/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/superrtltv-hdtvler-woz0.png",
+      "Summary": "Super Rtl"
+    },
+    {
+      "ID": 1,
+      "Name": "Kika",
+      "Link": "https://tv.canlitvvolo.com/kika-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kikatv-hdtvler-u7gm.png",
+      "Summary": "Kika"
+    },
+    {
+      "ID": 2,
+      "Name": "Wdr Hd",
+      "Link": "https://tv.canlitvvolo.com/wdr-hd-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/wdrhdtv-hdtvler-q394.png",
+      "Summary": "Wdr Hd"
+    },
+    {
+      "ID": 3,
+      "Name": "Atv Antwerpse",
+      "Link": "https://tv.canlitvvolo.com/atv-antwerpse-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/atvantwerpsetv-hdtvler-zv28.png",
+      "Summary": "Atv Antwerpse"
+    },
+    {
+      "ID": 4,
+      "Name": "Tagesschau24",
+      "Link": "https://tv.canlitvvolo.com/tagesschau24-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tagesschau24tv-hdtvler-9jd1.png",
+      "Summary": "Tagesschau24"
+    },
+    {
+      "ID": 5,
+      "Name": "Genius",
+      "Link": "https://tv.canlitvvolo.com/genius-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/geniustv-logo-tvlive-jiwy.png",
+      "Summary": "Genius"
+    },
+    {
+      "ID": 6,
+      "Name": "Tvo Online",
+      "Link": "https://tv.canlitvvolo.com/tvo-online/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvodetv-hdtvler-8bp1.png",
+      "Summary": "Tvo Online"
+    },
+    {
+      "ID": 7,
+      "Name": "Welt Germany",
+      "Link": "https://tv.canlitvvolo.com/welt-germany-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/welttv-logo-tvlive-48li.png",
+      "Summary": "Welt Germany"
+    },
+    {
+      "ID": 8,
+      "Name": "Ndr De",
+      "Link": "https://tv.canlitvvolo.com/ndr-tv-de/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ndrgertv-hdtvler-f9r0.png",
+      "Summary": "Ndr De"
+    },
+    {
+      "ID": 9,
+      "Name": "Mdr",
+      "Link": "https://tv.canlitvvolo.com/mdr-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mdr-almanya-tv-tvlive-dl2y.png",
+      "Summary": "Mdr"
+    },
+    {
+      "ID": 10,
+      "Name": "Servus",
+      "Link": "https://tv.canlitvvolo.com/servus-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/servus-tv-almanya-tvlive-buit.png",
+      "Summary": "Servus"
+    },
+    {
+      "ID": 11,
+      "Name": "Tirol",
+      "Link": "https://tv.canlitvvolo.com/tirol-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tirol-tv-almanya-tvlive-kft8.png",
+      "Summary": "Tirol"
+    },
+    {
+      "ID": 12,
+      "Name": "Oe24",
+      "Link": "https://tv.canlitvvolo.com/oe24-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/oe24tv-hdtvler-i6h4.png",
+      "Summary": "Oe24"
+    },
+    {
+      "ID": 13,
+      "Name": "Orf Eins Orf 2",
+      "Link": "https://tv.canlitvvolo.com/orf-eins-orf-2/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/orfeinstv-hdtvler-jsv7.png",
+      "Summary": "Orf Eins Orf 2"
+    },
+    {
+      "ID": 14,
+      "Name": "Blizz",
+      "Link": "https://tv.canlitvvolo.com/blizz-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/blizztvde-hdtvler-to9t.png",
+      "Summary": "Blizz"
+    },
+    {
+      "ID": 15,
+      "Name": "Family",
+      "Link": "https://tv.canlitvvolo.com/family-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/familytv-hdtvler-6gid.png",
+      "Summary": "Family"
+    },
+    {
+      "ID": 16,
+      "Name": "Sport 1 De",
+      "Link": "https://tv.canlitvvolo.com/sport-1-de-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/logoyoktv-canlitvkanal-s7wy.png",
+      "Summary": "Sport 1 De"
+    },
+    {
+      "ID": 17,
+      "Name": "1tv Georgia Gurcistan",
+      "Link": "https://tv.canlitvvolo.com/1tv-georgia-gurcistan/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/1tvgeotv-hdtvler-fb4n.png",
+      "Summary": "1tv Georgia Gurcistan"
+    },
+    {
+      "ID": 18,
+      "Name": "Arkhi Ganatleba 2tv Geo",
+      "Link": "https://tv.canlitvvolo.com/arkhi-ganatleba-2tv-geo-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/teleokul-geo-tvlive-ve75.png",
+      "Summary": "Arkhi Ganatleba 2tv Geo"
+    },
+    {
+      "ID": 19,
+      "Name": "Adjara",
+      "Link": "https://tv.canlitvvolo.com/adjara-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/adjaratv-hdtvler-wvkk.png",
+      "Summary": "Adjara"
+    },
+    {
+      "ID": 20,
+      "Name": "Imedi",
+      "Link": "https://tv.canlitvvolo.com/imedi-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/imeditv-hdtvler-7yo7.png",
+      "Summary": "Imedi"
+    },
+    {
+      "ID": 21,
+      "Name": "Rustavi 2",
+      "Link": "https://tv.canlitvvolo.com/rustavi-2/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rustavi2geotv-hdtvler-9qp5.png",
+      "Summary": "Rustavi 2"
+    },
+    {
+      "ID": 22,
+      "Name": "Pirveli Georgia",
+      "Link": "https://tv.canlitvvolo.com/pirveli-tv-georgia/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/pirvelitv-hdtvler-5k0b.png",
+      "Summary": "Pirveli Georgia"
+    },
+    {
+      "ID": 23,
+      "Name": "Gds",
+      "Link": "https://tv.canlitvvolo.com/gds-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gdsgeotv-hdtvler-modp.png",
+      "Summary": "Gds"
+    },
+    {
+      "ID": 0,
+      "Name": "Imervizia",
+      "Link": "https://tv.canlitvvolo.com/imervizia-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/imervizia-tv-tvlive-40jf.png",
+      "Summary": "Imervizia"
+    },
+    {
+      "ID": 1,
+      "Name": "Marao Georgia",
+      "Link": "https://tv.canlitvvolo.com/marao-tv-georgia-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/maraogeotvmin-hdtvler-4hm2.png",
+      "Summary": "Marao Georgia"
+    },
+    {
+      "ID": 2,
+      "Name": "Kavkasia",
+      "Link": "https://tv.canlitvvolo.com/kavkasia-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kavkasiageotv-hdtvler-7hdd.png",
+      "Summary": "Kavkasia"
+    },
+    {
+      "ID": 3,
+      "Name": "Maestro",
+      "Link": "https://tv.canlitvvolo.com/maestro-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/maestrottv-hdtvler-gq13.png",
+      "Summary": "Maestro"
+    },
+    {
+      "ID": 4,
+      "Name": "Pos Georgia",
+      "Link": "https://tv.canlitvvolo.com/pos-tv-georgia-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/pos-tv-geo-tvlive-g1fr.png",
+      "Summary": "Pos Georgia"
+    },
+    {
+      "ID": 5,
+      "Name": "New Comedy Channel",
+      "Link": "https://tv.canlitvvolo.com/new-comedy-channel-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/comedygeotv-hdtvler-nkvj.png",
+      "Summary": "New Comedy Channel"
+    },
+    {
+      "ID": 6,
+      "Name": "Tv9 Georgia",
+      "Link": "https://tv.canlitvvolo.com/tv9-georgia-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/24tvgeotv-hdtvler-fjp5.png",
+      "Summary": "Tv9 Georgia"
+    },
+    {
+      "ID": 7,
+      "Name": "Tv25 Batumi",
+      "Link": "https://tv.canlitvvolo.com/tv25-batumi/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/25tvgeotv-hdtvler-fne9.png",
+      "Summary": "Tv25 Batumi"
+    },
+    {
+      "ID": 8,
+      "Name": "Obieqtivi Geo",
+      "Link": "https://tv.canlitvvolo.com/obieqtivi-tv-geo/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/obiegeotv-hdtvler-qhzq.png",
+      "Summary": "Obieqtivi Geo"
+    },
+    {
+      "ID": 9,
+      "Name": "Art Eria ლაივი",
+      "Link": "https://tv.canlitvvolo.com/art-eria-tv-ლაივი/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/arteriageotv-hdtvler-v5rw.png",
+      "Summary": "Art Eria ლაივი"
+    },
+    {
+      "ID": 10,
+      "Name": "Batumi",
+      "Link": "https://tv.canlitvvolo.com/batumi-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/batumigeotv-hdtvler-z56d.png",
+      "Summary": "Batumi"
+    },
+    {
+      "ID": 11,
+      "Name": "Tv Mtavari",
+      "Link": "https://tv.canlitvvolo.com/tv-mtavari-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mtavaritv-hdtvler-mgxh.png",
+      "Summary": "Tv Mtavari"
+    },
+    {
+      "ID": 12,
+      "Name": "Iberia",
+      "Link": "https://tv.canlitvvolo.com/iberia-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ibariageotv-hdtvler-olrj.png",
+      "Summary": "Iberia"
+    },
+    {
+      "ID": 13,
+      "Name": "Tv Formula Georgia",
+      "Link": "https://tv.canlitvvolo.com/tv-formula-georgia-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvformula-geo-hdtvler-o9qz.png",
+      "Summary": "Tv Formula Georgia"
+    },
+    {
+      "ID": 14,
+      "Name": "Palitra News",
+      "Link": "https://tv.canlitvvolo.com/palitra-news-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/palitra-geo-tv-hdtvler-zui9.png",
+      "Summary": "Palitra News"
+    },
+    {
+      "ID": 15,
+      "Name": "Trialeti Online",
+      "Link": "https://tv.canlitvvolo.com/trialeti-tv-online/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trialetitv-hdtvler-1d3j.png",
+      "Summary": "Trialeti Online"
+    },
+    {
+      "ID": 16,
+      "Name": "Tv Rioni",
+      "Link": "https://tv.canlitvvolo.com/tv-rioni-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rionitv-hdtvler-m2x1.png",
+      "Summary": "Tv Rioni"
+    },
+    {
+      "ID": 17,
+      "Name": "Starvision Georgia",
+      "Link": "https://tv.canlitvvolo.com/starvision-tv-georgia-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/starvisiongeotv-hdtvler-1kbc.png",
+      "Summary": "Starvision Georgia"
+    },
+    {
+      "ID": 18,
+      "Name": "Silk Sport",
+      "Link": "https://tv.canlitvvolo.com/silk-sport-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/silk-sport-tv-tvlive-z5vb.png",
+      "Summary": "Silk Sport"
+    },
+    {
+      "ID": 19,
+      "Name": "Tele 5 Polska Hotbird",
+      "Link": "https://tv.canlitvvolo.com/tele-5-polska-hotbird/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tele5poltv-hdtvler-i38l.png",
+      "Summary": "Tele 5 Polska Hotbird"
+    },
+    {
+      "ID": 20,
+      "Name": "Rouge",
+      "Link": "https://tv.canlitvvolo.com/rouge-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rougetv-tvlive-1n6j.png",
+      "Summary": "Rouge"
+    },
+    {
+      "ID": 21,
+      "Name": "Al Jazeera Spor",
+      "Link": "https://tv.canlitvvolo.com/al-jazeera-spor-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ajeziratv-hdtvler-hrfv.png",
+      "Summary": "Al Jazeera Spor"
+    },
+    {
+      "ID": 22,
+      "Name": "Kral Pop",
+      "Link": "https://tv.canlitvvolo.com/kral-pop/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kralpopfm-hdtvler-hkk0.png",
+      "Summary": "Kral Pop"
+    },
+    {
+      "ID": 23,
+      "Name": "Romantik Turk Fm",
+      "Link": "https://tv.canlitvvolo.com/romantik-turk-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/romantikturkfm-hdtvler-2cd4.png",
+      "Summary": "Romantik Turk Fm"
+    },
+    {
+      "ID": 0,
+      "Name": "Best Fm",
+      "Link": "https://tv.canlitvvolo.com/best-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bestfm-hdtvler-zdws.png",
+      "Summary": "Best Fm"
+    },
+    {
+      "ID": 1,
+      "Name": "Powerturk Fm",
+      "Link": "https://tv.canlitvvolo.com/powerturk-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/powerturkfm-hdtvler-4sjq.png",
+      "Summary": "Powerturk Fm"
+    },
+    {
+      "ID": 2,
+      "Name": "Slow Time",
+      "Link": "https://tv.canlitvvolo.com/slow-time/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/slowtimefm-hdtvler-fqdo.png",
+      "Summary": "Slow Time"
+    },
+    {
+      "ID": 3,
+      "Name": "Alem Fm",
+      "Link": "https://tv.canlitvvolo.com/alem-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/alemfm-hdtvler-n4j5.png",
+      "Summary": "Alem Fm"
+    },
+    {
+      "ID": 4,
+      "Name": "Ntv Radyo",
+      "Link": "https://tv.canlitvvolo.com/ntv-radyo/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ntvfm-hdtvler-16xx.png",
+      "Summary": "Ntv Radyo"
+    },
+    {
+      "ID": 5,
+      "Name": "Ntv Spor Radyo",
+      "Link": "https://tv.canlitvvolo.com/ntv-spor-radyo/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ntvsporfm-hdtvler-pq25.png",
+      "Summary": "Ntv Spor Radyo"
+    },
+    {
+      "ID": 6,
+      "Name": "Radyo Spor",
+      "Link": "https://tv.canlitvvolo.com/radyo-spor/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/radyosporfm-hdtvler-qcn9.png",
+      "Summary": "Radyo Spor"
+    },
+    {
+      "ID": 7,
+      "Name": "Trt Fm",
+      "Link": "https://tv.canlitvvolo.com/trt-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-1yo4.png",
+      "Summary": "Trt Fm"
+    },
+    {
+      "ID": 8,
+      "Name": "Fenerbahce Radyo",
+      "Link": "https://tv.canlitvvolo.com/fenerbahce-radyo/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fbfm-hdtvler-87fs.png",
+      "Summary": "Fenerbahce Radyo"
+    },
+    {
+      "ID": 9,
+      "Name": "Trt Radyo 1",
+      "Link": "https://tv.canlitvvolo.com/trt-radyo-1/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-elsu.png",
+      "Summary": "Trt Radyo 1"
+    },
+    {
+      "ID": 10,
+      "Name": "Imdat Fm",
+      "Link": "https://tv.canlitvvolo.com/imdat-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/imdatfm-hdtvler-4cfb.png",
+      "Summary": "Imdat Fm"
+    },
+    {
+      "ID": 11,
+      "Name": "Radyo Sevimli",
+      "Link": "https://tv.canlitvvolo.com/radyo-sevimli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/radyosevimlifm-hdtvler-8xpu.png",
+      "Summary": "Radyo Sevimli"
+    },
+    {
+      "ID": 12,
+      "Name": "Bergama Super Fm",
+      "Link": "https://tv.canlitvvolo.com/bergama-super-fm/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bergamasuperfm-hdtvler-glnt.png",
+      "Summary": "Bergama Super Fm"
+    },
+    {
+      "ID": 13,
+      "Name": "Yabancil",
+      "Link": "https://tv.canlitvvolo.com/yabanci-tvl-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yabancitv-hdtvler-9s0y.png",
+      "Summary": "Yabancil"
+    },
+    {
+      "ID": 14,
+      "Name": "Ert Sah",
+      "Link": "https://tv.canlitvvolo.com/ert-sah-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ertsahtv-hdtvler-rrfl.png",
+      "Summary": "Ert Sah"
+    },
+    {
+      "ID": 15,
+      "Name": "38 Kent",
+      "Link": "https://tv.canlitvvolo.com/38-kent-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/38kenttv-hdtvler-onju.png",
+      "Summary": "38 Kent"
+    },
+    {
+      "ID": 16,
+      "Name": "Elmas 67",
+      "Link": "https://tv.canlitvvolo.com/elmas-67-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/elmas67tv-hdtvler-ku5h.png",
+      "Summary": "Elmas 67"
+    },
+    {
+      "ID": 17,
+      "Name": "Ruha",
+      "Link": "https://tv.canlitvvolo.com/ruha-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ruhatv-hdtvler-v3p5.png",
+      "Summary": "Ruha"
+    },
+    {
+      "ID": 18,
+      "Name": "France 24",
+      "Link": "https://tv.canlitvvolo.com/france-24-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/france24frtv-hdtvler-586y.png",
+      "Summary": "France 24"
+    },
+    {
+      "ID": 19,
+      "Name": "Bfm France",
+      "Link": "https://tv.canlitvvolo.com/bfm-tv-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bfmfrancetv-hdtvler-bn1p.png",
+      "Summary": "Bfm France"
+    },
+    {
+      "ID": 20,
+      "Name": "Cnews France",
+      "Link": "https://tv.canlitvvolo.com/cnews-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cnewstv-hdtvler-1h39.png",
+      "Summary": "Cnews France"
+    },
+    {
+      "ID": 21,
+      "Name": "C8 France",
+      "Link": "https://tv.canlitvvolo.com/c8-tv-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/c8francetv-hdtvler-07po.png",
+      "Summary": "C8 France"
+    },
+    {
+      "ID": 22,
+      "Name": "Cherie 25",
+      "Link": "https://tv.canlitvvolo.com/cherie-25-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cherie25france-tv-hdtvler-hw08.png",
+      "Summary": "Cherie 25"
+    },
+    {
+      "ID": 23,
+      "Name": "Gulli Toon France",
+      "Link": "https://tv.canlitvvolo.com/gulli-toon-france-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gullifrtv-hdtvler-3ffq.png",
+      "Summary": "Gulli Toon France"
+    },
+    {
+      "ID": 0,
+      "Name": "Nrj12 En Direct",
+      "Link": "https://tv.canlitvvolo.com/nrj12-en-direct/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nrj12tv-hdtvler-ro6y.png",
+      "Summary": "Nrj12 En Direct"
+    },
+    {
+      "ID": 1,
+      "Name": "M6 France",
+      "Link": "https://tv.canlitvvolo.com/m6-france/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/m6frtv-hdtvler-vyme.png",
+      "Summary": "M6 France"
+    },
+    {
+      "ID": 2,
+      "Name": "Tf1",
+      "Link": "https://tv.canlitvvolo.com/tf1-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tf1frtv-hdtvler-6fvn.png",
+      "Summary": "Tf1"
+    },
+    {
+      "ID": 3,
+      "Name": "Tmc Cahannel",
+      "Link": "https://tv.canlitvvolo.com/tmc-tv-cahannel-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tmcfrtv-hdtvler-u1ny.png",
+      "Summary": "Tmc Cahannel"
+    },
+    {
+      "ID": 4,
+      "Name": "Lci Fr",
+      "Link": "https://tv.canlitvvolo.com/lci-fr-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/lci-frtv-canlitvkanal-y9hv.png",
+      "Summary": "Lci Fr"
+    },
+    {
+      "ID": 5,
+      "Name": "Tf1 Series Filmss",
+      "Link": "https://tv.canlitvvolo.com/tf1-series-films-lives/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tf1seriesfilmsfrtv-hdtvler-roqs.png",
+      "Summary": "Tf1 Series Filmss"
+    },
+    {
+      "ID": 6,
+      "Name": "Tfx",
+      "Link": "https://tv.canlitvvolo.com/tfx-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tfxfrtv-hdtvler-hpv6.png",
+      "Summary": "Tfx"
+    },
+    {
+      "ID": 7,
+      "Name": "6ter",
+      "Link": "https://tv.canlitvvolo.com/6ter-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/6terfrtv-hdtvler-kw4z.png",
+      "Summary": "6ter"
+    },
+    {
+      "ID": 8,
+      "Name": "W9 France",
+      "Link": "https://tv.canlitvvolo.com/w9-tv-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/w9frtv-hdtvler-xxbb.png",
+      "Summary": "W9 France"
+    },
+    {
+      "ID": 9,
+      "Name": "Cstar France",
+      "Link": "https://tv.canlitvvolo.com/cstar-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cstarfrancetv-hdtvler-u4nt.png",
+      "Summary": "Cstar France"
+    },
+    {
+      "ID": 10,
+      "Name": "Rmc Decouverte En Direct",
+      "Link": "https://tv.canlitvvolo.com/rmc-decouverte-en-direct/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/rmcdecouvertefrancetv-hdtvler-4sc4.png",
+      "Summary": "Rmc Decouverte En Direct"
+    },
+    {
+      "ID": 11,
+      "Name": "France O",
+      "Link": "https://tv.canlitvvolo.com/france-o-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/franceotv-hdtvler-4cv5.png",
+      "Summary": "France O"
+    },
+    {
+      "ID": 12,
+      "Name": "Arte France",
+      "Link": "https://tv.canlitvvolo.com/arte-france-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/artefrtv-hdtvler-j04k.png",
+      "Summary": "Arte France"
+    },
+    {
+      "ID": 13,
+      "Name": "France 2",
+      "Link": "https://tv.canlitvvolo.com/france-2-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/france2frtv-hdtvler-1uzj.png",
+      "Summary": "France 2"
+    },
+    {
+      "ID": 14,
+      "Name": "France 3",
+      "Link": "https://tv.canlitvvolo.com/france-3-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/france3frtv-hdtvler-omtp.png",
+      "Summary": "France 3"
+    },
+    {
+      "ID": 15,
+      "Name": "France 4",
+      "Link": "https://tv.canlitvvolo.com/france-4-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/france4tv-hdtvler-lzix.png",
+      "Summary": "France 4"
+    },
+    {
+      "ID": 16,
+      "Name": "France 5",
+      "Link": "https://tv.canlitvvolo.com/france-5-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/france5tv-hdtvler-4xzg.png",
+      "Summary": "France 5"
+    },
+    {
+      "ID": 17,
+      "Name": "Energy Online",
+      "Link": "https://tv.canlitvvolo.com/energy-tv-online/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/energytv-hdtvler-f08s.png",
+      "Summary": "Energy Online"
+    },
+    {
+      "ID": 18,
+      "Name": "La Tele Online",
+      "Link": "https://tv.canlitvvolo.com/la-tele-online/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/latelefrtv-hdtvler-kx3u.png",
+      "Summary": "La Tele Online"
+    },
+    {
+      "ID": 19,
+      "Name": "Hd1 En Direct",
+      "Link": "https://tv.canlitvvolo.com/hd1-en-direct/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hd1francetv-hdtvler-k4l7.png",
+      "Summary": "Hd1 En Direct"
+    },
+    {
+      "ID": 20,
+      "Name": "Tvcity Az",
+      "Link": "https://tv.canlitvvolo.com/tvcity-az-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvcityaztv-hdtvler-xb87.png",
+      "Summary": "Tvcity Az"
+    },
+    {
+      "ID": 21,
+      "Name": "Arti Haber",
+      "Link": "https://tv.canlitvvolo.com/arti-tv-haber/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/artıtv-tvlive-k17z.png",
+      "Summary": "Arti Haber"
+    },
+    {
+      "ID": 22,
+      "Name": "Testi",
+      "Link": "https://tv.canlitvvolo.com/testi/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tvtest-hdtvler-7vmf.png",
+      "Summary": "Testi"
+    },
+    {
+      "ID": 23,
+      "Name": "Beykent",
+      "Link": "https://tv.canlitvvolo.com/beykent-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/beykenttv-hdtvler-ricr.png",
+      "Summary": "Beykent"
+    },
+    {
+      "ID": 0,
+      "Name": "Aras Erzurum",
+      "Link": "https://tv.canlitvvolo.com/aras-tv-erzurum/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/arastv-hdtvler-fw63.png",
+      "Summary": "Aras Erzurum"
+    },
+    {
+      "ID": 1,
+      "Name": "Evin Canlı",
+      "Link": "https://tv.canlitvvolo.com/evin-tv-canlı/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/evintv-hdtvler-053b.png",
+      "Summary": "Evin Canlı"
+    },
+    {
+      "ID": 2,
+      "Name": "Mirac",
+      "Link": "https://tv.canlitvvolo.com/mirac-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mihraptvcanli-hdtvler-1ooq.png",
+      "Summary": "Mirac"
+    },
+    {
+      "ID": 3,
+      "Name": "Aktif",
+      "Link": "https://tv.canlitvvolo.com/aktif-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aktiftv-hdtvler-jev3.png",
+      "Summary": "Aktif"
+    },
+    {
+      "ID": 4,
+      "Name": "Oncu",
+      "Link": "https://tv.canlitvvolo.com/oncu-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/oncutv-hdtvler-5ccu.png",
+      "Summary": "Oncu"
+    },
+    {
+      "ID": 5,
+      "Name": "Giresun Tempo",
+      "Link": "https://tv.canlitvvolo.com/giresun-tempo-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tempogiresuntv-hdtvler-q9r1.png",
+      "Summary": "Giresun Tempo"
+    },
+    {
+      "ID": 6,
+      "Name": "Ilke",
+      "Link": "https://tv.canlitvvolo.com/ilke-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ilketv-hdtvler-t9dv.png",
+      "Summary": "Ilke"
+    },
+    {
+      "ID": 7,
+      "Name": "Meydan Az",
+      "Link": "https://tv.canlitvvolo.com/meydan-tv-az-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/meydantvaz-hdtvler-ejd7.png",
+      "Summary": "Meydan Az"
+    },
+    {
+      "ID": 8,
+      "Name": "Kanal Tek",
+      "Link": "https://tv.canlitvvolo.com/kanal-tek-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanaltektv-hdtvler-0eos.png",
+      "Summary": "Kanal Tek"
+    },
+    {
+      "ID": 9,
+      "Name": "Karasu",
+      "Link": "https://tv.canlitvvolo.com/karasu-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/karasutv-hdtvler-wvlk.png",
+      "Summary": "Karasu"
+    },
+    {
+      "ID": 10,
+      "Name": "Trt Spor",
+      "Link": "https://tv.canlitvvolo.com/trt-spor-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-9v9n.png",
+      "Summary": "Trt Spor"
+    },
+    {
+      "ID": 11,
+      "Name": "Bahar Turk",
+      "Link": "https://tv.canlitvvolo.com/bahar-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/baharturktv-hdtvler-gd4v.png",
+      "Summary": "Bahar Turk"
+    },
+    {
+      "ID": 12,
+      "Name": "Cvn Az",
+      "Link": "https://tv.canlitvvolo.com/cvn-tv-az/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cvntvaz-hdtvler-1xj2.png",
+      "Summary": "Cvn Az"
+    },
+    {
+      "ID": 13,
+      "Name": "Kanal 15",
+      "Link": "https://tv.canlitvvolo.com/kanal-15-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal15tv-hdtvler-brbs.png",
+      "Summary": "Kanal 15"
+    },
+    {
+      "ID": 14,
+      "Name": "Brt 2",
+      "Link": "https://tv.canlitvvolo.com/brt-2-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/brt2tv-hdtvler-fpcq.png",
+      "Summary": "Brt 2"
+    },
+    {
+      "ID": 15,
+      "Name": "Kanal T",
+      "Link": "https://tv.canlitvvolo.com/kanal-t-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalttv-hdtvler-8byh.png",
+      "Summary": "Kanal T"
+    },
+    {
+      "ID": 16,
+      "Name": "Yeni Malatyaspor",
+      "Link": "https://tv.canlitvvolo.com/yeni-malatyaspor-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yenimalatyasportv-hdtvler-ljkk.png",
+      "Summary": "Yeni Malatyaspor"
+    },
+    {
+      "ID": 17,
+      "Name": "Dogal",
+      "Link": "https://tv.canlitvvolo.com/dogal-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dogaltv-hdtvler-v013.png",
+      "Summary": "Dogal"
+    },
+    {
+      "ID": 18,
+      "Name": "Tv264",
+      "Link": "https://tv.canlitvvolo.com/tv264-canli-izle",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv264-hdtvler-1rw1.png",
+      "Summary": "Tv264"
+    },
+    {
+      "ID": 19,
+      "Name": "Kardelen",
+      "Link": "https://tv.canlitvvolo.com/kardelen-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kardelentv-hdtvler-h3on.png",
+      "Summary": "Kardelen"
+    },
+    {
+      "ID": 20,
+      "Name": "Can",
+      "Link": "https://tv.canlitvvolo.com/can-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cantv-hdtvler-828s.png",
+      "Summary": "Can"
+    },
+    {
+      "ID": 21,
+      "Name": "Trabzon",
+      "Link": "https://tv.canlitvvolo.com/trabzon-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trabzontv-hdtvler-pdw3.png",
+      "Summary": "Trabzon"
+    },
+    {
+      "ID": 22,
+      "Name": "Fm ",
+      "Link": "https://tv.canlitvvolo.com/fm-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fmtv-hdtvler-v2ky.png",
+      "Summary": "Fm "
+    },
+    {
+      "ID": 23,
+      "Name": "Ful",
+      "Link": "https://tv.canlitvvolo.com/ful-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fultv-hdtvler-tzrl.png",
+      "Summary": "Ful"
+    },
+    {
+      "ID": 0,
+      "Name": "Hadi Az",
+      "Link": "https://tv.canlitvvolo.com/hadi-tv-az-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/haditvaztv-hdtvler-tno7.png",
+      "Summary": "Hadi Az"
+    },
+    {
+      "ID": 1,
+      "Name": "Trt 2",
+      "Link": "https://tv.canlitvvolo.com/trt-2-canli-izle-yeni/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt2-tv-tvlive-kwlu.png",
+      "Summary": "Trt 2"
+    },
+    {
+      "ID": 2,
+      "Name": "Ftv Az",
+      "Link": "https://tv.canlitvvolo.com/ftv-az-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ftvaztv-hdtvler-us89.png",
+      "Summary": "Ftv Az"
+    },
+    {
+      "ID": 3,
+      "Name": "Olay Turk",
+      "Link": "https://tv.canlitvvolo.com/olay-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/olayturktv-hdtvler-itk2.png",
+      "Summary": "Olay Turk"
+    },
+    {
+      "ID": 4,
+      "Name": "Ege A Turk",
+      "Link": "https://tv.canlitvvolo.com/ege-a-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/egeaturktv-hdtvler-rjjz.png",
+      "Summary": "Ege A Turk"
+    },
+    {
+      "ID": 5,
+      "Name": "Metro Adana",
+      "Link": "https://tv.canlitvvolo.com/metro-tv-adana-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/metrotv-hdtvler-oh8o.png",
+      "Summary": "Metro Adana"
+    },
+    {
+      "ID": 6,
+      "Name": "Grt",
+      "Link": "https://tv.canlitvvolo.com/grt-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/grtgazianteptv-hdtvler-y5qj.png",
+      "Summary": "Grt"
+    },
+    {
+      "ID": 7,
+      "Name": "Muglaturk",
+      "Link": "https://tv.canlitvvolo.com/muglaturk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/muglaturktv-hdtvler-q6em.png",
+      "Summary": "Muglaturk"
+    },
+    {
+      "ID": 8,
+      "Name": "Kanal 23",
+      "Link": "https://tv.canlitvvolo.com/kanal-23-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal23tv-hdtvler-om5q.png",
+      "Summary": "Kanal 23"
+    },
+    {
+      "ID": 9,
+      "Name": "Ort Osmaniye",
+      "Link": "https://tv.canlitvvolo.com/ort-tv-osmaniye-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ortosmaniyetv-hdtvler-w8ln.png",
+      "Summary": "Ort Osmaniye"
+    },
+    {
+      "ID": 10,
+      "Name": "Gunaydin",
+      "Link": "https://tv.canlitvvolo.com/gunaydin-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gunaydinizmirtv-hdtvler-hh1q.png",
+      "Summary": "Gunaydin"
+    },
+    {
+      "ID": 11,
+      "Name": "Yasam",
+      "Link": "https://tv.canlitvvolo.com/yasam-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yasamtv-hdtvler-pgt3.png",
+      "Summary": "Yasam"
+    },
+    {
+      "ID": 12,
+      "Name": "Frt Fethiye",
+      "Link": "https://tv.canlitvvolo.com/frt-tv-fethiye-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/frtfethiyetv-hdtvler-qulq.png",
+      "Summary": "Frt Fethiye"
+    },
+    {
+      "ID": 13,
+      "Name": "Kanal 101",
+      "Link": "https://tv.canlitvvolo.com/kanal-101-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal101tv-hdtvler-5k8c.png",
+      "Summary": "Kanal 101"
+    },
+    {
+      "ID": 14,
+      "Name": "Kanal Ordu",
+      "Link": "https://tv.canlitvvolo.com/kanal-ordu-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalordutv-hdtvler-bc5q.png",
+      "Summary": "Kanal Ordu"
+    },
+    {
+      "ID": 15,
+      "Name": "Mor",
+      "Link": "https://tv.canlitvvolo.com/mor-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mortv-hdtvler-vx9h.png",
+      "Summary": "Mor"
+    },
+    {
+      "ID": 16,
+      "Name": "Cukurovaturk",
+      "Link": "https://tv.canlitvvolo.com/cukurovaturk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/cukurovaturktv-hdtvler-ijvl.png",
+      "Summary": "Cukurovaturk"
+    },
+    {
+      "ID": 17,
+      "Name": "Afyon Turk",
+      "Link": "https://tv.canlitvvolo.com/afyon-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/afyonturktv-hdtvler-pseb.png",
+      "Summary": "Afyon Turk"
+    },
+    {
+      "ID": 18,
+      "Name": "Woman",
+      "Link": "https://tv.canlitvvolo.com/woman-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/womantv-hdtvler-b5rz.png",
+      "Summary": "Woman"
+    },
+    {
+      "ID": 19,
+      "Name": "Trakya Turk",
+      "Link": "https://tv.canlitvvolo.com/trakya-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tarkyaturktv-hdtvler-m2sp.png",
+      "Summary": "Trakya Turk"
+    },
+    {
+      "ID": 20,
+      "Name": "Cri Turk",
+      "Link": "https://tv.canlitvvolo.com/cri-turk-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/crıturktv-hdtvler-rm2v.png",
+      "Summary": "Cri Turk"
+    },
+    {
+      "ID": 21,
+      "Name": "Biat",
+      "Link": "https://tv.canlitvvolo.com/biat-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/biattv-hdtvler-ru1s.png",
+      "Summary": "Biat"
+    },
+    {
+      "ID": 22,
+      "Name": "Buyuk Sivas",
+      "Link": "https://tv.canlitvvolo.com/buyuk-sivas-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/buyuksivastv-hdtvler-ekcj.png",
+      "Summary": "Buyuk Sivas"
+    },
+    {
+      "ID": 23,
+      "Name": "Kanal 5",
+      "Link": "https://tv.canlitvvolo.com/kanal-5-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal5tv-hdtvler-tmbk.png",
+      "Summary": "Kanal 5"
+    },
+    {
+      "ID": 0,
+      "Name": "Luys",
+      "Link": "https://tv.canlitvvolo.com/luys-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/luystv-hdtvler-1tqt.png",
+      "Summary": "Luys"
+    },
+    {
+      "ID": 1,
+      "Name": "Blt Turk",
+      "Link": "https://tv.canlitvvolo.com/blt-turk-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bltturktv-hdtvler-lrsq.png",
+      "Summary": "Blt Turk"
+    },
+    {
+      "ID": 2,
+      "Name": "Tv 9 Izmir",
+      "Link": "https://tv.canlitvvolo.com/tv-9-izmir-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv9izmir-hdtvler-wb92.png",
+      "Summary": "Tv 9 Izmir"
+    },
+    {
+      "ID": 3,
+      "Name": "Milyon",
+      "Link": "https://tv.canlitvvolo.com/milyon-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/milyontv-hdtvler-mnh0.png",
+      "Summary": "Milyon"
+    },
+    {
+      "ID": 4,
+      "Name": "Mmc",
+      "Link": "https://tv.canlitvvolo.com/mmc-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mmctv-hdtvler-5svd.png",
+      "Summary": "Mmc"
+    },
+    {
+      "ID": 5,
+      "Name": "Dersim 62",
+      "Link": "https://tv.canlitvvolo.com/dersim-62-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/dersim62tv-hdtvler-rlfl.png",
+      "Summary": "Dersim 62"
+    },
+    {
+      "ID": 6,
+      "Name": "Ekovitrin",
+      "Link": "https://tv.canlitvvolo.com/ekovitrin-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ekovitrintv-hdtvler-l98o.png",
+      "Summary": "Ekovitrin"
+    },
+    {
+      "ID": 7,
+      "Name": "Gala",
+      "Link": "https://tv.canlitvvolo.com/gala-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gala-tv-hdtvler-wisf.png",
+      "Summary": "Gala"
+    },
+    {
+      "ID": 8,
+      "Name": "Finansturk",
+      "Link": "https://tv.canlitvvolo.com/finansturk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/finansturk-tv-hdtvler-n4oj.png",
+      "Summary": "Finansturk"
+    },
+    {
+      "ID": 9,
+      "Name": "Ege",
+      "Link": "https://tv.canlitvvolo.com/ege-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/egetv-hdtvler-jezb.png",
+      "Summary": "Ege"
+    },
+    {
+      "ID": 10,
+      "Name": "Medya 24",
+      "Link": "https://tv.canlitvvolo.com/medya-24-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/medya24tv-hdtvler-ynxf.png",
+      "Summary": "Medya 24"
+    },
+    {
+      "ID": 11,
+      "Name": "Muzik Ankara",
+      "Link": "https://tv.canlitvvolo.com/muzik-ankara-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/muzikankaratv-hdtvler-bfki.png",
+      "Summary": "Muzik Ankara"
+    },
+    {
+      "ID": 12,
+      "Name": "Agro",
+      "Link": "https://tv.canlitvvolo.com/agro-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/agrotv-hdtvler-5shn.png",
+      "Summary": "Agro"
+    },
+    {
+      "ID": 13,
+      "Name": "Boztepe",
+      "Link": "https://tv.canlitvvolo.com/boztepe-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/boztepetv-hdtvler-o4kt.png",
+      "Summary": "Boztepe"
+    },
+    {
+      "ID": 14,
+      "Name": "Ctt Tc",
+      "Link": "https://tv.canlitvvolo.com/ctt-tc/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ctttv-hdtvler-j05k.png",
+      "Summary": "Ctt Tc"
+    },
+    {
+      "ID": 15,
+      "Name": "Showmax Hd",
+      "Link": "https://tv.canlitvvolo.com/showmax-tv-canli-hd-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/showmax-tv-hdtvler-rgki.png",
+      "Summary": "Showmax Hd"
+    },
+    {
+      "ID": 16,
+      "Name": "Plus Muzik",
+      "Link": "https://tv.canlitvvolo.com/plus-muzik-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/plusmusictv-hdtvler-niq8.png",
+      "Summary": "Plus Muzik"
+    },
+    {
+      "ID": 17,
+      "Name": "Anadolu Rtv",
+      "Link": "https://tv.canlitvvolo.com/anadolu-rtv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/anadolurtv-hdtvler-b8ny.png",
+      "Summary": "Anadolu Rtv"
+    },
+    {
+      "ID": 18,
+      "Name": "Berk",
+      "Link": "https://tv.canlitvvolo.com/berk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/berktvhd-hdtvler-d83y.png",
+      "Summary": "Berk"
+    },
+    {
+      "ID": 19,
+      "Name": "Business Channel Turk",
+      "Link": "https://tv.canlitvvolo.com/business-channel-turk-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/business-channel-turk-hdtvler-9xwi.png",
+      "Summary": "Business Channel Turk"
+    },
+    {
+      "ID": 20,
+      "Name": "Kanal 56",
+      "Link": "https://tv.canlitvvolo.com/kanal-56-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal56-hdtvler-s28f.png",
+      "Summary": "Kanal 56"
+    },
+    {
+      "ID": 21,
+      "Name": "Kanal 60",
+      "Link": "https://tv.canlitvvolo.com/kanal-60-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal60-hdtvler-vb80.png",
+      "Summary": "Kanal 60"
+    },
+    {
+      "ID": 22,
+      "Name": "Istanbul",
+      "Link": "https://tv.canlitvvolo.com/istanbul-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/istanbul-tv-hdtvler-2r8f.png",
+      "Summary": "Istanbul"
+    },
+    {
+      "ID": 23,
+      "Name": "Van Tivi",
+      "Link": "https://tv.canlitvvolo.com/van-tivi-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vantivi-hdtvler-brgf.png",
+      "Summary": "Van Tivi"
+    },
+    {
+      "ID": 0,
+      "Name": "Belediye",
+      "Link": "https://tv.canlitvvolo.com/belediye-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/belediyetv-hdtvler-bhud.png",
+      "Summary": "Belediye"
+    },
+    {
+      "ID": 1,
+      "Name": "Natural ",
+      "Link": "https://tv.canlitvvolo.com/natural-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/natural-tv-hdtvler-hnfn.png",
+      "Summary": "Natural "
+    },
+    {
+      "ID": 2,
+      "Name": "Trt Eba",
+      "Link": "https://tv.canlitvvolo.com/trt-eba-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-3nxf.png",
+      "Summary": "Trt Eba"
+    },
+    {
+      "ID": 3,
+      "Name": "Trt Eba Ilkokul ",
+      "Link": "https://tv.canlitvvolo.com/trt-eba-tv-ilkokul-canli-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-g313.png",
+      "Summary": "Trt Eba Ilkokul "
+    },
+    {
+      "ID": 4,
+      "Name": "Trt Eba Ortaokul ",
+      "Link": "https://tv.canlitvvolo.com/trt-eba-tv-ortaokul-canli-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-tc0x.png",
+      "Summary": "Trt Eba Ortaokul "
+    },
+    {
+      "ID": 5,
+      "Name": "Trt Eba Lise ",
+      "Link": "https://tv.canlitvvolo.com/trt-eba-tv-lise-canli-yayin-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-x48b.png",
+      "Summary": "Trt Eba Lise "
+    },
+    {
+      "ID": 6,
+      "Name": "Kanal 27",
+      "Link": "https://tv.canlitvvolo.com/kanal-27-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal27tv-hdtvler-xxgf.png",
+      "Summary": "Kanal 27"
+    },
+    {
+      "ID": 7,
+      "Name": "Untv Konya",
+      "Link": "https://tv.canlitvvolo.com/untv-konya-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/untv-canli-hdtvler-zv47.png",
+      "Summary": "Untv Konya"
+    },
+    {
+      "ID": 8,
+      "Name": "Super",
+      "Link": "https://tv.canlitvvolo.com/super-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/super-tv-tokat-hdtvler-6mrj.png",
+      "Summary": "Super"
+    },
+    {
+      "ID": 9,
+      "Name": "Kanal Maras",
+      "Link": "https://tv.canlitvvolo.com/kanal-maras-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalmarastv-hdtvler-sr9g.png",
+      "Summary": "Kanal Maras"
+    },
+    {
+      "ID": 10,
+      "Name": "Kanal 6",
+      "Link": "https://tv.canlitvvolo.com/kanal-6-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal6tv-hdtvler-7lyu.png",
+      "Summary": "Kanal 6"
+    },
+    {
+      "ID": 11,
+      "Name": "Stk",
+      "Link": "https://tv.canlitvvolo.com/stk-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/stktvv-hdtvler-sl5n.png",
+      "Summary": "Stk"
+    },
+    {
+      "ID": 12,
+      "Name": "Ahi",
+      "Link": "https://tv.canlitvvolo.com/ahi-tv-canli-izle",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ahitv-hdtvler-qq0u.png",
+      "Summary": "Ahi"
+    },
+    {
+      "ID": 13,
+      "Name": "Haber Istanbul",
+      "Link": "https://tv.canlitvvolo.com/haber-istanbul-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/haber-istanbul-tv-hdtvler-8d7y.png",
+      "Summary": "Haber Istanbul"
+    },
+    {
+      "ID": 14,
+      "Name": "Qebele",
+      "Link": "https://tv.canlitvvolo.com/qebele-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gebeletv-hdtvler-h7r2.png",
+      "Summary": "Qebele"
+    },
+    {
+      "ID": 15,
+      "Name": "Bizimev",
+      "Link": "https://tv.canlitvvolo.com/bizimev-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bizimev-tv-hdtvler-h9lq.png",
+      "Summary": "Bizimev"
+    },
+    {
+      "ID": 16,
+      "Name": "Bbn Haber",
+      "Link": "https://tv.canlitvvolo.com/bbn-haber-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/bbnhabertv-hdtvler-iopu.png",
+      "Summary": "Bbn Haber"
+    },
+    {
+      "ID": 17,
+      "Name": "Nht",
+      "Link": "https://tv.canlitvvolo.com/nht-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/nhttv-hdtvler-xjjv.png",
+      "Summary": "Nht"
+    },
+    {
+      "ID": 18,
+      "Name": "Kanal 12",
+      "Link": "https://tv.canlitvvolo.com/kanal-12-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal12aztv-hdtvler-ytot.png",
+      "Summary": "Kanal 12"
+    },
+    {
+      "ID": 19,
+      "Name": "Kibris Kanallari",
+      "Link": "https://tv.canlitvvolo.com/kibris-tv-kanallari-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kibristvizle-hdtvler-c3so.png",
+      "Summary": "Kibris Kanallari"
+    },
+    {
+      "ID": 20,
+      "Name": "Youtube",
+      "Link": "https://tv.canlitvvolo.com/youtube-canli-tv-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/youtubecanlitv-tvlive-xkpn.png",
+      "Summary": "Youtube"
+    },
+    {
+      "ID": 21,
+      "Name": "Kent 77",
+      "Link": "https://tv.canlitvvolo.com/kent-77-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kent77tv-canlitvkanal-hb2o.png",
+      "Summary": "Kent 77"
+    },
+    {
+      "ID": 22,
+      "Name": "Au Ukrayna",
+      "Link": "https://tv.canlitvvolo.com/au-tv-ukrayna-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ua-tv-ukrayna-tvlive-hcxv.png",
+      "Summary": "Au Ukrayna"
+    },
+    {
+      "ID": 23,
+      "Name": "1 Plus 1 Ukrayna",
+      "Link": "https://tv.canlitvvolo.com/1-plus-1-ukrayna-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/1plus1ukrayna-tvlive-fdqt.png",
+      "Summary": "1 Plus 1 Ukrayna"
+    },
+    {
+      "ID": 0,
+      "Name": "Ukrayna 24",
+      "Link": "https://tv.canlitvvolo.com/ukrayna-24-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/24-ukrayna-tvlive-ukfs.png",
+      "Summary": "Ukrayna 24"
+    },
+    {
+      "ID": 1,
+      "Name": "5 Kanal Ru",
+      "Link": "https://tv.canlitvvolo.com/5-kanal-ru/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/5kanalru-hdtvler-t7m5.png",
+      "Summary": "5 Kanal Ru"
+    },
+    {
+      "ID": 2,
+      "Name": "Ntn Ukrayna",
+      "Link": "https://tv.canlitvvolo.com/ntn-ukrayna-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ntn-ukrayna-tvlive-2oqs.png",
+      "Summary": "Ntn Ukrayna"
+    },
+    {
+      "ID": 3,
+      "Name": "Add",
+      "Link": "https://tv.canlitvvolo.com/add-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/addtv-canlitvkanal-n8s1.png",
+      "Summary": "Add"
+    },
+    {
+      "ID": 4,
+      "Name": "Mugan",
+      "Link": "https://tv.canlitvvolo.com/mugan-tv-canli/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/mugantv-canlitvkanal-phlb.png",
+      "Summary": "Mugan"
+    },
+    {
+      "ID": 5,
+      "Name": "Trt 4k",
+      "Link": "https://tv.canlitvvolo.com/trt-4k-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/hdtvler-canlitv-canlitvkanal-ofh3.png",
+      "Summary": "Trt 4k"
+    },
+    {
+      "ID": 6,
+      "Name": "Tatlises",
+      "Link": "https://tv.canlitvvolo.com/tatlises-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tatlisestv-canlitvkanal-l79b.png",
+      "Summary": "Tatlises"
+    },
+    {
+      "ID": 7,
+      "Name": "Tivi 6",
+      "Link": "https://tv.canlitvvolo.com/tivi-6-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tivi6tv-canlitvkanal-0zk3.png",
+      "Summary": "Tivi 6"
+    },
+    {
+      "ID": 8,
+      "Name": "Kanal 65",
+      "Link": "https://tv.canlitvvolo.com/kanal-65-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal65tv-canlitvkanal-9em6.png",
+      "Summary": "Kanal 65"
+    },
+    {
+      "ID": 9,
+      "Name": "Kanal Ege",
+      "Link": "https://tv.canlitvvolo.com/kanal-ege-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanalegetv-canlitvkanal-gql1.png",
+      "Summary": "Kanal Ege"
+    },
+    {
+      "ID": 10,
+      "Name": "Guney",
+      "Link": "https://tv.canlitvvolo.com/guney-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/guneytvmer-canlitvkanal-b6ui.png",
+      "Summary": "Guney"
+    },
+    {
+      "ID": 11,
+      "Name": "Karar",
+      "Link": "https://tv.canlitvvolo.com/karar-tv/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/karartv-canlitvkanal-hydd.png",
+      "Summary": "Karar"
+    },
+    {
+      "ID": 12,
+      "Name": "A Spor Hde",
+      "Link": "https://tv.canlitvvolo.com/a-spor-hd-canli-izlee/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/aspor-hdtvler-kueb.png",
+      "Summary": "A Spor Hde"
+    },
+    {
+      "ID": 13,
+      "Name": "Manisa",
+      "Link": "https://tv.canlitvvolo.com/manisa-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/manisa-tv-tvlive-zjd1.png",
+      "Summary": "Manisa"
+    },
+    {
+      "ID": 14,
+      "Name": "Metropol ",
+      "Link": "https://tv.canlitvvolo.com/metropol-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/metropoltv-tvlive-ojwn.png",
+      "Summary": "Metropol "
+    },
+    {
+      "ID": 15,
+      "Name": "Cadde",
+      "Link": "https://tv.canlitvvolo.com/cadde-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/caddetv-tvlive-13bp.png",
+      "Summary": "Cadde"
+    },
+    {
+      "ID": 16,
+      "Name": "Kanal Antalya",
+      "Link": "https://tv.canlitvvolo.com/kanal-antalya-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal-antalya-tv-tvlive-y1kp.png",
+      "Summary": "Kanal Antalya"
+    },
+    {
+      "ID": 17,
+      "Name": "Urfanatik",
+      "Link": "https://tv.canlitvvolo.com/urfanatik-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/urfanatik-tv-tvlive-ozyu.png",
+      "Summary": "Urfanatik"
+    },
+    {
+      "ID": 18,
+      "Name": "Lider Haber ",
+      "Link": "https://tv.canlitvvolo.com/lider-haber-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/lider-haber-tv-tvlive-ws03.png",
+      "Summary": "Lider Haber "
+    },
+    {
+      "ID": 19,
+      "Name": "World Turk Canlı",
+      "Link": "https://tv.canlitvvolo.com/world-turk-tv-canlı-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/world-turk-tv-tvlive-0jnx.png",
+      "Summary": "World Turk Canlı"
+    },
+    {
+      "ID": 20,
+      "Name": "Gozde",
+      "Link": "https://tv.canlitvvolo.com/gozde-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/gozde-tv-tvlive-nem3.png",
+      "Summary": "Gozde"
+    },
+    {
+      "ID": 21,
+      "Name": "Turk Haber",
+      "Link": "https://tv.canlitvvolo.com/turk-haber-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/turk-haber-tv-tvlive-dnn9.png",
+      "Summary": "Turk Haber"
+    },
+    {
+      "ID": 22,
+      "Name": "Akit",
+      "Link": "https://tv.canlitvvolo.com/akit-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/akit-tv-izle-tvlive-9ptv.png",
+      "Summary": "Akit"
+    },
+    {
+      "ID": 23,
+      "Name": "Camia ",
+      "Link": "https://tv.canlitvvolo.com/camia-tv-canli-yayin/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/camia-tv-tvlive-o09v.png",
+      "Summary": "Camia "
+    },
+    {
+      "ID": 0,
+      "Name": "Trt Diyanet Cocuk",
+      "Link": "https://tv.canlitvvolo.com/trt-diyanet-cocuk-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-diyanet-cocuk-tvlive-60su.png",
+      "Summary": "Trt Diyanet Cocuk"
+    },
+    {
+      "ID": 1,
+      "Name": "Canli Trt Arabi",
+      "Link": "https://tv.canlitvvolo.com/canli-izle-trt-arabi/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/trt-arabi-tvlive-1yv6.png",
+      "Summary": "Canli Trt Arabi"
+    },
+    {
+      "ID": 2,
+      "Name": "Vav Hd",
+      "Link": "https://tv.canlitvvolo.com/vav-tv-canli-hd-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vavtv-tvlive-qntp.png",
+      "Summary": "Vav Hd"
+    },
+    {
+      "ID": 3,
+      "Name": "Sam",
+      "Link": "https://tv.canlitvvolo.com/sam-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/sam-tv-tvlive-gcxd.png",
+      "Summary": "Sam"
+    },
+    {
+      "ID": 4,
+      "Name": "Teve 63 Urfa",
+      "Link": "https://tv.canlitvvolo.com/teve-63-urfa/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/teve-63-tv-tvlive-3yuw.png",
+      "Summary": "Teve 63 Urfa"
+    },
+    {
+      "ID": 5,
+      "Name": "Kanal 35 Azerbaycan Yayim",
+      "Link": "https://tv.canlitvvolo.com/kanal-35-azerbaycan-canli-yayim/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal-35-az-tvlive-2zt5.png",
+      "Summary": "Kanal 35 Azerbaycan Yayim"
+    },
+    {
+      "ID": 6,
+      "Name": "Kanal S Samsun",
+      "Link": "https://tv.canlitvvolo.com/kanal-s-samsun-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/kanal-s-samsun-tv-tvlive-hvtv.png",
+      "Summary": "Kanal S Samsun"
+    },
+    {
+      "ID": 7,
+      "Name": "Vostok",
+      "Link": "https://tv.canlitvvolo.com/vostok-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/vostok-tv-live-tvlive-lwv3.png",
+      "Summary": "Vostok"
+    },
+    {
+      "ID": 8,
+      "Name": "Az Star Yayim",
+      "Link": "https://tv.canlitvvolo.com/az-star-tv-canli-yayim/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/azstartv-tvlive-1u0n.png",
+      "Summary": "Az Star Yayim"
+    },
+    {
+      "ID": 9,
+      "Name": "Ekol",
+      "Link": "https://tv.canlitvvolo.com/ekol-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/ekol-tv-tvlive-swwl.png",
+      "Summary": "Ekol"
+    },
+    {
+      "ID": 10,
+      "Name": "Carac",
+      "Link": "https://tv.canlitvvolo.com/carac-tv-live/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/carac-tv-tvlive-e1it.png",
+      "Summary": "Carac"
+    },
+    {
+      "ID": 11,
+      "Name": "Tv 2020 Kibris",
+      "Link": "https://tv.canlitvvolo.com/tv-2020-kibris-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/tv-2020-kibris-tvlive-r6o8.png",
+      "Summary": "Tv 2020 Kibris"
+    },
+    {
+      "ID": 12,
+      "Name": "Fashion",
+      "Link": "https://tv.canlitvvolo.com/fashion-tv-canli-izle/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/fashion-tv-tvlive-f7i1.png",
+      "Summary": "Fashion"
+    },
+    {
+      "ID": 13,
+      "Name": "Yu Online",
+      "Link": "https://tv.canlitvvolo.com/yu-tv-online/",
+      "Image": "https://tv.canlitvvolo.com/media/images/tvlogo/yuu-tv-tvlive-nb4w.png",
+      "Summary": "Yu Online"
+    }
+  ],
+  "isIPTV": 1
+}

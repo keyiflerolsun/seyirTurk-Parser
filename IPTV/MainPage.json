@@ -1,0 +1,228 @@
+{
+  "movies": [
+    {
+      "ID": 9999,
+      "Name": "IPTV Favoriler",
+      "Link": "http://beytepe.tk/sey/back/faviptv.php?u_id=-1&type=m3u",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvfavoriler.png"
+    },
+    {
+      "ID": 1,
+      "Name": "IPTV 8",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/premium.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 3,
+      "Name": "IPTV 3",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/volotv/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 4,
+      "Name": "IPTV 4",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/canlitvws/online.php?tip=t",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 10,
+      "Name": "IPTV10",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/canlitvulusal/_cu.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 2,
+      "Name": "IPTV 2",
+      "Link": "https://stream.tvcdn.net/lists/tr-alt.m3u",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 7,
+      "Name": "YOUTUBE IPTV leri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/youtubetvrd/tvs/_serseri_youtube_tvs.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 6,
+      "Name": "IPTV 6",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/canlitvcenter/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 23,
+      "Name": "IPTV 7",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/artidijitalmedya/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 25,
+      "Name": "IPTV 9",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/parsatv/turkish.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 42,
+      "Name": "IPTV 11",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/kekik/_online.m3u.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 24,
+      "Name": "İstanbul'u Seyret",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/istanbuluseyret.json",
+      "Image": "http://beytepe.tk/sey/kodi/media/camsmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 8,
+      "Name": "Canlı Kamera Seyret",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/canlitvws/online.php?tip=c",
+      "Image": "http://beytepe.tk/sey/kodi/media/camsmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 5,
+      "Name": "Canlı Kamera Seyret - 2",
+      "Link": "https://stream.tvcdn.net/lists/tr-cam.m3u",
+      "Image": "http://beytepe.tk/sey/kodi/media/camsmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 39,
+      "Name": "Youtube Cams",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/youtubecams/_online_serseri.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/camsmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 9,
+      "Name": "Radyodelisi IPTV",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/radyodelisi/online1.php?tip=t",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
+    },
+    {
+      "ID": 38,
+      "Name": "Myvideo.az Azerbaycan TV leri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/myvideoaz/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/640px-Flag_of_Azerbaijan.svg.png"
+    },
+    {
+      "ID": 37,
+      "Name": "ParsaTV Dünya IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/parsatv/_mainserseri.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Worldflags19.png/1280px-Worldflags19.png"
+    },
+    {
+      "ID": 19,
+      "Name": "PokiTV Dünya IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/pokitv/_main.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Worldflags19.png/1280px-Worldflags19.png"
+    },
+    {
+      "ID": 21,
+      "Name": "Filmon IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/filmontv/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/en/6/6d/FilmOn_logo.png"
+    },
+    {
+      "ID": 11,
+      "Name": "Dünya IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/iptvcat/iptvcat.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Worldflags19.png/1280px-Worldflags19.png"
+    },
+    {
+      "ID": 12,
+      "Name": "Alexander Dünya IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/alexander/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Worldflags19.png/1280px-Worldflags19.png"
+    },
+    {
+      "ID": 22,
+      "Name": "Iptvapp Dünya IPTVleri",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/iptvapp/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain.png",
+      "Backdrop": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Worldflags19.png/1280px-Worldflags19.png"
+    },
+    {
+      "ID": 13,
+      "Name": "Adult",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/Adult/ad1/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 20,
+      "Name": "Adult 0",
+      "Link": "https://raw.githubusercontent.com/YueChan/Live/main/Adult.m3u",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 14,
+      "Name": "Adult 2",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/Adult/adrus1/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 15,
+      "Name": "Adult 3",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/Adult/adrus2/online.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 16,
+      "Name": "Adult 4",
+      "Link": "http://beytepe.tk/sey/kodi/iptv/Adult/Adultmanuel.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 17,
+      "Name": "Chaturbate Kanalları",
+      "Link": "http://beytepe.tk/sey/kodi/Adult/chaturbatemain.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 18,
+      "Name": "Serseri Kanallar",
+      "Link": "http://beytepe.tk/sey/kodi/Adult/serseri.php",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    },
+    {
+      "ID": 36,
+      "Name": "Adult Last",
+      "Link": "http://adultiptv.net/chs.m3u",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptvmain_adult.png",
+      "isAdult": "1",
+      "Backdrop": "http://beytepe.tk/sey/kodi/media/woman.jpg"
+    }
+  ]
+}

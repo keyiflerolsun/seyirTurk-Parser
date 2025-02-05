@@ -1,0 +1,1566 @@
+{
+  "links": [
+    {
+      "ID": 0,
+      "Name": "TRT 1 HD",
+      "Link": "https://radyodelisi.blogspot.com/2012/07/trt-1-hd.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx_AKWruyNih-qZr-CFV5hMGmyIPuivrFakoK-INtskNk_dSkCzoxoiwejIm3U629pVWni1K1elFyRkJvxybIlm2vDKwYMw-2hf6VbjgkNkdweuYG1mXNp61bXac4DD4DobBCj5H3Sd6wA/s1600-rw/trt1hd.jpg",
+      "Summary": "TRT 1 HD"
+    },
+    {
+      "ID": 1,
+      "Name": "KANAL D HD",
+      "Link": "https://radyodelisi.blogspot.com/2012/02/kanal-d.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1LudTP9k9J20yZkqXsniQni-lTQ62xDtEyPk5rK7tDgAyzkIkuT4M7g4zdmd6LGz9BpNR3brJHoTu-bwGgydXDv4mVAYlNPuXy22gGu4AyZ0L4HQTSDeZs5Ux0nxP55BNAC2St7I9rfYq/s1600-rw/kanald.jpg",
+      "Summary": "KANAL D HD"
+    },
+    {
+      "ID": 2,
+      "Name": "STAR TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2016/02/star-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoZ56iaVe_VWQyFLxZMySqIXEbuDHQ31R9WP9IT3qG4dJAgMNEJAOy5pna8uPcXQGJUvgr_7rYgPkir4VC9E60_W2PfUBjD3b9HJmmi3LTqQQflqk7Jvin0-O5B6min1EZC0-1qprfBopQ/s1600-rw/startv.jpg",
+      "Summary": "STAR TV"
+    },
+    {
+      "ID": 3,
+      "Name": "ATV HD",
+      "Link": "https://radyodelisi.blogspot.com/p/atv-secenek-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4tElnDXHpc5-GOUBTM794AgyTCxxmkGeGwO_0AnBYmI20aHx6cawPhDwdnVvyGHwmxmzFuly92_5SGXJXr6KMd0WHkbZU336pLkzEVyqybv3hAeKtqA9plQrG8QyYeXkCjb24OPfsiyNw/s0-rw/atv.jpg",
+      "Summary": "ATV HD"
+    },
+    {
+      "ID": 4,
+      "Name": "SHOW HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/06/show-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj72KCKtW9q7AnciQzcZbUyrWyGvIKLWnotUCJEnypEFkgc_vZ2EV3aMVB1eVmCoX0Z_bXYUFfOaOEtmzfNWpeUeFDnXjdiEEcejIIMLzhiX41m8MkrCMM0QvHF9O7NK_UYl3jgh2FGF50n/s1600-rw/showhd.jpg",
+      "Summary": "SHOW HD"
+    },
+    {
+      "ID": 5,
+      "Name": "NOW TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/fox-tv.html",
+      "Image": "https://i.ibb.co/0DpKtzT/nowtvturk.png",
+      "Summary": "NOW TV"
+    },
+    {
+      "ID": 6,
+      "Name": "KANAL 7 HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/kanal-7.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFHLoPKT4YMqo2NTeGbDifAcvg5VU3l5pNbCWcEVMjQm8ZR7qGmo0rdGU009M7J293o74J-chKKHnJrPAqsrxX75Uod3TbWjSSg5qcS1rtaqWBY5fSeXrjC98Q5qohUmb6QdE7-Z_45w43/s1600-rw/kanal7hd.jpg",
+      "Summary": "KANAL 7 HD"
+    },
+    {
+      "ID": 7,
+      "Name": "TV 8",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/02/tv-8.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSwId6_0PicF4bwQDybo51hbloPTaOmr3_bLgju86DssYZlAScZeL2cvrA0KiXeF9wlf3H7jAK-bRnOWcgBoxzsCWcCrXZA6VOOo4XLlU6M_y_RMQtK6p7zYCaoW4J3oZSxTD3l2tVpe1y/s1600-rw/tv8hd.jpg",
+      "Summary": "TV 8"
+    },
+    {
+      "ID": 8,
+      "Name": "FLASH HABERHD",
+      "Link": "https://radyodelisi.blogspot.com/p/flash-tv-secenek-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNOGAddyOrou9VE4n330Kq6tB4j2FjvfwqYqxPMFF3fXRZs8fSA8JKgELZrNZ5tBvYzvpOW8dem6ER0I1viFBwsUrFBi4MLxsrCIO4d7EdgH832pfdmFgfdoCGZ7C68VOWSBreJjsoNBNEGYFB34YOdlr6b88bgx74T9ADlYvYoY5CUEztHev2pYwMnQ/s1600-rw/flashhabertv.jpg",
+      "Summary": "FLASH HABERHD"
+    },
+    {
+      "ID": 9,
+      "Name": "BEYAZ TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/beyaz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig81npcmiz4uRsAjqiKZ3u4CO1MjTC6kGUkL8FCPV0ZZS-Q2VAI3Y0EgmTiBH5Iw8K6TJofs8_24h3m7RU7g4hRnudFi23DedUZg7AXqbGjUnAnymO-HHnxCCVsKFP5I7ZcwNi3CmYmoIv/s1600-rw/beyaztv.jpg",
+      "Summary": "BEYAZ TV"
+    },
+    {
+      "ID": 10,
+      "Name": "EKOL TV",
+      "Link": "https://radyodelisi.blogspot.com/p/ekol-tv.html",
+      "Image": "https://i.ibb.co/Ln92Dj2/Ekoltv.png",
+      "Summary": "EKOL TV"
+    },
+    {
+      "ID": 11,
+      "Name": "360TV ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/360tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD4_NBQfQr7j74zMHv0A1WxRTxV9NTFYFtCPCO7TWAu-MTg68RZSagplJCTOAJicHp2EQW31nxA_jqz19bodrNNSaHKRmaMsdEx2l-IZ4YqbIFpzK6nnbUmFzOhjJc01fA43BXQfCiHQIz/s1600-rw/360tv.jpg",
+      "Summary": "360TV "
+    },
+    {
+      "ID": 12,
+      "Name": "TEVE 2 HD ",
+      "Link": "https://radyodelisi.blogspot.com/2011/02/tv2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2dUt42uL5Aa9_HVg7FGEb10upYzJeS3jKshwNJgSyE33jp6rygBrVg_cVGJcUEmEHfX3OKMAbUaAA548TI8WHiDyd7TGvAbthMm-R3gtSPaA6IQfFtn-TgC4DDC5m3hZeMdZwriRRBkc_/s1600-rw/teve2.jpg",
+      "Summary": "TEVE 2 HD "
+    },
+    {
+      "ID": 13,
+      "Name": "A2 ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2016/02/a2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2QNSQudGf8wCeps8vl0lrVOFoxOG5IReSdrq9M80MXlBbTn3n-hIbBeQ-GChyVAF3UWOuvN7gnGmYhEL9TMfgVklhKkkF0lR99ZZ9mE8LMV7ck5XvCo6VPc3vcAjg-SNIb0eqmIxa7Vrm/s1600-rw/a2.jpg",
+      "Summary": "A2 "
+    },
+    {
+      "ID": 14,
+      "Name": "TV8.5",
+      "Link": "https://radyodelisi.blogspot.com.tr/2016/02/tv85.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjmW0K1-kmvyzU0D3ERJqSB7_vkMtU0e1LNASjqsk_Jhzs2P7zPurQlsxFwXS_YpHfyYE8bP0_5J69sh1501uqVQuN_pwIBvzBirB9Mv4svOwIsqNT5vT3vhmvD5Z4NwVVU-0Hjm1Qo0WE/s1600-rw/tv8bucuk.jpg",
+      "Summary": "TV8.5"
+    },
+    {
+      "ID": 15,
+      "Name": "MELTEM TV",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/meltem-tv_13.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBsPy9Z-xsZIl5XPDX2Xdsf3SJH_HtSqi9SOW0tEjp-iFQfxeI1E6cED15rd2Bu_xKJAmyaCkLvd7oQOmrXfxLtbs7p111MGUuSZ_XsLYRDxEjd6hTUctm3WnhG44zBzZTlXfOhZ71HH8B/s1600-rw/meltemtv.jpg",
+      "Summary": "MELTEM TV"
+    },
+    {
+      "ID": 16,
+      "Name": "TV4",
+      "Link": "https://radyodelisi.blogspot.com/2011/02/tv4.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijhfTksUbzSzVARr1lX9GnMyd4unU8X_fJacbUzui6oY5EvP8jCCxh8xwAfgNkaBsJYw1NJA18GG5yNBp325RY-qYAMxtG1mRWSnDBKYJEwGDKGXOTURldJSmouMPp8_1cDz49TwhuS6Ep/s1600-rw/tv4.jpg",
+      "Summary": "TV4"
+    },
+    {
+      "ID": 17,
+      "Name": "TV5",
+      "Link": "https://radyodelisi.blogspot.com/2009/09/tv5.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXsqtoKc10BTLcThfnRo4HJbuswOtEW5sV82Nz9WhwycAKxq2Vtleokah-sujiKcOcQwUZ0QtHDLr-LqG81esFisE5vkPMT3HM4XWdnSTc5CztgBJnHP5cgLkv7TzXRKX4P1Gd34hvvcvg/s1600-rw/tv5.jpg",
+      "Summary": "TV5"
+    },
+    {
+      "ID": 18,
+      "Name": "TİVİ6",
+      "Link": "https://radyodelisi.blogspot.com/p/tivi6.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjc96Xu5iXHLToSVCIHkKaJo49Ed2Ruw1DAN8uWS0rfoLHy3T8cfRtKeB_FBuuhMcrbUdmQ1MXENh3Yy5enS3KPiYN2ZFbGAbu7ciOoqJitRC8RL-bVGgwRVjegOd33fnP_CujjjQBHp174rGRyxLwce-vA22LJ1HFNMCRP9taJPPiNmawMHWSEpVv3ZQ/s1600-rw/tivi6.jpg",
+      "Summary": "TİVİ6"
+    },
+    {
+      "ID": 19,
+      "Name": "TLC",
+      "Link": "https://radyodelisi.blogspot.com/2016/02/tlc.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMp0siVysigVH3xn31J5uFjawpMWPcvKbR217dhGegLKlgaC3nSE9JMSVp-TGMdZeDFoRdYbZ7ctVLxSWcrmIJbgppgW3fts5Q-1vABl65Wjo1RYGLgBlaaNCBg8inBG_cJsl1BsASxuaW/s1600-rw/tlc.jpg",
+      "Summary": "TLC"
+    },
+    {
+      "ID": 20,
+      "Name": "DMAX TV",
+      "Link": "https://radyodelisi.blogspot.com/2017/01/dmax-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFDAWMqEZBE_-Xt7fRuzsriRbHQnR2YDyGtpn0qllOZL2R6KI_k4kJZ5ySFHaEtPwI_6pKd4wMNJsIJ_IltgloesUkl89Dd33MfpBKoPthtDJa7F4v1Qa23us9lJiDEC3DVRiJE1M3S4Qb/s1600-rw/dmax.jpg",
+      "Summary": "DMAX TV"
+    },
+    {
+      "ID": 21,
+      "Name": "BRT 1 HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/brt-hd.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5eV35jSoKKKneN8HpcbjqEt4gGrJCg_Dkc3Cg72KCdxME85rZYu0CIvcCR6iu3XpZqk7ANrL8EqCtQEOzEqMk4KIHLDUuT26pfIsJbT3Zp4idkqEAQNEVQwTvI3z-lUdJH6zwpBtqg6HJ/s1600-rw/brt1hd.jpg",
+      "Summary": "BRT 1 HD"
+    },
+    {
+      "ID": 22,
+      "Name": "BRT 2 HD",
+      "Link": "https://radyodelisi.blogspot.com/2009/08/brt-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuJ7L-DaM9QbnNYPda9CPSdAJ6YLrQIGWALtJQtXjJGbqLv3bO8RlnkIuK5bXwkZfw_RNF4f1YOjequJYh9zkcGd__J6XDqe7vNsfxzFFkf4Jn3AcZqnK0kqiiCagiTW7DEIBYlwc820hw/s1600-rw/brt2hd.jpg",
+      "Summary": "BRT 2 HD"
+    },
+    {
+      "ID": 23,
+      "Name": "FORTUNA TV",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/wtv-turk-hd.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqO90MxSsOKtMPfrSA8p0V0OpmacPXZddSDbXqmfWMfz1PH-CDRNQj5BkFMT1dO9Ruj-NkX4NTQl2p-JnIX3Ya9r5qRjpOexTibDHAu7ZSDHNo9zf2PWlrbRXUsup8rhrktTfvi5qc6Of_/s1600-rw/ftv.jpg",
+      "Summary": "FORTUNA TV"
+    },
+    {
+      "ID": 24,
+      "Name": "MECLİS TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/trt-3-tbmm-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcOXaWOvXwgS-wz1KbijIXXzo_lCH_xxIFXc5KULBW1fmBcB7vUBNpehvlaEGBwCq2og5TbfTn5msI3c5TLytFvwLG55B-LGYhuzUIC8WXlp8V6UZSR-0UxpZ_-2ELNlHRdAQGFzedm00I/s1600-rw/trtmeclis.jpg",
+      "Summary": "MECLİS TV"
+    },
+    {
+      "ID": 25,
+      "Name": "TRT 2",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/trt-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL3JQcQ_Cu5TTIr7fdB4QmoEZEjpu5NWmxgrA4p4fzodmO0mYKi2AmmGf_Q2m4AwiFE_zS95bhBGtzlolaoQgqxAoz6l5MOgnRCSSEUHMksUWrhW51aGrmntEaAZLoKzv3u1AItbjqb0mw/s1600-rw/trt2.jpg",
+      "Summary": "TRT 2"
+    },
+    {
+      "ID": 26,
+      "Name": "TRT TÜRK ",
+      "Link": "https://radyodelisi.blogspot.com/2009/08/trt-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglVYRr-4MrWrNqskHldievZ5FQhCc5ui-h681GaXbMsIt1_TrURVc-7k-thxs7AvJYsZOA3A8FCDwQQhulMIOIURtvCazKoYG4Ah1hnPOnIEGgVFiVRIROOCgWk3PJ4MEd-TTM0cNkC7DH/s1600-rw/trtturk.jpg",
+      "Summary": "TRT TÜRK "
+    },
+    {
+      "ID": 27,
+      "Name": "TRT AVAZ ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/trt-avaz_04.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhwxceFhufvU2NkHrWG8ut38CEqGuz7tLSl68XbSpyCUgn6gdIGnczCYVCUFyTNf59-LxWlupo_B-aAu-6EBsR0qc0MZwen-Xt5AX0DaPIi3kSBpCdI7NtSY9QLGBEmEZz-HRSjadkR7Dg/s1600-rw/trtavaz.jpg",
+      "Summary": "TRT AVAZ "
+    },
+    {
+      "ID": 28,
+      "Name": "TRT KURDÎ  ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2013/02/trt6.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFB_uVZhpyr0Rnm_4wC91WoYqBlKrwb-sDDpmPDkiuacQ7Hy9YJLXVEYiLVf4b1yAg6DxJDNM563VDRllKqiXR48O_mZROpRjXUW98qMNrNpPA8Gym9-TV7kqvmMKVqZlhX5XAzR4u2eeA/s1600-rw/trtkurdi.jpg",
+      "Summary": "TRT KURDÎ  "
+    },
+    {
+      "ID": 29,
+      "Name": "TRT HABER HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/trt-tv-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj6fXhnChtWovsWAgV7JFOdZPTIllz9AoaG-8jS07qgFhxprrhGxhZ5SoPnTAnGR-S0cq8Bgn6kf5TDLxuWsrAyTxq_otyDw6gffnNgbFpbSgyj8PiGSUhwSoAEvpzxB8QUV0JogEWdZAi/s1600-rw/trthaberhd.jpg",
+      "Summary": "TRT HABER HD"
+    },
+    {
+      "ID": 30,
+      "Name": "CNN TÜRK ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/cnn-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8NdKB9oV4fHKzUGKE_Wekj5MgKg2bQ5X9MUIy3s_wxkCROAOlynjH4WmjikPdnCBXCMg7YUZjyYwSVpce4ans1vfDuXjJGmB5VNFlNFyPfkuFPy5qejwNs07vKX8iHQ0ITZ04_UCaWk8_/s1600-rw/cnnturk.jpg",
+      "Summary": "CNN TÜRK "
+    },
+    {
+      "ID": 31,
+      "Name": "HABERTÜRK",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/haberturk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQHwSuK168Iq0jlqInTJpRKTaZX1-5ebhtSIS8bHRHef2kuEPhZN81JlKAHaXrvgwj25jSSwNjjG8jxV8dW5kQ1ItxwcmE3g6MEvWVwE2sSy1vsGLgVu7L86XCBQ4DVxv1c5LS2-4tjmZK/s1600-rw/haberturk.jpg",
+      "Summary": "HABERTÜRK"
+    },
+    {
+      "ID": 32,
+      "Name": "NTV ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/03/ntv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikv1A1M5Hxn1Ma_M6nuLhP-38q6rt0cPVKj0kX6pzDaqaUqGN8g9149p60-Nff_ZtkUy_Q4kh8FRfsIl2Bqn3QJbCePoFYm19jxAJvt8bsCHpQW0s3ge8zS4rUeZA9CQ67V1I_OMuyrkqg/s1600-rw/ntv.jpg",
+      "Summary": "NTV "
+    },
+    {
+      "ID": 33,
+      "Name": "HABER GLOBAL",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/haber-global.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQgjH65FnGVELz0wetMR36GMMaiptj_GkibJzRYARhneUK1Lz6ZPGRS_g1jKnxhOZz1lXYGzOVIa0xYpd-8zPqmzqZ0D3t84vRk5UDx-xCWQSB3zubn_gjOQHyQ8tcwUFPfNVIkxIv0fsf/s1600-rw/01.jpg",
+      "Summary": "HABER GLOBAL"
+    },
+    {
+      "ID": 34,
+      "Name": "TGRT HABER ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/10/tgrt-haber.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiUJ8-N-7ane024N5PagN3XR3NAHildC5BWw9p5DTrfHzmNLjs5nu6i6tagep9oA119o4Xv6Zap3iQLtwRG_kFNzMbla7H1-Ad74XECIjoawd3-zqX1uSNSDY-MutdoOsBM39UsOOlRYAk/s1600-rw/tgrthaber.jpg",
+      "Summary": "TGRT HABER "
+    },
+    {
+      "ID": 35,
+      "Name": "24TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/10/24.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyfUyY8QHob2k8GOZZ7GiBVAR2mrcA_CAY1lP6gwU1hirPyU-31gvbrOBET-zXsmSC0IqqdBCqRHOd3JCZs_bRuTXLKWa_DXDf1EKHUrx6AqFLb2m_4fuT_da_JAQhvbpUuJtzQ9vcBNX8/s1600-rw/24.jpg",
+      "Summary": "24TV"
+    },
+    {
+      "ID": 36,
+      "Name": "ÜLKE TV HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/09/ulke-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0AhCdDUSPeMBI3qppgUO05HoHSLFZ77l7kbjX1SWLmaHCx-m1iuKVELUOheTgbiQ_TlBO1YrIG8C-xYqy9tvK04NEl0jQw-FwfwQ_ox7A867QQmaNOqPKkDo96yfy2XQR-Ar1xlmh-4tx/s1600-rw/ulkehdtv.jpg",
+      "Summary": "ÜLKE TV HD"
+    },
+    {
+      "ID": 37,
+      "Name": "TV NET ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/tv-net.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrsXJyaTcWXlebVCsq8HU8U2x18tyMQ2txl7OMAfx63d0VLNPjVXMYc5E-NuKBILJggIc-v6yLw5Unz169BpkTb2fTaVWJi-RvkZMkRSZbUCPHWSSlw8K2b2BLNE9dKZVJPbGQujAOlhp6/s1600-rw/tvnet.jpg",
+      "Summary": "TV NET "
+    },
+    {
+      "ID": 38,
+      "Name": "ULUSAL KANAL",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/ulusal-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGA5wCybBUm5Mug3LTzqwD7OLyF2q7Ip1f5ffwtviVAVKu5Cv8azy-8eLoBLYpj4VqvHyIk7o9DNZFJr3EQd-c96cG6LjLzZJk6isAgoHCBwuSZeY2p827lLvQc8-PUo2ZmPbNmdtsdWwV/s1600-rw/ulusalkanal.jpg",
+      "Summary": "ULUSAL KANAL"
+    },
+    {
+      "ID": 39,
+      "Name": "TV100",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/tv100.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitVcnqgXy9bFZTjsYHO6W99qVt7UPHzk71GxSQNMN7a-ar0au2KLyfm3KmOKJElOZI4X2ZCW5mAnttOV2B_lhEDN4ruI2tqAxMUiI7PVF9MYxnjNLM_YyvKKpjxJkz3yspjhDp91MSh5Lz/s1600-rw/tv100.jpg",
+      "Summary": "TV100"
+    },
+    {
+      "ID": 40,
+      "Name": "SÖZCÜ TV",
+      "Link": "https://radyodelisi.blogspot.com/p/sozcu-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSQ5libCtwHqQcD2kcoGi5XEu6hZdapTOzTSxM8mKY086j783mPnbKldQy35bL864ui5ESqVH1dko1FQ_ME8ZMOPC8YfFoliT-EtoO1qJqDwEmm1b_KgX1BXwLtqFgdjrwKePm_b5oekYxEtGEnpOI70g4POOlz7RqC0w-8JlG4bGU3ho5-0KRZKm-5w/s1600-rw/sozcu.jpeg",
+      "Summary": "SÖZCÜ TV"
+    },
+    {
+      "ID": 41,
+      "Name": "TELE 1 HD",
+      "Link": "https://radyodelisi.blogspot.com/2017/01/tele-1.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkC1H0Ofg2S369B36nwX03Yt1H8rez4zTgLUZU69aRsH-rc6rsDYiuIEwBOXM5aPLzdkGuJ-y16ryCkQecdXOS3fSgWC1qGPTvVuNgmvgXQLZWdKYLjG8QQO6sUlZ4Y_YRqasrJuxbEOXX/s1600-rw/tele1.jpg",
+      "Summary": "TELE 1 HD"
+    },
+    {
+      "ID": 42,
+      "Name": "HALK TV ",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/halk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz3E_wAbdWKAx6FIMPFAo51gl1GSLVALdDuMkK8jV3qMLvLCSiPNRJHWH_Gqj-Ld5IMVJ8Rel57fdIsRya6fO5mEMms7j3Jt1WrKtQm7EhPBEPsaDytPMjl4W9esaKTfG7GmnElcPFTJRT/s1600-rw/halktv.jpg",
+      "Summary": "HALK TV "
+    },
+    {
+      "ID": 43,
+      "Name": "KRT TV",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/krt-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGFf6tJcy_NQe7VEd5EUaBXgPIqGoR_NrxhOWXFqqLQSZKnthZOHdFzZz62uRWr4TXC7-ei2CNgLn_LEzTg-oeXh-I5IGj1xwlP3WMFfiywOmbiHcR1A9c1gzk2pdUYfaEN5bk4u-CV_BS/s1600-rw/krtkultur.jpg",
+      "Summary": "KRT TV"
+    },
+    {
+      "ID": 44,
+      "Name": "ARTI TV",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/fasil.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZzNAIHwdIBDiBakVxFVMhaRwpQP4Py4cfovH11imS_eOaFx21kaccQIHRSjbjoZe3GivLDPhgvpzYv-7Y_s26DE6Gkicoy9sR83mVu_hB7_Vu3G4n8tUZC9Yqi0lKtkPEk_lM2XIdoQPJ/s0-rw/artitv.jpg",
+      "Summary": "ARTI TV"
+    },
+    {
+      "ID": 45,
+      "Name": "YOL TV",
+      "Link": "https://radyodelisi.blogspot.com/2009/09/yol-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0VEbV2lwu9IuKl8e4OshVf6OO2V7Qj8Zk2nIimj5zC08UqU4EIA3WqcQRZU3P2pKAQWOBYSC-tfmjCWBxKctVrR6-j8v6oNTtNNrrzlldL5VZRdi6-PxbycKqe19MbXEosh4_CpKM31Eu/s1600-rw/yol.jpg",
+      "Summary": "YOL TV"
+    },
+    {
+      "ID": 46,
+      "Name": "A HABER",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/a-haber.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpPg2coj8p4tWZA0kbOFWp0mVLA4F8nz-gMhRBRH_IGVXbvHxW-IoL3ZHLuNQi5rMsd3wm0hhYVjKE-gicFtddjJtIV05j3L3nQYTLSPz8s87c-rlB6hSFfoW-5wmhDl8qpmAGy9mJ_6XH/s1600-rw/ahaberhd.jpg",
+      "Summary": "A HABER"
+    },
+    {
+      "ID": 47,
+      "Name": "KANAL B ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/kanal-b.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDcbbPk5-PbF5z4fNbaVBcSp5PCFdkZuDLy4qJ_MQS5J5MDUdq6E3x-W3msFcd7Gl5woWA55lPvOQYe9QkJ3GccF7nKL9KAuzw2TC6a4Hi1GCCleItSjQA7oq_PQ4z_oOdyla-JB787yz4/s1600-rw/kanalb.jpg",
+      "Summary": "KANAL B "
+    },
+    {
+      "ID": 48,
+      "Name": "MEDYA 24",
+      "Link": "https://radyodelisi.blogspot.com/p/medya-24.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpzMpfoPsmP78-CcNI9R9B0qmr0KDW6zHfqS0AVz8hdNwzcBqoBCwZs7nxROSgnYeZUMFrPtW5LHTk__j5OkwRvSaWiJsd91Cq811HhMaFC4iez3-EvVpi1rxyBYCUkPwuqOTB6SZspQjR/s0-rw/medya24.jpg",
+      "Summary": "MEDYA 24"
+    },
+    {
+      "ID": 49,
+      "Name": "İBB TV ",
+      "Link": "https://radyodelisi.blogspot.com/2009/08/istweb-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5FYkgcnv5xBO1YQuLNFmLuwa2J9U4Z7OKt3F3CgkSthjx5amhes3Nzh1EJ8Z242XCPvfXxsOFodfFl5D36bnvc2DLvhixqoBvd_mebRZ7bLt4VZTsEexdakAytJPGszhUyl9Nh2S_a6G8/s1600-rw/ibbtv.jpg",
+      "Summary": "İBB TV "
+    },
+    {
+      "ID": 50,
+      "Name": "AKİT TV ",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/akit-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDwNXFsAdD-T5uDs_wEksnH_3bt0y1psfCR1SirO33GCmgTxPdse9wqjTrdoNpQKbiynEDIhfHNEfDA0R_xTu1D_iD7KCbSWwwmcIBpmPYTaXvWLImVFWsciy_JOG6X9N-Oe_4bs73z2VS/s1600-rw/akittv.jpg",
+      "Summary": "AKİT TV "
+    },
+    {
+      "ID": 51,
+      "Name": "BLOOMBERG HT",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/blooberg-ht.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUvHwxGHj8gZGkS6xqbZict9AHy-FEvHgEyOYINrh4lZwAyqKn149W-uNUsrDH2W7yJXZTdvMBjglPtt7twC59qUEVMipF9YyynvVGOkZtd2XpwlqA9eFsxWq9ks14pwUtXpO66XYZFvhf/s1600-rw/bloomberg.jpg",
+      "Summary": "BLOOMBERG HT"
+    },
+    {
+      "ID": 52,
+      "Name": "FİNANSTÜRK TV",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/finansturk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7hdayMrsP1ICY6B3h0gmPcM73Pati-6X1zyLII19eamkCoSWEHMWbKsHZo1j857P3PmhxfpRjNs8ArypjG-m-90Y22yiJc-1YH9VYHuN6cGQRUP_6p-Qksp6dzSdZ77ZFl1R87caziqwk/s1600-rw/fin.jpg",
+      "Summary": "FİNANSTÜRK TV"
+    },
+    {
+      "ID": 53,
+      "Name": "TR35 TV",
+      "Link": "https://radyodelisi.blogspot.com/p/tr35-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeu1O4B6M7o6S6ZyGh7iwM4HUrOqI5gK8yAtQiE41Sd0TbwyN8kVst290k1IqzbhGLFrKqHjNZmXRL0RNOoSAOO9Xd4_cS_NQipQLIdoLyphdLnVq2c7-5tgcilK4Mnj-DgniEHbKTUpR-/s0-rw/tr35.jpg",
+      "Summary": "TR35 TV"
+    },
+    {
+      "ID": 54,
+      "Name": "BENGÜTÜRK TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bengiturk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8yV4KWX56h9iqY9WcTUSvsxpCggrnMUaUOk5U13si6vq28v0M2SMW6MVM68-Za6J0OoSxI4nh7UfpqYxTmmmD-VjPLM6g-VbrsrEMoH6zRBd2yKoU6gSKR9RQVANpo0xonadBBeR8AOGo/s1600-rw/bengiturk.jpg",
+      "Summary": "BENGÜTÜRK TV"
+    },
+    {
+      "ID": 55,
+      "Name": "TRT SPOR HD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/trt-tv-3.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4k_O8rmIvZPsj4PWyeE3w4LIAPXBZ6NugD7dLkmvZ0mw40PmJ_yrOAAoIIxFtaCCSXD7zDF6s6v9sTDo0VeoiQaBudacLHbh2TF_fElAwlt-oo8m27WO02T_sTSVZkGXvS7gcInG-1_fT/s1600-rw/trtsporhd.jpg",
+      "Summary": "TRT SPOR HD"
+    },
+    {
+      "ID": 56,
+      "Name": "TRT SPOR YILDIZ",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/trt-spor-2.html",
+      "Image": "https://blogger.googleusercontent.com/img/a/AVvXsEhGIIByEAzQaKvGp3LW29mW7QtnfDQEihWUu4Qh00JeE1hdEw_zyu97wuLKyW9gXeb3s2q9L_N-LjhzuGhOv3hB-8v2KP0yEGs4iw_idq5oMPOw9lTVVr-dbCR25cVnNruZM13Oz1L6hnPuORL6V_j2277GH7q-X1mfsIN7_0DEAOiyWaqAeh84ejmAnA=rw",
+      "Summary": "TRT SPOR YILDIZ"
+    },
+    {
+      "ID": 57,
+      "Name": "A SPOR",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/a-spor.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdyMduF78HB2Xf-OChdwjd09HlQKD1nffTWSmcm342oPy1o82mU0UOPus0TKtDvo8PyDJBzXu_qrRMOfeT-Q-0oMN-wGjyhuutmpJkPuXau0-3d9Jcm5ojYS8i_5eErakVB17E6IlJL_rA/s1600-rw/asporhd.jpg",
+      "Summary": "A SPOR"
+    },
+    {
+      "ID": 58,
+      "Name": "İDMAN TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/03/azerbaycan-idman-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rauAlnSNea16YNxIf5ZKXNHpEqDqC4l_HjJs53pymd5L0sLKbFV_CgePEt-OC2sE3Wvsow1RC2wuQLR-s7FJTlXY4bwtq6xE4bxG-66L2Ftst-KlE6Y5L4GduiDxjXq9j4Km3uo7-joX/s1600-rw/idmantvaz.jpg",
+      "Summary": "İDMAN TV Azerbaycan"
+    },
+    {
+      "ID": 59,
+      "Name": "CBC SPORT",
+      "Link": "https://radyodelisi.blogspot.com.tr/2013/11/cbc-sport-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_AdccG1mzti9UJXNXYoPm6AdsotnG_x-v-yogUBLMmPNWe4IQb0yeFSf9PCkruk8XgJBh4UwFbmYH1HfdF859NoVdy4K9aq_kQui38XM5hY83PUq0IFYspbbpLXa67d-DXAgpKvkByDdf/s1600-rw/cbcsport.jpg",
+      "Summary": "CBC SPORT"
+    },
+    {
+      "ID": 60,
+      "Name": "GALATASARAY TV ",
+      "Link": "https://radyodelisi.blogspot.com/2012/07/galatasaray-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgqwKFDRuIMoKh-ymxe03bYmENYfgcZ2hb9ARPYUJnDJsUzicztH0APMyTdiWRkzMnAadWVhpM7_RZwIKAninKvelSj_Db0imoIUu4f4uPjHoWGs_PkisYtg4ySXcqcdRJgWpefaVrwJGIeZ2y6UgWS_5Lt3vIcFb0pw9QT4JN8ucFBpeHZQkQmAAtEQ/s1600-rw/gstv.jpg",
+      "Summary": "GALATASARAY TV "
+    },
+    {
+      "ID": 61,
+      "Name": "FENERBAHÇE TV",
+      "Link": "https://radyodelisi.blogspot.com/2009/10/fenerbahce-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmXqlVagqv8NNPdPPJRElCX5Ao30hEi7YuRvse0baueNw_l-z8uG37K5lnjMP__7ZXXHTxhk7H2VsMQheI3wDXdxflqEGzdoFosnuMTvl_W0wIHsG5Dxf9w5Qdjaq3TdnmiuuwRzupru43vS09D5xjLfitWm-nYQQ7n6siT7SFmCE_HN63OY-mmLzy-A/s1600-rw/fbtv.jpg",
+      "Summary": "FENERBAHÇE TV"
+    },
+    {
+      "ID": 62,
+      "Name": "SPORT TV TÜRKMENİSTAN ",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/sport-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1h6TN_udd4f9rEBkTgfNHTCoLC-bQ67dMW0FIidU8h_Ipg50WRjN-ukVtH5DoRVroa_0zvEma_KT6nzba3N0831CB7PznftSN-lFfFhWHxVeYQVhwEVesy8uy-J-p0-cLGYDZhVBw8ntB/s1600-rw/05.jpg",
+      "Summary": "SPORT TV TÜRKMENİSTAN "
+    },
+    {
+      "ID": 63,
+      "Name": "BEİN SPORT HABER",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/bein-sport-haber.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrvLxvGCNZrWCGt34sZuljPpWYuEqgA5bYcJH075k1V_vKjs7LzfBcaKUy2rjJkrlaF_VH4mJC_H89CmMXv4ZtrfX82OPQKum6ny12apVfD_pO_aZ8Ygil3tZGdMjkT-LrwT14vZJmcuyxfkAjdjYGRPOKRJymuXGg_EIRO26Ql1_XDmAbCCRPwTVm_g/s1600-rw/b.jpg",
+      "Summary": "BEİN SPORT HABER"
+    },
+    {
+      "ID": 64,
+      "Name": "TİVİBU SPOR",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/tivibu-spor.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6GLlbZ-qdG9FABuE5mGidgXvcfJ_lns_EAHtJOIops23Zx_rMtxmbpYwfJ46pLrOyBKrnQI2QU09VAgXDWgRDT5jkAwEXkpFoCkfY24e8SoSDdHv0nGnIuScU5uuXuuVrVApeiEb2PI2M/s0-rw/tivibuspor.jpg",
+      "Summary": "TİVİBU SPOR"
+    },
+    {
+      "ID": 65,
+      "Name": "SPORTS TV",
+      "Link": "https://radyodelisi.blogspot.com/p/sports-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBWv1Oz8OYZmxU3SMF3NXy70z3SPQzMnapE0JkrMjsa07Tn_jb6JquZjBNhMUKkj4-PhCY4SMt17hViPuBIEvPcT0Tto8gaYdRIr9gvnbrxKiaTlFZsA-WAuoTAs9xRKsWAZ2l_8HVC_4QSkVt1nYy_FbTvrfp2fDkS9tJmndCp2T49d9ZFt2pFUVNBw/s1600-rw/spor.jpg",
+      "Summary": "SPORTS TV"
+    },
+    {
+      "ID": 66,
+      "Name": "TATLISES TV",
+      "Link": "https://radyodelisi.blogspot.com/p/tatlises-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-KjOX2kdgRHY0Bupwrs0SlHz6bD-lhv8KAQok_WGnVf6VcYFUNcfIESSdNdFNULdZcOEk0_mnC-xPT0VEOuSBkDoYP5SHFeHWwtcmNFQSO2CTAi4DrdJ-Zq5Pe5Qr7kyy_thdYVJGwZMP/s0-rw/talisestv.jpg",
+      "Summary": "TATLISES TV"
+    },
+    {
+      "ID": 67,
+      "Name": "TRT MÜZİK",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/10/trt-muzik.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHipU8xW2f56tDAC4GkKotbpNmOEiZiOnG9kE3WkoJL3HoPB-XgngbxyubENOlD1qtf3wPzhZ9_jOsgSf0pkdZZWe0p5BqGmw3bvfRiKZkPsgZvAikfzcIzj2L5Ync9i6plClwOR_Hv54h/s1600-rw/trtmuzik.jpg",
+      "Summary": "TRT MÜZİK"
+    },
+    {
+      "ID": 68,
+      "Name": "KRAL POP TV",
+      "Link": "https://radyodelisi.blogspot.com/2009/09/kral-pop-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimCyjjT5HdeOpmqIQh_mEyiYKe-hhwlIx2YtZ0CR7MkySxwV1mZoa7VZ0yK5kufPbrkEmvTOfK8UXUMiXk7NexoB6J3PpDL4yFkcWotpN_68bQayeXayRzDv79hxveZYyQdQdugu0NhUYB/s1600-rw/kralpoptv.jpg",
+      "Summary": "KRAL POP TV"
+    },
+    {
+      "ID": 69,
+      "Name": "POWER TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/power-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuevceqA-PVkjgOsMHRQ3Og2FWQywBD-V1w18X49ovYmBaCbYo1o8qBLwO-_LB5QnaGpWZTLh5_RCrU9PliHShyphenhyphen4PPqxYLMNbyXpMc9GUJAslKCrn8jrWV9ObdhpuJTWbU_QVF9lgr8FQJ/s1600-rw/powertv.jpg",
+      "Summary": "POWER TV"
+    },
+    {
+      "ID": 70,
+      "Name": "POWERTÜRK TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/02/powerturk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2p72uih0ASugvEhCvH0BXY0A1V8fAqn6A-CDN8jre31nw-jrFzD_AuzQ7drcFuQ30crTl-D82vi5erM38ggJIT5qZoKD-EJKhSNyLQ306qtMHzfmEiMcwTJA6RG3PqELFjB7t3RQ042DK/s1600-rw/powerturktv.jpg",
+      "Summary": "POWERTÜRK TV"
+    },
+    {
+      "ID": 71,
+      "Name": "POWER DANCE",
+      "Link": "https://radyodelisi.blogspot.com/p/power-dance.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCc5kiMufKtsiFhaK-pMG7fTxF07T9JK5cd4mjUTpf-2pTmn5wxZEm7lKL70TOGVN9QyXzYxMRLiktmqWu7uyWchKMbkMsmwYaRBKrysO3W0Q7Tl-Sg2_RD3rV2GXvh2bOWwBClJz5Wi6Qt1x5C_a7z3I1H9iP4i2vNoRfckPGCFbDYFTI-vKwju5I5A/s1600-rw/pdance.jpg",
+      "Summary": "POWER DANCE"
+    },
+    {
+      "ID": 72,
+      "Name": "POWER LOVE ",
+      "Link": "https://radyodelisi.blogspot.com/p/power-love.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4J_GfuNz2fE-7PhBy5eEPrISiWLdWeUIgo1dzJZMc2w8YyabB61tZa52jXgi6SNOEJZpQnTn_BwtqF8P949zfPQFDp5U-sYv3YGA4Cveyft4oqARBIupR-Lsl3Q8OpwJ8rHPYBr8_osAodU0b5KUPfBHGbV21aprudIekgiasZyJUoE_bnvD82hMh6g/s1600-rw/plove.jpg",
+      "Summary": "POWER LOVE "
+    },
+    {
+      "ID": 73,
+      "Name": "POWER PLUS",
+      "Link": "https://radyodelisi.blogspot.com/p/power-plus.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLM2ToVQygLGJpObKzXQBwUfNbWSWaFEqmy-4h7BEVUSfWrkIqECw8HlZCiHCryZ4j-hKnhYU8eVMV1xDLe8ULaQAYpsxJYUjHdzxEJ0zvVtUHzlbIyZDT60ovOp0k0cV56-IM7lDOSXNGoaeQ1NkkHMFBWcFCZQSGF-ii6gGFuu-dsHVsDqMyCLSm2w/s1600-rw/pplus.jpg",
+      "Summary": "POWER PLUS"
+    },
+    {
+      "ID": 74,
+      "Name": "POWERTÜRK AKUSTİK",
+      "Link": "https://radyodelisi.blogspot.com/p/powerturk-akustik.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuHacnIlTTGTHqsMkUE2Qm65JKxbd39K3U_zqE3141NWJIEgKGC9IlEabO0wNLj9S3soNKMmM8s4Yq9kmu79d5M9lScbgEa-zHzzq2cXlcyXN6BT-BwOaP8tELAn-8_T0XCWfStV2aBJFNJbmN9mBLBzXCceyqM9xgRWsGbg0hsr_qyhKE6HgrDDsRNg/s1600-rw/ptakustik.jpg",
+      "Summary": "POWERTÜRK AKUSTİK"
+    },
+    {
+      "ID": 75,
+      "Name": "POWERTÜRK EN İYİLER",
+      "Link": "https://radyodelisi.blogspot.com/p/powerturk-en-iyiler.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinHWP9MjpqEGu7mFCm0dIWgPlpN0aSUvV9aqBXhZLZVjJSl2jZASkegqHZRMZbA-gzZWRpDcAHqEj1_9K9v-Z5cc1Co5BooZ026K3qrdH9GQPhTyyNW4KyHrUwn1iX1lFngwVINlVPx5wr5zNL0ictYPjX7lr_vlB2D-tokz9WRCD6F8z0UWFBHr061g/s1600-rw/pteni.jpg",
+      "Summary": "POWERTÜRK EN İYİLER"
+    },
+    {
+      "ID": 76,
+      "Name": "POWERTÜRK SLOW",
+      "Link": "https://radyodelisi.blogspot.com/p/powerturk-slow.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJZT3K5shS_3MGOEzDo02s_tq7-XEUxS8PgCLHVEUSQ-9N4B9XNP3USEny7Kfjx3LErfstFIive7xC0whh50VF4cnh4E74FVDmxLhuVtUoL_wG6MBcG2vXmRV4qwynjtZovRIlmfuf62k-D-f70dKAG7L52Odbw5xyq4ftv1dJC41-5_Xv5i0gCr_85w/s1600-rw/ptslow.jpg",
+      "Summary": "POWERTÜRK SLOW"
+    },
+    {
+      "ID": 77,
+      "Name": "POWERTÜRK TAPTAZE",
+      "Link": "https://radyodelisi.blogspot.com/p/powerturk-taptaze.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEie7QdP03xbV_JAtY8WV4jJU4SbcVI8xTRevpKtuuPBzdeL6C30oos12dyy8RSF2ZHX7XX__TaYBT69Jj4CrK83Xhe3xm977LIft8zClTwqxsJ3rTwu61KNKhI8juH5lsihBFyiNehN00VdT41Vzq54hIqLpjQ9gI9pSfiTk6kc1DTlhbkBrUsrvJp1fw/s1600-rw/ptateze.jpg",
+      "Summary": "POWERTÜRK TAPTAZE"
+    },
+    {
+      "ID": 78,
+      "Name": "TMB TV",
+      "Link": "https://radyodelisi.blogspot.com/2015/11/tmb-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6J1g418VgBHVsxuS9lSbv97BqEWA7DEsExxlkHKyf9bRoQARgxUGB1P-ADHS7jGcfqOw_tZ0df1RkRXFW1IHQwXh-UO_7WUZhT8vNPK1hNop19AeRW1nRRiTcTKIks79fEzNfocm5hG2w/s1600-rw/tmb.jpg",
+      "Summary": "TMB TV"
+    },
+    {
+      "ID": 79,
+      "Name": "MİLYON TV",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/milyon-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXa_-SLsscapZ3VKnW-Eg8AVfNRag3Tn_MXSSUu2rmxQjJQ0Xsj7Zg3n6MaagafmzgNFB139PcNeG7uQAx1f9hyRkZCRkVjWJE9LC8NPvOZh4hx0k3_rOWLS8DwLWquIvwKyaad-b97LKj/s1600-rw/mtv.jpg",
+      "Summary": "MİLYON TV"
+    },
+    {
+      "ID": 80,
+      "Name": "YANSIMA MÜZİK",
+      "Link": "https://radyodelisi.blogspot.com/p/yansima-premium.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ7ZdhJVf21eqhkGzMFidRTeDO7vE1sFjccRsfpS401Ls29aoB1ubljkSwiWf7_w54mU5kptg5LhefRFVI2LOvMf50pokdrIZb9-R21EIiWCb-GeUVA2-ftZNvjKSDMgc5_Shh0jk5OzrQ-sakoLlkXqZ2KFbaJc1zYCUw1Kr7szLLfoE-Jl4SRRmVpw/s1600-rw/ym.jpg",
+      "Summary": "YANSIMA MÜZİK"
+    },
+    {
+      "ID": 81,
+      "Name": "MAVİ KARADENİZ",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/mavi-karadeniz.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcMVwtiLnkIF2ByenvqstN5BiceugD849XVN5m7uZZvZJOVQnk90ka5q66lVnzT96wj28x33rQeeGrz_XzSYESKFrOEjeDboOkxPuWIkfjy_kEt6keo0vhqYSnzZ_Av4kWuJSALcMK4Si/s1600-rw/mkt.jpg",
+      "Summary": "MAVİ KARADENİZ"
+    },
+    {
+      "ID": 82,
+      "Name": "MUZ TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/muz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgurozuGp8mMN84anVPE1Ys7_qyn2xCvaC_IUpceCS99XKOw7uNVr37aLzhxdb2rFlsUAff6XRQrUspHvKff-YWollKAw-QXolKB_gA7p2QBPmeFnz8RT5NnrswdI5pT2b7_5WygPpK9Z26/s1600-rw/muztvaz.jpg",
+      "Summary": "MUZ TV Azerbaycan"
+    },
+    {
+      "ID": 83,
+      "Name": "SLOW KARADENİZ TV ",
+      "Link": "https://radyodelisi.blogspot.com/p/slow-karadeniz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRGio8D_ei-paUkRFdJRQTekgmUgswMUokQpNKZXFHb0ABEq0fsuq2haIss_PEgKaybH-6yiwr4Q7mcLubTEObw29HcYAeZRkJ79cxw0NCAQoqMekuYhNyXkicn3Iaqg2E0dxcJ2tpCS-S/s1600-rw/05.png",
+      "Summary": "SLOW KARADENİZ TV "
+    },
+    {
+      "ID": 84,
+      "Name": "NUMBER ONE TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/number-one-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghyWleMOueIKhxy7s1O0LL9yzWOW4N_bsoz0pPQ-JLcvkMFfHb_MDaSn-QLNPY-nlgyZCkwPFEaoEcASLJoHcxftH2qWUMVlqAwRR7CshFRq9aHhjMccChZ1k3p6KZaf7mGRlit4SNEpY2/s1600-rw/nr1.jpg",
+      "Summary": "NUMBER ONE TV"
+    },
+    {
+      "ID": 85,
+      "Name": "NUMBER ONE TÜRK ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/09/number-one-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1rErbxbEjPXZn3EEnzLBVz90qlAjvxOqK0384kG9-lOT2fS1aOHhdfoLgOibZAb1-OHma_b4kcH_GBc9AYT7BroXfG43DgE7OSZzS_UOAy-9Oxm3LIul-782L5IW02quLwYKOojJDwUtZ/s1600-rw/nr1turk.jpg",
+      "Summary": "NUMBER ONE TÜRK "
+    },
+    {
+      "ID": 86,
+      "Name": "NUMBER ONE DANCE",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/number-one-dance.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV5QvRj7JBvirZhH_R59ikeuMX5vZj9MLOMb8EUUyfU0FD3P5641pfjhMZ_iECerSpQ0wDm6G7mSxIOVb5K0mJsF7h4wvVqpmIhsFb6tXLTmM8Vo9cDjs0LW7mt7w_unCJ7nWfFbPbqBMP/s1600-rw/dance.jpg",
+      "Summary": "NUMBER ONE DANCE"
+    },
+    {
+      "ID": 87,
+      "Name": "NUMBER ONE DAMAR ",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/number-one-damar.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnVm_ifC2OmQ6rU87QAy7ebLXuFQjNE4WGppX5PBj4wgq0CRd_3iDWd3bqKlPqEgEgYhlS9RDHH6e0r19S9s2foQlUx7hm9EnfpTB9pOHY8IJ_8Xsua_kExmgs5hnUUJqNrXY6K5ZIYaiF/s1600-rw/damar.jpg",
+      "Summary": "NUMBER ONE DAMAR "
+    },
+    {
+      "ID": 88,
+      "Name": "NUMBER ONE AŞK ",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/number-one-ask.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXa6N8vZVrn3bg6P7kONvvL745YzPWl5Clk6jM5XKJlzQXg2f-2v9CCw1kMEdl19QeOefaLOhKehd1BOlZ0J6ktiESfJdFYT9HSywL-As41G91m1YSmJCcGwAHAKS8AxKIwR9QYVkVLcXr/s1600-rw/ask.jpg",
+      "Summary": "NUMBER ONE AŞK "
+    },
+    {
+      "ID": 89,
+      "Name": "TV BEYAZ Müzik",
+      "Link": "https://radyodelisi.blogspot.com/p/beyazmedya-muzik-klip.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi8nQIMkFVcUlEVPKiV95WUvU2htNl5qhfgUYehdj6g7WZtuSEt44OvCdmcXopNDo11IzGs4QxFh7Qtn-9mwnErEPeELl_3nwh6P_5w9LQBKcUMHijUfLHaE1tRF6PQyCPj6dmri2r0qZtRMR5kz_wdn0A7DveLZkLNsBQNQvKZxHRa3mlbZ2hNoAixQ/s1600-rw/bmuzik.jpg_49owk3igfMlKCvTK2TPA",
+      "Summary": "TV BEYAZ Müzik"
+    },
+    {
+      "ID": 90,
+      "Name": "CANSUYU TV",
+      "Link": "https://radyodelisi.blogspot.com/p/cansuyu-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ocxTp6OhE4Zt-o15t5qACq1Yr1C4pMy6dBugvgYOJtWP-UIP7DSWv4wAEcAjwh6ZMbOS5LA1nDZTwsjU487b2IwXK_uKd9YHRicp3LgYRu8KWALxPSQZpQ5XjjJuYlP3W5BDcRJo1sxlAwdwuiPYboUT7M9xbPIPJ2dLR9AXgFm0OKXh5vEe6fyP0w/s1600-rw/cansuyu.jpeg",
+      "Summary": "CANSUYU TV"
+    },
+    {
+      "ID": 91,
+      "Name": "AKTİF TV HD",
+      "Link": "https://radyodelisi.blogspot.com/p/aktif-tv-hd.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-n3AvFd4nMD8cDzDrumVQ8JIjR_xdTML-ixS-dN4taKNAmPXKSMxOtN-vE6CYxam2Sd5rrSCbQSODjSwjV7guU-O6wICK_sYBsYhEWLQY5eD-qANshRV7uw14evQpleqKeihNkPEPKpWs/s0-rw/aktiftv.jpg",
+      "Summary": "AKTİF TV HD"
+    },
+    {
+      "ID": 92,
+      "Name": "AFYON TÜRK TV",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/afyon-turk-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYV9CcVzZNLkJlCYd3Fy6ECjT8wWhPXW_IhUiF1st1W0J5O7Lzp0oUhxlSFYQSfa1eOtWdB8CDQvQ_wn1RKNCAINaR-mAN07FKP3oOtpKOerNi31oK4BZxO8LiMW77OUsySLhnOPi2MWFt/s1600-rw/afyonturk.jpg",
+      "Summary": "AFYON TÜRK TV"
+    },
+    {
+      "ID": 93,
+      "Name": "CİNE1 TV",
+      "Link": "https://radyodelisi.blogspot.com/p/cine1-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS2C5O60B8k9XkyaDkyeX0oVEaFR8NA-qJrDJa_xMHwBeywM74Qc6GDHs8gOpAuiRGRVS6sXL9KeBVKm3r10z4bYUGI5aAESJEByhBFe8A-fDzKxCNRWPRlTtmZFlaEtXC0lxjZ-5-WdE-1oyWVdkfR4Q8kGEfEY5A65gfWu2ksWUay12GhCzwDGgaEA/s1600-rw/cine1.jpeg",
+      "Summary": "CİNE1 TV"
+    },
+    {
+      "ID": 94,
+      "Name": "CİNE5 TV ",
+      "Link": "https://radyodelisi.blogspot.com/p/cine5.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTuFwwaU_JFUdbFreVvfEsnspOoQLlCQVSf2b-qXAN4WrovdyyGE2OVpB5Gm7S5yI5H_vzxZClau3T-T50cfmkWtfrrj-M77QUqjsqmmW9jkcA5DuRxV8opY5-J2Rhrg8iQk92Q25TOZqn/s1600-rw/c5.jpg",
+      "Summary": "CİNE5 TV "
+    },
+    {
+      "ID": 95,
+      "Name": "DENİZ POSTASI ",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/deniz-postasi.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhafryI5Hj1w2oo5u1lIoQnpKyyehLh8WEOI05aJUiFd11o20VEZ2xxSZvY_ErUcWGhtTNQb0wPMCLpFxbGXW-Ve6XNSvjYIMIpWZwXNkdhwon59iI82fiJNm5qbejvpl2g4EZ8SUAjqJKc/s1600-rw/dp.jpg",
+      "Summary": "DENİZ POSTASI "
+    },
+    {
+      "ID": 96,
+      "Name": "LİFE TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/life-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw8uXrRDX_KyimAW97ylB_oGH-p7AZ0tOvXEQgRUclIOXTPG8gg6Gt2NBRUdRKjlY9ajvDZ4mZUEjCihJG9JpY7en-VadlrA_vCVF_U7iHDjAQFK8gsZhlckpeOQ_iIJtEpYlkHkss9XCZ/s1600-rw/life.jpg",
+      "Summary": "LİFE TV"
+    },
+    {
+      "ID": 97,
+      "Name": "KANAL 19",
+      "Link": "https://radyodelisi.blogspot.com/p/kanal-19.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh82qprbkG3ZsnlDsIgMe-Nxx4SQ5_65n0K8mAUWI-Mt69ARJtf2NAxGTys2WuoJm8yAenMIwMnB9NW2tWALkcLLO4WG6WrllbFtlh-1K4dWDSVe6b0X6mTJ1BDoUnrPL3eQ-iqf_fGXtCN/s1600-rw/kanal19.jpg",
+      "Summary": "KANAL 19"
+    },
+    {
+      "ID": 98,
+      "Name": "KANAL İSTANBUL",
+      "Link": "https://radyodelisi.blogspot.com/p/kanal-istanbul.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKT1K2th2o6gki8850GaFh7wrnjWw0bYZOEwV9qooEdPnwRn-dWBNZYoa_682den4kRt0GcaElP4Zak_s53daJVMihyPjjQ2k1p0t-1X1Wbz0mIHcaqrlY1PNOGJaDJf8NjN0Q6B_BWenmELbRcuaHXY14TsJP74suDY_7vM0-IXTYxOT4tmAK4z4Eng/s1600-rw/kist.jpg",
+      "Summary": "KANAL İSTANBUL"
+    },
+    {
+      "ID": 99,
+      "Name": "NTN TV HD Sinema",
+      "Link": "https://radyodelisi.blogspot.com/p/ntn-tv-hd-sinema.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAgWUBiuFNXnxf12orAZisRQMSI128YiioeSjiOBHq4CXivyWUBH7i47-Uiifq2g25bVTPV92zxqWNC6u6UvebRJKVjRydTdrufYOzE9ER-lS5-cQN1MEbPVJ3oIBMJXMn10Om7Hz4CUvC0MhPgCT42L1Odizl19YeP5C9O6_cEzD3tPKEFcbUW6N-Wg/s1600-rw/ntns.jpg",
+      "Summary": "NTN TV HD Sinema"
+    },
+    {
+      "ID": 100,
+      "Name": "RİHAT TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/p/rihat-tv-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwz78_mz-DRn95O4v6xDWmIB3x7PRFCfJcfBEku3n1WjSej3GAuUijZ75O_IrojUcQWz1TageS6W1V7yB2ma6TuXC-pVV5UzmW8tdkYITp1cmOe9_rG029s7sCDTS9AR3flM9uenMsy7lH/s0-rw/rihattv.jpg",
+      "Summary": "RİHAT TV Azerbaycan"
+    },
+    {
+      "ID": 101,
+      "Name": "TEBER TV1",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-tv1.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTrOFwRH1-knzL8hJlY7niDhxSslb00u_PcwA7uuUktmKj_KJxv_ydq61kdCv9f-JC4lb4nDvPpicP-kGwOT6cH0tpXWDdb2qc9kVv0tNMCfndutYU3x-UTY_aTUJup2ax-fftRG7fx5QLDtiVrJwJV65xPFdXXxYqjymwahB44xzzugB2tlzwm2B-yg/s1600-rw/01.jpg",
+      "Summary": "TEBER TV1"
+    },
+    {
+      "ID": 102,
+      "Name": "TEBER TV2",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-tv2.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiirK6on6T3K9rM8UFwv9eKJQ3RjBm0u77zP0IE4-a5GUBvsnJFhTHV9Q5a8DX6YRk0QqFf2VdFYAhBUDpKZNyiuw2ySPiQlDpGAlqlvDdgRP65m6KXptFqIfIeK_rsRjtsN4kB72tEJpDI9hyp_DZ-HwheVV6RmtH8iEcPCUF6XtD0Qt53kfXVgMAzwg/s1600-rw/02.jpg",
+      "Summary": "TEBER TV2"
+    },
+    {
+      "ID": 103,
+      "Name": "TEBER BOX TV3 ",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-box-tv3.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh69fwp-8rAn0TpnFCppqtW2ef6xzXxq_4IjyCmsGwjTDL0x6AyBxF5c4kUt6MpZyPXZDv1Ir7tCuEDVIB_pgydbgf0xQTnbX68vnsBsBtiOtk3Yr-hobQm_0tFd-i2cKqyxiqzKhnUuT66SCTPuBbmFtyXMIinBYeOixFFX1j0Alt1CBETMtOQ054wyw/s1600-rw/03.jpg",
+      "Summary": "TEBER BOX TV3 "
+    },
+    {
+      "ID": 104,
+      "Name": "TEBER BOX TV4 ",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-box-tv4_27.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPFfPOCaH1DkBQ6Y59Bpdj7IY2CiX3M04E0gzBPQfdQd7UVUoWip5QjxALH4GA9cJ6PinNgZ6A6GUv7BWloQwBlOgHaIzpLUPe3ur2EVJgsEEs24_Zncvdy0JR3DhjdANPo3Q34I1gLY42KeVYFbZr3XQS2J6OguCyJ6fy4aT1xjm34MiAdkbK_FXjZg/s1600-rw/04.jpg",
+      "Summary": "TEBER BOX TV4 "
+    },
+    {
+      "ID": 105,
+      "Name": "TEBER BOX TV5 ",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-box-tv5.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnEYcLF_8E3QiepuhNIGoUct6ccwGlr5TNqS30gOqZ8YJx6O9pk6GDk_pXET_P5YEsOXtACZuMzN_oz03QoV1s7p7nsKwfIr8VUjovF391so_G5NvluzzsGbe3aY0DLzDRyelKQMuwlDd-CO2wO5FsBDJ7BDmAJuWLx0_RmLm_cQz_Tx_LlcNRbXDOVA/s1600-rw/05.jpgg",
+      "Summary": "TEBER BOX TV5 "
+    },
+    {
+      "ID": 106,
+      "Name": "TEBER BOX TV6 ",
+      "Link": "https://radyodelisi.blogspot.com/p/teber-box-tv6.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZzp5400bg_fKwjN13CCjbO8Nhy5Cg_ovZ-c-jHfdEfBPCOsj4isCXETZwGZqnbkl6JH9yOAQ7FtSzmzx6uedqSHGzFAhQfq7ZFS-yejAhkZRCYisOk3tmSbOiCB0DT09o-uF2XCI74_l_HB7F3ktTRiMiCTVOxfe_qXvrTzs4B8jKD2V6qBFz9olyDA/s1600-rw/06.jpg",
+      "Summary": "TEBER BOX TV6 "
+    },
+    {
+      "ID": 107,
+      "Name": "TİMUR MEDYA TV",
+      "Link": "https://radyodelisi.blogspot.com/p/timur-medya-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2f_wrNnUAalwdueLeYznWTs96bazTHlgz1bx4Uv-04epcb4iJyH9lbcFaSteeoHl-VEF4z3j_EiDlVqYOm13KX2lZBgIPNDAtzsSRJEICHCMPzH-GyaFhUgzInIc0PfiM3mfQGjlAmq-W/s1600-rw/timurmedyatv.jpg",
+      "Summary": "TİMUR MEDYA TV"
+    },
+    {
+      "ID": 108,
+      "Name": "TİVİ TÜRK",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/tivi-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhurkwFPY07Jut-m4JmxdOziLBQb5y7hx-w6wV-Tm5N41EQZ7_Hw5cD03KAIhOildCeSTKxM_ZWAe0WcVqCLNgwQiOcKztWppOgyf25Senev3t8tKLpyVI_Qn-9R2i7LRswq6X3n2yCy1Xy/s1600-rw/tiviturk.jpg",
+      "Summary": "TİVİ TÜRK"
+    },
+    {
+      "ID": 109,
+      "Name": "TURKAY TV",
+      "Link": "https://radyodelisi.blogspot.com/p/turkay-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpVYBa9H3EHZTexRszcn0EraFx8DFyKHwe1UPtSiCgpTWHfk-ecOJ0nlwB-Uwbc-uwzYgb0hnVZ1xPI3LzFgudHPdfdkAcH7JF4gSb_L3tt_XLwcBZLTu3Y-MwU8Vu6qOEL1UJU4iH1c3v/s0-rw/turkay.jpg",
+      "Summary": "TURKAY TV"
+    },
+    {
+      "ID": 110,
+      "Name": "TV BEYAZ Dizi",
+      "Link": "https://radyodelisi.blogspot.com/p/tv-beyaz-dizi.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLRY4wtUjtNSkmUmSF-v8JzxLegLbJilnNI971ds7hRlU_K9xZEin_XSrRigwQbjBRgvyDOofnp7IPp1j2ipx_47J1YO48JgXAUowZKI1-rSjl8BLXsCI6ERV4wAAhhzr_6c0XOZf6lRWBIxZ61wWBLkdjUgq3b5yeTVMUcoQp8mN-k-h6sKnyzk399w/s1600-rw/bdizi.jpg",
+      "Summary": "TV BEYAZ Dizi"
+    },
+    {
+      "ID": 111,
+      "Name": "TV BEYAZ Sinema",
+      "Link": "https://radyodelisi.blogspot.com/p/beyazmedya-sinema.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizFFPrps1eijyaZRjwMcwQjsUeu5EwMcX4Kkk-btOWAefpYpqmGtJyHtsB-ZXgsK37YRhnbitdPVyR83zm5jO7Xdqq3MiMc6nf_tRoHdIyCbEvPIhqY9sgIl6eRnCUimfoa1HfG4n_WfBSP0zvwfvVA2GJfwfMcbGwHWY_Ja6CX2urkTvV06g3SRlk_A/s1600-rw/bsinema.jpg",
+      "Summary": "TV BEYAZ Sinema"
+    },
+    {
+      "ID": 112,
+      "Name": "TV BEYAZ Yeşilçam",
+      "Link": "https://radyodelisi.blogspot.com/p/beyazmedya-yesilcam.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPFfoeCWXfr5uVldv5eORF8VL47BR96fdftBOV6Lz-DzLOp23mYZ60iJCTniCFf-SnApfJnqXJS_60eJQ8qAh7p2xQnFB3ol8LeRf4LTisgLaL7kZROFOEqK1hq1q7_QicrDFH-X0scUq1uOdll8FLSm491rxXO30fH7QWwd2Aht_mYrzS8sF_A578aQ/s1600-rw/byesilcam.jpg",
+      "Summary": "TV BEYAZ Yeşilçam"
+    },
+    {
+      "ID": 113,
+      "Name": "VRT HD",
+      "Link": "https://radyodelisi.blogspot.com/p/vrt-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDXq_5ycnsOotTHWZuQKTTLsRtJGJj6mszwMBUxjBisi467a9zdfFrvBYg02By-zTCvGAhFZBvLVJT2lZu7j1j3f1nRelnV7-0ITdKb8zZKqrTI6BVs4kxKy36XVbIdeYtzUfRbLxb-nffqijHu-sLXF2tQK-Fo56ZKZ8wU8Q21EffOs8wMceDxQwgA/s1600-rw/vrt.jpeg",
+      "Summary": "VRT HD"
+    },
+    {
+      "ID": 114,
+      "Name": "YANSIMA CLASSİC",
+      "Link": "https://radyodelisi.blogspot.com/p/yansima-classic.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnqd9MMDintAoyNlZ0auLUY2ZvztJF463rwGr-O5Dnhw8cTJxef7cTOwPzoFD61kCG6Hg8ykmZ6DE6svUb-40PGJaoywE9iEJ7uh_V6o1q0LFVJG5KZekcoMVgr1X9Lw6LT-h3tygQJG6Dqg9FYeZSU0FtuLiAlZ-bTrazs0cBmSALMcVRWEr_jWeexA/s1600-rw/classic.jpg",
+      "Summary": "YANSIMA CLASSİC"
+    },
+    {
+      "ID": 115,
+      "Name": "YANSIMA SİNEMA ",
+      "Link": "https://radyodelisi.blogspot.com/p/yansima-sinema.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1eYQOGF6-ELbkd5rIxFwqU5d2_zshA6n7L9DRruWGm_g-W5NoBwgO5lHoNPv6Kz0myhpb6VVdZDiXEk_hwH5JY2uAXqAMiGf8IVhR3NuB48KPLXviOEIJqgFvZbR_xWQXIX-w1NuCQ_zi_-RFxHmDdV8DLvfmQYiKzn-GMnNMNrri7tLTFgqN8Uv1qg/s1600-rw/sinema.jpg",
+      "Summary": "YANSIMA SİNEMA "
+    },
+    {
+      "ID": 116,
+      "Name": "YEŞİL KARADENİZ TV",
+      "Link": "https://radyodelisi.blogspot.com/p/yesil-karadeniz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizMh5VtF92i9oIcJ2Qz2EfV94oxTvf1kn6Gx9AUQeHnkA-Etvd2HFD_mmFmLtUzrQmVztcB3t1paSCW-naJJ3KfUSXAPzYtQ7dlDyjKnRUTnIxgNu3swBn5Bh_Tiz3wxGOSKk17H2f7KYYj3SLXvZaTyZNsRm5lB6OaCTt01AYGcHwalzevZ0H_DU5Jw/s1600-rw/yk.jpg",
+      "Summary": "YEŞİL KARADENİZ TV"
+    },
+    {
+      "ID": 117,
+      "Name": "ARB GÜNEŞ Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/arb-gunes-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguuAf9GaRCEu2mNE1nTobJ-EOxZLUvR5GLVsu6QzaFcFxV95XWxaRIcWf52v213s4Lag6ratTauAWa3QU66HJeLbPxuF2wGrAnlLPS0b9IozSuPHVIlTRjgQ1IYxz5uyM9sM5bUaVlDrB2/s1600-rw/g.jpg",
+      "Summary": "ARB GÜNEŞ Azerbaycan"
+    },
+    {
+      "ID": 118,
+      "Name": "CARTOON NETWORK ",
+      "Link": "https://radyodelisi.blogspot.com/p/cartoon-network.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT7qwA4qVHVGzP5C75RYvKpv1LgmZZRfFpn-NTzjDkNO-rUPucY8gmb09fCjJFVO60_b__XS8u5j_oeWwYZdIpvsZiYp68044yq0I-0gPt5EIQcHXXqKOMmpQJFdIPtHcaFtqHmaCzRtNO/s1600-rw/cortonnetwork.jpg",
+      "Summary": "CARTOON NETWORK "
+    },
+    {
+      "ID": 119,
+      "Name": "MİNİKA GO",
+      "Link": "https://www.minikago.com.tr/webtv/canli-yayin",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidrWbzTe55hgC0FiDLxXwnK0ZA_dvbVPyVPlnKw30FNjC5bHFwL2GPhOZEoh7IA0gx6ynMF0PZZfTn_wso7-nozjmDZWxMf728LmxEvHAPkCzNSohyEBnRRs1Yc5Y8pTG4ACaflEuHSScrPMacOOy2JvZCrSbtoSD7rV9_HnPSlzL-uQ5h7vcKkB5p2w/s1600-rw/minikago.jpg",
+      "Summary": "MİNİKA GO"
+    },
+    {
+      "ID": 120,
+      "Name": "TRT ÇOCUK ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/trt-cocuk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIS08tqHBj1X-aqwpGVeiHaThHb5Tn34FmDEG10cGGIzeTjJZlfyJRvP1XHGvmUsGgcUSiWGvu-wCgaZdH2eCTN7KOLw6HZMEJ-J0E3zCaAwGJH-i8AScglEsIXIGn5HYDjjX5XXLlzwfY/s1600-rw/trtcocuk.jpg",
+      "Summary": "TRT ÇOCUK "
+    },
+    {
+      "ID": 121,
+      "Name": "TRT BELGESEL",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/10/trt-belgesel.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUBcO7ho-OXmf2Tw73UX8TT4Q8kOpW1Lg9s6G_bEDsbRGUtskI0nPBUEOzRzLx0ALpv5W9djWPYd8qo3cwpxjO2yObxxSexiOZcjMaI3KkEBqS7ANzHe6l31kbsDcLXo2KlCckokZfX47/s1600-rw/trtb.jpg",
+      "Summary": "TRT BELGESEL"
+    },
+    {
+      "ID": 122,
+      "Name": "TRT EBA TV İlkokul ",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/trt-eba-tv-ilkokul.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtO45-sJI-JE13dpQx5hks1x9kBK51XMjZQMGMT63tjj9VK9S2C1j99OE0PokAHYYukylTqlzCKT0XoVoVyOccJDSNIfvYpmtB8KwIJJ8IFoeHo3o6Ii0jZOPKhczsumCWYQMUFkNE4LNG/s1600-rw/eba1.jpg",
+      "Summary": "TRT EBA TV İlkokul "
+    },
+    {
+      "ID": 123,
+      "Name": "TRT EBA TV Ortaokul ",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/trt-eba-tv-ortaokul.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglDxzM0aqxaW1TZ0gFsov7hxcjdZJ_FV-BY3AWjEDAX8rec0S2Y6dxJqKN8j2tluJOIVDCmpPGYg982Yw65Do2Nhv95zc7dzKKN-Rs0REC4iYMSilOnfk8W8MF3OuWbVSZGwcnPRpjjU3o/s1600-rw/eba2.jpg",
+      "Summary": "TRT EBA TV Ortaokul "
+    },
+    {
+      "ID": 124,
+      "Name": "TRT EBA TV Lise",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/trt-eba-tv-lise.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5WZYEWGL_NpmEUL3lEAC_-SZ6K08xIKEWHbcBSikzQmgLkRGqREtROoweQARbAGlW0QK4sjsBGa1Vbg9059OJtbsuM7OnXU7uH8FrQNRia6PvavHOMYpV3iiUJrhc2-MRtszNbewPHICv/s1600-rw/eba3.jpg",
+      "Summary": "TRT EBA TV Lise"
+    },
+    {
+      "ID": 125,
+      "Name": "NTN TV HD Belgesel ",
+      "Link": "https://radyodelisi.blogspot.com/p/ntn-tv-hd-belgesel.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzylgYeOl1rvv12-4O0l1Np4ln3eDRyCH4tXhOqZvyfOyTBecIESMMhxEAwOwwwScb-s4cefLgCBarQnBdLbZWp7UBopTGU21MKlvdZPzUlJyf-bXI9pDAPK2ssNJnuxj8s-4utXST1s_a0Gm_VIsjATjsLqmaSJlZS6t8ycXpTh2CUvCZOQKJNG9J4w/s1600-rw/ntnb.jpg",
+      "Summary": "NTN TV HD Belgesel "
+    },
+    {
+      "ID": 126,
+      "Name": "TV BEYAZ Belgesel",
+      "Link": "https://radyodelisi.blogspot.com/p/tv-beyaz-belgesel.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUkNn6jYx33waFcyBy9gT61KCon9Gl608cTRPf0ALbqIFkNgxKuW66KWE1CRwAvsRcSucv391tOdikwCNZWRcnSUT6BWf3t0Sv0X-n3j-rklyvlE8KoKo-0xyP-2mcJM3GldNmBA_8F93_4ox4UcTYChbV3ceeMkNsu6-9SPNm6FQ7CnHWfBcB_quESw/s1600-rw/bbelgesel.jpg",
+      "Summary": "TV BEYAZ Belgesel"
+    },
+    {
+      "ID": 127,
+      "Name": "TGRT BELGESEL",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/09/tgrt-belgesel.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRa94DCAGUVtVDB4EXGaJJD0AW97CKSRJe6NcRnwRplztY54UPDz6wACAC7uk5vQ8-SPznW1PHzeYZELoYdgFWZm74v8ICLP2D7GXsMlsSiFBkRMM5PsMahxJb5hxwB6He6UhRJOxaZ-KH/s1600-rw/tgrtbelgesel.jpg",
+      "Summary": "TGRT BELGESEL"
+    },
+    {
+      "ID": 128,
+      "Name": "ÇİFTÇİ TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/ciftci-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/a/AVvXsEg8_oa5UY_LJE9aVhAKdbrGVLvFDtpbOsF_kkCHKihNvHsywPugDQf0j3oubglwDq7wrtNjrWZTladjhVwr_dJd-WLNCZQnY4K-TDW58YTtDxaFZQoDjas_u2VPBGKY7WLiOFCTGi2Y2Oqt6lyvfz1S6hYsKTtOyd-A2q0eN7X3go2gGSJW6JSym1iwjQ=rw",
+      "Summary": "ÇİFTÇİ TV"
+    },
+    {
+      "ID": 129,
+      "Name": "KÖY TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/koy-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcNmBV9_ca0axsyy_LEuibAfic7mnnqboni8Xu3mkuvy0ddDOQd5C8bAYUWB7UwFO4cM9sQRM_5VudQqnHKkggI7ek-mDhfGC5DuInf4SM4cztM-aYlnfJo6cYTclfAVcskpC8XnEGityh/s1600-rw/koytv.jpg",
+      "Summary": "KÖY TV"
+    },
+    {
+      "ID": 130,
+      "Name": "TARIM TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/tarim-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuwo2lZUxJhkUP7q7ndXISfwRGovQ2YdZS5Ro7zoEk-xiYGJSfs33tOS-MzTjkbo-NHjoUITkJGu7_lcFgxR49XH4T5bGm0xkBglUsuwl0h1xIdE1gG-xfMWvfpN30AM8CwAwZETF5PLYt/s1600-rw/tarimtv.jpg",
+      "Summary": "TARIM TV"
+    },
+    {
+      "ID": 131,
+      "Name": "SEMERKAND TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/09/semerkand-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhot0qWvW8I5Kq0lSOhbX9glkaIYw12Cvg1d9GFi5_rzErfOIvFpQMR1xpWEtV2Cwb1kfc2rqn-aaWceFx6viENvTygBljGyOC_R_Ba8j4JgjimNj71iVCgybkHbJKabeskx8i4Ij1azHcR/s1600-rw/semerkandtv.jpg",
+      "Summary": "SEMERKAND TV"
+    },
+    {
+      "ID": 132,
+      "Name": "DİYANET TV",
+      "Link": "https://radyodelisi.blogspot.com/2012/11/diyanet-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxuSmGkM1ORrOR52X7V1-rHglwvGHFHhsU4A9xuGZ6qK3xUmOLv_qfpPgXVG0ZtBfVRFisXjsVxcIWq0oSyS1U0z7BCJsNY1S58zrL6c9WvG93V8d7s56lf04K4_kA62o8KUxrBO4tSVOP/s1600-rw/d.jpg",
+      "Summary": "DİYANET TV"
+    },
+    {
+      "ID": 133,
+      "Name": "AKSU TV ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/03/aksu-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWEKEYfWnQ1JcbjuLMxM0SOTz2QQg-TSoDoVik8AaY5uwuOqbONIfAZ6G2BR4oSzw5kDveOHwzYujldvgY-oA2R7_uQ89Xa8RsW_HH6j9VJqf8zAEObJaJEfpmdj8X1a4OMPT7psBAp_ek/s1600-rw/aksutv.jpg",
+      "Summary": "AKSU TV "
+    },
+    {
+      "ID": 134,
+      "Name": "ALTAŞ TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/09/altas-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0PXWOu54TtaABRrWxFmWeXLFrHafmKkuAlMLczjH_8luhzlGpY_4dIojLm2fU6_b-wYT5Z7hygYEn5qZLDjATrWfWMCDqCCmMJiGfG8JZm8bQh8Lx4lP28zZyKreYZgcjNRAXgm7MnQQV/s1600-rw/altastv.jpg",
+      "Summary": "ALTAŞ TV"
+    },
+    {
+      "ID": 135,
+      "Name": "ATV ALANYA ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/alanya-atv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj97gjoPAy1HbWbgkP5jkdflXlvYNwkQy-12XREz6S2_M17YcJ8VOw2_eXZejWG4OhXpzNt5DXCsZKQRz3sGt2ZVgodyAumqZKeiTj5AOkwT7ekNOS_YZxgRR783u0k-DB3cezNO1pRVrY-/s1600-rw/alanyatv.jpg",
+      "Summary": "ATV ALANYA "
+    },
+    {
+      "ID": 136,
+      "Name": "BRTV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/brtv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9GlvOw1nbdu0YEP6J5ky32l5Se3JZGAbcEnJ_0YQV8mWVK6YF354opyLo2hQjBghJelm2oDfd1NrtPvFZpbTE_mkiFD-iH1-oXCced-uzdvX_Tr9A0Wo7hwng2okKUuAI9VobCnD9yIy4/s1600-rw/brtv.jpg",
+      "Summary": "BRTV"
+    },
+    {
+      "ID": 137,
+      "Name": "BURSA AS TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bursa-as-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmd0OlR4XG4AEtUE84tCY9srLOdg3S233wj3RCaphcZjT06wgIJEk1GcEXkbzMUeoRoH2kvN4iFa1i2M323pAaTcaBULq_vpLNBxIxdTp1gNMwAZRk2ZIE_LGaSYwaV4fWuMlqot5djikF/s1600-rw/bursaastv.jpg",
+      "Summary": "BURSA AS TV"
+    },
+    {
+      "ID": 138,
+      "Name": "BURSA LİNE TV",
+      "Link": "https://radyodelisi.blogspot.com/2011/02/bursa-line-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSNZ-iHKhlLbuXg8fxbTMOvcCn2Tobprk_RpjBk7k6OgjAevmk8H0CpB1SLVWR00XSQrQV5Dmhw8iyBgRFDfDb9WUPrsKCLqAhYHNfFSsuh_d9NmetP1cENTQB6SPej5Kh-L_7FpcRjgdV/s1600-rw/line.jpg",
+      "Summary": "BURSA LİNE TV"
+    },
+    {
+      "ID": 139,
+      "Name": "BURSA KANAL 16",
+      "Link": "https://radyodelisi.blogspot.com/2011/12/bursa-kanal-16.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioTFgeDLMaKWsQbUySnf01_j4bjy5JiWdAIcKI6QOIwrWet9Ag2byGM5UPYLuNkWaCfnnTlFjjNMQKLrhtZyD3fb-2VQYzBjw_JZpaIZq6QO8Da5izxsnY3YXuhvIx9RfnSGK95peH_yuadaNbl2-IsdDxIz9459Au6htVyMRgbB6HogYWwWNMz4TMbA/s1600-rw/16.jpg",
+      "Summary": "BURSA KANAL 16"
+    },
+    {
+      "ID": 140,
+      "Name": "BURSA TV",
+      "Link": "https://radyodelisi.blogspot.com/2011/11/bursa-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUUWaMscyUnta-AYocTkam4IIIrp6oREw7At3PSOanmvnYRzWczJnVkffdc51Gu0QXVM0iDx2k7iDTnuQos40XDCikUnGHDb88kwDXbXFMDuP_WAY-n_ZssKjY6SHRQpEVTCqa4v1gOoH8BwzLzifBEZjS38t3fZK_JQKlbUHH4eQ68jKBIKemt3JxxA/s1600-rw/bursatv.jpg",
+      "Summary": "BURSA TV"
+    },
+    {
+      "ID": 141,
+      "Name": "ÇANAKKALE TON TV",
+      "Link": "https://radyodelisi.blogspot.com/2012/06/canakkale-ton-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPbgbUvzc2tKOFfxn8rDJK04g_p8sAonoaWyS8lm25_wJuTz1Gt925hQdeP7oyHQ3nV11fPleRIpeWBJCNlU6BM7iImvOLz2bNha5CjczMs1tkK3GcY45NY5ggklsQms76F5juO_37b4hQUk1l4ODzXbtiTNF6QF4FUnjFiao4JXVAwP3xcM_ELvm3Uw/s1600-rw/tontv.jpg",
+      "Summary": "ÇANAKKALE TON TV"
+    },
+    {
+      "ID": 142,
+      "Name": "ÇAY TV",
+      "Link": "https://radyodelisi.blogspot.com/2011/02/cay-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTrSfmDR8rnFd7k-D6AfA7gt5S1-LeXGVHe9qRnZVTGb2pYtlzTxNCIrEtRKmwkm6Gvi-BooYa1nnWoXCslGQPmQsRbCzZ11rKMVrxLfntu-aUxABNDqR7kNKs2Q7s9CECeM8AexLqw2M8f5ux5UwZ5JQHvknK2YFz1Q5mlbhL_PuB6MpFhUV7ROpBpQ/s1600-rw/caytv.jpg",
+      "Summary": "ÇAY TV"
+    },
+    {
+      "ID": 143,
+      "Name": "DEHA TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2013/01/deha-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHjFXahz-adoSbm1hDb_KOXFA68iYWkdmOkTK9_plbR4QuR3sj8jEpN3M5wv7bWTMMaOczojwI6HysQuMz8A_UYoixmM1U_h1-uPQ0mAAwe2lVee8XxW9Gesrx9KbS_cZiSi4NvJviLd7ooOnEtEDVKL270RriSDtfQsTg5eqq22MLmDmgZDox6jNzuQ/s1600-rw/deha.jpg",
+      "Summary": "DEHA TV"
+    },
+    {
+      "ID": 144,
+      "Name": "DİM TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/dim-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjmuMF4RIpW_WWXdBN-X-h8CX7gWmfaTdGFMgdKs93Xx7ypYUk7e8UVWyKJEsYh-I7o-iZNKR4zt-rTAzPSj9hRj9C-0paXtwxpCqBc77G7iCjhaFaT1rWDoXKxy3xhGRraU91FnNsErWF/s1600-rw/dim.jpg",
+      "Summary": "DİM TV"
+    },
+    {
+      "ID": 145,
+      "Name": "DRT",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/drt_15.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9x19bALNDOpayWTroJEIS4ad1SdorssB71Oe8TzpA0r5qB0PP08NHWy0XfySIbs5RR9bUEtPNmqqxwmPIHB-JfpNvw875p3Bp5ChVyoRNIai91ynyT9cER6Eymfc_p4WEJ6fbLrRIjKygbH_ehQhNrkMk5nAYZ3YP2sdLZ2GIZGkUNOZ33XMtNyYnmw/s1600-rw/drt.jpg",
+      "Summary": "DRT"
+    },
+    {
+      "ID": 146,
+      "Name": "EDESSA TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/edessa-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWigKx78ZPi63ThZwCvTfzi4JeeJryxDwncZZPm7ZDYULxYDSsoDSecQHWzb670PO7hcenqOZ4LuCDTvBrzUVSzpbG_wBxOVjKr50VtmClSjhl9GcH4UkGkchE4m5bVP4P8tkZYSqLtXpexEqAAdoS5YUhyDQ-5xeDWeSa1TtLZJxe1Ue_VL0SmBg5Q/s1600-rw/edessa.jpg",
+      "Summary": "EDESSA TV"
+    },
+    {
+      "ID": 147,
+      "Name": "ERT ŞAH TV",
+      "Link": "https://radyodelisi.blogspot.com/p/ert-sah-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7shTq2x8SxKHVmzrU6D3GJuWwN_C2vbHUR1CbIU6mx_X9QC8ba9Z5Vcv-1kW3Uw-T0SQCAXSiJ8qKOSk3UumX4iXPrNeWHYgNPA0Ti33wdXRfcqBGbtWCO1I6OGZbgjajALSdV5q1Z7EW/s1600-rw/ert.jpg",
+      "Summary": "ERT ŞAH TV"
+    },
+    {
+      "ID": 148,
+      "Name": "ERTV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/ertv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIizlRuFfV2N-yMl_fcNfwfSGjkz2ittzPuRVAExMvmP4ubbk0uO3rOuQ-Cv3pzoTteIeEoPdsEGJH6RwhU3n4RHVUyQ8Rz-cfc7G_mqLpSw94-WGNBm-hpbWXQ4X7ohs6YfbUn6Cps5Ps/s1600-rw/ertv.jpg",
+      "Summary": "ERTV"
+    },
+    {
+      "ID": 149,
+      "Name": "ESTV",
+      "Link": "https://radyodelisi.blogspot.com/p/estv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYaGVivKky5uL5OjTbDFy1VBQc53i1If56ulS_y2Zzwn9YRLUWNkspjxfH9c4sgfFnDGttFcIgtX3I7lZEEg3dKUCgmA8yP00egJoPxBMZzhb7QWLdI395rWvxZBgfTMEOL6cg51kyPBwo/s1600-rw/estv.jpg",
+      "Summary": "ESTV"
+    },
+    {
+      "ID": 150,
+      "Name": "ETV KAYSERİ ",
+      "Link": "https://radyodelisi.blogspot.com/p/etv-kayseri.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRSqHnIcAbiyWUv9JsJY6H43EZJwdzTkdYcUz_IAe0snQNZliEFMPGgQqwLUarG_XtHOSen9QQG_hs64KrbHS5K0KuHFMZOXeURXbZj2qiZX-pwXWLdbXXh8BaZWSzChfVcjAJ3svaWMKdlKzTd6gw0_9LEkIXfTCxDQhRs0_OKry1Oxb_Kz8MdkJjA/s1600-rw/etvkay.jpg",
+      "Summary": "ETV KAYSERİ "
+    },
+    {
+      "ID": 151,
+      "Name": "ETV MANİSA",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/etv-manisa-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiI7DX15bxq1RUr87C45w_aMMWCJNAvIakzBPM7Xhw8XbKa3-0gkXnbmHvMuFmB9lh09gEAjkEHZ8GjSDEk8uJEauumGYLoxwS8oQTLF15qscGA4_gcDihotP-E3uh3qY7dYg6XA1L-X2TM/s1600-rw/etvmanisa.jpg",
+      "Summary": "ETV MANİSA"
+    },
+    {
+      "ID": 152,
+      "Name": "FRT TV ",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/frt-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggIA2cYLeyQy8LgyVndjGeLES2Dh54ydXt-6TwbvhRXAkqp7HA9n7lllNwdXCUzh-YsFipciPX535LLxv5UTAjLOBW3awQeUyjhZLQOf2khj08NotyqyXpsacL6fJibgaakiWhjbMnL9yq/s1600-rw/frt.jpg",
+      "Summary": "FRT TV "
+    },
+    {
+      "ID": 153,
+      "Name": "GAZİANTEP OLAY TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/12/gaziantep-olay-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin4gzuJ03hgMpOZoy_SfeNKAwGLokOoB7LkwAACNmUAdjYxuMdbx9iCk6hr3m7AG7X_He_DFa0Ryy_aEpAmpo8jf68tvwoO-QVazlZS5eepp4z75WKBp-fK_d_yfCQuiJen5yp2fr03OVG/s1600-rw/gaziantepolaytv.jpg",
+      "Summary": "GAZİANTEP OLAY TV"
+    },
+    {
+      "ID": 154,
+      "Name": "GRT",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/grt.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhba4bKiUbo8dfejIsxKN6q21MIbp7wIbxg8ZXZdIZrnGunSW9mObYB1u3BB0eZ-Yvb9VsHWc1cRl870-QLZvjLgULo1DcHnwxdVNSyAtzGdw4kLxQvvkeQhJrVjlXxJeleQ0Oq-k3Rs8Vn/s1600-rw/grt.jpg",
+      "Summary": "GRT"
+    },
+    {
+      "ID": 155,
+      "Name": "GÜNEYDOĞU TV ",
+      "Link": "https://radyodelisi.blogspot.com/2012/10/gtv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH_-rFMggaZqvgdW2_t7PNFbyq15ivXGvyNvC8XG2AeYGXZPFWE8u6ad2faDwcZjvjukO-inpdB1IPzkama3ybbEqZAXLM8gSczE4FoFZUYnfZ9pn_eIvoD8u_l0dhjcPvGVGalkqPQmOQ/s1600-rw/guneydogutv.jpg",
+      "Summary": "GÜNEYDOĞU TV "
+    },
+    {
+      "ID": 156,
+      "Name": "İÇEL TV ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/icel-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoAOlywyskUWe1kYsAikUsoWcXV65utnxMXx1GWAjkKjo-G9sN-d73nUAdJAnzUJAPewVRV4XHvgDW0ZTQu2k6FpOYbiJ0Mq7z_qtFjfqfjV3Wuual_i7aPz4uEG9E7SaX8qlt8geZ0RV/s1600-rw/iceltv.jpg",
+      "Summary": "İÇEL TV "
+    },
+    {
+      "ID": 157,
+      "Name": "KANAL 3",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/kanal-3_21.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx04O-y08VDWLG1-a5pV7IA2MXPl_AM7xTaT7pPKg62GwGiZFsIjkMHuAs4ZlFMNeX1Z61YULOFpHCNbGR4Xo0iP9DV0eeGU5ojxQVVNW5s2FDHoZ81Qgmmhcxu9bTn-6a1k66FAo-CPQm/s1600-rw/kanal3.jpg",
+      "Summary": "KANAL 3"
+    },
+    {
+      "ID": 158,
+      "Name": "KANAL 15",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/kanal-15.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6fYnA8Z1R8-nkUGwl-CzkNm0paLfMGEeOTSkBWBwmssqO_d9rGnO0SYCTv6FBLIYIDLYZ1KBFmuNeuQsG6cVHf_93NJ6-TAuhjTKYr2xT5UuuTI3zs2sCP3P0pkbuZgbiC84qm54uBO6Q/s1600-rw/kanal15.jpg",
+      "Summary": "KANAL 15"
+    },
+    {
+      "ID": 159,
+      "Name": "KANAL 19",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/kanal-19.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn7vid3BxHqcZYirYmOnHMpsW_gXgsiL9UY_kLCZEAwd912yK_rE6oxnMMvYnKG-9u8tZE70-WIL_jW_SQ3oQFwwhXrBrKEDB48CWQiqceYwNq2fIqKluwurHXYLCpTLymCu9NYSwL6VtI/s1600-rw/kanal19.jpg",
+      "Summary": "KANAL 19"
+    },
+    {
+      "ID": 160,
+      "Name": "KANAL 23",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/kanal-23.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwf8flXwaaHXTNf_ME8CSb_0U_sZ9Td-YR6eatvpQRpSVrkkyC_uyRHdqqUqJoUQxJlz78SYy4BhmWKxXw5myZ5VuDHz5LqlEaMPZVBw8TlrDM0Y7o5mTiBZQ9o05QiAIfZITrGMp5uqXY/s1600-rw/kanal23.jpg",
+      "Summary": "KANAL 23"
+    },
+    {
+      "ID": 161,
+      "Name": "KANAL 26",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/kanal-26.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdvRLy3bwwSVHts7KHVcLfLxLMv35JyEiP2PXXINinPavb7GRSc6-1DDFlsmIz0a5pRGzIS6CU4J5_4kUUh_YisWFs954cWXFUG3DxnqlUurP4t6jj5vnUT69Ecv3eO7d-5gTscD-pqlgb/s1600-rw/kanal26.jpg",
+      "Summary": "KANAL 26"
+    },
+    {
+      "ID": 162,
+      "Name": "KANAL 33",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/03/kanal-33.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjXQrz8TkKk3bEO4oOI_hXX3EosNTQhZQoUPn2kzoxVhesWvKNkgbv8L0pIXmDuc9lIcw4hyphenhyphenlcrGppVwxrivQUvYZh6_gmF2yquO0s2C0RkocXTLP5T97j2h2_rNkpgEfXG-HwgnDcruTi/s1600-rw/kanal33.jpg",
+      "Summary": "KANAL 33"
+    },
+    {
+      "ID": 163,
+      "Name": "KANAL 34",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/11/kanal-34.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9ybDGbFvg5kkgcU9mNaDPCPwWlzO6ajPu6QWCgi89hQHtve9mSsSOEfe-ypcY3TKXRBt766US7bTYhNWSDHVv6GbWKKQPINcbbmLXzvCHxCEwRgiGv0hlbUlN8vw6YGsVlUWyHyuhpH3k/s1600-rw/kanal34a.jpg",
+      "Summary": "KANAL 34"
+    },
+    {
+      "ID": 164,
+      "Name": "KANAL 38",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/kanal-38.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQJSV9WuqirsmKpabXc0karKjnK_18EKmTdwtY4iN8DheeFqe58-lUCG__GiJBmllkaFz6n4UUTwxRu1CKrKmQAraenvqVbaZuApvVHFQBbrIaERruKzX4Z__wuvYrGjxykT3cXMuEGaMe/s1600-rw/kanal38.jpg",
+      "Summary": "KANAL 38"
+    },
+    {
+      "ID": 165,
+      "Name": "KANAL 68",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/01/kanal-68.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvxKkTbc8S8h_2ZEcED3jN5ONksDs3IYWu3cZ-fh-N25uQR94YLmS3J7HFIcbg1a7IVTODuyKldlee703TbBdVJI7-VfHZXJ75v3nl5BoaoW8lBdILk6I7XYALru0adc2KzXdYeCy1q4FM/s1600-rw/kanal68.jpg",
+      "Summary": "KANAL 68"
+    },
+    {
+      "ID": 166,
+      "Name": "KANAL ALANYA",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/09/kanal-alanya.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbKCKh1C4vo39DhOCvvzaKopKeLFqh4C3Sq6OlNxKAwN_5ZnSdQUTc72z7_RhE-9hvBk1OgG4X-c7KlttNUZS8tXllfO86AguNyPog49uIILG1NlJaNhXADfz63VKVN_BV81OKbyhb98Nn/s1600-rw/kanalalanya.jpg",
+      "Summary": "KANAL ALANYA"
+    },
+    {
+      "ID": 167,
+      "Name": "KANAL FIRAT",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/kanal-firat.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgibi1j_-iNg-W8yCjX7Pj-VvOLrq8E8o25fjRfBybW7URHgBHeiELV205rEFsGpTNggfIsApAHtFuIDcZ5DeJTHIynPNhMU8-HB3NTmqi6f5MK15LT_P3tXwvmeXiq-Vuf9vSQ8zIsKagZ/s1600-rw/kf.jpg",
+      "Summary": "KANAL FIRAT"
+    },
+    {
+      "ID": 168,
+      "Name": "KANAL URFA",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/09/kanal-urfa.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7LjnXwjQeNIq1MfgcSqRp1MqYoz-c0gDYwAaexTz-5C1GvjWljRPkjJ6K5sxlpAREbddB7lfQB8a6eeKKI-LcqjmAR4GpJL0C_40ZAmnVq3VkkxW2s8mbKemWp7xB25ycNlbRyHa5faMY/s1600-rw/kanalurfa.jpg",
+      "Summary": "KANAL URFA"
+    },
+    {
+      "ID": 169,
+      "Name": "KANAL Z",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/kanal-z.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIvlWjPi60vUMdsFJX1eUXGnxqvIfCXL_ybvuPem462xlrS-Qgjib2l_nJtFZSJ-HIy6c8UCa2n1BA9k4vuqeKOxX-NK_lVrIeydEQitdh1jqmHATGnyXr9hzyQLTBiHf_F5NmK6E6mN3j/s1600-rw/kanalz.jpg",
+      "Summary": "KANAL Z"
+    },
+    {
+      "ID": 170,
+      "Name": "KAY TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/kay-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU_ABFc1vPep2Ml7a5c2W1oiM8YYN1-g85fj330PBdMGfygoemnyUm7nQT1I7cmZXs80QMHLywuz3c2ST6YYPZHgtLm6-rFmXLtckTD5mD2QuJtXYK4EQ1ePFmMO8RkvFWfLH66KAmT16w/s1600-rw/kaytv.jpg",
+      "Summary": "KAY TV"
+    },
+    {
+      "ID": 171,
+      "Name": "KENT TÜRK",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/kent-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf2H3eikWunKaDXiegtxq5qhJSl6gfSGwwKw28rpcksi3dVA1bpIDDw2Vrfpx-mp9ruEDyGB4BdJTg4w6JZMwuTYItn9vqB8IekjUugOKLOkS0rPTli-cJGmQ4XQINGBnomhAiAeygc0g4/s1600-rw/kent.jpg",
+      "Summary": "KENT TÜRK"
+    },
+    {
+      "ID": 172,
+      "Name": "MANİSA TV",
+      "Link": "https://radyodelisi.blogspot.com/p/manisa-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfdqHoZTNho5ddVSklY1lTqClcv3FOAuNYOrueRSNHRSPwDDDgl7WJeJ877fSEPhwMKpDxo7-53DMtOF6JAKFxVIGQKuSfApRcLIFfM1p4blJ3AeVyDisw4utp6jKZY_IFTRwt9Euy8imy_1Z2awxNHhy0oxYVXvzrVZ5uITcnBHZDor0gej6LamXC6w/s1600-rw/manisa.png",
+      "Summary": "MANİSA TV"
+    },
+    {
+      "ID": 173,
+      "Name": "MERCAN TV",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/mercan-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyK1bPRfGNjixfzB0g5TknOIByrTszVmRBl-NpbMjI4DNRHlbtqWCJLCXONsVkQzbQ2LTG0_lkENfraqwbqd1ao6dVoTrzym72i33D4WUdoJkZJb4zL4Rf3W0RpkIo4hrYXurOa0bjxPEe/s1600-rw/mercan.jpg",
+      "Summary": "MERCAN TV"
+    },
+    {
+      "ID": 174,
+      "Name": "OLAY TÜRK",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/olay-turk.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiUsGcwYegcpfudKGPuJAfpKyYYGfxDvccX44-tMWJI9sAmtvXS4qI8ddqW1qRkEenbau9RC2Jwkz_HntzqLEPiescDFbjKDlZ-iIG7VWOhjzi_pTgn4qWq9L0QNhAypSeB115XP5mD3ey/s1600-rw/olayturk.jpg",
+      "Summary": "OLAY TÜRK"
+    },
+    {
+      "ID": 175,
+      "Name": "ÖNCÜ TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/oncu-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJV9Uwfx5MKQ97EgTDcKW860y6NK4wNtb_8gyYEuA8sYr8RHffoT_wzA_7qQen7C2rbh-vhzPEoASdlyte5X2W8-8ApiueOVrXtL4lNNaNRb-wPWoSl6TSaxhz1DBEX18c-S1GC9xsWryK/s1600-rw/oncutv.jpg",
+      "Summary": "ÖNCÜ TV"
+    },
+    {
+      "ID": 176,
+      "Name": "RİZE TV",
+      "Link": "https://radyodelisi.blogspot.com/p/rize-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPMs5dWit6-8Q2om8HniPMU3n954BquAeQCInNo2ppMZuzx8PrHTe66kekRa0byuQPkUGwHQ-zQr-eHHri5_ESAX7_js6IAAWNLKmHdnCbIJCkWT4Nfs2a10KTagbgtCkZQxIxWptAo6bUv0x3aEpLmR_etYardI-x-vIOgmt6fkyEYh_EujKBytkZ8Q/s1600-rw/rizetv.jpg",
+      "Summary": "RİZE TV"
+    },
+    {
+      "ID": 177,
+      "Name": "SİNOP YILDIZ TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2013/10/sinop-yildiz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJuGHN5bNpcxe43naWKLZqXsADJ6aWdP0RlUKgY01Lc9SW6fnacbqohE3EKuFR9wUK3M7dt7R1FN-ZzGBbo_E8_Kd9aUlrXSUB2CAVWXCatOBSfHVmYZ2glYFGqN_vRkyqmtb0eUdNE1rC/s1600-rw/sinopyildiztv.jpg",
+      "Summary": "SİNOP YILDIZ TV"
+    },
+    {
+      "ID": 178,
+      "Name": "SUN TV MERSİN",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/sun-tv-mersin.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKis1yBB84qi6wsQ10QzGeGWi2jQRNUEo4oZG5hO9xsREdmHQkDZ_CZCrVuOo4DbcJrZ2dcWmre4JdPmBco90uASUQbLanDetSRpixO1Xfz2TITiFIOGFQ5U22C8_MT2kj4vZOvcIHs2rg/s1600-rw/suntvmersin.jpg",
+      "Summary": "SUN TV MERSİN"
+    },
+    {
+      "ID": 179,
+      "Name": "TARSUS GÜNEY TV ",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/guney-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCu7ffmcW2qNVlI1qno-2A4tF7sgzGSI_jg6q8yo4yqbYloIDGR1ktpdt0vm9H_a4cSEMaa-Qr4MOflpUdhLLhftIjZ0zPttHuc2I3ufT5VY9Urhw2Z9TY_N-NMExe2dUQFWJZ9fEKELp1/s1600-rw/gtv.jpg",
+      "Summary": "TARSUS GÜNEY TV "
+    },
+    {
+      "ID": 180,
+      "Name": "TEK RUMELİ TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/11/tek-rumeli-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4EyGbsjnqisSke9kI9bnyLUPqox1fi34li5D3GVNbp-Qv7R4TtxOcDbuxvELlGSnHT2EJAXOXT2UZMgIOG8z5G7EQWu5N2jGlSejd2MFtHKt-l53eiw39UPpZ0aclAujPvNAOi-tzF1et/s1600-rw/tekrumelitv.jpg",
+      "Summary": "TEK RUMELİ TV"
+    },
+    {
+      "ID": 181,
+      "Name": "TEMPO TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2011/12/tempo-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjIhOTZlBQIqXdkLkwiC9SRl81nyTiFpC7X6SMS9GxpM5uCwP4wA034GKwjZVpYjBTeFRr5dv15-33GSrmjC94omC0OKuCMS7mdG_vtqs-KsR2zK3QlG_uo4dSD-0ex3qFDuUypfmVMeqh/s1600-rw/tempotv.jpg",
+      "Summary": "TEMPO TV"
+    },
+    {
+      "ID": 182,
+      "Name": "VİZYON 58",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/vizyon-58.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJVICh97PPAuhmCiKNjriiyUOFzwNN7EOHKUNTlUVove_84_qIOKjBOcEdwR0CHaXo-TFVb1VoRCH5qkKnv88WgMtG93tflkQarAUxfI2nv_qtDwENJoJ9RxO4Y91LADXd7T0k1U7Yp_V6/s1600-rw/vizyon58.jpg",
+      "Summary": "VİZYON 58"
+    },
+    {
+      "ID": 183,
+      "Name": "TV 1",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/01/tv-1.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW-cazjWc3nsPUbvvGnXnXlXuFwdR0ZRsd6hmNNnNgxl--UPUAe_Bks3VLjf-hBHLPB8bj4gJVcy_FX4BY8UOZfVAb0HmKbzA6w-nGs81_Y1LOZVr7TX0-FxGSTM6eq0h8q1E5XpuTOGO8UlyqKl3oOzAl7aH127VCb6pQBw349S1HouuXsdK-slPhOg/s1600-rw/tv1.jpg",
+      "Summary": "TV 1"
+    },
+    {
+      "ID": 184,
+      "Name": "TV41",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/tv41.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItujQkRuoOgO1xlrJo0Mhaa5OM9n2aHTF8gTdr5OMDNXnXFUAvB2a1Bd1aVEVX_siRPtRqnxwTasubD2m5QzNDNkdDof4ZTFq6zK1YwKqJWLI4YIZuxDzvgSLaZv59ZFjJA62x3NijU6Q8Zdjk6AQMPOY6-1rhy0qDPMLRMeiwC--8eHnRw0jHW9rQw/s1600-rw/tv41.jpg",
+      "Summary": "TV41"
+    },
+    {
+      "ID": 185,
+      "Name": "TV48",
+      "Link": "https://radyodelisi.blogspot.com/p/tv48.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9SCcI6v741ID9lz6RuzFoIdT4TE5JzGS7EDGVEoh9jOo4OhU-U7SA-hI3jqChEUiQb2b6xjAzL_cbmfV7pnq0ZcDpBlk-7YFEiSPr9E1WWUBnsBsdwMmeXcjwCMgeQtcthst4_MG2tQucQVsjKv3_Uib611aY1IgxTy9upSHF4Dbu4wm-6b8Z3IdDcQ/s1600-rw/tv48.jpg",
+      "Summary": "TV48"
+    },
+    {
+      "ID": 186,
+      "Name": "TVDEN",
+      "Link": "https://radyodelisi.blogspot.com/2020/01/tvden.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrMvPJohseOQmmXTLGfpYnj81KSlFpq4xFk2n9af1iNoCf65zjBT8OF6Xhhc54Cx0TsuQxowmHXDbjvnDNFwqERzj1yVLEK54cAmXFM1ylot1vNHp4oeZiI3KmLcYCaPct8HMvfEYy8zzx8_FtZ9SMqfhGirPaCrp5ID8guAoiTvwci6wZFlF8wRnGKg/s1600-rw/tvden.jpg",
+      "Summary": "TVDEN"
+    },
+    {
+      "ID": 187,
+      "Name": "VTV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/01/vtv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsdEVWDv8oBnzoQ6BharjCIEzuilXUNP80neUdHm5pMq9C3n9JXhm96yz9Wd43UWnRazkZTiZG9SYut7b8EUWvv07dM-bkxS585URmyQftuE898BNbr6L8qpmxvJhrByQqUAvZeqBTHvTp/s1600-rw/vtv.jpg",
+      "Summary": "VTV"
+    },
+    {
+      "ID": 188,
+      "Name": "ALTIN ASIR TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/altin-asir-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5REgeUvpTVqvlWkgznBUvdGA9CmVKFq6f0LnnAB4DHsLsdpnhEaoQJh8HT68tMdGii8ETg2H0XdJoDot2WX3UxkSKnaAZA2Vc0wjZ0PL3RJsV2X6CkoKlXc0rrFud9Wq_eybTzLYCSUyp/s1600-rw/altinasir.jpg",
+      "Summary": "ALTIN ASIR TV"
+    },
+    {
+      "ID": 189,
+      "Name": "ALVİN CHANNEL Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/p/alvin-channel-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigsTIGj-wSqWoKTpmscRlWIK-ECvSX2ZICkwJmRXthttKVgT5b9ais0P1tD_-mbin1QCcLhG5_8CezRkkz2RJjyRqZpSRxqEVbMfU2OC4G1e4-wfQ-4ry3SlqrsKyorsR26_H1tCBVpj36/s0-rw/alvinch.jpg",
+      "Summary": "ALVİN CHANNEL Azerbaycan"
+    },
+    {
+      "ID": 190,
+      "Name": "ARB Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/arb-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl80woXKfSmaeZWsj6rA4cANSMghDSVyxSv0-X4MY8XI6iDTRJf4ceq0l0LniJrrJCvzRNKvB62nPhL2zyzt9DqLRqrWzce2F0B0vOwjX83GQIuFRAhE5AAFGPBqSk8O43lOPuZNQFYzHp/s1600-rw/arb.jpg",
+      "Summary": "ARB Azerbaycan"
+    },
+    {
+      "ID": 191,
+      "Name": "ARB 24 Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/arb-24-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhavFttB73rAfiwFzMwkvDHreDlDsHDkOa6CGZKkL9hCdT75xKhxtBgr1JB_o1ecu9ReUEw_RJAzcFwjGym74Vwr4uBA7V9lM7Z6aMTC3rl7A4LhFVvKSeQnb_uzKBRQ6wWOtIBdNQ3lVVI/s1600-rw/arb24.jpg",
+      "Summary": "ARB 24 Azerbaycan"
+    },
+    {
+      "ID": 192,
+      "Name": "AŞKABAT TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/askabat-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizPCiIYkc7obXho2TLh4yO5LNrDCZO6q0tzZG47Dv04EIJ_p5cJugN05gr2_vx7z4R_TEBO9bDQ1PtYHk_bpEMqNTKtVUKC6nmDrdykLzEJcWNCUzBaJrpZDix2QpvXA6ubli6bhZ3tBtT/s1600-rw/askabattv.jpg",
+      "Summary": "AŞKABAT TV"
+    },
+    {
+      "ID": 193,
+      "Name": "ATR Kırım Tatar",
+      "Link": "https://radyodelisi.blogspot.com/2014/04/atr-krm-tatar.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_NwDB9j-nADlcVnY_3GZ5JwsvTbZ0PL5pl6-7jhkkD7wwUhl6NAjcV4VoTlnoSluFoe-OjFW6WCE5BZSdL9B03OITvxj-3HJs6dScTBjmVOZqUtmWMF6F6mjkJ3nlh6IS7AIcHF5SMIay19yRnIth9AyEZYBKGQVc239P2gpI-Qs0SggR8wbbiApzuQ/s1600-rw/atr.jpg",
+      "Summary": "ATR Kırım Tatar"
+    },
+    {
+      "ID": 194,
+      "Name": "ATV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bursa-as-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm9Hj1ODBxeOr3Rsq1GQ9GRpE5XsmTrIHx2uycRS7icnwN2R2114exeCW9jVvTc15mtpr0CJm50pb8JikMIyzwexU1W_NE7Rwvhyphenhyphen3AILXAQpASnzN2yE-JxPoWWPx9rpKW8h29QdC-WO1H/s1600-rw/atv.jpg",
+      "Summary": "ATV Azerbaycan"
+    },
+    {
+      "ID": 195,
+      "Name": "AZNEWS Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bursa-as-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAyuX9wc-JN2YxqjPC8vngPja1kzzvL5q-vG32gNzNyRF9Pha8aj81ds74EsHu43ttaNPh3S0lWxN-kLsCB4CxQ3uDZrThORpysfYmTRwxrhm7IlunL5SbgTjSttcpU8Oy3pNGfuUz_pZP/s0-rw/aznews.jpg",
+      "Summary": "AZNEWS Azerbaycan"
+    },
+    {
+      "ID": 196,
+      "Name": "AZ TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bursa-as-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQA4Bat9yHcPTXq5Tp9fCIgpOsq7yjs0FyK2__lrfTFmAe2Fan20osNsov1VGNjc0KMcPJUzyf4yOFcugdAVcv2xkL45wNvItCfkal1o7RJJuKNpC8ROdC8khA1eLzIHzxZ_oOOii01PnsXyEQ2toYJfRVQmgSe7E8wznloIA9mqSzQpBLCTJMwBFVOQ/s1600-rw/aztv.jpg",
+      "Summary": "AZ TV Azerbaycan"
+    },
+    {
+      "ID": 197,
+      "Name": "BAKÜ TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/bursa-as-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEL_p8D0Zh4lLzjNoLhCV3xm2tHo3je-vfhSBv3yUaV_s_Zy-1bT2HlBZsjkZaWgQOgYSbltFgYZ9AE5aZU1XfKXdCc8HW0ypKY1Ld3r7NjJXftREDcuMlGcsZmqTklqKFcE2_jeNfWQdBf0nYOmF5gIyiVVWxE8GE-Sar__aN1pliVFB_qUlkydI15A/s1600-rw/baku.jpg",
+      "Summary": "BAKÜ TV Azerbaycan"
+    },
+    {
+      "ID": 198,
+      "Name": "CBC TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2017/08/cbc-tv-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8mRnfuc_XXlxf3Ew2ENynZDMqUHGmyu2c38ZHY_9cerPYTE6WRdaQWFjiufdAfVhEVo95y_UDwJEcJnbR020IlTV_J-Qr3JEGHJSyea8UbUd__YZfHfVchuhSZHXSEAiCmhjw7Owi5dDg/s1600-rw/cbcaz.jpg",
+      "Summary": "CBC TV Azerbaycan"
+    },
+    {
+      "ID": 199,
+      "Name": "DÜNYA TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/dunya-tv-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhSOtDHoBDIkSdtGSvqtmW-sz7p6AGZ47lcAJGsvLBSq7SAJXe8nym4_KN7oIOMfiavEgtH4Nv-_6tHAO1zs4AakjG4PEU_ITWNReA5PdNoj68mS_BhzzYyVewUE0M9PncVhh6VpdEGiZy/s1600-rw/dunyatvaz.jpg",
+      "Summary": "DÜNYA TV Azerbaycan"
+    },
+    {
+      "ID": 200,
+      "Name": "GÜNAZ TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2009/08/azerbaycan-gunaz-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQT_GknISTYCbBw-QIArjbwDcm0yFi2xtvrv6b3Ez2QQj0_M5XYUkCAlH_6ttfWw4j9oXbSllVLfHEfc2BzBDeR8coNXTe65NAgxPk3AhXG55k3AavkWlxcteOgxA6HjKZOpzffBbPtRx9/s1600-rw/gtvaz.jpg",
+      "Summary": "GÜNAZ TV Azerbaycan"
+    },
+    {
+      "ID": 201,
+      "Name": "İÇTİMAİ TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2017/08/ictimai-tv-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEAFmwayDbSCLczq62VQvFSlZTH0CXoltvOwJxvGPw422g6shC2SYsnSfjx4h2uSMJamy66dRoaLMCLnDR4JsOknhVI9DjqHEaCN0OgP-DoxFPFAvTCdFPZF8TqkQkDjsNt4DA0kAAgiUc/s1600-rw/ictimaitv.jpg",
+      "Summary": "İÇTİMAİ TV Azerbaycan"
+    },
+    {
+      "ID": 202,
+      "Name": "MEDENİYYET TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/03/azerbaycan-medeniyyet-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8RKaEC09L7rsvAM5q-49edcaCkUr8WJwdIJAfz3DM7Uk7TyOeW5-dlrE25ZY4xUOyN0T9q1y1nZdYFknHyXAUzq7mLWpUXEXxaJRN0cvM_i_iCbebKqIdyHMqWzsSBX67mGBa3XHFKB27/s1600-rw/medeniyetaz.jpg",
+      "Summary": "MEDENİYYET TV Azerbaycan"
+    },
+    {
+      "ID": 203,
+      "Name": "MİRAS TV Türkmenistan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/miras-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFEi-JvyPloFoFTgO2Fm54HHr3ckK8UYcjKcgbMKUjp-T6lazc4IRWPAzIU5yLEwo4ID6UeyE1y4svCtnMcYa-fk3meG349PtaqX-0b8MGGx_3bwgp0bhvLNOI07biCu_fqjjPFEMP4de1/s1600-rw/mirastv.jpg",
+      "Summary": "MİRAS TV Türkmenistan"
+    },
+    {
+      "ID": 204,
+      "Name": "NAXÇIVAN TV ",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/naxcivan-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLHh0dg3Mm9GwcMpXsvju6f44RfHJ0DHRDLGvaEj3mV9E08MzLeR5aeJURjaJl2wK5FJkakwt88T2q3-KUB2H1oMWXAtErnNKZvGBl4km8DUfwOVFLQ94mDBdwQ_MBkjKtlVd0vmn0_2mE/s1600-rw/ntv.jpg",
+      "Summary": "NAXÇIVAN TV "
+    },
+    {
+      "ID": 205,
+      "Name": "OWAZY TV Türkmenistan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/owazy-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoN_JI4kUkaCntEeNDcQJjK34TttOYL_EQfuiPmNMvcFWaxwuW-pZBTIUBnxi6NjP2gPxMYVtXB7lH2KtCyGYG3PJu9BvxlFcO1BLRhQOFFSTHvo4hTmL6n9bl9v_s9sdjFuvVoyN4yEs3/s1600-rw/owazz.jpg",
+      "Summary": "OWAZY TV Türkmenistan"
+    },
+    {
+      "ID": 206,
+      "Name": "SPACE TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2017/08/space-tv-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSZiAvZwauM-fI0JuxM7_0w9qsQrDBHKvwB2dmL4GVoR1tae7OLDNTJ6fP53SUBX0pXF-KP3TxtZTZitNyabRNXZlIBqpW-d9yzIvGQqPEIBQlXwGPWcTa528Hj1jYEUzGHLo9BVQVnKg/s1600-rw/spacetvaz.jpg",
+      "Summary": "SPACE TV Azerbaycan"
+    },
+    {
+      "ID": 207,
+      "Name": "TURKMENİSTAN TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/turkmenistan-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDhN5rVmsuI-8IcltgmhztFiZBtBagGDi64UUNIncOhKcmiDZ_MgxoHhdUuaQlIuE07ZjVrpvGnVCN8_to3SDSZaEmc-NpEicZX3MI835o8kefWjExe2mMRPu6CDJe9MBHbMTt6Xz8UNnG/s1600-rw/turkmenistantv.jpg",
+      "Summary": "TURKMENİSTAN TV"
+    },
+    {
+      "ID": 208,
+      "Name": "XEZER TV Azerbaycan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2017/08/xezer-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkbWaFi7E0o0bPtToV4fxB1A2ggmcodywRjP_gg5udGDERN03DMpdeN_ZLmRGVOnIql3oRaiOtU_oA-KKZnbiuKkvX74kOF_liE4rUJ_DQO4SyCys35vFldEnfSEB4b1ngtRNkIDyRBd0u/s1600-rw/xezertvaz.jpg",
+      "Summary": "XEZER TV Azerbaycan"
+    },
+    {
+      "ID": 209,
+      "Name": "YAŞLIK TV Türkmenistan",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/yaslik-tv-turkmenistan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaUqVHuMKfa-_myaW_YvxuQBwOSY6fgrlgHW8Ie1Gjrwre56wPR93zW-KXBR_FjBOXlr-lb44lCS7z5vod-5XXFosKIORYVve0RXV_UqqIqyvYjqSdYUfApBP4uMrGqucyvSH2985cs2Qg/s1600-rw/yasliktv.jpg",
+      "Summary": "YAŞLIK TV Türkmenistan"
+    },
+    {
+      "ID": 210,
+      "Name": "ÜMÜD TV HD",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/umud-tv-hd-azerbaycan.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7RpnbuKqFmpFgTjCbFEV75tFXXkp9gY9bWxFtPUgisxpASIskmEbraZDUPEnOC4moGYH-OEMaueyHvb74Y2jHanxVBCk6gr33CLmwGmPVJGOE2CUczFqrq5QjTEQZvzykDdQvyhxQ7Ttb/s1600-rw/umud.jpg",
+      "Summary": "ÜMÜD TV HD"
+    },
+    {
+      "ID": 211,
+      "Name": "TRT WORLD",
+      "Link": "https://radyodelisi.blogspot.com.tr/2015/11/trt-world.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoZevR2qP5vybDVFUuLUfVZjmzgCdq2nixkmaGff1P3DZbhIX1Kk8z8RZZ6X4dqSMuqXR55pzaWJUNnZXa5mI-uI5XzmyBRJbKbSwBP7bwBF5I9bzOQyuSEIsTpvDVG92ZFjGN1C4nzEMV/s1600-rw/trtworld.jpg",
+      "Summary": "TRT WORLD"
+    },
+    {
+      "ID": 212,
+      "Name": "A NEWS",
+      "Link": "https://www.ahaber.com.tr/canli-yayin-anews.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUUR_oTbX-w53cJ1MfpnvN1fLw6GZcn1ntllXsYSuxQioxKeVpRgseTm0WmPxIVQSypDFVfS1_I_a5haLSi-VctTpJ64UGpq7YkOphtKJFL3rVOJbMzGGzcQAGo7AsX_qf2vT_GMsc4GB_/s1600-rw/anews.jpg",
+      "Summary": "A NEWS"
+    },
+    {
+      "ID": 213,
+      "Name": "AL JAZEERA English",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/11/al-jazeera.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKlCihIxhz6vsYmKe8fxi7Qki1ArgxGui4c5mWLelyqJ24zVdufiJi2JFHAmroKaei6RkyWTXDT9TOUtfaDZaSbCeosQKLdQafrzeAUDjaEH7aKlVXpsN_7ADsQHXrCBO-3sc7bCo5Z71T20jgLVQVDEfskJ26M-C4byWiJ4INnIfJjLnhm8hdUrZPAQ/s1600-rw/elcezire.jpg",
+      "Summary": "AL JAZEERA English"
+    },
+    {
+      "ID": 214,
+      "Name": "BBC WORLD NEWS",
+      "Link": "https://radyodelisi.blogspot.com/2019/01/bbc-world-news.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7ST0Wnm6BN7on091pLjdEm4Mlc8_2jbHLZpVhj-STv_qF9j7UDx3-JPFaHQrGmm4Qoe3fvN6pWGR6mkzKWf8W7WKgypNTGiBFSxR1Bmb7G-gfJD7YS02JGTL9qx6WBkh9-qRaEZKGP-JY5Dxc730E1Pg0RIXN4gPeQlbItOhpwPtis9BYWcIotbd6-Q/s1600-rw/bbcworldnews.jpg",
+      "Summary": "BBC WORLD NEWS"
+    },
+    {
+      "ID": 215,
+      "Name": "CNN Internationa",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/01/cnn.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-Kcxs-e-ldzXzhRsZqaEKhI9kKc-f9burxv6UipsAfRtUXn1YZ4WN9iN4X0esrD66PGkLm5ERY2qLcXZQCtGA42tgk4dxC-x-wrjcAlk9SeahJIT_koqVBXLvXpu60k11UweMgV5fNcptdxLJ0B0LCwRuPOzeWnY4vKjWDuz7vBiz15z7tKba8Yiyrw/s1600-rw/cnnw.jpg",
+      "Summary": "CNN Internationa"
+    },
+    {
+      "ID": 216,
+      "Name": "RUSSİA TODAY",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/russia-today-english.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6ldTwguSegwhUxHh_-QYEZwvN-AIz8LIVD2Bxf4zZ1HX0kIc8qzg5ovC89-qfMWbRrlDBoSqBP_e0HD9I1LkKutZo4CdhM4OWSKLFi0KwPdmWmMKi-slZ30jdhfyPKKmtgWbEUrkC_zv8aUCDu6AZyYjL4OHJN1NPAsoe_Ig0ENkThLhuQCwPBSlELQ/s1600-rw/rtw.jpg",
+      "Summary": "RUSSİA TODAY"
+    },
+    {
+      "ID": 217,
+      "Name": "FRANCE 24 English",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/france-24-english.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0p2SNdov8_5fWCSo5AnuQuNGRnyhROI3KREFbITZgKG_PyiuLBfF0nUCSikm9WO3XgCgkpRwKtCIVy-E5RAY2Gik6N2JovjJRkW1kW4E2NrLeX9rLUkQeD49qnZCIFPUAa37-V_leDAkuVwKkL6pClEV4XPQWY0odAUwc8DBZ7jinGtKBDeqdIkd8xA/s1600-rw/f24.jpg",
+      "Summary": "FRANCE 24 English"
+    },
+    {
+      "ID": 218,
+      "Name": "CBS NEWS",
+      "Link": "https://radyodelisi.blogspot.com/2017/08/cbs-news.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiunBvliLj3c44cCastnXbSGAaNgHEKVar5b9F6PAHwAShhAE1TILNyiNTtdulCzG7PUgpYbn9zf8jga3k2Y0_EYMATlu88QMtu32bqlxSovcHI2OsyddMLHWmWPr_acbi_fCQ20EfxrG_nOUdZ9jl2GwFgk43c80GMt7fvtxavwvg2CVIZmZXdp5JkbQ/s1600-rw/cbs.jpg",
+      "Summary": "CBS NEWS"
+    },
+    {
+      "ID": 219,
+      "Name": "DEUTSCHE WELLE",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/deutsche-welle.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj16v5XwjBg0Dp4mwIqq-DII4jSlDrCaOLtr5AHZLPH3-RBX1bRxbqn5fKEKdNu1ZsRIP4T2a1NKPAxc7qYzcTsDDVdLSxJYSRqHf0g-vqwMErCBTaOlj0Nu5476NQq4mcGgkjU4-l8-JKaEdunflfmitIj8ESf_37zt15rQ4TR3PZqtf670YQ8SPG8NA/s1600-rw/dw.jpg",
+      "Summary": "DEUTSCHE WELLE"
+    },
+    {
+      "ID": 220,
+      "Name": "NASA TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/06/nasa-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj28q9A1nFI1Okm318AQfvf0vbiXsZreFKvxAgn6q2S1Z3KJgaGM7pDk6t3wqtVL3c-mptPgRPgrJazc1JUf2x6zjA06enExGNkS6Qw5fGpbVF0-HppCIuAQPP0O9aftdXBZqdhiggkqyRZaMXWmL97t1Tju-mNZO5MnxcKHpUuZpQtTTYDbg1qSUl7Fw/s1600-rw/nasatv.jpg",
+      "Summary": "NASA TV"
+    },
+    {
+      "ID": 221,
+      "Name": "NHK WORLD TV",
+      "Link": "https://radyodelisi.blogspot.com.tr/2013/11/nhk-world-tv.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP6OmqinkwpIZ8R4erDd-hf3ZFAkNFhFl2Q7us0-ut_qj2uu8bKgo_E57gQRTv1CMRVb2pXLXUDDbntfbL7VuBtdZ5DNDBxeq6GCsWq9fbZTjHvxzLRJSNyQeoUsONg8U6w6XGoZDhPgISG4iEOBfvaThHU_Vf_lpJgDb0a0RiOOOSPti6RiefhaakwA/s1600-rw/nhkworld.jpg",
+      "Summary": "NHK WORLD TV"
+    },
+    {
+      "ID": 222,
+      "Name": "PRESS TV English",
+      "Link": "https://radyodelisi.blogspot.com.tr/2012/10/press-tv-english.html",
+      "Image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbHdaDn6iSxvKZfRkGJxz9UPCHZ1Gd_FUJPpah9wys09G3EHAigYXBKNQrg4Jifi7QLoyCWnotibzVqYlWNcC8knIU4yXa07n1QyPrOXQ-KdnRj9h1_KuGqaJC1nPfCnI8w5YTEKPF4A9oIjWHBgj5kAs__UTp3aNqTRZ1UuaPA7GzVAIkfoDWV5eoSA/s1600-rw/pr.jpg",
+      "Summary": "PRESS TV English"
+    }
+  ],
+  "isIPTV": 1
+}

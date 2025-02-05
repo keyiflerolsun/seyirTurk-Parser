@@ -1,0 +1,152 @@
+{
+  "links": [
+    {
+      "ID": 0,
+      "Name": "AZTV HD",
+      "Link": "http://149.255.152.218/channels.aspx?channel=aztv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "AZTV HD"
+    },
+    {
+      "ID": 1,
+      "Name": "MəDəNIYYəT",
+      "Link": "http://149.255.152.218/channels.aspx?channel=medeniyet.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "MəDəNIYYəT"
+    },
+    {
+      "ID": 2,
+      "Name": "İCTIMAI",
+      "Link": "http://149.255.152.218/channels.aspx?channel=ictimai.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "İCTIMAI"
+    },
+    {
+      "ID": 3,
+      "Name": "ATV AZ",
+      "Link": "http://149.255.152.218/channels.aspx?channel=atvaz.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ATV AZ"
+    },
+    {
+      "ID": 4,
+      "Name": "XəZəR",
+      "Link": "http://149.255.152.218/channels.aspx?channel=xazer.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "XəZəR"
+    },
+    {
+      "ID": 5,
+      "Name": "SəHIYYə TV",
+      "Link": "http://149.255.152.218/channels.aspx?channel=shtv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "SəHIYYə TV"
+    },
+    {
+      "ID": 6,
+      "Name": "SPACE",
+      "Link": "http://149.255.152.218/channels.aspx?channel=space.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "SPACE"
+    },
+    {
+      "ID": 7,
+      "Name": "CBC",
+      "Link": "http://149.255.152.218/channels.aspx?channel=cbcaz.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "CBC"
+    },
+    {
+      "ID": 8,
+      "Name": "DüNYA TV",
+      "Link": "http://149.255.152.218/channels.aspx?channel=dunya.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "DüNYA TV"
+    },
+    {
+      "ID": 9,
+      "Name": "ARB HD",
+      "Link": "http://149.255.152.218/channels.aspx?channel=arbhd.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB HD"
+    },
+    {
+      "ID": 10,
+      "Name": "ARB 24",
+      "Link": "http://149.255.152.218/channels.aspx?channel=arb24.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB 24"
+    },
+    {
+      "ID": 11,
+      "Name": "ARB GüNəş",
+      "Link": "http://149.255.152.218/channels.aspx?channel=arbgunes.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "ARB GüNəş"
+    },
+    {
+      "ID": 12,
+      "Name": "KANAL S",
+      "Link": "http://149.255.152.218/channels.aspx?channel=kanals.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "KANAL S"
+    },
+    {
+      "ID": 13,
+      "Name": "REAL TV",
+      "Link": "http://149.255.152.218/channels.aspx?channel=real.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "REAL TV"
+    },
+    {
+      "ID": 14,
+      "Name": "MCJ TV SHOP",
+      "Link": "http://149.255.152.218/channels.aspx?channel=mcj.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "MCJ TV SHOP"
+    },
+    {
+      "ID": 15,
+      "Name": "TMB AZəRBAYCAN",
+      "Link": "http://149.255.152.218/channels.aspx?channel=tmbaz.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TMB AZəRBAYCAN"
+    },
+    {
+      "ID": 16,
+      "Name": "BAKU TV",
+      "Link": "http://149.255.152.218/channels.aspx?channel=bakutv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "BAKU TV"
+    },
+    {
+      "ID": 17,
+      "Name": "TERRA",
+      "Link": "http://149.255.152.218/channels.aspx?channel=terra.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TERRA"
+    },
+    {
+      "ID": 18,
+      "Name": "VIP HD",
+      "Link": "http://149.255.152.218/channels.aspx?channel=vip.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "VIP HD"
+    },
+    {
+      "ID": 19,
+      "Name": "MTV AZERBAIJAN",
+      "Link": "http://149.255.152.218/channels.aspx?channel=mtvazerbaycan.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "MTV AZERBAIJAN"
+    },
+    {
+      "ID": 20,
+      "Name": "TMB TV",
+      "Link": "http://149.255.152.218/channels.aspx?channel=tmbtv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "TMB TV"
+    }
+  ],
+  "isIPTV": 1
+}

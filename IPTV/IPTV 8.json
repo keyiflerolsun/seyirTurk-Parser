@@ -1,0 +1,575 @@
+{
+  "isIPTV": 1,
+  "links": [
+    {
+      "ID": "1",
+      "Name": "TRT 1",
+      "Link": "https://trt.daioncdn.net/trt-1/master.m3u8?app=clean",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trt1.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT 2",
+      "Link": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trt2.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Star TV",
+      "Link": "https://www.startv.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/startv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kanal D",
+      "Link": "https://www.kanald.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kanald.png"
+    },
+    {
+      "ID": "1",
+      "Name": "ATV",
+      "Link": "https://www.atv.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/atv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Show TV",
+      "Link": "https://www.showtv.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/showtv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Now TV",
+      "Link": "https://www.nowtv.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/now.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Sozcu TV",
+      "Link": "youtubeiptvs/channel/UCOulx_rep5O4i9y6AyDqVvw#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/sozcutv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TV8",
+      "Link": "https://www.tv8.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tv8.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Flash Haber TV",
+      "Link": "https://stream.guventechnology.com:19360/flashtv/flashtv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/flashtv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TLC",
+      "Link": "https://www.tlctv.com.tr/canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tlc.png"
+    },
+    {
+      "ID": "1",
+      "Name": "DMAX",
+      "Link": "https://www.dmax.com.tr/canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dmax.png"
+    },
+    {
+      "ID": "1",
+      "Name": "CNBC-E",
+      "Link": "https://www.cnbce.com/?atv",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/cnbce.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Teve2",
+      "Link": "https://www.teve2.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/teve2.png"
+    },
+    {
+      "ID": "1",
+      "Name": "A2",
+      "Link": "https://www.a2tv.com.tr/a2tv/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/a2tv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "SHOW TURK",
+      "Link": "https://www.showturk.com.tr/canliyayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/showturk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "SHOW MAX",
+      "Link": "https://showmax.com.tr/canliyayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/showmax.png"
+    },
+    {
+      "ID": "1",
+      "Name": "360",
+      "Link": "https://www.tv360.com.tr/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/360.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kemal Sunal Filmleri",
+      "Link": "youtubeiptvs/@arzufilm1964/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kemalsunal.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kemal Sunal Filmleri-2",
+      "Link": "youtubeiptvs/@KemalSunalFilmleriveSahneleri/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kemalsunal2.jpg"
+    },
+    {
+      "ID": "1",
+      "Name": "Kemal Sunal Filmleri-3",
+      "Link": "youtubeiptvs/@GulsahFilmOfficial/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kemalsunal3.gif"
+    },
+    {
+      "ID": "1",
+      "Name": "Yeşilçam TV",
+      "Link": "youtubeiptvs/@GulsahFilmOfficial/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/yesilcam.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Türk Filmleri TV",
+      "Link": "youtubeiptvs/@FilmAtolyesi/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/yesilcam.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TvEM",
+      "Link": "http://www.tvem.com.tr/Programlar/CanliYayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tvem.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Woman TV",
+      "Link": "https://embedlp.becdn.net/womantv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/womantv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kanal7",
+      "Link": "https://www.kanal7.com/canli-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kanal7.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Tele 1",
+      "Link": "https://tele1.com.tr/canli-yayin/",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tele1.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Halk TV",
+      "Link": "youtubeiptvs/channel/UCf_ResXZzE-o18zACUEmyvQ#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/halktv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Artı TV",
+      "Link": "youtubeiptvs/@ArtTv_Resmi#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/arti.jpg"
+    },
+    {
+      "ID": "1",
+      "Name": "Ulusal Kanal",
+      "Link": "youtubeiptvs/channel/UC6T0L26KS1NHMPbTwI1L4Eg#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ulusalkanal.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kanal B",
+      "Link": "https://kanalb.com.tr/canli_yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kanalb.png"
+    },
+    {
+      "ID": "1",
+      "Name": "KRT TV",
+      "Link": "youtubeiptvs/@KRTCANLI#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/krt.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Ekol TV",
+      "Link": "https://ekoltv-live.ercdn.net/ekoltv/ekoltv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ekoltv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "CAN TV",
+      "Link": "https://livetv.canbroadcast.com:7443/canlican/tv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/cantv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TİVİ6",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tivi6.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Yol TV",
+      "Link": "https://www.yoltv.com/canli-yayin/",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/yoltv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "ABB TV",
+      "Link": "youtubeiptvs/c/@ankarabbld/streams#1",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/abb.jpg"
+    },
+    {
+      "ID": "1",
+      "Name": "İBB TV",
+      "Link": "https://hls.ibb.gov.tr/tv/webtv/webtv_wowza1/Playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ibb.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Haberturk",
+      "Link": "https://www.haberturk.com/canliyayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/haberturktv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "NTV",
+      "Link": "https://www.ntv.com.tr/canli-yayin/ntv",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ntv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "CNN Türk",
+      "Link": "https://www.cnnturk.com/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/cnnturk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Haber Global",
+      "Link": "youtubeiptvs/@haberglobal/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/haberglobal.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TV 100",
+      "Link": "youtubeiptvs/@tv100/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tv100.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TGRT Haber",
+      "Link": "youtubeiptvs/@tgrthaber/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tgrthaber.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT HABER",
+      "Link": "youtubeiptvs/@trthaber/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trthaber.png"
+    },
+    {
+      "ID": "1",
+      "Name": "AHABER",
+      "Link": "https://www.ahaber.com.tr/video/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ahaber.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Bloomberg HT",
+      "Link": "https://www.bloomberght.com/tv",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/bloomberght.png"
+    },
+    {
+      "ID": "1",
+      "Name": "EKOTÜRK",
+      "Link": "youtubeiptvs/@EKOTURKTV/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ekoturk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kanal 24",
+      "Link": "https://www.yirmidort.tv/canli-yayin/",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/24tv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Beyaz TV",
+      "Link": "https://m.beyaztv.com.tr/canli-yayin/",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/beyaztv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TVNET",
+      "Link": "https://www.tvnet.com.tr/canli-yayin/",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tvnet.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Ülke TV",
+      "Link": "https://www.dailymotion.com/embed/video/x7yb4xm",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ulketv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Diyanet TV",
+      "Link": "youtubeiptvs/@diyanettv/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/diyanettv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "APARA",
+      "Link": "https://www.sabah.com.tr/apara/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/apara.png"
+    },
+    {
+      "ID": "1",
+      "Name": "ANEWS",
+      "Link": "http://www.anews.com.tr/webtv/live-broadcast",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/anews.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Fashion TV",
+      "Link": "https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/fashiontvv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kral TV",
+      "Link": "youtubeiptvs/channel/UCEAW_kmPVjxTC50vuLyKOQA#3",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kraltv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Kral POP",
+      "Link": "youtubeiptvs/@kralmuzik/streams#1",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kralpoptv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "DreamTURK",
+      "Link": "https://www.dreamturk.com.tr/canli-yayin-izle",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dreamturk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Power TV",
+      "Link": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powertv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Power Türk",
+      "Link": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerturktv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Power Dance",
+      "Link": "https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerdance.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Power Love",
+      "Link": "https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerlove.png"
+    },
+    {
+      "ID": "1",
+      "Name": "PowerTürk Akustik",
+      "Link": "https://listen.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerturkakustik.png"
+    },
+    {
+      "ID": "1",
+      "Name": "PowerTürk Slow",
+      "Link": "https://listen.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerturkslow.png"
+    },
+    {
+      "ID": "1",
+      "Name": "PowerTürk Taptaze",
+      "Link": "https://listen.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/powerturktaptaze.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT MÜZIK",
+      "Link": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtmuzik.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT WORLD",
+      "Link": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtworld.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT SPOR",
+      "Link": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtspor.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT SPOR YILDIZ",
+      "Link": "https://tv-trtspor2.medya.trt.com.tr/master_720.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtsporyildiz.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Fenerbahçe TV",
+      "Link": "https://www.dailymotion.com/video/x21oo10",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/fbtv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "ASPOR",
+      "Link": "https://www.aspor.com.tr/webtv/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/aspor.png"
+    },
+    {
+      "ID": "1",
+      "Name": "SPORTSTV",
+      "Link": "https://live.sportstv.com.tr/hls/low/sportstv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/sportstv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TJK TV",
+      "Link": "https://www.tjk.org/TR/YarisSever/Static/Canli",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tjktv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT EBA İLKOKUL",
+      "Link": "https://tv-e-okul00.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ebailkokul.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT EBA ORTAOKUL",
+      "Link": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ebatvortaokul.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT EBA LİSE",
+      "Link": "https://tv-e-okul02.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ebalise.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT ÇOCUK",
+      "Link": "https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtcocuk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Minika ÇOCUK",
+      "Link": "https://www.minikacocuk.com.tr/webtv/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/minikacocuk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Minika GO",
+      "Link": "https://www.minikago.com.tr/webtv/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/minikago.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Cartoonito TV",
+      "Link": "https://cartoonito.blutv.com/blutv_cartoonito/smil:cartoonito.smil/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/cartoonito.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT BELGESEL",
+      "Link": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtbelgesel.png"
+    },
+    {
+      "ID": "1",
+      "Name": "KENT TV",
+      "Link": "https://edge1.socialsmart.tv/bodrumkenttv/bant1/playlist.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kenttv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "YABAN TV",
+      "Link": "https://www.yabantv.com/broadcast",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/yaban.png"
+    },
+    {
+      "ID": "1",
+      "Name": "KÖY TV",
+      "Link": "http://www.koytv.tv/canli-yayin",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/koytv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "Bengü Türk TV",
+      "Link": "youtubeiptvs/@tvbenguturk/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/benguturktv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT EL ARABIA",
+      "Link": "https://tv-trtarabi.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtarabia.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT TÜRK",
+      "Link": "https://tv-trtturk.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtturk.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT KURDÎ",
+      "Link": "https://tv-trtkurdi.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtkurdi.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TBMM TV",
+      "Link": "https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tbmmtv.png"
+    },
+    {
+      "ID": "1",
+      "Name": "TRT AVAZ",
+      "Link": "https://tv-trtavaz.medya.trt.com.tr/master.m3u8",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtavaz.png"
+    },
+    {
+      "ID": "1",
+      "Name": "DHA 1 (Her Zaman Yayın olmayabilir)",
+      "Link": "https://www.dha.com.tr/video/canli-yayin-1",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dhacanli1.png"
+    },
+    {
+      "ID": "1",
+      "Name": "DHA 2 (Her Zaman Yayın olmayabilir)",
+      "Link": "https://www.dha.com.tr/video/canli-yayin-2",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dhacanli1.png"
+    },
+    {
+      "ID": "1",
+      "Name": "NASA TV 1 HD",
+      "Link": "youtubeiptvs/@NASA/streams#0",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/nasa1.webp"
+    },
+    {
+      "ID": "1",
+      "Name": "NASA TV 2",
+      "Link": "youtubeiptvs/@NASA/streams#1",
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/nasa1.webp"
+    }
+  ]
+}

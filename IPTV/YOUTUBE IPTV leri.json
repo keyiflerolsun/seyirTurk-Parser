@@ -1,0 +1,481 @@
+{
+  "links": [
+    {
+      "ID": 51,
+      "Image": "https://i.ytimg.com/vi/EQbuqweJ8mM/hqdefault.jpg?v=678fb3e7&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAILB-ENZTj7Y-OtFvDBB3LxS55UQ",
+      "Link": "https://www.youtube.com/watch?v=EQbuqweJ8mM",
+      "Name": "1. Sezon Maratonu! | Konuşan Tomdan Kısa Kısa | Çizgi Film Canlı Yayını",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 10,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/24tv.png",
+      "Link": "https://www.youtube.com/watch?v=72n-K9jxRJ0",
+      "Name": "24 TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 11,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ahaber.png",
+      "Link": "https://www.youtube.com/watch?v=nmY9i63t6qo",
+      "Name": "A Haber",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 13,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/apara.png",
+      "Link": "https://www.youtube.com/watch?v=wZJ7D1zIZQQ",
+      "Name": "A Para",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 14,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/aspor.png",
+      "Link": "https://www.youtube.com/watch?v=7uBpwcn2ZZ0",
+      "Name": "A Spor",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 39,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/abb.jpg",
+      "Link": "https://www.youtube.com/watch?v=Mwj5jP-ImTw",
+      "Name": "ABB TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 25,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/yesilcam.png",
+      "Link": "https://www.youtube.com/watch?v=UgKxh04Iv9o",
+      "Name": "Arzu Film",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 12,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/benguturktv.png",
+      "Link": "https://www.youtube.com/watch?v=3JUXQd8_HWA",
+      "Name": "Bengü Türk",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 18,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/bloomberght.png",
+      "Link": "https://www.youtube.com/watch?v=hHSmBJk6w0c",
+      "Name": "BloombergHT",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 31,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/cnbce.png",
+      "Link": "https://www.youtube.com/watch?v=XihyuKSyUD0",
+      "Name": "CNBC-E",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 3,
+      "Image": "https://i.ytimg.com/vi/VXMR3YQ7W3s/hqdefault.jpg?v=67382c32&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5fDlOihucXl0q1v47gvDbBjS74A",
+      "Link": "https://www.youtube.com/watch?v=VXMR3YQ7W3s",
+      "Name": "CNN TÜRK - 🔴 Canlı Yayın ᴴᴰ - Canlı TV izle | HABER",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 29,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/diyanettv.png",
+      "Link": "https://www.youtube.com/watch?v=KT0_F8CpFAA",
+      "Name": "Diyanet TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 27,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=R17n-BYbMhU",
+      "Name": "DiziTV - Alemin Kralı",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 67,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=sF1GK0dhYqc",
+      "Name": "DiziTV - Avlu",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 65,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=9wa7GG6C31s",
+      "Name": "DiziTV - Avrupa Yakası",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 44,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=Fjx7aX5nMNc",
+      "Name": "DiziTV - Behzat Ç",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 66,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=lf1NxAexRAE",
+      "Name": "DiziTV - Cennet Mahallesi",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 40,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=YM_rXIOlWy4",
+      "Name": "DiziTV - Fazilet Hanımın Kızları",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 30,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=7vKlXBnzG2w",
+      "Name": "DiziTV - Güldür Güldür",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 41,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=OIlsqySzAOg",
+      "Name": "DiziTV - Kiralık Aşk",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 42,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=3CUFgno84q8",
+      "Name": "DiziTV - Kuzey Yıldızı",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 49,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=AokF0eEM1iE",
+      "Name": "DiziTV - Kızılcık Şerbeti",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 45,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=3nlND4audLg",
+      "Name": "DiziTV - Leyla ile Mecnun",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 35,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=pjSDQwlyndY",
+      "Name": "DiziTV - Selena",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 36,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=02H6irpwLNg",
+      "Name": "DiziTV - Sihirli Annem",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 37,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=QwOesXxOCzo",
+      "Name": "DiziTV - Söz",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 47,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=mAgDolOMCkY",
+      "Name": "DiziTV - Yeni Gelin",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 43,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=9ZMh3wSverE",
+      "Name": "DiziTV - Zeki Alasya, Metin Akpınar",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 48,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=U8EHEbH3_pU",
+      "Name": "DiziTV - Zemheri",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 34,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dizitv.png",
+      "Link": "https://www.youtube.com/watch?v=EVZmJPw-7hY",
+      "Name": "DiziTV - Çocuklar Duymasın",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 19,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ekoturk.png",
+      "Link": "https://www.youtube.com/watch?v=MVm4aEIA1_o",
+      "Name": "Eko Türk",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 23,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ekoltv.png",
+      "Link": "https://www.youtube.com/watch?v=l2uoWT0843M",
+      "Name": "Ekol TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 33,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kemalsunal3.gif",
+      "Link": "https://www.youtube.com/watch?v=FGL1GwoRRIw",
+      "Name": "Film Atölyesi",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 28,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kemalsunal2.jpg",
+      "Link": "https://www.youtube.com/watch?v=hfx8H7YrmTw",
+      "Name": "Gülşah Film",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 5,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/haberglobal.png",
+      "Link": "https://www.youtube.com/watch?v=6BX-NUzBSp8",
+      "Name": "Haber Global",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 1,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/haberturktv.png",
+      "Link": "https://www.youtube.com/watch?v=RNVNlJSUFoE",
+      "Name": "HaberTürk",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 16,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/halktv.png",
+      "Link": "https://www.youtube.com/watch?v=-HJwrahoMsQ",
+      "Name": "Halk TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 6,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/krt.png",
+      "Link": "https://www.youtube.com/watch?v=Avu7O3hKslA",
+      "Name": "KRT",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 15,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/kraltv.png",
+      "Link": "https://www.youtube.com/watch?v=GuFTuKoXepw",
+      "Name": "Kral TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 62,
+      "Image": "https://i.ytimg.com/vi/YDfiTGGPYCk/hqdefault.jpg?v=66a451fe&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBhA7hVbuiwquarOEwQ0H7bLOZoeA",
+      "Link": "https://www.youtube.com/watch?v=YDfiTGGPYCk",
+      "Name": "LIVE NEWS: LiveNOW FOX 24/7 LIVE STREAM",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 2,
+      "Image": "https://i.ytimg.com/vi/k6kyt0z40Fg/hqdefault.jpg?v=673bb8f2&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA-q0Yse2n7nLQipla2z0O6R89ntA",
+      "Link": "https://www.youtube.com/watch?v=k6kyt0z40Fg",
+      "Name": "LIVE: Aktuelle Schlagzeilen und Ereignisse aus aller Welt",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 61,
+      "Image": "https://i.ytimg.com/vi/wlmn2eq1kH4/hqdefault.jpg?v=67a347a0&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCsrurZTkYgHmkYaG3dU-1Sjhs4UA",
+      "Link": "https://www.youtube.com/watch?v=wlmn2eq1kH4",
+      "Name": "LIVE: Ohio mass shooting, Trump Gaza plans,  Flights resume in Israel, DEI updates & more",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 24,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/liderhaber.png",
+      "Link": "https://www.youtube.com/watch?v=fZjJ0K3c9AE",
+      "Name": "Lider Haber",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 21,
+      "Image": "https://i.ytimg.com/vi/wG4YaEcNlb0/hqdefault.jpg?v=673b49ac&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDroOVrugW_fXStK0WYd76MixutEQ",
+      "Link": "https://www.youtube.com/watch?v=wG4YaEcNlb0",
+      "Name": "Live High-Definition Views from the International Space Station Official NASA Stream",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 20,
+      "Image": "https://i.ytimg.com/vi/OCem0E-0Q6Y/hqdefault.jpg?v=673b4988&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCwrnGs8hlQx3kpfSTCXrWMI22iQQ",
+      "Link": "https://www.youtube.com/watch?v=OCem0E-0Q6Y",
+      "Name": "Live Video from the International Space Station Official NASA Stream",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 4,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ntv.png",
+      "Link": "https://www.youtube.com/watch?v=DbQ4HGgr7Xo",
+      "Name": "NTV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 38,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/niltv.png",
+      "Link": "https://www.youtube.com/watch?v=nxJRFv0HzXE",
+      "Name": "Nil TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 22,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/nurtv.png",
+      "Link": "https://www.youtube.com/watch?v=DEy_6ZjbP3M",
+      "Name": "Nur TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 32,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/showmax.png",
+      "Link": "https://www.youtube.com/watch?v=XnvS-RZa4Qw",
+      "Name": "Show Max",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 50,
+      "Image": "https://i.ytimg.com/vi/JRNz0gTY9f0/hqdefault.jpg?v=67a315dd&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA7pl6fC9anGox1fmuAvj99dzn2rw",
+      "Link": "https://www.youtube.com/watch?v=JRNz0gTY9f0",
+      "Name": "TALKING TOM 🔴  Konuşan Tomdan Kısa Kısa 🐱 7/24 CANLI YAYIN",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 7,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trthaber.png",
+      "Link": "https://www.youtube.com/watch?v=1c-nDby5KY8",
+      "Name": "TRT Haber",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 53,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/trtworld.png",
+      "Link": "https://www.youtube.com/watch?v=4imOVpq0U8A",
+      "Name": "TRT World",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 8,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tv100.png",
+      "Link": "https://www.youtube.com/watch?v=6g_DvD8e2T0",
+      "Name": "TV100",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 17,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tvnet.png",
+      "Link": "https://www.youtube.com/watch?v=HR2coAc-e20",
+      "Name": "TVNET",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 0,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tele1.png",
+      "Link": "https://www.youtube.com/watch?v=fNqmmqNNGp8",
+      "Name": "Tele1",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 9,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ulusalkanal.png",
+      "Link": "https://www.youtube.com/watch?v=Fr0Dku2UZmI",
+      "Name": "Ulusal Kanal",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 46,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/vavtv.png",
+      "Link": "https://www.youtube.com/watch?v=aI65zlH3UT8",
+      "Name": "VAV TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 60,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/aljazeeraeng.png",
+      "Link": "https://www.youtube.com/watch?v=gCNeDWCI0vo",
+      "Name": "Yabancı TV - Aljazeera EN",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 54,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/bloombergtv.png",
+      "Link": "https://www.youtube.com/watch?v=iEpJwprxDdk",
+      "Name": "Yabancı TV - Bloomberg",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 63,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/dwnews.png",
+      "Link": "https://www.youtube.com/watch?v=tZT2MCYu6Zw",
+      "Name": "Yabancı TV - DW News",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 56,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/ekhontv.png",
+      "Link": "https://www.youtube.com/watch?v=i-mWMkYmaxs",
+      "Name": "Yabancı TV - Ekhon TV",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 58,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/euronewsfr.png",
+      "Link": "https://www.youtube.com/watch?v=NiRIbKwAejk",
+      "Name": "Yabancı TV - Euro News FR",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 55,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/france24en.png",
+      "Link": "https://www.youtube.com/watch?v=Ap-UM1O9RBU",
+      "Name": "Yabancı TV - France24 EN",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 59,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/nbcnews.png",
+      "Link": "https://www.youtube.com/watch?v=_ZZaRmtV8gM",
+      "Name": "Yabancı TV - NBC News",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 64,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/news12.png",
+      "Link": "https://www.youtube.com/watch?v=1GkcsMJTFiI",
+      "Name": "Yabancı TV - News 12",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 57,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/tvonenews.png",
+      "Link": "https://www.youtube.com/watch?v=yNKvkPJl-tg",
+      "Name": "Yabancı TV - Tvone News",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 26,
+      "Image": "http://beytepe.tk/sey/kodi/media/tvlogos/beinsportshaber.png",
+      "Link": "https://www.youtube.com/watch?v=VCl1wO81VdM",
+      "Name": "beIN Sports Haber",
+      "Description": "Youtube Canlı TV"
+    },
+    {
+      "ID": 52,
+      "Image": "https://i.ytimg.com/vi/WmEabperq8s/hqdefault.jpg?v=678134a3&sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLD6g_x8Yl23SJlAGvPNB7nq2U9wVA",
+      "Link": "https://www.youtube.com/watch?v=WmEabperq8s",
+      "Name": "ŞİMDİ KOŞMA ZAMANI! 🚀 TÜM Fragmanlar | 7/24 CANLI YAYIN | Konuşan Tom",
+      "Description": "Youtube Canlı TV"
+    }
+  ],
+  "isTV": 1
+}

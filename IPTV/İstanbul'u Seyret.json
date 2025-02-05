@@ -1,0 +1,155 @@
+{
+  "isIPTV": 1,
+  "links": [
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/anadolu-hisari/",
+      "ID": "1",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Anadoluhisari-22-300x225.jpg",
+      "Name": "Anadoluhisarı (22)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/beyazit-kulesi/",
+      "ID": "2",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/beyazit-kulesi-300x169.jpg",
+      "Name": "Beyazit Kulesi"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/beyazit-kulesi-2/",
+      "ID": "3",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/beyazit-kulesi-1-300x169.jpg",
+      "Name": "Beyazit Kulesi-1"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/beyazit-meydani/",
+      "ID": "4",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/beyazit-meydani-300x169.jpg",
+      "Name": "Beyazit Meydanı"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/buyuk-camlica/",
+      "ID": "5",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/buyuk-camlica-300x169.jpg",
+      "Name": "Büyük Çamlıca"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/dragos/",
+      "ID": "6",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/dragos-300x200.jpg",
+      "Name": "Dragos"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/eminonu-3/",
+      "ID": "7",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Eminonu-20-1-300x225.jpg",
+      "Name": "Eminönü (20)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/emirgan-2/",
+      "ID": "8",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Emirgan-18-300x225.jpg",
+      "Name": "Emirgan (18)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/eyup-sultan/",
+      "ID": "9",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Eyup-18-300x225.jpg",
+      "Name": "Eyüp (18)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/hidiv-kasri/",
+      "ID": "10",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/hidiv-300x225.jpg",
+      "Name": "Hidiv"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/kadikoy-iskelesi/",
+      "ID": "11",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/kadikoy-iskele-300x168.jpg",
+      "Name": "Kadikoy İskele"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/kapali-carsi/",
+      "ID": "12",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/kapalicarsi-300x188.jpg",
+      "Name": "Kapalıçarşı"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/karakoy-2/",
+      "ID": "13",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Karakoy-2-300x225.jpg",
+      "Name": "Karaköy (2)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/kiz-kulesi/",
+      "ID": "14",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Kiz-kulesi-300x225.jpg",
+      "Name": "Kız Kulesi"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/kucukcekmece/",
+      "ID": "15",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2022/04/kucukcekmece-300x230.jpg",
+      "Name": "Küçükçekmece"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/metrohan/",
+      "ID": "16",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/metrohan-300x199.jpg",
+      "Name": "Metrohan"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/miniaturk/",
+      "ID": "17",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/miniaturk-300x188.jpg",
+      "Name": "Miniaturk"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/misir-carsisi/",
+      "ID": "18",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/misircarsisi-300x188.jpg",
+      "Name": "Mısır Çarşısı"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/ortakoy/",
+      "ID": "19",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Ortakoy-Kurucesme-8-300x225.jpg",
+      "Name": "Ortaköy Kuruçeşme (8)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/salacak/",
+      "ID": "20",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Harem-Salacak-19-300x225.jpg",
+      "Name": "Harem Salacak (19)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/sarachane-1/",
+      "ID": "21",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/sarachane-300x175.jpg",
+      "Name": "Saraçhane"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/sepetciler-kasri/",
+      "ID": "22",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/sepetciler-kasri-300x188.jpg",
+      "Name": "Sepetçiler Kasrı"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/sultanahmet-2/",
+      "ID": "23",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/sultanahmet-29-300x225.png",
+      "Name": "Sultanahmet (29)"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/ulus-parki/",
+      "ID": "24",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/10/ulus-300x188.jpg",
+      "Name": "Ulus"
+    },
+    {
+      "Link": "https://istanbuluseyret.ibb.gov.tr/uskudar-5/",
+      "ID": "25",
+      "Image": "https://istanbuluseyret.ibb.gov.tr/wp-content/uploads/2021/03/Uskudar-7-2-300x225.jpg",
+      "Name": "Üsküdar (7)"
+    }
+  ]
+}

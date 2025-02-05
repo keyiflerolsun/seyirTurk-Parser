@@ -1,0 +1,285 @@
+{
+  "links": [
+    {
+      "ID": 1,
+      "Name": "Train 24",
+      "Link": "https://www.canlitv.ws/train24",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Train 24"
+    },
+    {
+      "ID": 2,
+      "Name": "Jackson",
+      "Link": "https://www.canlitv.ws/jackson",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Jackson"
+    },
+    {
+      "ID": 3,
+      "Name": "Las Vegas",
+      "Link": "https://www.canlitv.ws/las-vegas",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Las Vegas"
+    },
+    {
+      "ID": 4,
+      "Name": "Teton Village",
+      "Link": "https://www.canlitv.ws/teton-village",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Teton Village"
+    },
+    {
+      "ID": 5,
+      "Name": "Virginia Demiryolu",
+      "Link": "https://www.canlitv.ws/virginia-demiryolu",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Virginia Demiryolu"
+    },
+    {
+      "ID": 6,
+      "Name": "Wernigerode",
+      "Link": "https://www.canlitv.ws/wernigerode",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Wernigerode"
+    },
+    {
+      "ID": 7,
+      "Name": "Bad Wildungen",
+      "Link": "https://www.canlitv.ws/bad-wildungen",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bad Wildungen"
+    },
+    {
+      "ID": 8,
+      "Name": "Dam Meydanı",
+      "Link": "https://www.canlitv.ws/dam-meydani",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dam Meydanı"
+    },
+    {
+      "ID": 9,
+      "Name": "Alberta Banff",
+      "Link": "https://www.canlitv.ws/alberta-banff",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Alberta Banff"
+    },
+    {
+      "ID": 10,
+      "Name": "Milevsko",
+      "Link": "https://www.canlitv.ws/milevsko",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Milevsko"
+    },
+    {
+      "ID": 11,
+      "Name": "Valašské Klobouky",
+      "Link": "https://www.canlitv.ws/valasske-klobouky",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Valašské Klobouky"
+    },
+    {
+      "ID": 12,
+      "Name": "Lisalmi",
+      "Link": "https://www.canlitv.ws/lisalmi",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Lisalmi"
+    },
+    {
+      "ID": 13,
+      "Name": "Levi",
+      "Link": "https://www.canlitv.ws/levi",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Levi"
+    },
+    {
+      "ID": 14,
+      "Name": "Hvar",
+      "Link": "https://www.canlitv.ws/hvar",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Hvar"
+    },
+    {
+      "ID": 15,
+      "Name": "Zaanse Schans",
+      "Link": "https://www.canlitv.ws/zaanse-schans",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Zaanse Schans"
+    },
+    {
+      "ID": 16,
+      "Name": "Oxford Martin School",
+      "Link": "https://www.canlitv.ws/oxford-martin-school",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Oxford Martin School"
+    },
+    {
+      "ID": 17,
+      "Name": "Saraçhane",
+      "Link": "https://www.canlitv.ws/sarachane",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Saraçhane"
+    },
+    {
+      "ID": 18,
+      "Name": "Bağdat Caddesi",
+      "Link": "https://www.canlitv.ws/bagdat-caddesi",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bağdat Caddesi"
+    },
+    {
+      "ID": 19,
+      "Name": "Dragos",
+      "Link": "https://www.canlitv.ws/drogos",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Dragos"
+    },
+    {
+      "ID": 20,
+      "Name": "Miniatürk",
+      "Link": "https://www.canlitv.ws/minia-turk",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Miniatürk"
+    },
+    {
+      "ID": 21,
+      "Name": "Üsküdar",
+      "Link": "https://www.canlitv.ws/uskudar",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Üsküdar"
+    },
+    {
+      "ID": 22,
+      "Name": "Büyük Çamlıca",
+      "Link": "https://www.canlitv.ws/buyuk-camlica",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Büyük Çamlıca"
+    },
+    {
+      "ID": 23,
+      "Name": "Ulus Parkı",
+      "Link": "https://www.canlitv.ws/ulus-park",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Ulus Parkı"
+    },
+    {
+      "ID": 24,
+      "Name": "Hıdiv Kasrı",
+      "Link": "https://www.canlitv.ws/hidiv-kasri",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Hıdiv Kasrı"
+    },
+    {
+      "ID": 25,
+      "Name": "Kapalı Çarşı",
+      "Link": "https://www.canlitv.ws/kapali-carsi",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Kapalı Çarşı"
+    },
+    {
+      "ID": 26,
+      "Name": "Eminönü",
+      "Link": "https://www.canlitv.ws/eminonu",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Eminönü"
+    },
+    {
+      "ID": 27,
+      "Name": "Küçükçekmece",
+      "Link": "https://www.canlitv.ws/kucukcekmece",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Küçükçekmece"
+    },
+    {
+      "ID": 28,
+      "Name": "Anadolu Hisarı",
+      "Link": "https://www.canlitv.ws/anadolu-hisari",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Anadolu Hisarı"
+    },
+    {
+      "ID": 29,
+      "Name": "Venedik",
+      "Link": "https://www.canlitv.ws/venedik",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Venedik"
+    },
+    {
+      "ID": 30,
+      "Name": "Shibuya",
+      "Link": "https://www.canlitv.ws/shibuya",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Shibuya"
+    },
+    {
+      "ID": 31,
+      "Name": "Times Meydanı",
+      "Link": "https://www.canlitv.ws/times-meydani",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Times Meydanı"
+    },
+    {
+      "ID": 32,
+      "Name": "Bryant Park",
+      "Link": "https://www.canlitv.ws/bryant-park",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Bryant Park"
+    },
+    {
+      "ID": 33,
+      "Name": "Syracuse Havaalanı",
+      "Link": "https://www.canlitv.ws/syracuse-havaalani",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Syracuse Havaalanı"
+    },
+    {
+      "ID": 34,
+      "Name": "Geiranger",
+      "Link": "https://www.canlitv.ws/geiranger",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Geiranger"
+    },
+    {
+      "ID": 35,
+      "Name": "Stary Sacz",
+      "Link": "https://www.canlitv.ws/stary-sacz",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Stary Sacz"
+    },
+    {
+      "ID": 36,
+      "Name": "Belgrad Terazije Meydanı",
+      "Link": "https://www.canlitv.ws/belgrad-terazije-meydani",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Belgrad Terazije Meydanı"
+    },
+    {
+      "ID": 37,
+      "Name": "Tokyo Shiodome Demiryolu",
+      "Link": "https://www.canlitv.ws/tokyo-shiodome-demiryolu",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tokyo Shiodome Demiryolu"
+    },
+    {
+      "ID": 38,
+      "Name": "Tokyo Shibuya",
+      "Link": "https://www.canlitv.ws/tokyo-shibuya",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Tokyo Shibuya"
+    },
+    {
+      "ID": 39,
+      "Name": "Rialto Köprüsü",
+      "Link": "https://www.canlitv.ws/rialto-koprusu",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": "Rialto Köprüsü"
+    },
+    {
+      "ID": 40,
+      "Name": "",
+      "Link": "https://www.canlitv.ws/",
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Summary": ""
+    }
+  ],
+  "isIPTV": 1
+}

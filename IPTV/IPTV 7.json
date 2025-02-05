@@ -1,0 +1,395 @@
+{
+  "links": [
+    {
+      "ID": 0,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_7.png?v=10",
+      "Link": "https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8",
+      "Name": "Aksu Tv"
+    },
+    {
+      "ID": 1,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_10.png?v=7",
+      "Link": "https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8",
+      "Name": "Anadolu Net TV"
+    },
+    {
+      "ID": 2,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_13.png?v=4",
+      "Link": "https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8",
+      "Name": "AS TV"
+    },
+    {
+      "ID": 3,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_16.png?v=4",
+      "Link": "https://live.artidijitalmedya.com/artidijital_birtv/birtv/playlist.m3u8",
+      "Name": "Bir TV"
+    },
+    {
+      "ID": 4,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_19.png?v=6",
+      "Link": "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8",
+      "Name": "BRTV"
+    },
+    {
+      "ID": 5,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_157.png?v=5",
+      "Link": "https://live.artidijitalmedya.com/artidijital_cine1/cine1/playlist.m3u8",
+      "Name": "Cine 1"
+    },
+    {
+      "ID": 6,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_25.png?v=11",
+      "Link": "https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8",
+      "Name": "Çiftçi TV"
+    },
+    {
+      "ID": 7,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_28.png?v=4",
+      "Link": "https://live.artidijitalmedya.com/artidijital_dehatv/dehatv/playlist.m3u8",
+      "Name": "Deha TV"
+    },
+    {
+      "ID": 8,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_31.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_denizpostasi/denizpostasi/playlist.m3u8",
+      "Name": "Deniz Postası TV"
+    },
+    {
+      "ID": 9,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_34.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_dimtv/dimtv/playlist.m3u8",
+      "Name": "Dim TV"
+    },
+    {
+      "ID": 10,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_40.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8",
+      "Name": "ErTV"
+    },
+    {
+      "ID": 11,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_43.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_estv/estv/playlist.m3u8",
+      "Name": "Es TV"
+    },
+    {
+      "ID": 12,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_46.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_etv/etv/playlist.m3u8",
+      "Name": "ETV"
+    },
+    {
+      "ID": 13,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_49.png?v=5",
+      "Link": "https://live.artidijitalmedya.com/artidijital_grt/grt1/playlist.m3u8",
+      "Name": "GRT"
+    },
+    {
+      "ID": 14,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_220.png?v=5",
+      "Link": "https://www.youtube.com/embed/6BX-NUzBSp8",
+      "Name": "Haber Global"
+    },
+    {
+      "ID": 15,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_55.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_hunattv/hunattv/playlist.m3u8",
+      "Name": "Hunat TV"
+    },
+    {
+      "ID": 16,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_37.png?v=7",
+      "Link": "https://live.artidijitalmedya.com/artidijital_diyartv/diyartv/playlist.m3u8",
+      "Name": "iKRA TV"
+    },
+    {
+      "ID": 17,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_256.png?v=7",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal12/kanal12/playlist.m3u8",
+      "Name": "Kanal 12"
+    },
+    {
+      "ID": 18,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_61.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal15/kanal15/playlist.m3u8",
+      "Name": "Kanal 15"
+    },
+    {
+      "ID": 19,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_67.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal23/kanal23/playlist.m3u8",
+      "Name": "Kanal 23"
+    },
+    {
+      "ID": 20,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_70.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal26/kanal26/playlist.m3u8",
+      "Name": "Kanal 26"
+    },
+    {
+      "ID": 21,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_73.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal3/kanal3guncel/playlist.m3u8",
+      "Name": "Kanal 3"
+    },
+    {
+      "ID": 22,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_76.png?v=5",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8",
+      "Name": "Kanal 58"
+    },
+    {
+      "ID": 23,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_79.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanal68/kanal68/playlist.m3u8",
+      "Name": "Kanal 68"
+    },
+    {
+      "ID": 24,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_82.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8",
+      "Name": "Kanal Fırat"
+    },
+    {
+      "ID": 25,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_88.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8",
+      "Name": "Kanal V"
+    },
+    {
+      "ID": 26,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_85.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kanalz/kanalz/playlist.m3u8",
+      "Name": "Kanal Z"
+    },
+    {
+      "ID": 27,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_91.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kaytv/kaytv1/playlist.m3u8",
+      "Name": "Kay TV"
+    },
+    {
+      "ID": 28,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_94.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8",
+      "Name": "Kent Türk Tv"
+    },
+    {
+      "ID": 29,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_163.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8",
+      "Name": "Konya Olay Tv"
+    },
+    {
+      "ID": 30,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_97.png?v=6",
+      "Link": "https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8",
+      "Name": "Life TV"
+    },
+    {
+      "ID": 31,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_100.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_vuslattv/vuslattv/playlist.m3u8",
+      "Name": "Malatya Vuslat TV"
+    },
+    {
+      "ID": 32,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_103.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playlist.m3u8",
+      "Name": "Mavi Karadeniz"
+    },
+    {
+      "ID": 33,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_106.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8",
+      "Name": "Mercan TV"
+    },
+    {
+      "ID": 34,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_277.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_noratv/noratv/playlist.m3u8",
+      "Name": "Nora Tv"
+    },
+    {
+      "ID": 35,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_109.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8",
+      "Name": "Olay Türk TV"
+    },
+    {
+      "ID": 36,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_115.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8",
+      "Name": "Power Türk Tv"
+    },
+    {
+      "ID": 37,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_118.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_powertv/powertv/playlist.m3u8",
+      "Name": "Power TV"
+    },
+    {
+      "ID": 38,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_121.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8",
+      "Name": "Sat7 Türk"
+    },
+    {
+      "ID": 39,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_124.png?v=5",
+      "Link": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
+      "Name": "Sun RTV"
+    },
+    {
+      "ID": 40,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_223.png?v=5",
+      "Link": "https://www.youtube.com/embed/ztmY_cCtUl0",
+      "Name": "SZC TV"
+    },
+    {
+      "ID": 41,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_127.png?v=8",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tatlisestv/tatlisestv/playlist.m3u8",
+      "Name": "Tatlıses TV"
+    },
+    {
+      "ID": 42,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_130.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8",
+      "Name": "Tempo TV"
+    },
+    {
+      "ID": 43,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_282.png?v=5",
+      "Link": "https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8",
+      "Name": "TGRT Belgesel"
+    },
+    {
+      "ID": 44,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_281.png?v=5",
+      "Link": "https://canli.tgrthaber.com/tgrt.m3u8",
+      "Name": "TGRT Haber"
+    },
+    {
+      "ID": 45,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_133.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8",
+      "Name": "Tivi6"
+    },
+    {
+      "ID": 46,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_229.png?v=3",
+      "Link": "https://tjktv-live.tjk.org/tjktv.m3u8",
+      "Name": "TJK TV"
+    },
+    {
+      "ID": 47,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_136.png?v=4",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8",
+      "Name": "Ton TV"
+    },
+    {
+      "ID": 48,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_154.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_trakyaturk/trakyaturk/playlist.m3u8",
+      "Name": "Trakya Türk TV"
+    },
+    {
+      "ID": 49,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_166.png?v=6",
+      "Link": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT 1"
+    },
+    {
+      "ID": 50,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_265.png?v=3",
+      "Link": "https://tv-trt2.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT 2"
+    },
+    {
+      "ID": 51,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_262.png?v=3",
+      "Link": "https://tv-trtbelgesel.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Belgesel"
+    },
+    {
+      "ID": 52,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_268.png?v=3",
+      "Link": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Çocuk"
+    },
+    {
+      "ID": 53,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_169.png?v=6",
+      "Link": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Haber"
+    },
+    {
+      "ID": 54,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_259.png?v=3",
+      "Link": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Müzik"
+    },
+    {
+      "ID": 55,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_226.png?v=4",
+      "Link": "https://tv-trtspor1.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Spor"
+    },
+    {
+      "ID": 56,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_271.png?v=3",
+      "Link": "https://tv-trtspor2.medya.trt.com.tr/master.m3u8",
+      "Name": "TRT Spor Yıldız"
+    },
+    {
+      "ID": 57,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_214.png?v=4",
+      "Link": "https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8",
+      "Name": "TV 24"
+    },
+    {
+      "ID": 58,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_284.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tv3/tv3/playlist.m3u8",
+      "Name": "TV 3"
+    },
+    {
+      "ID": 59,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_205.png?v=3",
+      "Link": "https://turkmedya-live.ercdn.net/tv360/tv360.m3u8",
+      "Name": "TV 360"
+    },
+    {
+      "ID": 60,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_139.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tv41/tv41/playlist.m3u8",
+      "Name": "TV41"
+    },
+    {
+      "ID": 61,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_142.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_tva/tva/playlist.m3u8",
+      "Name": "TVA"
+    },
+    {
+      "ID": 62,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_283.png?v=3",
+      "Link": "https://mn-nl.mncdn.com/tvnet/tvnet/chunklist.m3u8",
+      "Name": "tvnet"
+    },
+    {
+      "ID": 63,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_145.png?v=4",
+      "Link": "https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8",
+      "Name": "Urfanatik TV"
+    },
+    {
+      "ID": 64,
+      "Image": "https://www.artidijitalmedya.com/image/188x188//cdn/channels/v1/logo_151.png?v=3",
+      "Link": "https://live.artidijitalmedya.com/artidijital_worldturk/worldturk/playlist.m3u8",
+      "Name": "World Türk"
+    }
+  ],
+  "isIPTV": 1
+}

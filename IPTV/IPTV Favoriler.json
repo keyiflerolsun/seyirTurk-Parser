@@ -1,0 +1,17 @@
+{
+  "movies": [
+    {
+      "ID": "0",
+      "Summary": "",
+      "Image": "http://beytepe.tk/sey/kodi/media/no_access.png",
+      "Type": "Movie",
+      "Name": "Bu Özelliği Kullanmak İçin Vip Olmanız Gerekiyor. Bilgi İçin Foruma Bakabilirsiniz.",
+      "Language": "0",
+      "ReleaseDate": "2020-12-12",
+      "IMDBScore": "0",
+      "Genres": "Yok",
+      "hasWatched": "-1",
+      "Runtime": "0"
+    }
+  ]
+}

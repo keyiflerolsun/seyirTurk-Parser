@@ -1,0 +1,341 @@
+{
+  "links": [
+    {
+      "ID": 28,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=24-TV#turkish",
+      "Name": "24 TV"
+    },
+    {
+      "ID": 8,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=A-Haber#turkish",
+      "Name": "A Haber"
+    },
+    {
+      "ID": 20,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Akit-TV#turkish",
+      "Name": "Akit TV"
+    },
+    {
+      "ID": 54,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Al-Zahra-TV#turkish",
+      "Name": "Al Zahra TV"
+    },
+    {
+      "ID": 52,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=AzStar-TV#turkish",
+      "Name": "AzStar TV"
+    },
+    {
+      "ID": 53,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=AzTV-1#turkish",
+      "Name": "AzTV 1"
+    },
+    {
+      "ID": 22,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Azad-TV#turkish",
+      "Name": "Azad TV"
+    },
+    {
+      "ID": 24,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=BRTV-Turkey#turkish",
+      "Name": "BRTV Turkey"
+    },
+    {
+      "ID": 55,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Besiktas-TV#turkish",
+      "Name": "Besiktas TV"
+    },
+    {
+      "ID": 48,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Ciftci-TV#turkish",
+      "Name": "Ciftci TV"
+    },
+    {
+      "ID": 42,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Cine5#turkish",
+      "Name": "Cine5"
+    },
+    {
+      "ID": 32,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=EkoTurk#turkish",
+      "Name": "EkoTurk"
+    },
+    {
+      "ID": 7,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Euro-Star#turkish",
+      "Name": "Euro Star"
+    },
+    {
+      "ID": 23,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Fenerbahce-TV#turkish",
+      "Name": "Fenerbahce TV"
+    },
+    {
+      "ID": 31,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Haber61#turkish",
+      "Name": "Haber61"
+    },
+    {
+      "ID": 25,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Istanbul-TV#turkish",
+      "Name": "Istanbul TV"
+    },
+    {
+      "ID": 41,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Kanal-3#turkish",
+      "Name": "Kanal 3"
+    },
+    {
+      "ID": 45,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Kanal-B#turkish",
+      "Name": "Kanal B"
+    },
+    {
+      "ID": 51,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Kanal-Firat#turkish",
+      "Name": "Kanal Firat"
+    },
+    {
+      "ID": 46,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Kanal-V#turkish",
+      "Name": "Kanal V"
+    },
+    {
+      "ID": 26,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Kanal-Z#turkish",
+      "Name": "Kanal Z"
+    },
+    {
+      "ID": 1,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Medeniyet-TV#turkish",
+      "Name": "Medeniyet TV"
+    },
+    {
+      "ID": 3,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Number1-Ask#turkish",
+      "Name": "Number1 Ask"
+    },
+    {
+      "ID": 6,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Number1-Damar#turkish",
+      "Name": "Number1 Damar"
+    },
+    {
+      "ID": 5,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Number1-Dance#turkish",
+      "Name": "Number1 Dance"
+    },
+    {
+      "ID": 2,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Number1-HD#turkish",
+      "Name": "Number1 TV"
+    },
+    {
+      "ID": 4,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Number1-Turk#turkish",
+      "Name": "Number1 Turk"
+    },
+    {
+      "ID": 39,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Akustik#turkish",
+      "Name": "Power Akustik"
+    },
+    {
+      "ID": 37,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Dance#turkish",
+      "Name": "Power Dance"
+    },
+    {
+      "ID": 36,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Love#turkish",
+      "Name": "Power Love"
+    },
+    {
+      "ID": 38,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Slow#turkish",
+      "Name": "Power Slow"
+    },
+    {
+      "ID": 34,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-TV#turkish",
+      "Name": "Power TV"
+    },
+    {
+      "ID": 40,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Taptaze#turkish",
+      "Name": "Power Taptaze"
+    },
+    {
+      "ID": 35,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Power-Turk#turkish",
+      "Name": "Power Turk"
+    },
+    {
+      "ID": 30,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Sat7-Turk#turkish",
+      "Name": "Sat7 Turk"
+    },
+    {
+      "ID": 33,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Slow-Turk-Radio#turkish",
+      "Name": "Slow Turk"
+    },
+    {
+      "ID": 29,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TGRT-Haber#turkish",
+      "Name": "TGRT Haber"
+    },
+    {
+      "ID": 9,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-1#turkish",
+      "Name": "TRT 1"
+    },
+    {
+      "ID": 10,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-2#turkish",
+      "Name": "TRT 2"
+    },
+    {
+      "ID": 16,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Avaz#turkish",
+      "Name": "TRT Avaz"
+    },
+    {
+      "ID": 19,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Belgesel#turkish",
+      "Name": "TRT Belgesel"
+    },
+    {
+      "ID": 18,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Cocuk#turkish",
+      "Name": "TRT Cocuk"
+    },
+    {
+      "ID": 14,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Diyanet#turkish",
+      "Name": "TRT Diyanet"
+    },
+    {
+      "ID": 11,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Haber#turkish",
+      "Name": "TRT Haber"
+    },
+    {
+      "ID": 13,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-EBA-Ilkokul#turkish",
+      "Name": "TRT Ilkokul"
+    },
+    {
+      "ID": 12,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-EBA-Lise#turkish",
+      "Name": "TRT Lise"
+    },
+    {
+      "ID": 17,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Muzik#turkish",
+      "Name": "TRT Muzik"
+    },
+    {
+      "ID": 15,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TRT-Turk#turkish",
+      "Name": "TRT Turk"
+    },
+    {
+      "ID": 0,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TV-360#turkish",
+      "Name": "TV 360"
+    },
+    {
+      "ID": 21,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TV100#turkish",
+      "Name": "TV100"
+    },
+    {
+      "ID": 50,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TV4#turkish",
+      "Name": "TV4"
+    },
+    {
+      "ID": 27,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=TVnet#turkish",
+      "Name": "TVnet"
+    },
+    {
+      "ID": 47,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Tele-1#turkish",
+      "Name": "Tele 1"
+    },
+    {
+      "ID": 44,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Tempo-TV#turkish",
+      "Name": "Tempo TV"
+    },
+    {
+      "ID": 49,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Ulke-TV#turkish",
+      "Name": "Ulke TV"
+    },
+    {
+      "ID": 43,
+      "Image": "http://beytepe.tk/sey/kodi/media/iptv.png",
+      "Link": "https://www.parsatv.com/name=Yol-TV#turkish",
+      "Name": "Yol TV"
+    }
+  ],
+  "isTV": 1
+}
