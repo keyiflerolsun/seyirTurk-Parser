@@ -2,506 +2,537 @@ function parser() {
     if (Core.jsParser.thread.isInterrupted()) {
         return;
     }
-    consolelog('--------------------Parser Function Start--------------------');
-    if (url(['stream.tvcdn.net'], 1)) {
-        url('http://', 'https://');
+    consolelog("--------------------Parser Function Start--------------------");
+    if (url(["stream.tvcdn.net"], 0x1)) {
+        url("http://", "https://");
     }
-    consolelog(5, url());
-    consolelog(6, g.getLang());
-    consolelog(7, sub());
+    consolelog(0x5, url());
+    consolelog(0x6, g.getLang());
+    consolelog(0x7, sub());
     consolelog(headers());
     try {
-        if (headers() == 0) {
+        if (headers() == 0x0) {
             try {
                 Core.mainUrlForReferer = url();
-            } catch (_0x2f232a) { }
-            headers('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
+            } catch (_0x48632d) {}
+            headers("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36");
             headers('Referer', baseUrl(url()));
-            headers('base', 'aHR0cHM6Ly9zZXlpcnR1cmsubmV0L3Jvb3RjaGVjay9hbmRyb2lkLnBocA');
+            headers("base", "aHR0cHM6Ly9zZXlpcnR1cmsubmV0L3Jvb3RjaGVjay9hbmRyb2lkLnBocA");
         }
         g.logHeader();
-        consolelog('--------------------Parser Function End--------------------');
-        if (isPreview() && !url(['https://'], 1)) {
-            var _0x20399f = atob(reverseString(fetch(atob(headers('base') + '='))));
-            url(_0x20399f + 'sey/back/getImdb.php?id=' + url());
+        consolelog("--------------------Parser Function End--------------------");
+        if (isPreview() && !url(["https://"], 0x1)) {
+            var _0x443f96 = atob(reverseString(fetch(atob(headers('base') + '='))));
+            url(_0x443f96 + "sey/back/getImdb.php?id=" + url());
             url(fetch());
-            if (url(['|'], 1)) {
-                url('https://www.youtube.com/watch?v=' + url().split('|')[1]);
+            if (url(['|'], 0x1)) {
+                url("https://www.youtube.com/watch?v=" + url().split('|')[0x1]);
             } else {
-                url('https://imdb.com/title/tt' + url());
+                url("https://imdb.com/title/tt" + url());
                 headers('Referer', 'https://imdb.com');
             }
         }
-        url('?wfilmizle', '');
-        url('?atv', '');
-        if (url(['atv.com.tr', 'a2tv', 'minikago', 'minikacocuk', 'vavtv.com.tr'], 1) && !url(['.m3u8'], 1)) {
+        url("?wfilmizle", '');
+        url("?atv", '');
+        if (url(["atv.com.tr", "a2tv", "minikago", "minikacocuk", "vavtv.com.tr"], 0x1) && !url([".m3u8"], 0x1)) {
             atv();
         } else {
-            if (url(['kanald.com'], 1) && !url(['.m3u8'], 1)) {
+            if (url(['kanald.com'], 0x1) && !url(['.m3u8'], 0x1)) {
                 kanald();
             } else {
-                if (url(['startv.com.tr', 'ntv.com.tr'], 1) && !url(['.m3u8'], 1) && !url(['womantv'], 1)) {
+                if (url(["startv.com.tr", "ntv.com.tr"], 0x1) && !url([".m3u8"], 0x1) && !url(["womantv"], 0x1)) {
                     startv();
                 } else {
-                    if (url(['showtv.com', 'showturk.com', 'showmax.com'], 1) && !url(['.m3u8'], 1)) {
+                    if (url(['showtv.com', "showturk.com", "showmax.com"], 0x1) && !url([".m3u8"], 0x1)) {
                         showtv();
                     } else {
-                        if (url(['nowtv.com'], 1) && !url(['.m3u8'], 1)) {
+                        if (url(["nowtv.com"], 0x1) && !url(['.m3u8'], 0x1)) {
                             nowtv();
                         } else {
-                            if (url(['tv8.com.tr'], 1) && !url(['video-cdn'], 1) && !url(['.m3u8'], 1)) {
+                            if (url(["tv8.com.tr"], 0x1) && !url(['video-cdn'], 0x1) && !url([".m3u8"], 0x1)) {
                                 tv8();
                             } else {
-                                if (url(['tlctv', 'dmax'], 1) && !url(['.m3u8'], 1)) {
+                                if (url(["tlctv", "dmax"], 0x1) && !url([".m3u8"], 0x1)) {
                                     tlc();
                                 } else {
-                                    if (url(['teve2'], 1) && !url(['duhnet'], 1) && !url(['.m3u8'], 1)) {
+                                    if (url(["teve2"], 0x1) && !url(["duhnet"], 0x1) && !url([".m3u8"], 0x1)) {
                                         teve2();
                                     } else {
-                                        if (url(['tv360'], 1) && !url(['.m3u8'], 1)) {
+                                        if (url(["tv360"], 0x1) && !url([".m3u8"], 0x1)) {
                                             tv360();
                                         } else {
-                                            if (url(['tvem'], 1) && !url(['m3u8'], 1) && !url(['.m3u8'], 1)) {
+                                            if (url(["tvem"], 0x1) && !url(['m3u8'], 0x1) && !url([".m3u8"], 0x1)) {
                                                 tvem();
                                             } else {
-                                                if (url(['womantv'], 1) && !url(['.m3u8'], 1)) {
+                                                if (url(["womantv"], 0x1) && !url([".m3u8"], 0x1)) {
                                                     womantv();
                                                 } else {
-                                                    if (url(['kanal7'], 1) && !url(['.m3u8'], 1)) {
+                                                    if (url(["kanal7"], 0x1) && !url(['.m3u8'], 0x1)) {
                                                         kanal7();
                                                     } else {
-                                                        if (url(['ucankus'], 1) && !url(['.m3u8'], 1)) {
+                                                        if (url(['ucankus'], 0x1) && !url([".m3u8"], 0x1)) {
                                                             ucankus();
                                                         } else {
-                                                            if (url(['tele1'], 1) && !url(['.m3u8'], 1)) {
+                                                            if (url(["tele1"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                 tele1();
                                                             } else {
-                                                                if (url(['kanalb'], 1) && !url(['.m3u8'], 1)) {
+                                                                if (url(["kanalb"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                     kanalb();
                                                                 } else {
-                                                                    if (url(['haberturk'], 1) && !url(['.m3u8'], 1)) {
+                                                                    if (url(['haberturk'], 0x1) && !url([".m3u8"], 0x1)) {
                                                                         haberturk();
                                                                     } else {
-                                                                        if (url(['cnnturk'], 1) && !url(['.m3u8'], 1)) {
+                                                                        if (url(["cnnturk"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                             cnnturk();
                                                                         } else {
-                                                                            if (url(['ahaber.com', 'anews.com', 'sabah.com.tr', 'aspor.com'], 1) && !url(['.m3u8'], 1)) {
+                                                                            if (url(["ahaber.com", 'anews.com', 'sabah.com.tr', "aspor.com"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                 ahaber();
                                                                             } else {
-                                                                                if (url(['bloomberg'], 1) && !url(['.m3u8'], 1)) {
+                                                                                if (url(["bloomberg"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                     bloomberg();
                                                                                 } else {
-                                                                                    if (url(['yirmidort.tv'], 1) && !url(['.m3u8'], 1)) {
+                                                                                    if (url(['yirmidort.tv'], 0x1) && !url(['.m3u8'], 0x1)) {
                                                                                         yirmidort();
                                                                                     } else {
-                                                                                        if (url(['beyaztv.com.tr'], 1) && !url(['.m3u8'], 1)) {
+                                                                                        if (url(['beyaztv.com.tr'], 0x1) && !url(['.m3u8'], 0x1)) {
                                                                                             beyaztv();
                                                                                         } else {
-                                                                                            if (url(['tvnet.com.tr'], 1) && !url(['.m3u8'], 1)) {
+                                                                                            if (url(['tvnet.com.tr'], 0x1) && !url(['.m3u8'], 0x1)) {
                                                                                                 tvnet();
                                                                                             } else {
-                                                                                                if (url(['dha.com.tr'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                if (url(["dha.com.tr"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                     dha();
                                                                                                 } else {
-                                                                                                    if (url(['yabantv.com', 'koytv.tv'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                    if (url(["yabantv.com", "koytv.tv"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                         yabantv();
                                                                                                     } else {
-                                                                                                        if (url(['tjk.org'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                        if (url(["tjk.org"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                             tjk();
                                                                                                         } else {
-                                                                                                            if (url(['dreamturk.com'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                            if (url(["dreamturk.com"], 0x1) && !url(['.m3u8'], 0x1)) {
                                                                                                                 dreamturk();
                                                                                                             } else {
-                                                                                                                if (url(['canlitv.digital'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                if (url(["canlitv.digital"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                                     canlitvcenter();
                                                                                                                 } else {
-                                                                                                                    if (url(['istanbuluseyret'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                    if (url(["istanbuluseyret"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                                         istanbuluseyret();
                                                                                                                     } else {
-                                                                                                                        if (url(['radyodelisi'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                        if (url(["radyodelisi"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                                             radyodelisi();
                                                                                                                         } else {
-                                                                                                                            if (url(['pokitv'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                            if (url(["pokitv"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                                                 pokitv();
                                                                                                                             } else {
-                                                                                                                                if (url(['filmon'], 1) && !url(['m3u8'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                                if (url(['filmon'], 0x1) && !url(['m3u8'], 0x1) && !url(['.m3u8'], 0x1)) {
                                                                                                                                     filmon();
                                                                                                                                 } else {
-                                                                                                                                    if (url(['cnbce'], 1) && !url(['m3u8'], 1) && !url(['.m3u8'], 1)) {
+                                                                                                                                    if (url(["cnbce"], 0x1) && !url(["m3u8"], 0x1) && !url([".m3u8"], 0x1)) {
                                                                                                                                         cnbce();
                                                                                                                                     } else {
-                                                                                                                                        if (url(['canlitvulusal'], 1) && !url(['m3u8'], 1)) {
+                                                                                                                                        if (url(["canlitvulusal"], 0x1) && !url(["m3u8"], 0x1)) {
                                                                                                                                             canlitvulusal();
                                                                                                                                         } else {
-                                                                                                                                            if (url(['canlitv.ws'], 1) && !url(['m3u8'], 1)) {
+                                                                                                                                            if (url(['canlitv.ws'], 0x1) && !url(["m3u8"], 0x1)) {
                                                                                                                                                 canlitvws();
                                                                                                                                             } else {
-                                                                                                                                                if (url(['yoltv.com'], 1) && !url(['m3u8'], 1)) {
+                                                                                                                                                if (url(['yoltv.com'], 0x1) && !url(["m3u8"], 0x1)) {
                                                                                                                                                     yoltv();
                                                                                                                                                 } else {
-                                                                                                                                                    if (url(['canlitvvolo'], 1) && !url(['m3u8'], 1)) {
+                                                                                                                                                    if (url(["canlitvvolo"], 0x1) && !url(["m3u8"], 0x1)) {
                                                                                                                                                         canlitvvolo();
                                                                                                                                                     } else {
-                                                                                                                                                        if (url(['149.255.152.218', 'aspx'], 1)) {
+                                                                                                                                                        if (url(["149.255.152.218", "aspx"], 0x1)) {
                                                                                                                                                             myvideoaz();
                                                                                                                                                         } else {
-                                                                                                                                                            if (url(['parsatv'], 1)) {
+                                                                                                                                                            if (url(["parsatv"], 0x1)) {
                                                                                                                                                                 parsatv();
                                                                                                                                                             } else {
-                                                                                                                                                                if (url(['radyohome.com'], 1)) {
-                                                                                                                                                                    radyohome();
+                                                                                                                                                                if (url(['halktv.com'], 0x1)) {
+                                                                                                                                                                    halktv();
                                                                                                                                                                 } else {
-                                                                                                                                                                    if (url(['streamtheworld.com'], 1) && !url(['aac'], 1)) {
-                                                                                                                                                                        streamtheworld();
+                                                                                                                                                                    if (url(["radyohome.com"], 0x1)) {
+                                                                                                                                                                        radyohome();
                                                                                                                                                                     } else {
-                                                                                                                                                                        if (url(['canliradyolar'], 1) && !url(['mp3'], 1)) {
-                                                                                                                                                                            canliradyolar();
+                                                                                                                                                                        if (url(["streamtheworld.com"], 0x1) && !url(["aac"], 0x1)) {
+                                                                                                                                                                            streamtheworld();
                                                                                                                                                                         } else {
-                                                                                                                                                                            if (url(['onlineradiobox'], 1) && !url(['mp3'], 1)) {
-                                                                                                                                                                                onlineradiobox();
+                                                                                                                                                                            if (url(["canliradyolar"], 0x1) && !url(["mp3"], 0x1)) {
+                                                                                                                                                                                canliradyolar();
                                                                                                                                                                             } else {
-                                                                                                                                                                                if (url(['filmmakinesi'], 1)) {
-                                                                                                                                                                                    filmmakinesi();
+                                                                                                                                                                                if (url(["onlineradiobox"], 0x1) && !url(['mp3'], 0x1)) {
+                                                                                                                                                                                    onlineradiobox();
                                                                                                                                                                                 } else {
-                                                                                                                                                                                    if (url(['asyafilmizlesene'], 1)) {
-                                                                                                                                                                                        asyafilmizlesene();
+                                                                                                                                                                                    if (url(["filmmakinesi"], 0x1)) {
+                                                                                                                                                                                        filmmakinesi();
                                                                                                                                                                                     } else {
-                                                                                                                                                                                        if (url(['filmmodu'], 1)) {
-                                                                                                                                                                                            filmmodu();
+                                                                                                                                                                                        if (url(["asyafilmizlesene"], 0x1)) {
+                                                                                                                                                                                            asyafilmizlesene();
                                                                                                                                                                                         } else {
-                                                                                                                                                                                            if (url(['setfilmizle', 'hdfilmcehennemiboncuk45'], 1)) {
-                                                                                                                                                                                                setfilmizle();
+                                                                                                                                                                                            if (url(["filmmodu"], 0x1)) {
+                                                                                                                                                                                                filmmodu();
                                                                                                                                                                                             } else {
-                                                                                                                                                                                                if (url(['filmekseni'], 1)) {
-                                                                                                                                                                                                    filmekseni();
+                                                                                                                                                                                                if (url(["setfilmizle", "hdfilmcehennemiboncuk45"], 0x1)) {
+                                                                                                                                                                                                    setfilmizle();
                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                    if (url(['sinefil'], 1)) {
-                                                                                                                                                                                                        sinefil();
+                                                                                                                                                                                                    if (url(["filmekseni"], 0x1)) {
+                                                                                                                                                                                                        filmekseni();
                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                        if (url(['kultfilmler'], 1)) {
-                                                                                                                                                                                                            kultfilmler();
+                                                                                                                                                                                                        if (url(["sinefil", "selcukflix"], 0x1)) {
+                                                                                                                                                                                                            sinefil();
                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                            if (url(['filmkovasi'], 1)) {
-                                                                                                                                                                                                                filmkovasi();
+                                                                                                                                                                                                            if (url(["kultfilmler"], 0x1)) {
+                                                                                                                                                                                                                kultfilmler();
                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                if (url(['filmatek'], 1)) {
-                                                                                                                                                                                                                    filmatek();
+                                                                                                                                                                                                                if (url(['filmkovasi'], 0x1)) {
+                                                                                                                                                                                                                    filmkovasi();
                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                    if (url(['movie4k'], 1)) {
-                                                                                                                                                                                                                        movie4k();
+                                                                                                                                                                                                                    if (url(['filmatek'], 0x1)) {
+                                                                                                                                                                                                                        filmatek();
                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                        if (url(['/s.to', 'aniworld.to'], 1)) {
-                                                                                                                                                                                                                            sto();
+                                                                                                                                                                                                                        if (url(['movie4k'], 0x1)) {
+                                                                                                                                                                                                                            movie4k();
                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                            if (url(['siyahfilmizle'], 1)) {
-                                                                                                                                                                                                                                siyahfilmizle();
+                                                                                                                                                                                                                            if (url(["/s.to", "aniworld.to"], 0x1)) {
+                                                                                                                                                                                                                                sto();
                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                if (url(['sinemafilmizle'], 1)) {
-                                                                                                                                                                                                                                    sinemafilmizle();
+                                                                                                                                                                                                                                if (url(["siyahfilmizle"], 0x1)) {
+                                                                                                                                                                                                                                    siyahfilmizle();
                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                    if (url(['123movies'], 1)) {
-                                                                                                                                                                                                                                        movies123();
+                                                                                                                                                                                                                                    if (url(["sinemafilmizle"], 0x1)) {
+                                                                                                                                                                                                                                        sinemafilmizle();
                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                        if (url(['wikiflix'], 1)) {
-                                                                                                                                                                                                                                            wikiflix();
+                                                                                                                                                                                                                                        if (url(["123movies"], 0x1)) {
+                                                                                                                                                                                                                                            movies123();
                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                            if (url(['hdtoday'], 1)) {
-                                                                                                                                                                                                                                                hdtoday();
+                                                                                                                                                                                                                                            if (url(["wikiflix"], 0x1)) {
+                                                                                                                                                                                                                                                wikiflix();
                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                if (url(['wfilmizle'], 1)) {
-                                                                                                                                                                                                                                                    wfilmizle();
+                                                                                                                                                                                                                                                if (url(['hdtoday'], 0x1)) {
+                                                                                                                                                                                                                                                    hdtoday();
                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                    if (url(['sinefy'], 1)) {
-                                                                                                                                                                                                                                                        sinefy();
+                                                                                                                                                                                                                                                    if (url(["wfilmizle"], 0x1)) {
+                                                                                                                                                                                                                                                        wfilmizle();
                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                        if (url(['fullhdfilmizlesene'], 1)) {
-                                                                                                                                                                                                                                                            fullhdfilmizlesene();
+                                                                                                                                                                                                                                                        if (url(["sinefy"], 0x1)) {
+                                                                                                                                                                                                                                                            sinefy();
                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                            if (url(['4kfilmizle'], 1) && !url(['filmizlemek'], 1)) {
-                                                                                                                                                                                                                                                                filmizle4k();
+                                                                                                                                                                                                                                                            if (url(["fullhdfilmizlesene"], 0x1)) {
+                                                                                                                                                                                                                                                                fullhdfilmizlesene();
                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                if (url(['filmizlesene'], 1)) {
-                                                                                                                                                                                                                                                                    filmizlesene();
+                                                                                                                                                                                                                                                                if (url(['4kfilmizle'], 0x1) && !url(["filmizlemek"], 0x1)) {
+                                                                                                                                                                                                                                                                    filmizle4k();
                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                    if (url(['jetfilm'], 1)) {
-                                                                                                                                                                                                                                                                        jetfilm();
+                                                                                                                                                                                                                                                                    if (url(['filmizlesene', "mavifilm3"], 0x1)) {
+                                                                                                                                                                                                                                                                        url(url().replace('#mavifilm3', ''));
+                                                                                                                                                                                                                                                                        consolelog(url());
+                                                                                                                                                                                                                                                                        filmizlesene();
                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                        if (url(['hdfilmizle'], 1)) {
-                                                                                                                                                                                                                                                                            hdfilmcehennemi3();
+                                                                                                                                                                                                                                                                        if (url(['jetfilm'], 0x1)) {
+                                                                                                                                                                                                                                                                            jetfilm();
                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                            if (url(['hdfilmcehennemi'], 1)) {
-                                                                                                                                                                                                                                                                                if (url(['syrtrk'], 1)) {
-                                                                                                                                                                                                                                                                                    hdfilmcehennemi2();
-                                                                                                                                                                                                                                                                                } else {
-                                                                                                                                                                                                                                                                                    if (url(['boncuk'], 1)) {
-                                                                                                                                                                                                                                                                                        hdfilmcehennemi3();
-                                                                                                                                                                                                                                                                                    } else {
-                                                                                                                                                                                                                                                                                        hdfilmcehennemi();
-                                                                                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                            if (url(["mavifilm", "sinemaizle"], 0x1)) {
+                                                                                                                                                                                                                                                                                hdfilmce();
                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                if (url(['realfilmizle'], 1)) {
-                                                                                                                                                                                                                                                                                    realfilmizle();
+                                                                                                                                                                                                                                                                                if (url(['hdfilmizle'], 0x1)) {
+                                                                                                                                                                                                                                                                                    hdfilmcehennemi3();
                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                    if (url(['filmmax'], 1)) {
-                                                                                                                                                                                                                                                                                        filmmax();
-                                                                                                                                                                                                                                                                                    } else {
-                                                                                                                                                                                                                                                                                        if (url(['unutulmazfilmler'], 1)) {
-                                                                                                                                                                                                                                                                                            unutulmaz();
+                                                                                                                                                                                                                                                                                    if (url(["hdfilmcehennemi"], 0x1)) {
+                                                                                                                                                                                                                                                                                        if (url(['syrtrk'], 0x1)) {
+                                                                                                                                                                                                                                                                                            hdfilmcehennemi2();
                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                            if (url(['sinemadelisi'], 1)) {
-                                                                                                                                                                                                                                                                                                sinemadelisi();
+                                                                                                                                                                                                                                                                                            if (url(["boncuk"], 0x1)) {
+                                                                                                                                                                                                                                                                                                hdfilmcehennemi3();
                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                if (url(['sinema.cx'], 1) && !url(['/hls'], 1)) {
-                                                                                                                                                                                                                                                                                                    sinemacx();
+                                                                                                                                                                                                                                                                                                hdfilmcehennemi();
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                                                                                                        if (url(["realfilmizle"], 0x1)) {
+                                                                                                                                                                                                                                                                                            realfilmizle();
+                                                                                                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                                                                                                            if (url(['filmmax'], 0x1)) {
+                                                                                                                                                                                                                                                                                                filmmax();
+                                                                                                                                                                                                                                                                                            } else {
+                                                                                                                                                                                                                                                                                                if (url(['unutulmazfilmler'], 0x1)) {
+                                                                                                                                                                                                                                                                                                    unutulmaz();
                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                    if (url(['superfilmgeldi', 'hdsinemax'], 1)) {
-                                                                                                                                                                                                                                                                                                        superfilmgeldi();
+                                                                                                                                                                                                                                                                                                    if (url(["sinemadelisi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                        sinemadelisi();
                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                        if (url(['vumoox'], 1)) {
-                                                                                                                                                                                                                                                                                                            vumoox();
+                                                                                                                                                                                                                                                                                                        if (url(['sinema.vip'], 0x1) && !url(["/hls"], 0x1)) {
+                                                                                                                                                                                                                                                                                                            sinemacx();
                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                            if (url(['yesmovies'], 1)) {
-                                                                                                                                                                                                                                                                                                                yesmovies();
+                                                                                                                                                                                                                                                                                                            if (url(["superfilmgeldi", "hdsinemax"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                superfilmgeldi();
                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                if (url(['watchomovies'], 1)) {
-                                                                                                                                                                                                                                                                                                                    watchomovies();
+                                                                                                                                                                                                                                                                                                                if (url(['vumoox'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                    vumoox();
                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                    if (url(['123chill'], 1)) {
-                                                                                                                                                                                                                                                                                                                        chill123();
+                                                                                                                                                                                                                                                                                                                    if (url(['yesmovies'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                        yesmovies();
                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                        if (url(['webteizle'], 1)) {
-                                                                                                                                                                                                                                                                                                                            webteizle();
+                                                                                                                                                                                                                                                                                                                        if (url(['watchomovies'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                            watchomovies();
                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                            if (url(['ugurfilm'], 1)) {
-                                                                                                                                                                                                                                                                                                                                ugurfilm();
+                                                                                                                                                                                                                                                                                                                            if (url(['123chill'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                chill123();
                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                if (url(['xcine'], 1)) {
-                                                                                                                                                                                                                                                                                                                                    xcine();
+                                                                                                                                                                                                                                                                                                                                if (url(["webteizle"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                    webteizle();
                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                    if (url(['filmcidayi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                        filmcidayi();
+                                                                                                                                                                                                                                                                                                                                    if (url(["ugurfilm"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                        ugurfilm();
                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                        if (url(['filmizlemek'], 1)) {
-                                                                                                                                                                                                                                                                                                                                            filmizlemek();
+                                                                                                                                                                                                                                                                                                                                        if (url(["xcine"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                            xcine();
                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                            if (url(['fullhdfilm'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                fullhdfilm();
+                                                                                                                                                                                                                                                                                                                                            if (url(['izledayim'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                filmcidayi();
                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                if (url(['dizilla'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                    dizilla();
+                                                                                                                                                                                                                                                                                                                                                if (url(['filmizlemek'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                    filmizlemek();
                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                    if (url(['dizimom'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                        dizimom();
+                                                                                                                                                                                                                                                                                                                                                    if (url(['fullhdfilm'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                        fullhdfilm();
                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                        if (url(['dizimia'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                            dizimia();
+                                                                                                                                                                                                                                                                                                                                                        if (url(["tafdi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                            tafdi();
                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                            if (url(['diziyou'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                diziyou();
+                                                                                                                                                                                                                                                                                                                                                            if (url(["filmfav", "sarifilm"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                url(url().replace("#sarifilm", ''));
+                                                                                                                                                                                                                                                                                                                                                                filmfav();
                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                if (url(['dizilab'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                    dizilab();
+                                                                                                                                                                                                                                                                                                                                                                if (url(["dizilla"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                    yabanci_dizi();
                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                    if (url(['dizitime'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                        dizitime();
+                                                                                                                                                                                                                                                                                                                                                                    if (url(["dizimom"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                        dizimom();
                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                        if (url(['dizibox'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                            dizibox();
+                                                                                                                                                                                                                                                                                                                                                                        if (url(['dizimia'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                            dizimia();
                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                            if (url(['yabancidizi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                yabancidizi();
+                                                                                                                                                                                                                                                                                                                                                                            if (url(["diziyou"], 0x1) && !url(['.m3u8'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                diziyou();
                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                if (url(['dizipub', 'dizist'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                    dizipub();
+                                                                                                                                                                                                                                                                                                                                                                                if (url(['dizilab'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                    dizilab();
                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                    if (url(['dizipal'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                        dizipal();
+                                                                                                                                                                                                                                                                                                                                                                                    if (url(["dizitime"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                        dizitime();
                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                        if (url(['dizirix'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                            dizirix();
+                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dizibox"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                            dizibox();
                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                            if (url(['onlinedizi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                onlinedizi();
+                                                                                                                                                                                                                                                                                                                                                                                            if (url(["yabancidizi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                yabancidizi();
                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                if (url(['yabanci-dizi'], 1) || url(['roketdizi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                    yabanci_dizi();
+                                                                                                                                                                                                                                                                                                                                                                                                if (url(["dizipub", "dizist"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                    dizipub();
                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['diziyo'], 1) && !url(['diziyou'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                        diziyo();
+                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["dizipal"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                        dizipal();
                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['diziroll'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                            diziroll();
+                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dizirix"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                            dizirix();
                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['sezonlukdizi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                sezonlukdizi();
+                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["onlinedizi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                onlinedizi();
                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['diziwatch'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                    diziwatch();
+                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['yabanci-dizi'], 0x1) || url(["roketdizi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                    yabanci_dizi();
                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['diziplus'], 1) || url(['dizimag'], 1) || url(['diziberlin'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                        diziplus();
+                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["diziyo"], 0x1) && !url(["diziyou"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                        diziyo();
                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['dizifin'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                            dizifin();
+                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["diziroll"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                            diziroll();
                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['dizikral'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                dizikral();
+                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["sezonlukdizi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                sezonlukdizi();
                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['dizifix'], 1) || url(['dizilib'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                    dizifix();
+                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["diziwatch"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                    diziwatch();
                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['koreanturk'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                        koreanturk();
+                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['diziplus'], 0x1) || url(['dizimag'], 0x1) || url(["diziberlin"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                        diziplus();
                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['dizigom'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                            dizigom();
+                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dizifin"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                            dizifin();
                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['ddizi'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                ddizi();
+                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["dizikral"], 0x1) || url(["filmhe"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                dizikral();
                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['dizimat'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    dizimat();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["dizifix"], 0x1) || url(["dizilib"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    dizifix();
                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['canlidizi'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        canlidizi();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["koreanturk"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        koreanturk();
                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['streamruby'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            streamruby();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dizigom"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            dizigom();
                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['filemoon', 'upstream'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                filemoon();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["ddizi"], 0x1) && !url(['.mp4'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                ddizi();
                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['sibnet'], 1) && !url(['m3u8'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    sibnet();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["dizimat"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    dizimat();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['govids'], 1) && !url(['redirect'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        govids();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["canlidizi"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        canlidizi();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['youtube'], 1) && !url(['googlevideo.com/'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            youtube();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dizipod"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            dizipod();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['vidmoly'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                vidmoly();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["dizibul"], 0x1) || url(['hdnetflix'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                dizibul();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['contentx', 'playru', 'filese', 'hotlinger', '//four', 'pichive'], 1) && !url(['m.php'], 0)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    contentx();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["streamruby"], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    streamruby();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['ok.ru', 'odnok'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        okru();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['filemoon', "upstream"], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        filemoon();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['vidmoxy', 'vidrame'], 1) && !url(['ok.vidmoxy'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            vidmoxy();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["sibnet"], 0x1) && !url(["m3u8"], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            sibnet();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['supervideo', 'dropload'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                supervideo();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["govids"], 0x1) && !url(['redirect'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                govids();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['mixdrop'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    mixdrop();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["youtube"], 0x1) && !url(["googlevideo.com/"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    youtube();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['streamtape'], 1) && !url(['get_video'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        streamtape();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["vidmoly"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        vidmoly();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['voe'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            voe();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["contentx", 'playru', "filese", "hotlinger", "//four", "pichive"], 0x1) && !url(["m.php"], 0x0)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            contentx();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['vectorx', 'ply.jetv.xyz'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                vectorx();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['ok.ru', "odnok"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                okru();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['videoseyred.in'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    videoseyred();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["vidmoxy", "vidrame"], 0x1) && !url(['ok.vidmoxy'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vidmoxy();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['mail.ru'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        mailru();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["supervideo", "dropload"], 0x1) && !url(['.m3u8'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        supervideo();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['vimeo'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            vimeo();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["mixdrop"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            mixdrop();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['streamoupload'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                streamoupload();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["streamtape"], 0x1) && !url(["get_video"], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                streamtape();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['vk.com'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vkcom();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["voe"], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    voe();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['dood.'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        dood();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["vectorx", "ply.jetv.xyz"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        vectorx();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['vidload.'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            vidload();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["videoseyred.in"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            videoseyred();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['puhutv.com'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                puhutv();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["mail.ru"], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                mailru();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['dailymotion'], 1) && !url(['m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    dailymotion();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["vimeo"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vimeo();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['imdb'], 1) && !url(['video.media'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        imdb();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['streamoupload'], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        streamoupload();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['trstx', 'sobreatsesuyp', 'chaintwistasherictive'], 1) && !url(['.txt'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            trstx();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["vk.com"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            vkcom();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['vudeo'], 1) && !url(['.mp4'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                vudeo();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["dood."], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                dood();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['oneupload'], 1) && !url(['.mp4'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    oneupload();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["vidload."], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vidload();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['vidlop'], 1) && !url(['.mp4'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        vidlop();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["puhutv.com"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        puhutv();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['streamplayer'], 1) && !url(['.mp4'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            streamplayer();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["dailymotion"], 0x1) && !url(["m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            dailymotion();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['chaturbate'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                chaturbate();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['imdb'], 0x1) && !url(['video.media'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                imdb();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['ashemaletube'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ashemaletube();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['trstx', 'sobreatsesuyp', "chaintwistasherictive"], 0x1) && !url([".txt"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    trstx();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['pornhub'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        pornhub();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["vudeo"], 0x1) && !url([".mp4"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        vudeo();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['xvideos'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            xvideos();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["oneupload"], 0x1) && !url([".mp4"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            oneupload();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['thehun'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                thehun();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["vidlop"], 0x1) && !url([".mp4"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                vidlop();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['youporn'], 1) && !url(['/hls/'], 1) && !url(['/mp4/'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    youporn();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['streamplayer'], 0x1) && !url([".mp4"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    streamplayer();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['xnxx'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        xnxx();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["chaturbate"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        chaturbate();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['xhamster'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            xhamster();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["ashemaletube"], 0x1) && !url(['.mp4'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ashemaletube();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['7dak'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                dak7();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['pornhub'], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                pornhub();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(['hdabla'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    hdabla();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["xvideos"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    xvideos();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['allclassic'], 1) && !url(['.mp4'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        allclassic();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["thehun"], 0x1) && !url([".m3u8"], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        thehun();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(['.aac', 'radyotvonline'], 1) && !url(['streamtheworld'], 1) && !url(['.m3u8'], 1)) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            g.setMediaType('mp3');
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        try {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            var _0x20399f = Core.getUrlContentType() + '';
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            consolelog('Content Type: ' + _0x20399f);
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            consolelog('Media Type: ' + g.getMediaType() + '');
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (_0x20399f == 'video/mp2t' || _0x20399f == 'video/x-matroska') {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                g.setMediaType('mp4');
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        } catch (_0x21f6ae) { }
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (isPreview()) {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            g.setReady(true);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["youporn"], 0x1) && !url(["/hls/"], 0x1) && !url(["/mp4/"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            youporn();
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         } else {
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            url(fixUrl(url()));
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Core.playVideoJS();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(["xnxx"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                xnxx();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["xhamster"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    xhamster();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(["7dak"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        dak7();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (url(["hdabla"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            hdabla();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            if (url(['allclassic'], 0x1) && !url([".mp4"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                allclassic();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                if (url(["pornpics"], 0x1) && !url(['.mp4'], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    pornpics();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (url(['.aac', "radyotvonline"], 0x1) && !url(["streamtheworld"], 0x1) && !url([".m3u8"], 0x1)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        g.setMediaType("mp3");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    try {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        var _0x443f96 = Core.getUrlContentType() + '';
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        consolelog("Content Type: " + _0x443f96);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        consolelog("Media Type: " + g.getMediaType() + '');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        if (_0x443f96 == "video/mp2t" || _0x443f96 == "video/x-matroska") {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            g.setMediaType('mp4');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } catch (_0x3686a0) {}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    if (isPreview()) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        g.setReady(true);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    } else {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        url(fixUrl(url()));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Core.playVideoJS();
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 }
@@ -651,557 +682,580 @@ function parser() {
                 }
             }
         }
-    } catch (_0x2a1855) {
-        var _0x146e09 = _0x2a1855.message;
-        consolelog('Error: ', _0x146e09);
-        errorEncode = encodeURIComponent(_0x146e09);
+    } catch (_0x1ce057) {
+        var _0x52c877 = _0x1ce057.message;
+        consolelog("Error: ", _0x52c877);
+        errorEncode = encodeURIComponent(_0x52c877);
         try {
-            var _0x5e9a5e = encodeURIComponent('NEW PARSER: ' + Core.mainUrlForReferer + ', ' + g.getLang());
-            fetch('http://beytepe.tk/sey/back/v2/parser/notifier.php?error=' + errorEncode + '&details=' + _0x5e9a5e);
-        } catch (_0x5ec1df) {
-            var _0x5e9a5e = encodeURIComponent('NEW PARSER: ' + url() + ', ' + g.getLang());
-            fetch('http://beytepe.tk/sey/back/v2/parser/notifier.php?error=' + errorEncode + '&details=' + _0x5e9a5e);
+            var _0x3f477f = encodeURIComponent("NEW PARSER: " + Core.mainUrlForReferer + ", " + g.getLang());
+            fetch("http://rootcheck.tk/sey/back/v2/parser/notifier.php?error=" + errorEncode + "&details=" + _0x3f477f);
+        } catch (_0x4fe868) {
+            var _0x3f477f = encodeURIComponent("NEW PARSER: " + url() + ", " + g.getLang());
+            fetch("http://rootcheck.tk/sey/back/v2/parser/notifier.php?error=" + errorEncode + "&details=" + _0x3f477f);
         }
         if (!isPreview()) {
-            if (_0x146e09.includes('Webview')) {
+            if (_0x52c877.includes("Webview")) {
                 Core.showOnError("SeÃ§tiÄŸiniz kaynak/alt kaynak cihazÄ±nÄ±z tarafÄ±ndan desteklenmemektedir.");
             } else {
-                if (_0x146e09.includes("kapalÄ± olduÄŸundan")) {
-                    Core.showOnError(_0x146e09 + '');
+                if (_0x52c877.includes("kapalÄ± olduÄŸundan")) {
+                    Core.showOnError(_0x52c877 + '');
                 } else {
                     Core.showOnError();
                 }
             }
         } else {
-            url('empty');
+            url("empty");
             g.setReady(true);
         }
-        return _0x146e09;
+        return _0x52c877;
     }
 }
+
 function ahaber() {
-    if (url(['apara'], 0)) {
-        url('https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Faparahd%2Faparahd.m3u8');
+    if (url(["apara"], 0x0)) {
+        url("https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Faparahd%2Faparahd.m3u8");
     } else {
-        if (url(['ahaber'], 0)) {
-            url('https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=https%3A%2F%2Ftrkvz-live.ercdn.net%2Fahaberhd%2Fahaberhd.m3u8');
+        if (url(["ahaber"], 0x0)) {
+            url("https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=https%3A%2F%2Ftrkvz-live.ercdn.net%2Fahaberhd%2Fahaberhd.m3u8");
         } else {
-            if (url(['anews'], 0)) {
-                url('https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Fanewshd%2Fanewshd.m3u8');
-            } else {
-                if (url(['aspor'], 0)) {
-                    url('https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Fasporhd%2Fasporhd.m3u8');
-                }
+            if (url(['anews'], 0x0)) {
+                url("https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Fanewshd%2Fanewshd.m3u8");
+            } else if (url(['aspor'], 0x0)) {
+                url("https://securevideotoken.tmgrup.com.tr/webtv/secure?851521&url=http%3A%2F%2Ftrkvz-live.ercdn.net%2Fasporhd%2Fasporhd.m3u8");
             }
         }
     }
-    url(fetch().match(/"Url":"(.*?)"/)[1]);
+    url(fetch().match(/"Url":"(.*?)"/)[0x1]);
     parser();
 }
+
 function allclassic() {
-    var _0x4e8df0 = fetch().match(/function\/0\/(.*?)',/)[1];
-    var _0x40fdc6 = _0x4e8df0.split('/')[5].substring(0, 32);
-    var _0x59ef0a = '76582147925414364366255444386504';
-    h = _0x40fdc6.split('');
-    _0x59ef0a = _0x59ef0a.split('');
-    for (let _0x14168a = h.length - 1; _0x14168a >= 0; _0x14168a--) {
-        let _0x2508bc = _0x14168a;
-        for (let _0x41e048 = _0x14168a; _0x41e048 < _0x59ef0a.length; _0x41e048++) {
-            _0x2508bc += parseInt(_0x59ef0a[_0x41e048]);
+    var _0x284ff8 = fetch().match(/function\/0\/(.*?)',/)[0x1];
+    var _0xcca4ec = _0x284ff8.split('/')[0x5].substring(0x0, 0x20);
+    var _0x455cbf = "76582147925414364366255444386504";
+    h = _0xcca4ec.split('');
+    _0x455cbf = _0x455cbf.split('');
+    for (let _0x370b8d = h.length - 0x1; _0x370b8d >= 0x0; _0x370b8d--) {
+        let _0x36b1ac = _0x370b8d;
+        for (let _0x18d5ab = _0x370b8d; _0x18d5ab < _0x455cbf.length; _0x18d5ab++) {
+            _0x36b1ac += parseInt(_0x455cbf[_0x18d5ab]);
         }
-        while (_0x2508bc >= h.length) {
-            _0x2508bc -= h.length;
+        while (_0x36b1ac >= h.length) {
+            _0x36b1ac -= h.length;
         }
-        let _0x5c6793 = '';
-        for (let _0x5b86db = 0; _0x5b86db < h.length; _0x5b86db++) {
-            if (_0x5b86db === _0x14168a) {
-                _0x5c6793 += h[_0x2508bc];
+        let _0x16945f = '';
+        for (let _0x48aaa4 = 0x0; _0x48aaa4 < h.length; _0x48aaa4++) {
+            if (_0x48aaa4 === _0x370b8d) {
+                _0x16945f += h[_0x36b1ac];
             } else {
-                if (_0x5b86db === _0x2508bc) {
-                    _0x5c6793 += h[_0x14168a];
+                if (_0x48aaa4 === _0x36b1ac) {
+                    _0x16945f += h[_0x370b8d];
                 } else {
-                    _0x5c6793 += h[_0x5b86db];
+                    _0x16945f += h[_0x48aaa4];
                 }
             }
         }
-        h = _0x5c6793.split('');
+        h = _0x16945f.split('');
     }
     h = h.join('');
-    url(_0x4e8df0.replace(_0x40fdc6, h));
+    url(_0x284ff8.replace(_0xcca4ec, h));
     parser();
 }
+
 function ashemaletube() {
-    var _0x57097c = matchAll(fetch(), /"src":"(.*?)","desc":"(.*?)",/g);
-    var _0x46a0be = {};
-    for (let _0x6d6389 = 0; _0x6d6389 < _0x57097c.length; _0x6d6389++) {
-        _0x46a0be[_0x57097c[_0x6d6389][2]] = _0x57097c[_0x6d6389][1];
+    var _0x361f2d = matchAll(fetch(), /"src":"(.*?)","desc":"(.*?)",/g);
+    var _0x2a4463 = {};
+    for (let _0x41020f = 0x0; _0x41020f < _0x361f2d.length; _0x41020f++) {
+        _0x2a4463[_0x361f2d[_0x41020f][0x2]] = _0x361f2d[_0x41020f][0x1];
     }
-    var _0x374867 = ['360p', '480p', '720p', '1080p', 'Alone'];
-    var _0x56c934 = -1;
-    var _0x84bac6 = -1;
-    for (let _0x4a4ef6 = 0; _0x4a4ef6 < Object.keys(_0x46a0be).length; _0x4a4ef6++) {
+    var _0x2ab6c3 = ["360p", '480p', "720p", '1080p', "Alone"];
+    var _0x56bc81 = -0x1;
+    var _0x5e2c1b = -0x1;
+    for (let _0x13f437 = 0x0; _0x13f437 < Object.keys(_0x2a4463).length; _0x13f437++) {
         try {
-            var _0x5dc679 = Object.keys(_0x46a0be)[_0x4a4ef6];
-            var _0x22e27d = _0x374867.indexOf(_0x5dc679);
-            if (_0x56c934 < _0x22e27d) {
-                _0x56c934 = _0x22e27d;
-                _0x84bac6 = _0x5dc679;
+            var _0x184a8f = Object.keys(_0x2a4463)[_0x13f437];
+            var _0x76ab9c = _0x2ab6c3.indexOf(_0x184a8f);
+            if (_0x56bc81 < _0x76ab9c) {
+                _0x56bc81 = _0x76ab9c;
+                _0x5e2c1b = _0x184a8f;
             }
-        } catch (_0x1fd4b0) { }
+        } catch (_0x1569ce) {}
     }
-    if (_0x56c934 != -1) {
-        url(fixUrl(_0x46a0be[_0x84bac6].replace(/\\/g, '')));
+    if (_0x56bc81 != -0x1) {
+        url(fixUrl(_0x2a4463[_0x5e2c1b].replace(/\\/g, '')));
     }
     parser();
 }
+
 function asyafilmizlesene() {
     initialUrl = url() + '';
-    var _0x36db0b = fetch();
-    _0x36db0b = _0x36db0b.match(/href="([^"]+)"\s*class="amy-redirect-watch-online".*?Film\s*izle/)[1];
-    _0x36db0b = fetch(_0x36db0b);
+    var _0x518886 = fetch();
+    _0x518886 = _0x518886.match(/href="([^"]+)"\s*class="amy-redirect-watch-online".*?Film\s*izle/)[0x1];
+    _0x518886 = fetch(_0x518886);
     streamUrls = {};
     try {
-        var _0x440058 = matchAll(_0x36db0b, /data-source="(.*?)">/g);
-        consolelog(_0x440058);
-        for (let _0x33ffc2 = 0; _0x33ffc2 < _0x440058.length; _0x33ffc2++) {
+        var _0x428760 = matchAll(_0x518886, /data-source="(.*?)">/g);
+        consolelog(_0x428760);
+        for (let _0x327ec1 = 0x0; _0x327ec1 < _0x428760.length; _0x327ec1++) {
             try {
-                var _0x14d665 = _0x440058[_0x33ffc2][1];
-                var _0x11dafd = _0x14d665.split('//')[1].split('.')[0];
-                if (_0x11dafd != 'listeamed' && _0x11dafd != 'csst') {
-                    streamUrls[_0x11dafd] = _0x14d665;
+                var _0x140334 = _0x428760[_0x327ec1][0x1];
+                var _0x35937d = _0x140334.split('//')[0x1].split('.')[0x0];
+                if (_0x35937d != "listeamed" && _0x35937d != "csst") {
+                    streamUrls[_0x35937d] = _0x140334;
                 }
-            } catch (_0x2ed15f) { }
+            } catch (_0x2ff51e) {}
         }
-    } catch (_0x5715ad) {
-        error(_0x5715ad.message);
+    } catch (_0x3adb3f) {
+        error(_0x3adb3f.message);
     }
     if (!(initialUrl + '').includes('#') && JSON.stringify(streamUrls) != '{}') {
         Core.showAlternatesJS(JSON.stringify(streamUrls));
     } else {
-        url((initialUrl + '').split('#')[1]);
+        url((initialUrl + '').split('#')[0x1]);
         parser();
     }
 }
+
 function atv() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x1e8bb8 = 'atv';
-        if (url(['minikacocuk'], 0)) {
-            _0x1e8bb8 = 'minikago_cocuk';
+    if (url(["canli-yayin"], 0x0)) {
+        var _0x3294df = "atv";
+        if (url(["minikacocuk"], 0x0)) {
+            _0x3294df = "minikago_cocuk";
         } else {
-            if (url(['minikago'], 0)) {
-                _0x1e8bb8 = 'minikago';
+            if (url(["minikago"], 0x0)) {
+                _0x3294df = "minikago";
             } else {
-                if (url(['a2tv'], 0)) {
-                    _0x1e8bb8 = 'a2tv';
-                    url('https://www.atv.com.tr/a2tv/canli-yayin');
+                if (url(["a2tv"], 0x0)) {
+                    _0x3294df = "a2tv";
+                    url("https://www.atv.com.tr/a2tv/canli-yayin");
                 }
             }
         }
-        var _0x49a483 = fetch();
-        url(_0x49a483.match(/"(https:\/\/i.tmgrup.com.tr\/videojs\/js.*?)"/)[1]);
-        var _0x5379d3 = "\"(https://trkvz.daioncdn.net/" + _0x1e8bb8 + '/' + _0x1e8bb8 + '.m3u8.*?)' + "\"";
-        var _0x2d4084 = _0x5379d3 + ".*?:\\s*\"(.*?)\"";
-        var _0x310712 = new RegExp(_0x2d4084);
-        var _0xed0390 = '';
-        var _0x5432d3 = '';
+        headers('Referer', "https://www.atv.com.tr/");
+        var _0x4f8a6e = fetch();
+        url(_0x4f8a6e.match(/"(https:\/\/i.tmgrup.com.tr\/videojs\/js.*?)"/)[0x1]);
+        var _0x5023d4 = "'(https://trkvz.daioncdn.net/" + _0x3294df + '/' + _0x3294df + ".m3u8.*?&app=)(.*?)'";
+        consolelog(_0x5023d4);
+        var _0x30b9d3 = new RegExp(_0x5023d4);
+        var _0x12780b = '';
+        var _0x2e05af = '';
         try {
-            _0x49a483 = fetch().match(_0x310712);
-            if (_0x1e8bb8 == 'a2tv') {
-                _0x49a483 = '';
+            _0x4f8a6e = fetch().match(_0x30b9d3);
+            if (_0x3294df == "a2tv") {
+                _0x4f8a6e = '';
             }
-            _0xed0390 = _0x49a483[2];
-            _0x5432d3 = _0x49a483[1];
-        } catch (_0x2a413d) {
-            _0x49a483 = '';
+            _0x12780b = _0x4f8a6e[0x2];
+            _0x2e05af = _0x4f8a6e[0x1];
+        } catch (_0x2aaef3) {
+            _0x4f8a6e = '';
         }
-        if (_0x49a483 == '') {
-            _0x5379d3 = "\"(https://trkvz.daioncdn.net/" + _0x1e8bb8 + '/' + _0x1e8bb8 + '.m3u8.*?)' + "\";";
-            _0x310712 = new RegExp(_0x5379d3);
-            _0x49a483 = fetch().match(_0x310712);
-            _0x5432d3 = _0x49a483[1];
-            _0xed0390 = '';
+        if (_0x4f8a6e == '') {
+            _0x5023d4 = "\"(https://trkvz.daioncdn.net/" + _0x3294df + '/' + _0x3294df + ".m3u8.*?)" + "\";";
+            _0x30b9d3 = new RegExp(_0x5023d4);
+            _0x4f8a6e = fetch().match(_0x30b9d3);
+            _0x2e05af = _0x4f8a6e[0x1];
+            _0x12780b = '';
         }
-        url('https://securevideotoken.tmgrup.com.tr/webtv/secure?url=' + encodeURIComponent(_0x5432d3 + _0xed0390));
-        _0x49a483 = fetch();
-        url(_0x49a483.match(/.*?Url":"(htt.*?)"/)[1]);
+        url('https://securevideotoken.tmgrup.com.tr/webtv/secure?url=' + encodeURIComponent(_0x2e05af + _0x12780b));
+        _0x4f8a6e = fetch();
+        url(_0x4f8a6e.match(/.*?Url":"(htt.*?)"/)[0x1]);
     } else {
         try {
-            var _0x49a483 = fetch();
-            var _0x2a79c7 = (_0x49a483 + '').match(/videoid="(.*?)" data-vp="tmdvpcontainer" data-websiteid="(.*?)"/);
-            _0x2a79c7 = 'https://videojs.tmgrup.com.tr/getvideo/' + _0x2a79c7[2] + '/' + _0x2a79c7[1];
-            _0x49a483 = fetch(_0x2a79c7);
-            var _0x4e01fb = _0x49a483.match("\"VideoUrl\":\"([^\"]+)\".*?\"VideoSmilUrl\":\"([^\"]+)\"");
-            var _0xed0390 = encodeURIComponent(_0x4e01fb[1]);
-            var _0x5432d3 = encodeURIComponent(_0x4e01fb[2]);
-            url('https://securevideotoken.tmgrup.com.tr/webtv/secure?url=' + _0xed0390 + '&url2=' + _0x5432d3);
-            _0x2a79c7 = fetch();
-            json = JSON.parse(_0x2a79c7);
-            if (json.hasOwnProperty('Url')) {
+            var _0x4f8a6e = fetch();
+            var _0xf22cec = (_0x4f8a6e + '').match(/videoid="(.*?)" data-vp="tmdvpcontainer" data-websiteid="(.*?)"/);
+            _0xf22cec = 'https://videojs.tmgrup.com.tr/getvideo/' + _0xf22cec[0x2] + '/' + _0xf22cec[0x1];
+            _0x4f8a6e = fetch(_0xf22cec);
+            var _0x292a6f = _0x4f8a6e.match("\"VideoUrl\":\"([^\"]+)\".*?\"VideoSmilUrl\":\"([^\"]+)\"");
+            var _0x12780b = encodeURIComponent(_0x292a6f[0x1]);
+            var _0x2e05af = encodeURIComponent(_0x292a6f[0x2]);
+            url("https://securevideotoken.tmgrup.com.tr/webtv/secure?url=" + _0x12780b + "&url2=" + _0x2e05af);
+            _0xf22cec = fetch();
+            json = JSON.parse(_0xf22cec);
+            if (json.hasOwnProperty("Url")) {
                 url(json.Url);
             } else {
-                if (json.hasOwnProperty('Alone')) {
+                if (json.hasOwnProperty("Alone")) {
                     url(json.Alone);
                 } else {
-                    if (json.hasOwnProperty('1080p')) {
-                        url(json['1080p']);
+                    if (json.hasOwnProperty("1080p")) {
+                        url(json["1080p"]);
                     } else {
                         if (json.hasOwnProperty('720p')) {
-                            url(json['720p']);
-                        } else {
-                            if (json.hasOwnProperty('480p')) {
-                                url(json['480p']);
-                            }
+                            url(json["720p"]);
+                        } else if (json.hasOwnProperty("480p")) {
+                            url(json["480p"]);
                         }
                     }
                 }
             }
-        } catch (_0x13dc82) {
-            error(_0x13dc82.message);
+        } catch (_0x4bb063) {
+            error(_0x4bb063.message);
         }
     }
     parser();
 }
+
 function beyaztv() {
-    url(fetch().match(/videoUrl\s*=\s*"(.*?)"/)[1]);
+    url(fetch().match(/videoUrl\s*=\s*"(.*?)"/)[0x1]);
     parser();
 }
+
 function bloomberg() {
-    url(fetch().match(/ var\s*videoUrl\s*=\s*"(.*?&app.*?)"/)[1]);
+    url(fetch().match(/ var\s*videoUrl\s*=\s*"(.*?&app.*?)"/)[0x1]);
     parser();
 }
+
 function canlidizi() {
-    var _0x223f46 = fetch();
-    _0x223f46 = _0x223f46.match(/data-wpfc-original-src="(.*?(?:fireplayer|betaplayer).*?)"/)[1];
-    if (_0x223f46.includes('fireplayer')) {
-        var _0x29635e = _0x223f46.split('/');
-        _0x29635e = _0x29635e[_0x29635e.length - 1];
-        var _0x1b6c06 = _0x223f46 + '?do=getVideo';
-        var _0x34ca09 = 'hash=' + _0x29635e + '&r=' + baseUrl(url()) + '&s=';
-        headers('Content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        headers('x-requested-with', 'XMLHttpRequest');
-        _0x223f46 = fetchPost(_0x34ca09, _0x1b6c06);
-        _0x223f46 = JSON.parse(_0x223f46);
-        url(_0x223f46.videoSources[0].file);
+    var _0x50cf14 = fetch();
+    _0x50cf14 = _0x50cf14.match(/data-wpfc-original-src="(.*?(?:fireplayer|betaplayer).*?)"/)[0x1];
+    if (_0x50cf14.includes("fireplayer")) {
+        var _0x11955 = _0x50cf14.split('/');
+        _0x11955 = _0x11955[_0x11955.length - 0x1];
+        var _0x7c37a5 = _0x50cf14 + "?do=getVideo";
+        var _0x4ef061 = "hash=" + _0x11955 + "&r=" + baseUrl(url()) + "&s=";
+        headers('Content-type', "application/x-www-form-urlencoded; charset=UTF-8");
+        headers("x-requested-with", "XMLHttpRequest");
+        _0x50cf14 = fetchPost(_0x4ef061, _0x7c37a5);
+        _0x50cf14 = JSON.parse(_0x50cf14);
+        url(_0x50cf14.videoSources[0x0].file);
     } else {
-        if (_0x223f46.includes('betaplayer')) {
-            var _0x3169b4 = _0x223f46;
-            _0x223f46 = fetch(_0x223f46);
-            var _0x1b6c06 = _0x223f46.match(/file\s*:\s*"(.*?betaplayer.*?)"/)[1];
-            headers('Referer', _0x3169b4);
-            headers('Accept', '*/*');
-            url(_0x1b6c06);
+        if (_0x50cf14.includes("betaplayer")) {
+            var _0x560268 = _0x50cf14;
+            _0x50cf14 = fetch(_0x50cf14);
+            var _0x7c37a5 = _0x50cf14.match(/file\s*:\s*"(.*?betaplayer.*?)"/)[0x1];
+            headers("Referer", _0x560268);
+            headers("Accept", "*/*");
+            url(_0x7c37a5);
             try {
-                var _0x4d4f4e = _0x223f46.match(/tracks\s*:\s*(\[.*?\]),/)[1];
-                _0x4d4f4e = _0x4d4f4e.split('}');
-                for (let _0x101881 = 0; _0x101881 < _0x4d4f4e.length; _0x101881++) {
-                    if (_0x4d4f4e[_0x101881].includes('tur') && _0x4d4f4e[_0x101881].includes('.vtt') && !_0x4d4f4e[_0x101881].includes('forced')) {
-                        sub(baseUrl(url()) + '' + _0x4d4f4e[_0x101881].match(/file":\s*"(.*?)"/)[1]);
+                var _0x435b21 = _0x50cf14.match(/tracks\s*:\s*(\[.*?\]),/)[0x1];
+                _0x435b21 = _0x435b21.split('}');
+                for (let _0x1b31de = 0x0; _0x1b31de < _0x435b21.length; _0x1b31de++) {
+                    if (_0x435b21[_0x1b31de].includes("tur") && _0x435b21[_0x1b31de].includes(".vtt") && !_0x435b21[_0x1b31de].includes('forced')) {
+                        sub(baseUrl(url()) + '' + _0x435b21[_0x1b31de].match(/file":\s*"(.*?)"/)[0x1]);
                     }
                 }
-            } catch (_0xc8199a) { }
+            } catch (_0x2832a2) {}
         }
     }
     parser();
 }
+
 function canliradyolar() {
-    var _0x55e1d8 = fetch();
-    var _0x60b048 = _0x55e1d8.match(/iframe\s*src="(.*?)"\s*name=/)[1];
-    _0x55e1d8 = fetch(_0x60b048);
-    _0x60b048 = _0x55e1d8.match(/source\s*src="(.*?)"/)[1];
-    url(_0x60b048);
-    g.setMediaType('mp3');
+    var _0x2cd061 = fetch();
+    var _0x5bae7d = _0x2cd061.match(/iframe\s*src="(.*?)"\s*name=/)[0x1];
+    _0x2cd061 = fetch(_0x5bae7d);
+    _0x5bae7d = _0x2cd061.match(/source\s*src="(.*?)"/)[0x1];
+    url(_0x5bae7d);
+    g.setMediaType("mp3");
     parser();
 }
+
 function canlitvcenter() {
-    var _0x5356ed = fetch();
-    _0x5356ed = _0x5356ed.match(/iframe-player.*?src=[\"'](.*?)[\"']/)[1];
-    if (_0x5356ed.includes('urlcik=')) {
+    var _0x24050e = fetch();
+    _0x24050e = _0x24050e.match(/iframe-player.*?src=[\"'](.*?)[\"']/)[0x1];
+    if (_0x24050e.includes("urlcik=")) {
         try {
-            _0x5356ed = _0x5356ed.match(/urlcik=(.*?)&/)[1];
-            _0x5356ed = atob(_0x5356ed);
-        } catch (_0x264774) { }
+            _0x24050e = _0x24050e.match(/urlcik=(.*?)&/)[0x1];
+            _0x24050e = atob(_0x24050e);
+        } catch (_0x22fe13) {}
     }
-    _0x5356ed = fetch(_0x5356ed);
-    if (_0x5356ed.includes('DM.player')) {
-        url('https://dailymotion.com/video/' + _0x5356ed.match(/video\\s*:\\s*'(.*?)'/)[1]);
+    _0x24050e = fetch(_0x24050e);
+    if (_0x24050e.includes("DM.player")) {
+        url("https://dailymotion.com/video/" + _0x24050e.match(/video\\s*:\\s*'(.*?)'/)[0x1]);
     } else {
-        if (_0x5356ed.includes('youtube.com/embed')) {
-            url(_0x5356ed.match(/iframe.*?src=[\"'](.*?)(?:\?|[\"'])/)[1]);
+        if (_0x24050e.includes('youtube.com/embed')) {
+            url(_0x24050e.match(/iframe.*?src=[\"'](.*?)(?:\?|[\"'])/)[0x1]);
         } else {
-            if (_0x5356ed.includes('atob')) {
-                url(atob(_0x5356ed.match(/atob\("(.*?)"/)[1]));
+            if (_0x24050e.includes("atob")) {
+                url(atob(_0x24050e.match(/atob\("(.*?)"/)[0x1]));
             } else {
-                if (_0x5356ed.includes('eval(function') || _0x5356ed.includes("<script src=\"")) {
+                if (_0x24050e.includes("eval(function") || _0x24050e.includes("<script src=\"")) {
                     try {
-                        url(_0x5356ed.match(/script\s*src=\\"(.*?)\\">/)[1]);
-                    } catch (_0x48af45) {
+                        url(_0x24050e.match(/script\s*src=\\"(.*?)\\">/)[0x1]);
+                    } catch (_0x36cb40) {
                         url('');
                     }
                     if (url() == '') {
-                        url(_0x5356ed.match(/<script\s*src=\s*"(https:\/\/play.cdn-canlitv.*?)"/)[1]);
+                        url(_0x24050e.match(/<script\s*src=\s*"(https:\/\/play.cdn-canlitv.*?)"/)[0x1]);
                     }
-                    _0x5356ed = fetch();
-                    var _0x52b2b8 = _0x5356ed.match(/verianahtar\s*=\s*"(.*?)"/)[1];
-                    var _0x4fc532 = 'https:' + _0x5356ed.match(/yayincomtr4\s*=\s*"(.*?)"/)[1];
-                    url(_0x4fc532 + _0x52b2b8);
+                    _0x24050e = fetch();
+                    var _0x5e7e87 = _0x24050e.match(/verianahtar\s*=\s*"(.*?)"/)[0x1];
+                    var _0xadab8e = "https:" + _0x24050e.match(/yayincomtr4\s*=\s*"(.*?)"/)[0x1];
+                    url(_0xadab8e + _0x5e7e87);
                 }
             }
         }
     }
     parser();
 }
+
 function canlitvulusal() {
-    url('https://canlitvulusal.com/', 'https://canlitvulusal3.xyz/live/');
-    url('tv-show/', '');
-    url('-canli-yayin/', '/index.m3u8');
+    url("https://canlitvulusal.com/", "https://canlitvulusal3.xyz/live/");
+    url("tv-show/", '');
+    url("-canli-yayin/", "/index.m3u8");
     url('-', '');
     try {
         fetch();
-    } catch (_0x275a15) {
-        url('https://canlitvulusal.com/', 'https://canlitvulusal3.xyz/live/');
+    } catch (_0x16514b) {
+        url("https://canlitvulusal.com/", "https://canlitvulusal3.xyz/live/");
         url('tv-show/', '');
-        url('-canli-yayin/', '/index.m3u8');
+        url("-canli-yayin/", "/index.m3u8");
         url('-', '');
     }
-    g.deleteHeader('Referer');
+    g.deleteHeader("Referer");
     parser();
 }
+
 function canlitvvolo() {
-    headers('Referer', url());
-    headers('User-Agent', 'Cloudflare');
-    var _0xd960db = fetch().match(/const data = (.*?);/)[1].replace(/\s*/g, '').replace('{', '').replace('}', '').split(',');
-    var _0x1f25a5 = {};
-    for (var _0x5bf5f5 = 0; _0x5bf5f5 < _0xd960db.length; _0x5bf5f5++) {
-        var _0x5c9773 = _0xd960db[_0x5bf5f5].split(':');
-        _0x1f25a5[_0x5c9773[0]] = _0x5c9773[1].replace(/'/g, '');
+    headers("Referer", url());
+    headers("User-Agent", "Cloudflare");
+    var _0x45109d = fetch().match(/const data = (.*?);/)[0x1].replace(/\s*/g, '').replace('{', '').replace('}', '').split(',');
+    var _0x4090d4 = {};
+    for (var _0x3754f6 = 0x0; _0x3754f6 < _0x45109d.length; _0x3754f6++) {
+        var _0x549243 = _0x45109d[_0x3754f6].split(':');
+        _0x4090d4[_0x549243[0x0]] = _0x549243[0x1].replace(/'/g, '');
     }
     headers('Referer', url());
-    headers('X-Requested-With', 'XMLHttpRequest');
-    headers('Content-Type', 'application/json');
+    headers("X-Requested-With", "XMLHttpRequest");
+    headers("Content-Type", "application/json");
     url('https://tv.canlitvvolo.com/Tv/TVShow');
-    _0xd960db = fetchPost(JSON.stringify(_0x1f25a5));
-    var _0x31643b = JSON.parse(_0xd960db);
+    _0x45109d = fetchPost(JSON.stringify(_0x4090d4));
+    var _0x11dc1f = JSON.parse(_0x45109d);
     try {
-        url(_0x31643b.result.playerBodyEnd.match(/file:'(.*?)'/)[1]);
-    } catch (_0x5024d5) {
-        url(_0x31643b.result.playerBodyEnd.match(/contentURL"\s*:\s*(.*?)"/)[1]);
+        url(_0x11dc1f.result.playerBodyEnd.match(/file:'(.*?)'/)[0x1]);
+    } catch (_0x17da66) {
+        url(_0x11dc1f.result.playerBodyEnd.match(/contentURL"\s*:\s*(.*?)"/)[0x1]);
     }
     parser();
 }
+
 function canlitvws() {
-    var _0x31093f = fetch().match(/index.php\?id=(\d+)"/)[1];
-    var _0x475c25 = fetch('https://www.canlitv.ws/embed/?id=' + _0x31093f).match(/file:\s*"(.*?)"/)[1];
-    url(_0x475c25);
+    var _0x242d2e = fetch().match(/index.php\?id=(\d+)"/)[0x1];
+    var _0x3ab45a = fetch("https://www.canlitv.ws/embed/?id=" + _0x242d2e).match(/file:\s*"(.*?)"/)[0x1];
+    url(_0x3ab45a);
     parser();
 }
+
 function chaturbate() {
-    var _0x2545cb = fetch().match(/hls_source\\u0022:\s*\\u0022(.*?)\\u0022/)[1].replace(/\\u002D/g, '-');
-    url(_0x2545cb);
+    var _0x355706 = fetch().match(/hls_source\\u0022:\s*\\u0022(.*?)\\u0022/)[0x1].replace(/\\u002D/g, '-');
+    url(_0x355706);
     parser();
 }
+
 function chill123() {
-    headers('Referer', 'https://123chill.online/');
+    headers("Referer", "https://123chill.online/");
     data = fetch();
     try {
-        var _0x34c46e = (data + '').match(/iframe\s*id="myFrame"\s*src="(.*?)"/)[1];
-        data = fetch(_0x34c46e);
-        var _0x2d3288 = (data + '').match(/<iframe.*?src="(.*?)"/)[1];
-        _0x2d3288 = fixUrl(_0x2d3288);
-        var _0xb4f6a = baseUrl(_0x2d3288);
-        data = fetch(_0x2d3288);
-        _0x2d3288 = _0xb4f6a + (data + '').match(/src:.*?'(.*?)'/)[1];
-        var _0xf47fb4 = '';
-        while (!_0xf47fb4.startsWith('eqq') && true) {
-            data = fetch(_0x2d3288);
-            var _0xf47fb4 = (data + '').match(/style="display:none;">\s*(.*?)<\/div>/)[1];
-            consolelog(_0xf47fb4);
+        var _0x47b007 = (data + '').match(/iframe\s*id="myFrame"\s*src="(.*?)"/)[0x1];
+        data = fetch(_0x47b007);
+        var _0x4e333f = (data + '').match(/<iframe.*?src="(.*?)"/)[0x1];
+        _0x4e333f = fixUrl(_0x4e333f);
+        var _0x5207f6 = baseUrl(_0x4e333f);
+        data = fetch(_0x4e333f);
+        _0x4e333f = _0x5207f6 + (data + '').match(/src:.*?'(.*?)'/)[0x1];
+        var _0x4e0e09 = '';
+        while (!_0x4e0e09.startsWith('eqq') && true) {
+            data = fetch(_0x4e333f);
+            var _0x4e0e09 = (data + '').match(/style="display:none;">\s*(.*?)<\/div>/)[0x1];
+            consolelog(_0x4e0e09);
         }
-        if (!_0xf47fb4.startsWith('eqq')) { }
-        url(replaceCustomChars(_0xf47fb4));
-    } catch (_0x5ed47d) {
-        error(_0x5ed47d.message);
+        if (!_0x4e0e09.startsWith('eqq')) {}
+        url(replaceCustomChars(_0x4e0e09));
+    } catch (_0x419402) {
+        error(_0x419402.message);
     }
     parser();
 }
+
 function cnbce() {
     try {
-        var _0x59c4e2 = fetchPost('', 'https://www.cnbce.com/api/live-stream/source');
-        var _0x1fea04 = JSON.parse(_0x59c4e2);
-        url(_0x1fea04.source);
-    } catch (_0xc9c4fa) {
-        error(_0xc9c4fa.message);
+        var _0x281a75 = fetchPost('', 'https://www.cnbce.com/api/live-stream/source');
+        var _0x1ed38b = JSON.parse(_0x281a75);
+        url(_0x1ed38b.source);
+    } catch (_0x1ddcb7) {
+        error(_0x1ddcb7.message);
     }
-    parser('', 2, '', false);
+    parser('', 0x2, '', false);
 }
+
 function cnnturk() {
-    var _0x3f3c68 = JSON.parse(fetch('https://www.cnnturk.com/action/media/' + fetch().match(/data-id="(.*?)"/)[1] + '?ad_type=embed-player'));
-    url(_0x3f3c68.Media.Link.ServiceUrl + '' + _0x3f3c68.Media.Link.SecurePath);
+    var _0x4e44df = JSON.parse(fetch("https://www.cnnturk.com/action/media/" + fetch().match(/data-id="(.*?)"/)[0x1] + "?ad_type=embed-player"));
+    url(_0x4e44df.Media.Link.ServiceUrl + '' + _0x4e44df.Media.Link.SecurePath);
     parser();
 }
+
 function contentx() {
-    if (!url(['filese'], 0)) {
+    if (!url(["filese"], 0x0)) {
         url(fixUrl(url()));
-        var _0x21cd38 = fetch();
+        headers("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7");
+        headers("User-Agent", 'cf_clearance=');
+        var _0x499e45 = fetch();
         try {
-            var _0x2e43ba = matchAll(_0x21cd38, /"file"\s*:\s*"(.*?)"\s*,\s*"label"\s*:\s*"(.*?)"/g);
-            for (let _0x5cdced = 0; _0x5cdced < _0x2e43ba.length; _0x5cdced++) {
-                if ((_0x2e43ba[_0x5cdced][2].toLowerCase().includes('rk') || _0x2e43ba[_0x5cdced][2].toLowerCase().includes('turkish')) && !_0x2e43ba[_0x5cdced][1].includes('forced')) {
-                    sub(_0x2e43ba[_0x5cdced][1].replace(/\\\//g, '/'));
+            var _0x2665c2 = matchAll(_0x499e45, /"file"\s*:\s*"(.*?)"\s*,\s*"label"\s*:\s*"(.*?)"/g);
+            for (let _0x3e90e6 = 0x0; _0x3e90e6 < _0x2665c2.length; _0x3e90e6++) {
+                consolelog(_0x2665c2[_0x3e90e6][0x1]);
+                if ((_0x2665c2[_0x3e90e6][0x2].toLowerCase().includes('rk') || _0x2665c2[_0x3e90e6][0x2].toLowerCase().includes('turkish') || _0x2665c2[_0x3e90e6][0x2].toLowerCase().includes('turkish')) && !_0x2665c2[_0x3e90e6][0x1].includes('forced')) {
+                    sub(_0x2665c2[_0x3e90e6][0x1].replace(/\\\//g, '/'));
                 }
             }
-        } catch (_0x4c443a) {
-            error(_0x4c443a.message);
-        }
-        _0x21cd38 = _0x21cd38.match(/window.openPlayer\((.*?)\)/)[1].split(',')[0].replace(/'/g, '');
-        _0x21cd38 = fetch(baseUrl(url()) + '/source2.php?v=' + _0x21cd38);
-        var _0x2d0c33 = JSON.parse(_0x21cd38).playlist;
+        } catch (_0x307271) {}
+        _0x499e45 = _0x499e45.match(/window.openPlayer\((.*?)\)/)[0x1].split(',')[0x0].replace(/'/g, '');
+        _0x499e45 = fetch(baseUrl(url()) + "/source2.php?v=" + _0x499e45);
+        var _0x3f74b4 = JSON.parse(_0x499e45).playlist;
         url('');
-        for (var _0x2bf93c = 0; _0x2bf93c < _0x2d0c33.length; _0x2bf93c++) {
-            if (g.getLang() == 1 && (_0x2d0c33[_0x2bf93c].sources[0].title.includes("TÃ¼rkÃ§e Dublaj") || _0x2d0c33[_0x2bf93c].sources[0].title.includes('Orijinal'))) {
-                url(_0x2d0c33[_0x2bf93c].sources[0].file);
+        for (var _0x58264d = 0x0; _0x58264d < _0x3f74b4.length; _0x58264d++) {
+            if (g.getLang() == 0x1 && (_0x3f74b4[_0x58264d].sources[0x0].title.includes("TÃ¼rkÃ§e Dublaj") || _0x3f74b4[_0x58264d].sources[0x0].title.includes('Orijinal'))) {
+                url(_0x3f74b4[_0x58264d].sources[0x0].file);
             } else {
-                if (g.getLang() == 0 && (_0x2d0c33[_0x2bf93c].sources[0].title.includes("TÃ¼rkÃ§e AltyazÄ±") || _0x2d0c33[_0x2bf93c].sources[0].title.includes('Orijinal'))) {
-                    url(_0x2d0c33[_0x2bf93c].sources[0].file);
+                if (g.getLang() == 0x0 && (_0x3f74b4[_0x58264d].sources[0x0].title.includes("TÃ¼rkÃ§e AltyazÄ±") || _0x3f74b4[_0x58264d].sources[0x0].title.includes('Orijinal'))) {
+                    url(_0x3f74b4[_0x58264d].sources[0x0].file);
                 }
             }
         }
         if (url() == '') {
-            for (var _0x2bf93c = 0; _0x2bf93c < _0x2d0c33.length; _0x2bf93c++) {
-                url(_0x2d0c33[_0x2bf93c].sources[0].file);
+            for (var _0x58264d = 0x0; _0x58264d < _0x3f74b4.length; _0x58264d++) {
+                url(_0x3f74b4[_0x58264d].sources[0x0].file);
             }
         }
-        headers('Referer', baseUrl(url()));
+        if (g.getLang() == 0x0 && Core.mainUrlForReferer.includes('dizilla')) {
+            sub('');
+        }
+        headers("Referer", baseUrl(url()));
         parser();
     }
 }
+
 function dailymotion() {
-    url('embed/', '');
-    url('video', 'player/metadata/video');
-    var _0x1a40b9 = fetch();
-    var _0x4ed7a1 = JSON.parse(_0x1a40b9);
-    url(_0x4ed7a1.qualities.auto[0].url);
+    url("embed/", '');
+    url("video", "player/metadata/video");
+    var _0x38e437 = fetch();
+    var _0x5b6c32 = JSON.parse(_0x38e437);
+    url(_0x5b6c32.qualities.auto[0x0].url);
     g.deleteHeader('Referer');
     parser();
 }
+
 function dak7() {
-    var _0x56c248 = matchAll(fetch(), /source\s*src="(.*?)".*?size="(.*?)"/g);
-    var _0x3aa216 = ['240', '360', '480', '720', '1080', 'Alone'];
-    var _0x3bbe2f = -1;
-    var _0xfabce1 = -1;
-    for (let _0xf8413 = 0; _0xf8413 < _0x56c248.length; _0xf8413++) {
+    var _0x152433 = matchAll(fetch(), /source\s*src="(.*?)".*?size="(.*?)"/g);
+    var _0x573985 = ["240", '360', "480", "720", "1080", "Alone"];
+    var _0x32ebf7 = -0x1;
+    var _0x2f5b7e = -0x1;
+    for (let _0x7da6d0 = 0x0; _0x7da6d0 < _0x152433.length; _0x7da6d0++) {
         try {
-            var _0xa0ddad = _0x56c248[_0xf8413][2];
-            var _0x5a33f3 = _0x3aa216.indexOf(_0xa0ddad);
-            consolelog(_0x5a33f3);
-            if (_0x3bbe2f < _0x5a33f3) {
-                _0x3bbe2f = _0x5a33f3;
-                _0xfabce1 = _0xf8413;
+            var _0x842eb0 = _0x152433[_0x7da6d0][0x2];
+            var _0x56c181 = _0x573985.indexOf(_0x842eb0);
+            consolelog(_0x56c181);
+            if (_0x32ebf7 < _0x56c181) {
+                _0x32ebf7 = _0x56c181;
+                _0x2f5b7e = _0x7da6d0;
             }
-        } catch (_0x15fda1) { }
+        } catch (_0x1092fe) {}
     }
-    if (_0x3bbe2f != -1) {
-        url(fixUrl(_0x56c248[_0xfabce1][1].replace(/\\/g, '')));
+    if (_0x32ebf7 != -0x1) {
+        url(fixUrl(_0x152433[_0x2f5b7e][0x1].replace(/\\/g, '')));
     }
     parser();
 }
+
 function ddizi() {
-    headers('Accept', '*/*');
-    var _0x4f47a4 = fetch();
-    var _0x47cc92 = _0x4f47a4.match(/iframe.*?src="(.*?)"/)[1];
-    if (!_0x47cc92.startsWith('https')) {
-        _0x47cc92 = baseUrl(url()) + '/' + _0x47cc92;
-        headers('Referer', _0x47cc92);
+    headers("Accept", "*/*");
+    var _0x11ffe0 = fetch();
+    var _0x3813a8 = _0x11ffe0.match(/iframe.*?src="(.*?)"/)[0x1];
+    if (!_0x3813a8.startsWith("https")) {
+        _0x3813a8 = baseUrl(url()) + '/' + _0x3813a8;
+        headers("Referer", _0x3813a8);
         g.deleteHeader('Origin');
-        _0x4f47a4 = fetch(_0x47cc92);
-        url(_0x4f47a4.match(/file:"(.*?)"/)[1].replace(/\\/g, ''));
+        _0x11ffe0 = fetch(_0x3813a8);
+        url(_0x11ffe0.match(/file:"(.*?)"/)[0x1].replace(/\\/g, ''));
     } else {
-        url(_0x47cc92);
+        url(_0x3813a8);
     }
     parser();
 }
+
 function dha() {
-    url(fetch().match(/src:\s*'(.*?)'/)[1].replace(/\\\//g, '/'));
+    url(fetch().match(/src:\s*'(.*?)'/)[0x1].replace(/\\\//g, '/'));
     parser();
 }
+
 function dizibox() {
-    var _0x3d32e2 = url();
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x26519 = '';
+    var _0x5aa97c = url();
+    headers("User-Agent", "google");
+    var _0x14ba16 = '';
     try {
-        _0x26519 = fetch();
-        _0x26519 = _0x26519.match(/woca-linkpages-dd selectBox(.*?)\/select/);
-    } catch (_0x44fa26) {
-        _0x26519 = '';
+        _0x14ba16 = fetch();
+        _0x14ba16 = _0x14ba16.match(/woca-linkpages-dd selectBox(.*?)\/select/);
+    } catch (_0x162491) {
+        _0x14ba16 = '';
     }
-    var _0x9c1fec = {
-        _0x137b00: _0x39fafe
-    };
+    var _0x1d7f85 = {};
     try {
-        var _0xdf8e4b = matchAll(_0x26519, /(?:value=["']|href=["'])(.*?)["'].*?>(.*?)</g);
-        for (let _0x274338 = 0; _0x274338 < _0xdf8e4b.length; _0x274338++) {
-            var _0x39fafe = _0xdf8e4b[_0x274338][1];
-            var _0x137b00 = _0xdf8e4b[_0x274338][2];
-            if (_0x137b00 != '' && _0x137b00 != 'King' && _0x137b00 != 'Play') {
-                ;
+        var _0x3a12ee = matchAll(_0x14ba16, /(?:value=["']|href=["'])(.*?)["'].*?>(.*?)</g);
+        for (let _0xeeff9e = 0x0; _0xeeff9e < _0x3a12ee.length; _0xeeff9e++) {
+            var _0x126506 = _0x3a12ee[_0xeeff9e][0x1];
+            var _0x53ba8d = _0x3a12ee[_0xeeff9e][0x2];
+            if (_0x53ba8d != '' && _0x53ba8d != "King" && _0x53ba8d != "Play") {
+                _0x1d7f85[_0x53ba8d] = _0x126506;
             }
         }
-    } catch (_0x20d176) {
-        error(_0x20d176.message);
+    } catch (_0x2d096a) {
+        error(_0x2d096a.message);
     }
-    if (!_0x3d32e2.includes('#') && JSON.stringify(_0x9c1fec) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x9c1fec));
+    consolelog(JSON.stringify(_0x1d7f85));
+    if (!_0x5aa97c.includes('#') && JSON.stringify(_0x1d7f85) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x1d7f85));
     } else {
-        url(_0x3d32e2.split('#')[1]);
-        var _0x345a0b = _0x3d32e2.split('#')[2];
-        if (_0x345a0b.toLowerCase().includes('pro')) {
+        url(_0x5aa97c.split('#')[0x1]);
+        var _0x5dd240 = _0x5aa97c.split('#')[0x2];
+        if (_0x5dd240.toLowerCase().includes('pro')) {
             if (!isWebView) {
-                error('NO Webview');
+                error("NO Webview");
             } else {
-                getWebViewOwnContentJS(_0x3d32e2, 'molystream', 'I AM NOT LOOKING', 'playSheilaBtn', '', 0, false, headers, 1);
+                getWebViewOwnContentJS(_0x5aa97c, "molystream", "I AM NOT LOOKING", "playSheilaBtn", '', 0x0, false, headers, 0x1);
             }
         } else {
-            _0x26519 = fetch();
-            url(_0x26519.match(/frame.*?src="(.*?)".*?webkitallowfullscreen/)[1]);
-            _0x26519 = fetch();
-            if (url(['haydi.php'], 1)) {
+            _0x14ba16 = fetch();
+            url(_0x14ba16.match(/frame.*?src="(.*?)".*?webkitallowfullscreen/)[0x1]);
+            _0x14ba16 = fetch();
+            if (url(["haydi.php"], 0x1)) {
                 try {
-                    var _0xdf8e4b = matchAll(_0x26519, /<iframe(.*?)<\/iframe/g);
-                    for (let _0x1f9256 = 0; _0x1f9256 < _0xdf8e4b.length; _0x1f9256++) {
-                        if (!_0xdf8e4b[_0x1f9256][1].includes('display:')) {
-                            url(_0xdf8e4b[_0x1f9256][1]);
+                    var _0x3a12ee = matchAll(_0x14ba16, /<iframe(.*?)<\/iframe/g);
+                    for (let _0x46d88c = 0x0; _0x46d88c < _0x3a12ee.length; _0x46d88c++) {
+                        if (!_0x3a12ee[_0x46d88c][0x1].includes("display:")) {
+                            url(_0x3a12ee[_0x46d88c][0x1]);
                             break;
                         }
                     }
-                    url(url().match(/src=['"](.*?)['"]/)[1]);
-                } catch (_0x25ab26) {
-                    error(_0x25ab26.message);
+                    url(url().match(/src=['"](.*?)['"]/)[0x1]);
+                } catch (_0x3547fd) {
+                    error(_0x3547fd.message);
                 }
             } else {
-                if (url(['moly.php'], 1)) {
+                if (url(["moly.php"], 0x1)) {
                     try {
-                        var _0xdf8e4b = matchAll(_0x26519, /unescape\("(.*?)"\)/g);
-                        for (let _0x3fad48 = 0; _0x3fad48 < _0xdf8e4b.length; _0x3fad48++) {
-                            if (!_0xdf8e4b[_0x3fad48][1].includes('display:')) {
-                                url(_0xdf8e4b[_0x3fad48][1]);
+                        var _0x3a12ee = matchAll(_0x14ba16, /unescape\("(.*?)"\)/g);
+                        for (let _0x2e2002 = 0x0; _0x2e2002 < _0x3a12ee.length; _0x2e2002++) {
+                            if (!_0x3a12ee[_0x2e2002][0x1].includes('display:')) {
+                                url(_0x3a12ee[_0x2e2002][0x1]);
                                 break;
                             }
                         }
                         url(decodeURIComponent(url()));
                         url(atob(url()));
                         try {
-                            var _0xdf8e4b = matchAll(url(), /<iframe(.*?)<\/iframe/g);
-                            for (let _0x1ee221 = 0; _0x1ee221 < _0xdf8e4b.length; _0x1ee221++) {
-                                if (!_0xdf8e4b[_0x1ee221][1].includes('display:')) {
-                                    url(_0xdf8e4b[_0x1ee221][1]);
+                            var _0x3a12ee = matchAll(url(), /<iframe(.*?)<\/iframe/g);
+                            for (let _0x321aef = 0x0; _0x321aef < _0x3a12ee.length; _0x321aef++) {
+                                if (!_0x3a12ee[_0x321aef][0x1].includes('display:')) {
+                                    url(_0x3a12ee[_0x321aef][0x1]);
                                     break;
                                 }
                             }
-                        } catch (_0x56467b) {
-                            error(_0x56467b.message);
+                        } catch (_0x228b5d) {
+                            error(_0x228b5d.message);
                         }
-                        url(url().match(/src=['"](.*?)['"]/)[1]);
-                    } catch (_0x3fcc84) {
-                        error(_0x3fcc84.message);
+                        url(url().match(/src=['"](.*?)['"]/)[0x1]);
+                    } catch (_0x5629b7) {
+                        error(_0x5629b7.message);
                     }
                 }
             }
@@ -1209,833 +1263,915 @@ function dizibox() {
         }
     }
 }
-function dizifin() {
-    var _0x1a1a0f = fetch();
-    headers('Referer', url());
-    _0x1a1a0f = _0x1a1a0f.match(/iframe\s*src="(.*?)"/)[1];
-    var _0x54782d = baseUrl(_0x1a1a0f);
-    headers('Referer', 'https://dizifin.com/');
-    _0x1a1a0f = fetch(_0x1a1a0f);
-    try {
-        var _0x1ceaed = matchAll(_0x1a1a0f, /"file":"(.*?vtt)"/g);
-        for (let _0x38265f = 0; _0x38265f < _0x1ceaed.length; _0x38265f++) {
-            if (_0x1ceaed[_0x38265f][1].includes('tur') || _0x1ceaed[_0x38265f][1].includes('tr')) { }
-            sub(_0x1ceaed[_0x38265f][1].replace(/\\/g, '').replace('..', _0x54782d));
-        }
-    } catch (_0x2bba00) {
-        error(_0x2bba00.message);
-    }
-    _0x1a1a0f = _0x1a1a0f.match(/"file":\s*"(.*?)"/)[1].replace(/\\x/g, ' ');
-    var _0x4f44a6 = _0x1a1a0f.split(' ');
-    _0x1a1a0f = '';
-    for (var _0x21af89 = 0; _0x21af89 < _0x4f44a6.length; _0x21af89++) {
-        var _0x5e359c = parseInt(_0x4f44a6[_0x21af89], 16);
-        var _0x1ce7aa = String.fromCharCode(_0x5e359c);
-        _0x1a1a0f += _0x1ce7aa;
-    }
-    _0x1a1a0f = _0x1a1a0f.replace('..', _0x54782d).replace(' ', '').substring(1);
-    url(_0x1a1a0f);
+
+function dizibul() {
+    var _0x26e701 = fetch();
+    var _0x286481 = _0x26e701.match(/data-frame="(.*?)"/)[0x1];
+    _0x26e701 = fetch(_0x286481);
+    _0x26e701 = _0x26e701.match(/bePlayer\('\s*(.*?)'\s*,\s*'(.*?)'\)/);
+    var _0x3d442c = _0x26e701[0x1];
+    var _0x18e09c = _0x26e701[0x2];
+    _0x26e701 = hdmomplayer(_0x3d442c, _0x18e09c);
+    consolelog(_0x26e701);
+    url(_0x26e701[0x0]);
+    headers("Referer", _0x286481);
+    headers("Accept", '*/*');
     parser();
 }
-function dizifix() {
-    var _0x5e9522 = url();
-    var _0x39e15e = fetch();
-    var _0x1e97db = {
-        _0x26aafa: _0x347c74
-    };
+
+function dizifin() {
+    var _0x653f3 = fetch();
+    headers("Referer", url());
+    _0x653f3 = _0x653f3.match(/iframe\s*src="(.*?)"/)[0x1];
+    var _0x57bd19 = baseUrl(_0x653f3);
+    headers("Referer", 'https://dizifin.com/');
+    _0x653f3 = fetch(_0x653f3);
     try {
-        var _0x28f813 = matchAll(_0x39e15e, /<a\s*data-frame="(.*?)"/g);
-        for (let _0x15f78a = 0; _0x15f78a < _0x28f813.length; _0x15f78a++) {
-            var _0x347c74 = _0x28f813[_0x15f78a][1];
-            var _0x26aafa = 'Kaynak-' + (_0x15f78a + 1);
-            ;
+        var _0x206b18 = matchAll(_0x653f3, /"file":"(.*?vtt)"/g);
+        for (let _0x2ed504 = 0x0; _0x2ed504 < _0x206b18.length; _0x2ed504++) {
+            if (_0x206b18[_0x2ed504][0x1].includes("tur") || _0x206b18[_0x2ed504][0x1].includes('tr')) {}
+            sub(_0x206b18[_0x2ed504][0x1].replace(/\\/g, '').replace('..', _0x57bd19));
         }
-    } catch (_0x40189e) {
-        error(_0x40189e.message);
+    } catch (_0x17c0b9) {
+        error(_0x17c0b9.message);
     }
-    if (!_0x5e9522.includes('#') && JSON.stringify(_0x1e97db) != '{}' && _0x1e97db.length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x1e97db));
-    } else {
-        if (url(['#'], 1)) {
-            url(_0x5e9522.split('#')[1]);
-        } else {
-            url(_0x1e97db['Kaynak-1']);
+    _0x653f3 = _0x653f3.match(/"file":\s*"(.*?)"/)[0x1].replace(/\\x/g, " ");
+    var _0x151583 = _0x653f3.split(" ");
+    _0x653f3 = '';
+    for (var _0xe0267 = 0x0; _0xe0267 < _0x151583.length; _0xe0267++) {
+        var _0x26e2c2 = parseInt(_0x151583[_0xe0267], 0x10);
+        var _0x536035 = String.fromCharCode(_0x26e2c2);
+        _0x653f3 += _0x536035;
+    }
+    _0x653f3 = _0x653f3.replace('..', _0x57bd19).replace(" ", '').substring(0x1);
+    url(_0x653f3);
+    parser();
+}
+
+function dizifix() {
+    var _0x48a3b6 = url();
+    var _0x577d01 = fetch();
+    var _0x22295f = {};
+    try {
+        var _0x59b621 = matchAll(_0x577d01, /<a\s*data-frame="(.*?)"/g);
+        for (let _0x44c503 = 0x0; _0x44c503 < _0x59b621.length; _0x44c503++) {
+            var _0x5886b1 = _0x59b621[_0x44c503][0x1];
+            var _0x5d3124 = "Kaynak-" + (_0x44c503 + 0x1);
+            _0x22295f[_0x5d3124] = _0x5886b1;
         }
-        headers('Referer', headers('Referer') + '/');
-        if (!url(['dovideo'], 1) && !url(['videoloji'], 1)) {
+    } catch (_0x56f7d8) {
+        error(_0x56f7d8.message);
+    }
+    if (!_0x48a3b6.includes('#') && JSON.stringify(_0x22295f) != '{}' && _0x22295f.length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x22295f));
+    } else {
+        if (url(['#'], 0x1)) {
+            url(_0x48a3b6.split('#')[0x1]);
+        } else {
+            url(_0x22295f["Kaynak-1"]);
+        }
+        headers("Referer", headers("Referer") + '/');
+        if (!url(["dovideo"], 0x1) && !url(['videoloji'], 0x1)) {
             parser();
         } else {
-            _0x39e15e = fetch();
-            var _0x3642f0 = _0x39e15e.match(/"file":\s*"(.*?)"/)[1].replace(/\\x/g, '');
-            url(hex2a(_0x3642f0).replace('..', baseUrl(url())));
+            _0x577d01 = fetch();
+            var _0x1cea3c = _0x577d01.match(/"file":\s*"(.*?)"/)[0x1].replace(/\\x/g, '');
+            url(hex2a(_0x1cea3c).replace('..', baseUrl(url())));
             try {
-                var _0x325b45 = matchAll(_0x39e15e, /"file":"(.*?)"/g);
+                var _0x232d67 = matchAll(_0x577d01, /"file":"(.*?)"/g);
                 sub('');
-                for (var _0x24be55 = 0; _0x24be55 < _0x325b45.length; _0x24be55++) {
-                    var _0x56c8a1 = _0x325b45[_0x24be55][1];
-                    if (_0x56c8a1.includes('tur')) {
-                        sub(_0x56c8a1.replace(/\\/g, '').replace('..', baseUrl(url())));
+                for (var _0x548179 = 0x0; _0x548179 < _0x232d67.length; _0x548179++) {
+                    var _0x160c34 = _0x232d67[_0x548179][0x1];
+                    if (_0x160c34.includes("tur")) {
+                        sub(_0x160c34.replace(/\\/g, '').replace('..', baseUrl(url())));
                     }
                 }
                 if (sub() == '') {
-                    var _0x56c8a1 = _0x325b45[_0x325b45.length - 1][1];
-                    sub(_0x56c8a1.replace(/\\/g, '').replace('..', baseUrl(url())));
+                    var _0x160c34 = _0x232d67[_0x232d67.length - 0x1][0x1];
+                    sub(_0x160c34.replace(/\\/g, '').replace('..', baseUrl(url())));
                 }
-            } catch (_0x2827e2) {
+            } catch (_0x33eed5) {
                 sub('');
             }
             parser();
         }
     }
 }
+
 function dizigom() {
-    var _0x24aad0 = fetch().match(/"contentUrl"\s*:\s*"(.*?)"/)[1].replace(/\\/g, '').replace('https://', 'https://play.');
-    _0x24aad0 = fetch(_0x24aad0).match(/>(eval\(.*?\))\s*<\/script>/)[1];
-    _0x24aad0 = unPack(_0x24aad0).split("\n").join('').match(/sources:(\[.*?\])/)[1];
-    var _0x2d35a2 = JSON.parse(_0x24aad0);
-    url(_0x2d35a2[0].file);
+    var _0x7218db = fetch().match(/"contentUrl"\s*:\s*"(.*?)"/)[0x1].replace(/\\/g, '').replace("https://", "https://play.");
+    _0x7218db = fetch(_0x7218db).match(/>(eval\(.*?\))\s*<\/script>/)[0x1];
+    _0x7218db = unPack(_0x7218db).split("\n").join('').match(/sources:(\[.*?\])/)[0x1];
+    var _0x38cbf0 = JSON.parse(_0x7218db);
+    url(_0x38cbf0[0x0].file);
     parser();
 }
+
 function dizikral() {
-    headers('x-requested-with', 'XMLHttpRequest');
-    headers('content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    var _0x9ef779 = fetch();
-    var _0x36f7ec = _0x9ef779.match(/<iframe\s*src="(.*?)"/)[1];
-    _0x9ef779 = fetch(_0x36f7ec);
-    _0x9ef779 = _0x9ef779.match(/bePlayer\('\s*(.*?)'\s*,\s*'(.*?)'\)/);
-    var _0x207bb6 = _0x9ef779[1];
-    var _0x3bd718 = _0x9ef779[2];
-    _0x9ef779 = hdmomplayer(_0x207bb6, _0x3bd718);
-    sub(_0x9ef779[1]);
-    url(_0x9ef779[0]);
-    headers('Accept', '*/*');
-    headers('Referer', _0x36f7ec);
+    headers("x-requested-with", "XMLHttpRequest");
+    headers("content-type", "application/x-www-form-urlencoded; charset=UTF-8");
+    var _0x205ae3 = fetch();
+    var _0xfc5966 = _0x205ae3.match(/<iframe\s*src="(.*?)"/)[0x1];
+    if (_0xfc5966.includes("videoseyred") || _0xfc5966.includes("vidmoly")) {
+        url(_0xfc5966);
+        parser();
+        return;
+    }
+    _0x205ae3 = fetch(_0xfc5966);
+    _0x205ae3 = _0x205ae3.match(/bePlayer\('\s*(.*?)'\s*,\s*'(.*?)'\)/);
+    var _0xb343e5 = _0x205ae3[0x1];
+    var _0x2df414 = _0x205ae3[0x2];
+    _0x205ae3 = hdmomplayer(_0xb343e5, _0x2df414);
+    sub(_0x205ae3[0x1]);
+    url(_0x205ae3[0x0]);
+    headers("Accept", '*/*');
+    headers("Referer", _0xfc5966);
     parser();
 }
+
 function dizilab() {
-    var _0x5e47d8 = url();
-    var _0x45c423 = fetch();
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    if (_0x45c423.includes('mobilembeds')) {
-        _0x45c423 = _0x45c423.match(/mobilembeds(.*?)Sonra/)[1];
+    var _0x2767c2 = url();
+    var _0x29db14 = fetch();
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    if (_0x29db14.includes("mobilembeds")) {
+        _0x29db14 = _0x29db14.match(/mobilembeds(.*?)Sonra/)[0x1];
     } else {
-        _0x45c423 = _0x45c423.match(/fa fa-angle-down(.*?)Sonra/)[1];
+        _0x29db14 = _0x29db14.match(/fa fa-angle-down(.*?)Sonra/)[0x1];
     }
-    var _0x46a7b7 = {
-        _0x51c720: _0x57dc18
-    };
+    var _0x494498 = {};
     try {
-        var _0x7a9f91 = matchAll(_0x45c423, /loadVideo\('(.*?)'.*?"icon-tr"><\/span>(.*?)\s*<\/a>/g);
-        for (let _0x46e789 = 0; _0x46e789 < _0x7a9f91.length; _0x46e789++) {
-            var _0x57dc18 = _0x7a9f91[_0x46e789][1];
-            var _0x51c720 = _0x7a9f91[_0x46e789][2].split(' ').join('').split("\n").join('').split("\t").join('');
-            ;
+        var _0x14b2a6 = matchAll(_0x29db14, /loadVideo\('(.*?)'.*?"icon-tr"><\/span>(.*?)\s*<\/a>/g);
+        for (let _0x16e9fe = 0x0; _0x16e9fe < _0x14b2a6.length; _0x16e9fe++) {
+            var _0x2c67e3 = _0x14b2a6[_0x16e9fe][0x1];
+            var _0x4748ab = _0x14b2a6[_0x16e9fe][0x2].split(" ").join('').split("\n").join('').split("\t").join('');
+            _0x494498[_0x4748ab] = _0x2c67e3;
         }
-    } catch (_0x2e5bb3) {
-        error(_0x2e5bb3.message);
+    } catch (_0x3a2e84) {
+        error(_0x3a2e84.message);
     }
-    if (!_0x5e47d8.includes('#') && JSON.stringify(_0x46a7b7) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x46a7b7));
+    if (!_0x2767c2.includes('#') && JSON.stringify(_0x494498) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x494498));
     } else {
-        url(_0x5e47d8.split('#')[1]);
-        var _0x340638 = _0x5e47d8.split('#')[2];
-        if (_0x340638.toLowerCase().includes('vip')) {
+        url(_0x2767c2.split('#')[0x1]);
+        var _0x547d2b = _0x2767c2.split('#')[0x2];
+        if (_0x547d2b.toLowerCase().includes("vip")) {
             if (!g.isWebView()) {
-                error('NO Webview');
+                error("NO Webview");
             } else {
-                getWebViewOwnContentJS(_0x5e47d8, 'molystream', 'I AM NOT LOOKING', 'playSheilaBtn', '', 0, false, g.getHeadersJSON, 1);
+                getWebViewOwnContentJS(_0x2767c2, "molystream", "I AM NOT LOOKING", "playSheilaBtn", '', 0x0, false, g.getHeadersJSON, 0x1);
             }
         } else {
-            url(_0x46a7b7[_0x340638]);
-            postData = 'vid=' + encodeURIComponent(url()) + '&mobil=1&tip=1&type=loadVideo';
-            url(baseUrl(_0x5e47d8) + '/ajax');
-            headers('Referer', _0x5e47d8.split('#')[0]);
-            headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-            headers('X-Requested-With', 'XMLHttpRequest');
-            _0x45c423 = fetchPost(postData + '');
+            url(_0x494498[_0x547d2b]);
+            postData = "vid=" + encodeURIComponent(url()) + "&mobil=1&tip=1&type=loadVideo";
+            url(baseUrl(_0x2767c2) + "/ajax");
+            headers('Referer', _0x2767c2.split('#')[0x0]);
+            headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+            headers('X-Requested-With', "XMLHttpRequest");
+            _0x29db14 = fetchPost(postData + '');
             g.logHeader();
-            url(_0x45c423.match(/src=\\"(.*?)"/)[1].replace(/\\/g, ''));
-            url('https://dizilab.com', baseUrl(_0x5e47d8));
-            g.deleteHeader('X-Requested-With');
+            url(_0x29db14.match(/src=\\"(.*?)"/)[0x1].replace(/\\/g, ''));
+            url("https://dizilab.com", baseUrl(_0x2767c2));
+            g.deleteHeader("X-Requested-With");
             g.deleteHeader('Content-Type');
-            url(_0x45c423.match(/src=\\"(.*?)\\"/)[1].split("\\").join(''));
-            url('https://dizilab.com', baseUrl(_0x5e47d8));
-            if (url(['vplayer', 'oplayer'], 1)) {
-                _0x45c423 = fetch();
-                _0x45c423 = Core.fetchCFF(url(), g.getHeadersJSON(), "LÃ¼tfen bekleyiniz") + '';
-                if (_0x45c423.includes('cff')) {
-                    headers('Cookie', _0x45c423.split(';')[0] + ';');
-                    _0x45c423 = fetch();
-                    if (_0x45c423.includes("LÃ¼tfen bekleyiniz")) {
-                        var _0x5583cb = 0;
-                        while (_0x5583cb < 10) {
-                            _0x45c423 = Core.fetchCFF(url(), g.getHeadersJSON(), "LÃ¼tfen bekleyiniz");
-                            if (_0x45c423.includes('cff')) {
-                                headers('Cookie', _0x45c423.split(';')[0] + ';');
-                                _0x45c423 = fetch();
+            url(_0x29db14.match(/src=\\"(.*?)\\"/)[0x1].split("\\").join(''));
+            url("https://dizilab.com", baseUrl(_0x2767c2));
+            if (url(["vplayer", "oplayer"], 0x1)) {
+                _0x29db14 = fetch();
+                _0x29db14 = Core.fetchCFF(url(), g.getHeadersJSON(), "LÃ¼tfen bekleyiniz") + '';
+                if (_0x29db14.includes("cff")) {
+                    headers('Cookie', _0x29db14.split(';')[0x0] + ';');
+                    _0x29db14 = fetch();
+                    if (_0x29db14.includes("LÃ¼tfen bekleyiniz")) {
+                        var _0x18b489 = 0x0;
+                        while (_0x18b489 < 0xa) {
+                            _0x29db14 = Core.fetchCFF(url(), g.getHeadersJSON(), "LÃ¼tfen bekleyiniz");
+                            if (_0x29db14.includes('cff')) {
+                                headers('Cookie', _0x29db14.split(';')[0x0] + ';');
+                                _0x29db14 = fetch();
                             }
-                            if (!_0x45c423.includes("LÃ¼tfen bekleyiniz")) {
+                            if (!_0x29db14.includes("LÃ¼tfen bekleyiniz")) {
                                 break;
                             }
-                            _0x5583cb++;
+                            _0x18b489++;
                         }
                     }
                 }
-                url(fetch().match(/src="(.*?)"/)[1]);
+                url(fetch().match(/src="(.*?)"/)[0x1]);
             }
             g.deleteHeader.Cookie;
             parser();
         }
     }
 }
+
 function dizilla() {
-    headers('Accept', '*/*');
-    var _0xdc348 = url();
+    headers('User-Agent', "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0");
+    consolelog(headers("User-Agent"));
+    headers('Accept', "*/*");
+    var _0x45b68c = url();
     try {
-        var _0x199402 = fetch();
-        var _0x219ec7 = _0x199402.match(/<iframe.*?src="(.*?)"/)[1];
-        if (!_0x219ec7.startsWith('https')) {
-            _0x219ec7 = 'https:' + _0x219ec7;
+        var _0x516778 = fetch();
+        var _0x21718d = _0x516778.match(/<iframe.*?src="(.*?)"/)[0x1];
+        if (!_0x21718d.startsWith('https')) {
+            _0x21718d = "https:" + _0x21718d;
         }
-        if (_0x219ec7.includes('dizilla.org/vmplayer')) {
-            _0x219ec7 = 'https://vidmoly.to/embed-' + _0x219ec7.split("\\?vid=")[1] + '.html';
+        if (_0x21718d.includes('dizilla.org/vmplayer')) {
+            _0x21718d = "https://vidmoly.to/embed-" + _0x21718d.split("\\?vid=")[0x1] + '.html';
         }
-        url(_0x219ec7);
+        url(_0x21718d);
         parser();
-    } catch (_0x35f8cb) {
-        findSource(_0xdc348);
+    } catch (_0xf9267d) {
+        findSource(_0x45b68c);
         parser();
     }
 }
+
 function dizimat() {
-    var _0x3562a2 = fetch();
-    var _0x585385 = _0x3562a2.match(/data-frame=["\']?(.*?)["\'\s*]/)[1];
-    _0x3562a2 = fetch(_0x585385);
-    url(_0x3562a2.match(/file\s*:\s*"(.*?m3u8.*?)"/)[1]);
+    var _0x2c81ea = fetch();
+    var _0x209ace = _0x2c81ea.match(/data-frame=["\']?(.*?)["\'\s*]/)[0x1];
+    _0x2c81ea = fetch(_0x209ace);
+    url(_0x2c81ea.match(/file\s*:\s*"(.*?m3u8.*?)"/)[0x1]);
     try {
-        var _0x386774 = _0x3562a2.match(/tracks:\s*(.*?])/)[1];
-        _0x386774 = _0x386774.split('}');
-        for (let _0x43ed3e = 0; _0x43ed3e < _0x386774.length; _0x43ed3e++) {
-            if (_0x386774[_0x43ed3e].includes('Tur') && _0x386774[_0x43ed3e].includes('.vtt')) {
-                sub(baseUrl(url()) + '' + _0x386774[_0x43ed3e].match(/file:\s*"(.*?)"/)[1]);
+        var _0x55f6aa = _0x2c81ea.match(/tracks:\s*(.*?])/)[0x1];
+        _0x55f6aa = _0x55f6aa.split('}');
+        for (let _0x41f743 = 0x0; _0x41f743 < _0x55f6aa.length; _0x41f743++) {
+            if (_0x55f6aa[_0x41f743].includes('Tur') && _0x55f6aa[_0x41f743].includes(".vtt")) {
+                sub(baseUrl(url()) + '' + _0x55f6aa[_0x41f743].match(/file:\s*"(.*?)"/)[0x1]);
             }
         }
-    } catch (_0x4cabb1) { }
+    } catch (_0x58f79c) {}
     parser();
 }
+
 function dizimia() {
-    var _0x4baeb6 = url();
-    var _0x3a0ae0 = fetch();
-    var _0x51a872 = {};
-    if (g.getLang() == 0) {
-        Core.setLang(1);
+    var _0x42671d = url();
+    var _0x1d7af5 = fetch();
+    var _0x684828 = {};
+    if (g.getLang() == 0x0) {
+        Core.setLang(0x1);
     } else {
-        Core.setLang(0);
+        Core.setLang(0x0);
     }
     try {
-        var _0x5a2590 = matchAll(_0x3a0ae0, /<a class="focus:outline-none"\s*href="(.*?)"\s*title="(.*?)"/g);
-        var _0x4a845e = 1;
-        for (let _0x3cbbe0 = 0; _0x3cbbe0 < _0x5a2590.length; _0x3cbbe0++) {
-            if (_0x5a2590[_0x3cbbe0][2] != 'Fragman') {
-                _0x51a872[_0x5a2590[_0x3cbbe0][2]] = _0x5a2590[_0x3cbbe0][1];
-                _0x4a845e++;
+        var _0x45f344 = matchAll(_0x1d7af5, /<a class="focus:outline-none"\s*href="(.*?)"\s*title="(.*?)"/g);
+        var _0x2730bc = 0x1;
+        for (let _0x2f67bb = 0x0; _0x2f67bb < _0x45f344.length; _0x2f67bb++) {
+            if (_0x45f344[_0x2f67bb][0x2] != "Fragman") {
+                _0x684828[_0x45f344[_0x2f67bb][0x2]] = _0x45f344[_0x2f67bb][0x1];
+                _0x2730bc++;
             }
         }
-    } catch (_0x172ec4) {
-        error(_0x172ec4.message);
+    } catch (_0x2cf3a2) {
+        error(_0x2cf3a2.message);
     }
-    if (!_0x4baeb6.includes('#') && JSON.stringify(_0x51a872) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x51a872));
+    if (!_0x42671d.includes('#') && JSON.stringify(_0x684828) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x684828));
     } else {
-        url(_0x4baeb6.split('#')[1]);
-        var _0x3a0ae0 = fetch();
-        var _0x310ea2 = _0x3a0ae0.match(/<iframe.*?src="(.*?)"/)[1];
-        if (!_0x310ea2.startsWith('https')) {
-            _0x310ea2 = 'https:' + _0x310ea2;
+        url(_0x42671d.split('#')[0x1]);
+        var _0x1d7af5 = fetch();
+        var _0x17a349 = _0x1d7af5.match(/<iframe.*?src="(.*?)"/)[0x1];
+        if (!_0x17a349.startsWith("https")) {
+            _0x17a349 = "https:" + _0x17a349;
         }
-        url(_0x310ea2);
+        url(_0x17a349);
         parser();
     }
 }
+
 function dizimom() {
-    var _0x106636 = url();
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36');
-    headers('X-Requested-With', 'XMLHttpRequest');
+    var _0x9a129e = url();
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36");
+    headers("X-Requested-With", "XMLHttpRequest");
     headers('sec-ch-ua-mobile', '?1');
-    var _0x3ee9f8 = fetch();
+    var _0x5d8bf9 = fetch();
     urls = {};
     singleUrl = '';
     try {
-        var _0xd2ddf8 = matchAll(_0x3ee9f8, /iframe.*?src="([^\"]+)".*?<\/iframe>/g);
-        for (let _0x369136 = 0; _0x369136 < _0xd2ddf8.length; _0x369136++) {
-            if (!_0xd2ddf8[_0x369136][1].includes('video_onu')) {
-                urls[_0xd2ddf8[_0x369136][1]] = _0xd2ddf8[_0x369136][1];
-                singleUrl = _0xd2ddf8[_0x369136][1];
+        var _0x56edfd = matchAll(_0x5d8bf9, /iframe.*?src="([^\"]+)".*?<\/iframe>/g);
+        for (let _0x58ef07 = 0x0; _0x58ef07 < _0x56edfd.length; _0x58ef07++) {
+            if (!_0x56edfd[_0x58ef07][0x1].includes("video_onu")) {
+                urls[_0x56edfd[_0x58ef07][0x1]] = _0x56edfd[_0x58ef07][0x1];
+                singleUrl = _0x56edfd[_0x58ef07][0x1];
             }
         }
-    } catch (_0x5808cd) { }
-    if (!_0x106636.includes('#') && urls.length > 1) {
+    } catch (_0xd1942d) {}
+    if (!_0x9a129e.includes('#') && urls.length > 0x1) {
         Core.showAlternatesJS(JSON.stringify(urls));
     } else {
-        if (!_0x106636.includes('#')) {
-            _0x106636 += '#' + singleUrl;
+        if (!_0x9a129e.includes('#')) {
+            _0x9a129e += '#' + singleUrl;
         }
-        var _0x194b3f = urls[_0x106636.split('#')[1]].replace('https://hdplayersystem.live/video/', '');
-        if (!_0x194b3f.includes('videoseyred.in') && !_0x194b3f.includes('youtube')) {
-            if (_0x194b3f.includes('hdmomplayer')) {
-                var _0x3ee9f8 = fetch(_0x194b3f);
-                _0x3ee9f8 = _0x3ee9f8.match(/bePlayer\('(.*?)',\s*'(.*?)'\)/);
-                headers('Referer', _0x194b3f);
-                headers('Accept', '*/*');
-                headers('Origin', baseUrl(_0x194b3f));
-                var _0x1fd8b3 = _0x3ee9f8[1];
-                var _0xe02b02 = _0x3ee9f8[2];
-                _0x3ee9f8 = hdmomplayer(_0x1fd8b3, _0xe02b02);
-                sub(_0x3ee9f8[1]);
-                url(_0x3ee9f8[0]);
+        var _0x3218e4 = urls[_0x9a129e.split('#')[0x1]].replace('https://hdplayersystem.live/video/', '');
+        if (!_0x3218e4.includes("videoseyred.in") && !_0x3218e4.includes("youtube")) {
+            if (_0x3218e4.includes("hdmomplayer")) {
+                var _0x5d8bf9 = fetch(_0x3218e4);
+                _0x5d8bf9 = _0x5d8bf9.match(/bePlayer\('(.*?)',\s*'(.*?)'\)/);
+                headers('Referer', _0x3218e4);
+                headers("Accept", "*/*");
+                headers("Origin", baseUrl(_0x3218e4));
+                var _0x57c67d = _0x5d8bf9[0x1];
+                var _0xb12b0e = _0x5d8bf9[0x2];
+                _0x5d8bf9 = hdmomplayer(_0x57c67d, _0xb12b0e);
+                sub(_0x5d8bf9[0x1]);
+                url(_0x5d8bf9[0x0]);
             } else {
-                if (_0x194b3f.includes('index.php') || _0x194b3f.includes('peacemakerst')) {
-                    url(_0x194b3f + '&do=getVideo');
+                if (_0x3218e4.includes("index.php") || _0x3218e4.includes("peacemakerst")) {
+                    url(_0x3218e4 + "&do=getVideo");
                 } else {
-                    url('https://hdplayersystem.live/player/index.php?data=' + _0x194b3f + '&do=getVideo');
+                    url("https://hdplayersystem.live/player/index.php?data=" + _0x3218e4 + "&do=getVideo");
                 }
-                var _0x3ee9f8 = fetchPost('hash=' + _0x194b3f + '&r=' + encodeURIComponent(_0x106636) + ')');
-                var _0xc0f4bc = JSON.parse(_0x3ee9f8);
-                if (_0xc0f4bc.hasOwnProperty('securedLink')) {
-                    url(_0xc0f4bc.securedLink.replace(/\\\//g, '/'));
+                var _0x5d8bf9 = fetchPost("hash=" + _0x3218e4 + '&r=' + encodeURIComponent(_0x9a129e) + ')');
+                var _0x221304 = JSON.parse(_0x5d8bf9);
+                if (_0x221304.hasOwnProperty("securedLink")) {
+                    url(_0x221304.securedLink.replace(/\\\//g, '/'));
                 } else {
-                    url(_0xc0f4bc.videoSources[0].file);
+                    url(_0x221304.videoSources[0x0].file);
                 }
             }
         } else {
-            _0x194b3f = _0x194b3f.replace('https://videoseyred.in/embed/', '').replace('?hideTitle=1', '');
-            var _0x3ee9f8 = fetch('https://videoseyred.in/playlist/' + _0x194b3f + '.json');
-            var _0xc0f4bc = JSON.parse(_0x3ee9f8);
-            url(_0xc0f4bc[0].sources[0].file);
-            var _0x5857fd = _0xc0f4bc[0].tracks;
-            for (var _0x2df4f1 = 0; _0x2df4f1 < _0x5857fd.length; _0x2df4f1++) {
-                if (_0x5857fd[_0x2df4f1].hasOwnProperty('language')) {
-                    if (_0x5857fd[_0x2df4f1].language == 'tur') {
-                        sub(_0x5857fd[_0x2df4f1].file);
+            _0x3218e4 = _0x3218e4.replace('https://videoseyred.in/embed/', '').replace("?hideTitle=1", '');
+            var _0x5d8bf9 = fetch("https://videoseyred.in/playlist/" + _0x3218e4 + ".json");
+            var _0x221304 = JSON.parse(_0x5d8bf9);
+            url(_0x221304[0x0].sources[0x0].file);
+            var _0x5d012c = _0x221304[0x0].tracks;
+            for (var _0x4f0be3 = 0x0; _0x4f0be3 < _0x5d012c.length; _0x4f0be3++) {
+                if (_0x5d012c[_0x4f0be3].hasOwnProperty('language')) {
+                    if (_0x5d012c[_0x4f0be3].language == "tur") {
+                        sub(_0x5d012c[_0x4f0be3].file);
                     }
                 }
             }
-            headers('Referer', 'https://videoseyred.in/');
+            headers("Referer", "https://videoseyred.in/");
         }
         parser();
     }
 }
+
 function dizipal() {
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x439a0c = fetch();
-    url(_0x439a0c.match(/data-src="(.*?)"/)[1]);
-    _0x439a0c = fetch();
-    url(_0x439a0c.match(/file:"(.*?)"/)[1]);
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x3fc1c8 = fetch();
+    url(_0x3fc1c8.match(/data-src="(.*?)"/)[0x1]);
+    _0x3fc1c8 = fetch();
+    url(_0x3fc1c8.match(/file:"(.*?)"/)[0x1]);
     try {
-        var _0x3b6d8d = matchAll(_0x439a0c, /\](http.*?\.vtt)/g);
-        for (let _0x5a870e = 0; _0x5a870e < _0x3b6d8d.length; _0x5a870e++) {
-            if (_0x3b6d8d[_0x5a870e][1].includes('Turkce') || _0x3b6d8d[_0x5a870e][1].includes('tr') || _0x3b6d8d[_0x5a870e][1].includes('_tur')) {
-                sub(_0x3b6d8d[_0x5a870e][1]);
+        var _0x5e0dd3 = matchAll(_0x3fc1c8, /\](http.*?\.vtt)/g);
+        for (let _0x23ca45 = 0x0; _0x23ca45 < _0x5e0dd3.length; _0x23ca45++) {
+            if (_0x5e0dd3[_0x23ca45][0x1].includes("Turkce") || _0x5e0dd3[_0x23ca45][0x1].includes('tr') || _0x5e0dd3[_0x23ca45][0x1].includes('_tur')) {
+                sub(_0x5e0dd3[_0x23ca45][0x1]);
             }
         }
-    } catch (_0x5c54d7) {
+    } catch (_0x388892) {
         sub('');
     }
     parser();
 }
+
 function diziplus() {
-    var _0x5e0807 = '';
-    _0x5e0807 = fetch();
-    var _0x435ac6 = _0x5e0807.match(/data-frame="(.*?)"/)[1];
-    if (!_0x435ac6.includes('vidmoxy')) {
-        _0x5e0807 = fetch(_0x435ac6);
-        var _0x4e0530 = _0x5e0807.match(/bePlayer\('(.*?)',\s*'(.*?)'\)/);
-        var _0x2d9575 = _0x4e0530[1];
-        var _0x39470e = _0x4e0530[2];
-        headers('Referer', _0x435ac6);
-        _0x5e0807 = hdmomplayer(_0x2d9575, _0x39470e);
-        sub(_0x5e0807[1]);
-        _0x5e0807 = _0x5e0807[0];
-        headers('Accept', '*/*');
+    var _0x2a606f = '';
+    _0x2a606f = fetch();
+    var _0x1180a4 = _0x2a606f.match(/data-frame="(.*?)"/)[0x1];
+    if (!_0x1180a4.includes("vidmoxy")) {
+        _0x2a606f = fetch(_0x1180a4);
+        var _0x5735c8 = _0x2a606f.match(/bePlayer\('(.*?)',\s*'(.*?)'\)/);
+        var _0x2b8f12 = _0x5735c8[0x1];
+        var _0x6612af = _0x5735c8[0x2];
+        headers("Referer", _0x1180a4);
+        _0x2a606f = hdmomplayer(_0x2b8f12, _0x6612af);
+        sub(_0x2a606f[0x1]);
+        _0x2a606f = _0x2a606f[0x0];
+        headers('Accept', "*/*");
     } else {
-        _0x5e0807 = _0x435ac6;
+        _0x2a606f = _0x1180a4;
     }
-    url(_0x5e0807);
+    url(_0x2a606f);
     parser();
 }
-function dizipub() {
-    var _0x475040 = url();
-    if (g.getLang() == 2) {
-        Core.setLang(1);
-    }
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x39a4e5 = '';
+
+function dizipod() {
+    var _0x53d6b3 = '';
+    var _0x52716b = baseUrl(url());
+    _0x53d6b3 = fetch();
     try {
-        var _0x39a4e5 = fetch();
-        _0x39a4e5 = _0x39a4e5.match(/series-alter-active(.*?) <\/ul>/)[1];
-        var _0x3328ce = {
-            _0x103379: _0x4f9f1a
-        };
+        var _0x52c0bc = _0x53d6b3.match(/data-post-id="(.*?)"/)[0x1];
+        _0x53d6b3 = fetchPost('', _0x52716b + "/wp/wp-admin/admin-ajax.php?action=get_episode_player&post_id=" + _0x52c0bc);
+        var _0x5bb5b8 = JSON.parse(_0x53d6b3);
+        url(_0x5bb5b8.data.match(/src="(.*?)"/)[0x1]);
+        _0x53d6b3 = fetch();
+        var _0x1077b3 = _0x53d6b3.match(/text\/javascript">(eval.*?)<\/sc/)[0x1];
+        _0x53d6b3 = unPack(_0x1077b3).match(/sources\s*:\s*\[([\s\S]*?)\]/)[0x1];
+        _0x5bb5b8 = JSON.parse(_0x53d6b3);
+        url(fixUrl(_0x5bb5b8.file));
+    } catch (_0x27ad60) {}
+    parser();
+}
+
+function dizipub() {
+    var _0x40a3f7 = url();
+    if (g.getLang() == 0x2) {
+        Core.setLang(0x1);
+    }
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x48cabd = '';
+    try {
+        var _0x48cabd = fetch();
+        _0x48cabd = _0x48cabd.match(/series-alter-active(.*?) <\/ul>/)[0x1];
+        var _0x43f7fb = {};
         try {
-            var _0x35cb78 = matchAll(_0x39a4e5, /<(?:span class=|a.*?href=)"(.*?)"\s*title="(.*?)"/g);
-            for (let _0x10d689 = 0; _0x10d689 < _0x35cb78.length; _0x10d689++) {
-                var _0x4f9f1a = _0x35cb78[_0x10d689][1];
-                var _0x103379 = _0x35cb78[_0x10d689][2];
-                ;
+            var _0x2d1f6d = matchAll(_0x48cabd, /<(?:span class=|a.*?href=)"(.*?)"\s*title="(.*?)"/g);
+            for (let _0x4fe311 = 0x0; _0x4fe311 < _0x2d1f6d.length; _0x4fe311++) {
+                var _0x427cf6 = _0x2d1f6d[_0x4fe311][0x1];
+                var _0xf5c100 = _0x2d1f6d[_0x4fe311][0x2];
+                _0x43f7fb[_0xf5c100] = _0x427cf6;
             }
-        } catch (_0x963f33) {
-            error(_0x963f33.message);
+        } catch (_0x402737) {
+            error(_0x402737.message);
         }
-        if (!_0x475040.includes('#') && JSON.stringify(_0x3328ce) != '{}') {
-            Core.showAlternatesJS(JSON.stringify(_0x3328ce));
+        if (!_0x40a3f7.includes('#') && JSON.stringify(_0x43f7fb) != '{}') {
+            Core.showAlternatesJS(JSON.stringify(_0x43f7fb));
         } else {
-            url(_0x475040.split('#')[1]);
+            url(_0x40a3f7.split('#')[0x1]);
             try {
-                _0x39a4e5 = fetch();
-                url(_0x39a4e5.match(/<iframe.*?src="(.*?)".*?allowfullscreen.*?<\/iframe>/)[1]);
+                _0x48cabd = fetch();
+                url(_0x48cabd.match(/<iframe.*?src="(.*?)".*?allowfullscreen.*?<\/iframe>/)[0x1]);
                 url(fixUrl(url()));
-            } catch (_0x41bcd3) {
-                findSource(_0x475040.split('#')[0]);
+            } catch (_0x21b44f) {
+                findSource(_0x40a3f7.split('#')[0x0]);
             }
             parser();
         }
-    } catch (_0x4a4a13) {
-        findSource(_0x475040.split('#')[0]);
+    } catch (_0x121b66) {
+        findSource(_0x40a3f7.split('#')[0x0]);
         parser();
     }
 }
+
 function dizirix() {
-    var _0x5bb639 = url();
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    if (!_0x5bb639.includes('#')) {
-        var _0xa9d4e4 = fetch();
-        var _0x177ad1 = 'dublaj';
-        if (g.getLang() == 1) {
-            _0x177ad1 = 'altyazili';
+    var _0x4481b6 = url();
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    if (!_0x4481b6.includes('#')) {
+        var _0x153f4e = fetch();
+        var _0x39d8c5 = "dublaj";
+        if (g.getLang() == 0x1) {
+            _0x39d8c5 = "altyazili";
         }
-        var _0x17f5fb = _0xa9d4e4.match(/var\s*bID\s*=\s*"(\d*)"/)[1];
-        var _0x2bdd81 = 'whichOne=' + _0x177ad1 + '&bId=' + _0x17f5fb;
-        url(baseUrl(url()) + '/ajax/request=getLanguage');
-        _0xa9d4e4 = fetchPost(_0x2bdd81);
-        var _0x40fc11 = {
-            _0x21210b: _0x1448d9
-        };
+        var _0x2e2c55 = _0x153f4e.match(/var\s*bID\s*=\s*"(\d*)"/)[0x1];
+        var _0x54bb22 = 'whichOne=' + _0x39d8c5 + "&bId=" + _0x2e2c55;
+        url(baseUrl(url()) + "/ajax/request=getLanguage");
+        _0x153f4e = fetchPost(_0x54bb22);
+        var _0x3002d0 = {};
         try {
-            var _0x2d79f3 = matchAll(_0xa9d4e4, /data-code=\\\"(.*?)\\\".*?span>(.*?)</g);
-            for (let _0x163a06 = 0; _0x163a06 < _0x2d79f3.length; _0x163a06++) {
-                var _0x1448d9 = _0x2d79f3[_0x163a06][1];
-                var _0x21210b = _0x2d79f3[_0x163a06][2];
-                ;
+            var _0xbbb0e1 = matchAll(_0x153f4e, /data-code=\\\"(.*?)\\\".*?span>(.*?)</g);
+            for (let _0x1d94d1 = 0x0; _0x1d94d1 < _0xbbb0e1.length; _0x1d94d1++) {
+                var _0x597a8a = _0xbbb0e1[_0x1d94d1][0x1];
+                var _0x54e69b = _0xbbb0e1[_0x1d94d1][0x2];
+                _0x3002d0[_0x54e69b] = _0x597a8a;
             }
-        } catch (_0xaaecac) {
-            error(_0xaaecac.message);
+        } catch (_0x141e1d) {
+            error(_0x141e1d.message);
         }
-        Core.showAlternatesJS(JSON.stringify(_0x40fc11));
+        Core.showAlternatesJS(JSON.stringify(_0x3002d0));
     } else {
-        url(_0x5bb639.split('#')[1]);
-        headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        var _0xa9d4e4 = fetchPost('dataCode=' + url(), baseUrl(_0x5bb639) + '/ajax/request=getFrames');
-        _0xa9d4e4 = atob(_0xa9d4e4);
-        url(_0xa9d4e4.match(/src="(.*?)"/)[1]);
-        g.deleteHeader('Content-Type');
-        if (url(['prixy.php', 'source=rix2', 'source-yg', 'proxy.php'], 1)) {
+        url(_0x4481b6.split('#')[0x1]);
+        headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+        var _0x153f4e = fetchPost("dataCode=" + url(), baseUrl(_0x4481b6) + "/ajax/request=getFrames");
+        _0x153f4e = atob(_0x153f4e);
+        url(_0x153f4e.match(/src="(.*?)"/)[0x1]);
+        g.deleteHeader("Content-Type");
+        if (url(["prixy.php", "source=rix2", "source-yg", "proxy.php"], 0x1)) {
             headers('upgrade-insecure-requests', '1');
-            _0xa9d4e4 = fetch();
+            _0x153f4e = fetch();
             url('dummy');
             try {
-                url(_0xa9d4e4.match(/file:"(.*?)"/)[1]);
-                var _0x2d3a69 = _0xa9d4e4.match(/"file":.*?"(.*?)"/) || [];
-                if (_0x2d3a69.length > 0) {
-                    sub(_0x2d3a69[1]);
+                url(_0x153f4e.match(/file:"(.*?)"/)[0x1]);
+                var _0x2eb5bb = _0x153f4e.match(/"file":.*?"(.*?)"/) || [];
+                if (_0x2eb5bb.length > 0x0) {
+                    sub(_0x2eb5bb[0x1]);
                 }
-            } catch (_0x37353f) {
-                url(_0xa9d4e4.match(/Back.*?'(https.*?)'/)[1]);
+            } catch (_0x40f504) {
+                url(_0x153f4e.match(/Back.*?'(https.*?)'/)[0x1]);
             }
             g.deleteHeader('upgrade-insecure-requests');
-            headers('Origin', baseUrl(_0x5bb639));
+            headers("Origin", baseUrl(_0x4481b6));
         }
         parser();
     }
 }
+
 function diziroll() {
-    var _0x5bd9cd = fetch();
-    _0x5bd9cd = _0x5bd9cd.match(/focus\:outline-none"\s*href="(.*?)"\s*title="(.*?)"\s*data-navigo/)[1];
-    _0x5bd9cd = fetch(_0x5bd9cd);
+    var _0x431ffe = fetch();
+    _0x431ffe = _0x431ffe.match(/focus\:outline-none"\s*href="(.*?)"\s*title="(.*?)"\s*data-navigo/)[0x1];
+    _0x431ffe = fetch(_0x431ffe);
     try {
-        var _0xe98382 = matchAll(_0x5bd9cd, /iframe.*?src="(.*?)"/g);
-        for (let _0x85831c = 0; _0x85831c < _0xe98382.length; _0x85831c++) {
-            if (!_0xe98382[_0x85831c][1].includes('finema')) {
-                url(_0xe98382[_0x85831c][1]);
+        var _0x3aa6cf = matchAll(_0x431ffe, /class="player".*?iframe.*?src="(.*?)"/g);
+        for (let _0x5471b0 = 0x0; _0x5471b0 < _0x3aa6cf.length; _0x5471b0++) {
+            if (!_0x3aa6cf[_0x5471b0][0x1].includes("finema")) {
+                url(_0x3aa6cf[_0x5471b0][0x1]);
                 break;
             }
         }
-    } catch (_0x2899f0) {
-        error(_0x2899f0.message);
+    } catch (_0x401e0d) {
+        error(_0x401e0d.message);
     }
-    if (g.getLang() == 2) {
-        Core.setLang(0);
+    if (g.getLang() == 0x2) {
+        Core.setLang(0x0);
     }
+    url(fixUrl(url()));
     parser();
 }
+
 function dizitime() {
-    var _0x560143 = url();
-    var _0x5c508a = fetch();
-    var _0x35dcab = {
-        _0x50b6f9: _0x33c1f4
-    };
+    var _0x1d4a3d = url();
+    var _0xcbc778 = fetch();
+    var _0x15e6b2 = {};
     try {
-        var _0x4f205c = matchAll(_0x5c508a, /data-name="(.*?)"\s*data-oid="(.*?)"/g);
-        for (let _0x387c57 = 0; _0x387c57 < _0x4f205c.length; _0x387c57++) {
-            var _0x33c1f4 = _0x4f205c[_0x387c57][2];
-            var _0x50b6f9 = _0x4f205c[_0x387c57][1];
-            if (!_0x35dcab.hasOwnProperty(_0x50b6f9) && !_0x50b6f9.toLowerCase().includes('odnok')) {
-                ;
+        var _0x1f5b59 = matchAll(_0xcbc778, /data-name="(.*?)"\s*data-oid="(.*?)"/g);
+        for (let _0x27202d = 0x0; _0x27202d < _0x1f5b59.length; _0x27202d++) {
+            var _0xf0e4bf = _0x1f5b59[_0x27202d][0x2];
+            var _0x1617bb = _0x1f5b59[_0x27202d][0x1];
+            if (!_0x15e6b2.hasOwnProperty(_0x1617bb) && !_0x1617bb.toLowerCase().includes("odnok")) {
+                _0x15e6b2[_0x1617bb] = _0xf0e4bf;
             }
         }
-    } catch (_0x1747fe) {
-        error(_0x1747fe.message);
+    } catch (_0x2bd94) {
+        error(_0x2bd94.message);
     }
-    if (!_0x560143.includes('#') && JSON.stringify(_0x35dcab) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x35dcab));
+    if (!_0x1d4a3d.includes('#') && JSON.stringify(_0x15e6b2) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x15e6b2));
     } else {
-        url(_0x560143.split('#')[1]);
-        var _0x7e7ffc = _0x560143.split('#')[2];
-        if (_0x7e7ffc.toLowerCase().includes('time')) {
+        url(_0x1d4a3d.split('#')[0x1]);
+        var _0x4af627 = _0x1d4a3d.split('#')[0x2];
+        if (_0x4af627.toLowerCase().includes("time")) {
             if (!g.isWebView()) {
-                error('NO Webview');
+                error("NO Webview");
             } else {
-                getWebViewOwnContentJS(_0x560143, 'molystream.org', 'I AM NOT LOOKING', 'playSheilaBtn', '', 0, false, g.getHeadersJSON(), 1);
+                getWebViewOwnContentJS(_0x1d4a3d, 'molystream.org', "I AM NOT LOOKING", "playSheilaBtn", '', 0x0, false, g.getHeadersJSON(), 0x1);
             }
         } else {
-            url(_0x35dcab[_0x7e7ffc]);
-            headers('Referer', baseUrl(_0x560143));
-            url(baseUrl(_0x560143) + '/getvideo/' + url() + '_t');
+            url(_0x15e6b2[_0x4af627]);
+            headers("Referer", baseUrl(_0x1d4a3d));
+            url(baseUrl(_0x1d4a3d) + '/getvideo/' + url() + '_t');
             url(Core.getRedirectUrlJS(url()));
             parser();
         }
     }
 }
+
 function diziwatch() {
-    var _0xd4df82 = fetch();
-    if (!_0xd4df82.includes('<iframe')) {
-        _0xd4df82 = _0xd4df82.toLowerCase();
-        var _0x2b84cd = _0xd4df82.match(/url\s*:\s*"(http[^"]+php)".*?\'pid\'\s*:\s*(\d+),/);
-        _0xd4df82 = fetch(_0x2b84cd[1] + '?action=playlist&pid=' + _0x2b84cd[2]).toLowerCase();
-        var _0x3bc640 = JSON.parse(_0xd4df82);
-        url(_0x3bc640[0].sources[0].file);
+    var _0x3e0895 = fetch();
+    if (!_0x3e0895.includes("<iframe")) {
+        _0x3e0895 = _0x3e0895.toLowerCase();
+        var _0x1a424e = _0x3e0895.match(/url\s*:\s*"(http[^"]+php)".*?\'pid\'\s*:\s*(\d+),/);
+        _0x3e0895 = fetch(_0x1a424e[0x1] + "?action=playlist&pid=" + _0x1a424e[0x2]).toLowerCase();
+        var _0x30c8eb = JSON.parse(_0x3e0895);
+        url(_0x30c8eb[0x0].sources[0x0].file);
     } else {
-        var _0x2b84cd = _0xd4df82.match(/<iframe\s*src="(.*?)".*?allowfullscreen>/)[1];
-        _0xd4df82 = fetch(_0x2b84cd);
-        url(_0xd4df82.match(/'\/playlist\/(.*?).json';/)[1]);
-        _0xd4df82 = fetch('https://videoseyred.in/playlist/' + url() + '.json');
-        var _0x122d0f = JSON.parse(_0xd4df82);
-        url(_0x122d0f[0].sources[0].file);
-        var _0x164975 = _0x122d0f[0].tracks;
-        for (var _0x7e237c = 0; _0x7e237c < _0x164975.length; _0x7e237c++) {
-            if (_0x164975[_0x7e237c].hasOwnProperty('language')) {
-                if (_0x164975[_0x7e237c].language == 'tur') {
-                    sub(_0x164975[_0x7e237c].file);
+        var _0x1a424e = _0x3e0895.match(/<iframe\s*src="(.*?)".*?allowfullscreen>/)[0x1];
+        _0x3e0895 = fetch(_0x1a424e);
+        url(_0x3e0895.match(/'\/playlist\/(.*?).json';/)[0x1]);
+        _0x3e0895 = fetch("https://videoseyred.in/playlist/" + url() + '.json');
+        var _0x45eaf9 = JSON.parse(_0x3e0895);
+        url(_0x45eaf9[0x0].sources[0x0].file);
+        var _0x84c885 = _0x45eaf9[0x0].tracks;
+        for (var _0x59befa = 0x0; _0x59befa < _0x84c885.length; _0x59befa++) {
+            if (_0x84c885[_0x59befa].hasOwnProperty("language")) {
+                if (_0x84c885[_0x59befa].language == "tur") {
+                    sub(_0x84c885[_0x59befa].file);
                 }
             }
         }
-        headers('Referer', 'https://videoseyred.in/');
+        headers('Referer', "https://videoseyred.in/");
     }
     parser();
 }
+
 function diziyo() {
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x1e0877 = fetch();
-    var _0x854e98 = _0x1e0877.match(/id="player-option-1"\s*class=".*?"\s*data-type="(.*?)"\s*data-post=".*?"\s*data-nume=".*?"/)[1];
-    var _0x21e395 = _0x1e0877.match(/id="player-option-1"\s*class=".*?"\s*data-type=".*?"\s*data-post="(.*?)"\s*data-nume=".*?"/)[1];
-    var _0x2ce50d = _0x1e0877.match(/id="player-option-1"\s*class=".*?"\s*data-type=".*?"\s*data-post=".*?"\s*data-nume="(.*?)"/)[1];
-    var _0x2375d0 = 'action=doo_player_ajax&post=' + _0x21e395 + '&nume=' + _0x2ce50d + '&type=' + _0x854e98;
-    _0x1e0877 = fetchPost(_0x2375d0, baseUrl(url()) + '/wp-admin/admin-ajax.php');
-    _0x1e0877 = _0x1e0877.match(/src='(.*?)'/)[1];
-    var _0x15415b = _0x1e0877.split('/');
-    var _0x3bfc53 = _0x15415b[_0x15415b.length - 1];
-    _0x2375d0 = 'hash=' + _0x3bfc53 + '&r=' + baseUrl(url()) + '/';
-    headers('X-Requested-With', 'XMLHttpRequest');
-    var _0x41af99 = fetchPost(_0x2375d0, _0x1e0877 + '?do=getVideo');
-    headers('Referer', _0x1e0877);
-    var _0x46364d = JSON.parse(_0x41af99);
-    url(_0x46364d.videoSources[0].file);
-    g.deleteHeader('X-Requested-With');
+    headers('User-Agent', "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x3c8d46 = fetch();
+    var _0x278de1 = _0x3c8d46.match(/id="player-option-1"\s*class=".*?"\s*data-type="(.*?)"\s*data-post=".*?"\s*data-nume=".*?"/)[0x1];
+    var _0x157534 = _0x3c8d46.match(/id="player-option-1"\s*class=".*?"\s*data-type=".*?"\s*data-post="(.*?)"\s*data-nume=".*?"/)[0x1];
+    var _0x3c0888 = _0x3c8d46.match(/id="player-option-1"\s*class=".*?"\s*data-type=".*?"\s*data-post=".*?"\s*data-nume="(.*?)"/)[0x1];
+    var _0x54c293 = 'action=doo_player_ajax&post=' + _0x157534 + '&nume=' + _0x3c0888 + '&type=' + _0x278de1;
+    _0x3c8d46 = fetchPost(_0x54c293, baseUrl(url()) + "/wp-admin/admin-ajax.php");
+    _0x3c8d46 = _0x3c8d46.match(/src='(.*?)'/)[0x1];
+    var _0x54a18a = _0x3c8d46.split('/');
+    var _0x32c359 = _0x54a18a[_0x54a18a.length - 0x1];
+    _0x54c293 = "hash=" + _0x32c359 + "&r=" + baseUrl(url()) + '/';
+    headers("X-Requested-With", 'XMLHttpRequest');
+    var _0x591e4e = fetchPost(_0x54c293, _0x3c8d46 + "?do=getVideo");
+    headers("Referer", _0x3c8d46);
+    var _0xa143e4 = JSON.parse(_0x591e4e);
+    url(_0xa143e4.videoSources[0x0].file);
+    g.deleteHeader("X-Requested-With");
     headers('Accept', '*/*');
     parser();
 }
+
 function diziyou() {
-    var _0x5ad91e = fetch();
-    url(_0x5ad91e.match(/<iframe.*?src="(.*?)"/)[1]);
-    if (g.getLang() == 0) {
-        url(url('.html', '_tr.html'));
+    var _0x3f4cf7 = fetch();
+    url(_0x3f4cf7.match(/<iframe.*?src="(.*?)"/)[0x1]);
+    if (g.getLang() == 0x0) {
+        url(url(".html", '_tr.html'));
     }
-    var _0x5ad91e = fetch();
-    sub(_0x5ad91e.match(/<track\s*src="(.*?)"/)[1]);
-    url(_0x5ad91e.match(/<source.*?src="(.*?)"/)[1]);
+    var _0x3f4cf7 = fetch();
+    sub(_0x3f4cf7.match(/<track\s*src="(.*?)"/)[0x1]);
+    url(_0x3f4cf7.match(/<source.*?src="(.*?)"/)[0x1]);
     parser();
 }
+
 function dood() {
     url(fixUrl(url()));
-    url('.so', '.yt');
-    url('.pm', '.yt');
-    url('dooood.com', 'dood.la');
-    var _0x5b7278 = fetch().match(/dsplayer\.hotkeys[^']+'([^']+).+?function\s*makePlay.+?return[^?]+([^"]+)/);
-    var _0x26dc04 = 'https://d0000d.com' + _0x5b7278[1];
-    var _0x395455 = '';
-    for (var _0xd2913b = 0; _0xd2913b < 10; _0xd2913b++) {
-        _0x395455 += 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.charAt(Math.floor(Math.random() * 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.length));
+    url('.so', ".yt");
+    url('.pm', ".yt");
+    url('dooood.com', "dood.la");
+    var _0x50c333 = fetch().match(/dsplayer\.hotkeys[^']+'([^']+).+?function\s*makePlay.+?return[^?]+([^"]+)/);
+    var _0x4290e4 = "https://d0000d.com" + _0x50c333[0x1];
+    var _0x13ecce = '';
+    for (var _0x44d39b = 0x0; _0x44d39b < 0xa; _0x44d39b++) {
+        _0x13ecce += "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".charAt(Math.floor(Math.random() * "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".length));
     }
-    var _0x4cedd7 = new Date().getTime();
-    headers('Referer', 'https://d0000d.com');
-    url(fetch(_0x26dc04) + _0x395455 + _0x5b7278[2] + _0x4cedd7 + '#.mp4');
+    var _0x19b8b8 = new Date().getTime();
+    headers('Referer', "https://d0000d.com");
+    url(fetch(_0x4290e4) + _0x13ecce + _0x50c333[0x2] + _0x19b8b8 + "#.mp4");
     parser();
 }
+
 function dreamturk() {
-    var _0x22a5a9 = fetch().match(/data-id="(.*?)"/)[1];
-    url('https://www.dreamturk.com.tr/actions/content/media/' + _0x22a5a9);
-    var _0x2509a4 = JSON.parse(fetch());
-    url(_0x2509a4.Media.Link.ServiceUrl + _0x2509a4.Media.Link.SecurePath);
+    var _0x5756c7 = fetch().match(/data-id="(.*?)"/)[0x1];
+    url("https://www.dreamturk.com.tr/actions/content/media/" + _0x5756c7);
+    var _0x147b75 = JSON.parse(fetch());
+    url(_0x147b75.Media.Link.ServiceUrl + _0x147b75.Media.Link.SecurePath);
     parser();
 }
+
 function filemoon() {
     data = fetch();
     try {
-        data = (data + '').match(/text\/javascript.*?\s*(eval.*?)<\/sc/)[1];
-    } catch (_0x29221f) {
+        data = (data + '').match(/text\/javascript.*?\s*(eval.*?)<\/sc/)[0x1];
+    } catch (_0x485c4c) {
         try {
-            data = (data + '').match(/<iframe\s*src="(.*?)"/)[1];
-            headers('Accept-Language', 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7');
-            headers('sec-fetch-dest', 'iframe');
+            data = (data + '').match(/<iframe\s*src="(.*?)"/)[0x1];
+            headers("Accept-Language", 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7');
+            headers("sec-fetch-dest", 'iframe');
             data = fetch(data);
-            data = (data + '').match(/text\/javascript.*?(eval.*?)<\/script/)[1];
-        } catch (_0x4965ff) {
+            data = (data + '').match(/text\/javascript.*?(eval.*?)<\/script/)[0x1];
+        } catch (_0x49e804) {
             data = fetch();
-            data = (data + '').match(/text\/javascript.*?(eval.*?)<\/script/)[1];
+            data = (data + '').match(/text\/javascript.*?(eval.*?)<\/script/)[0x1];
         }
     }
     url(unPack(data));
     try {
-        url(url().match(/file:"(.*?m3u8)"/)[1]);
-    } catch (_0x1c3221) {
-        url(url().match(/file\s*:"(.*?)"/)[1]);
+        url(url().match(/file:"(.*?m3u8)"/)[0x1]);
+    } catch (_0x59f427) {
+        url(url().match(/file\s*:"(.*?)"/)[0x1]);
     }
     parser();
 }
+
 function filmatek() {
-    var _0x2dbe51 = url();
-    var _0x22f60c = 1;
-    var _0x214173 = fetch();
-    var _0x39615b = {};
+    var _0x42a5b5 = url();
+    var _0x5cabce = 0x1;
+    var _0x1054cf = fetch();
+    var _0x3aa015 = {};
     try {
-        var _0x506c9e = matchAll(_0x214173, /(\d+)\.\s*KÄ±sÄ±m/g);
-        var _0x51668f = 1;
-        for (let _0x2462db = 0; _0x2462db < _0x506c9e.length; _0x2462db++) {
-            if (!_0x506c9e[_0x2462db][1].includes('youtube')) {
-                if (_0x2dbe51.includes('#')) {
-                    if (_0x506c9e[_0x2462db][1] == _0x2dbe51.split('#')[1]) {
-                        _0x22f60c = _0x2462db + 1;
+        var _0x5b8ac7 = matchAll(_0x1054cf, /(\d+)\.\s*KÄ±sÄ±m/g);
+        var _0x135fbc = 0x1;
+        for (let _0x952b40 = 0x0; _0x952b40 < _0x5b8ac7.length; _0x952b40++) {
+            if (!_0x5b8ac7[_0x952b40][0x1].includes("youtube")) {
+                if (_0x42a5b5.includes('#')) {
+                    if (_0x5b8ac7[_0x952b40][0x1] == _0x42a5b5.split('#')[0x1]) {
+                        _0x5cabce = _0x952b40 + 0x1;
                     }
                 }
-                _0x39615b["BÃ¶lÃ¼m " + _0x51668f] = _0x506c9e[_0x2462db][1];
-                _0x51668f++;
+                _0x3aa015["BÃ¶lÃ¼m " + _0x135fbc] = _0x5b8ac7[_0x952b40][0x1];
+                _0x135fbc++;
             }
         }
-    } catch (_0x5336bd) {
-        error(_0x5336bd.message);
+    } catch (_0x23ab2e) {
+        error(_0x23ab2e.message);
     }
-    if (!_0x2dbe51.includes('#') && JSON.stringify(_0x39615b) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x39615b));
+    if (!_0x42a5b5.includes('#') && JSON.stringify(_0x3aa015) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x3aa015));
     } else {
-        if (_0x2dbe51.includes('#')) {
-            _0x22f60c = _0x2dbe51.split('#')[1];
+        if (_0x42a5b5.includes('#')) {
+            _0x5cabce = _0x42a5b5.split('#')[0x1];
         }
-        var _0x4066bf = _0x214173.match(/layer_api":"(.*?)","play_aj/)[1];
-        var _0x257b9b = _0x214173.match(/data-post='(\d+)'/)[1];
-        url(_0x4066bf.replace(/\\\//g, '/') + _0x257b9b + '/movie/' + _0x22f60c);
-        var _0x214173 = fetch();
+        var _0x59154b = _0x1054cf.match(/layer_api":"(.*?)","play_aj/)[0x1];
+        var _0x413b7e = _0x1054cf.match(/data-post='(\d+)'/)[0x1];
+        url(_0x59154b.replace(/\\\//g, '/') + _0x413b7e + "/movie/" + _0x5cabce);
+        var _0x1054cf = fetch();
         try {
-            var _0x338ebc = JSON.parse(_0x214173);
-            url(_0x338ebc.embed_url);
-            _0x214173 = fetch();
-            url(_0x214173.match(/"file"\s*:\s*"(.*?)"/)[1].replace(/\\\//g, '/'));
+            var _0x267395 = JSON.parse(_0x1054cf);
+            url(_0x267395.embed_url);
+            _0x1054cf = fetch();
+            url(_0x1054cf.match(/"file"\s*:\s*"(.*?)"/)[0x1].replace(/\\\//g, '/'));
             parser();
-        } catch (_0x1ec262) {
-            error(_0x1ec262.message);
+        } catch (_0x33975c) {
+            error(_0x33975c.message);
         }
     }
 }
+
 function filmcidayi() {
-    var _0x3b67fd = fetch();
-    var _0x1b1ad9 = 'movie';
-    if (url(['/bolum'], 1)) {
-        _0x1b1ad9 = 'tv';
+    var _0x4f6ec2 = fetch();
+    var _0x41ae1e = "movie";
+    if (url(["/bolum"], 0x1)) {
+        _0x41ae1e = 'tv';
     }
-    var _0x1b7cad = _0x3b67fd.match(/data-post=[\'"](.*?)[\'"]/)[1];
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    _0x3b67fd = fetchPost('action=doo_player_ajax&post=' + _0x1b7cad + '&nume=1&type=' + _0x1b1ad9, baseUrl(url()) + '/wp-admin/admin-ajax.php');
-    var _0x1a6e5c = JSON.parse(_0x3b67fd).embed_url;
-    _0x3b67fd = fetchPost(_0x3b67fd, _0x1a6e5c);
-    url(_0x3b67fd.match(/file:"(.*?)"/)[1]);
+    var _0x441445 = _0x4f6ec2.match(/data-post=[\'"](.*?)[\'"]/)[0x1];
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    _0x4f6ec2 = fetchPost("action=doo_player_ajax&post=" + _0x441445 + "&nume=1&type=" + _0x41ae1e, baseUrl(url()) + "/wp-admin/admin-ajax.php");
+    var _0x10f216 = JSON.parse(_0x4f6ec2).embed_url;
+    _0x4f6ec2 = fetchPost(_0x4f6ec2, _0x10f216);
+    var _0x398ef7 = _0x4f6ec2.match(/bePlayer\('(.*?)',\s*'(.*?)'\);/)[0x1];
+    var _0x559c4b = _0x4f6ec2.match(/bePlayer\('(.*?)',\s*'(.*?)'\);/)[0x2];
+    consolelog(_0x559c4b);
+    _0x4f6ec2 = getAes(_0x398ef7, _0x559c4b).split("video_location] => ")[0x1].split('==')[0x0] + '==';
+    url(_0x4f6ec2);
     g.deleteHeader('Content-Type');
-    headers('Referer', _0x1a6e5c);
+    headers("Referer", _0x10f216);
     headers('Accept', '*/*');
-    headers('Origin', 'https://hotstream.club');
+    headers("Origin", "https://hotstream.club");
     parser();
 }
+
 function filmekseni() {
-    var _0xd0d0a = url();
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('X-Requested-With', 'XMLHttpRequest');
-    var _0x56f3c9 = fetch();
+    var _0x457a30 = url();
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("X-Requested-With", "XMLHttpRequest");
+    var _0x1ba740 = fetch();
     try {
-        _0x56f3c9 = _0x56f3c9.match('tab-pane active(.*?)</nav>')[1];
-    } catch (_0x3db409) {
+        _0x1ba740 = _0x1ba740.match("tab-pane active(.*?)</nav>")[0x1];
+    } catch (_0x58740e) {
         error('Telif');
     }
-    var _0x1db8e6 = {};
+    var _0x2aef0e = {};
     try {
-        var _0x34e330 = matchAll(_0x56f3c9, /href="(.*?)">\s*(.*?)\s*<\/a>/g);
-        for (let _0x6123b = 0; _0x6123b < _0x34e330.length; _0x6123b++) {
-            _0x1db8e6[_0x34e330[_0x6123b][2]] = _0x34e330[_0x6123b][1];
+        var _0x2ebf8b = matchAll(_0x1ba740, /href="(.*?)">\s*(.*?)\s*<\/a>/g);
+        for (let _0x17d6c1 = 0x0; _0x17d6c1 < _0x2ebf8b.length; _0x17d6c1++) {
+            _0x2aef0e[_0x2ebf8b[_0x17d6c1][0x2]] = _0x2ebf8b[_0x17d6c1][0x1];
         }
-    } catch (_0x6db13e) { }
-    if (!_0xd0d0a.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x1db8e6));
+    } catch (_0x1b20c7) {}
+    if (!_0x457a30.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x2aef0e));
     } else {
-        url(_0xd0d0a.split('#')[1]);
-        var _0x56f3c9 = fetch();
-        url(_0x56f3c9.match(/iframe.*?data-src="(.*?)"/)[1]);
-        if (url(['vidload'], 1)) {
+        url(_0x457a30.split('#')[0x1]);
+        var _0x1ba740 = fetch();
+        url(_0x1ba740.match(/iframe.*?data-src="(.*?)"/)[0x1]);
+        if (url(['vidload'], 0x1)) {
             url(fixUrl(url()));
-            var _0x32b6d4 = new Date();
-            _0x32b6d4 = _0x32b6d4.getTime();
-            var _0x2fc7ba = url().split('/')[url().split('/').length - 1];
-            var _0x54cb07 = baseUrl(url());
-            url(_0x54cb07 + '/ajax/' + _0x2fc7ba + '?' + _0x32b6d4);
-            headers('Referer', _0x54cb07);
-            var _0x2c141c = fetch(_0x54cb07 + '/video.js?' + _0x32b6d4);
-            var _0x225fee = _0x2c141c.match("window,'(.*?)','.*?','.*?'")[1];
-            var _0x2521f7 = _0x2c141c.match("window,'.*?','(.*?)','.*?'")[1];
-            headers(_0x225fee, _0x2521f7);
-            _0x56f3c9 = fetch();
-            var _0x26363c = JSON.parse(_0x56f3c9);
-            url(_0x26363c.file + '?' + _0x26363c.hash);
+            var _0x4a4fc0 = new Date();
+            _0x4a4fc0 = _0x4a4fc0.getTime();
+            var _0x45406f = url().split('/')[url().split('/').length - 0x1];
+            var _0x1c5bb8 = baseUrl(url());
+            url(_0x1c5bb8 + "/ajax/" + _0x45406f + '?' + _0x4a4fc0);
+            headers("Referer", _0x1c5bb8);
+            var _0x1489ff = fetch(_0x1c5bb8 + '/video.js?' + _0x4a4fc0);
+            var _0x35a39b = _0x1489ff.match("window,'(.*?)','.*?','.*?'")[0x1];
+            var _0x505d98 = _0x1489ff.match("window,'.*?','(.*?)','.*?'")[0x1];
+            headers(_0x35a39b, _0x505d98);
+            _0x1ba740 = fetch();
+            var _0x15f93b = JSON.parse(_0x1ba740);
+            url(_0x15f93b.file + '?' + _0x15f93b.hash);
             url(Core.getRedirectUrlJS(url()));
         } else {
-            headers('Referer', _0xd0d0a);
+            url(fixUrl(url()));
+            _0x1ba740 = fetch();
+            url(baseUrl(url()) + _0x1ba740.match(/<source src="(.*?)" type="application\/x-mpegURL">/)[0x1]);
+            headers("Referer", _0x457a30);
         }
         parser();
     }
 }
+
+function filmfav() {
+    var _0x19c1f2 = fetch().match(/<iframe\s*src="(.*?)"/)[0x1];
+    var _0x5055a = fetch(_0x19c1f2);
+    _0x5055a = _0x5055a.match(/bePlayer\('\s*(.*?)'\s*,\s*'(.*?)'\)/);
+    var _0x3db004 = _0x5055a[0x1];
+    var _0x9e8da6 = _0x5055a[0x2];
+    _0x5055a = hdmomplayer(_0x3db004, _0x9e8da6);
+    sub(_0x5055a[0x1]);
+    url(_0x5055a[0x0]);
+    headers('Referer', _0x19c1f2);
+    headers("Accept", '*/*');
+    parser();
+}
+
 function filmizle4k() {
-    var _0x2556c9 = fetch(fetch().match(/<p><iframe.*?src="(.*?)".*?/)[1]);
+    var _0x4737aa = fetch(fetch().match(/<p><iframe.*?src="(.*?)".*?/)[0x1]);
     try {
-        var _0x1a483a = JSON.parse(_0x2556c9.match(/jwSetup\.tracks\s*=\s*(\[.*?\])/)[1]);
-        for (let _0x37520f = 0; _0x37520f < _0x1a483a.length; _0x37520f++) {
-            if (_0x1a483a[_0x37520f].hasOwnProperty('label') && _0x1a483a[_0x37520f].label.includes("Ã¼rkÃ§e")) {
-                sub(_0x1a483a[_0x37520f].file);
+        var _0x5abafc = JSON.parse(_0x4737aa.match(/jwSetup\.tracks\s*=\s*(\[.*?\])/)[0x1]);
+        for (let _0x1f6dc6 = 0x0; _0x1f6dc6 < _0x5abafc.length; _0x1f6dc6++) {
+            if (_0x5abafc[_0x1f6dc6].hasOwnProperty("label") && _0x5abafc[_0x1f6dc6].label.includes("Ã¼rkÃ§e")) {
+                sub(_0x5abafc[_0x1f6dc6].file);
             }
         }
         sub(sub().replace('.vtt', '.srt'));
-    } catch (_0x579e43) { }
-    url(hexToString(_0x2556c9.match(/(?:"|)(?:file|hls)(?:"|)\s*:\s*"(.*?)"/)[1]));
+    } catch (_0x2f2bd3) {}
+    url(decryptFor4KIzle(_0x4737aa.match(/"file":\s*av\('(.*?)'\),/)[0x1]));
     parser();
 }
+
 function filmizlemek() {
     error("4kfilmizlemek isimli kaynak site kapalÄ± olduÄŸundan oynatÄ±lamÄ±yor.");
-    var _0xf7ad47 = url();
-    var _0x11e7fb = fetch();
-    var _0x2e21e9 = {};
+    var _0x555f43 = url();
+    var _0x4e8db6 = fetch();
+    var _0x257229 = {};
     try {
-        var _0x4c5955 = matchAll(_0x11e7fb, /class="parttab.*?href="(.*?)".*?<\/i>(.*?)</g);
-        for (let _0xebacef = 0; _0xebacef < _0x4c5955.length; _0xebacef++) {
-            alt = _0x4c5955[_0xebacef][2].trim().replace('HD', '');
-            if (!alt.includes('ragman')) {
-                _0x2e21e9[alt + _0xebacef] = fixUrl(_0x4c5955[_0xebacef][1]);
+        var _0x320de2 = matchAll(_0x4e8db6, /class="parttab.*?href="(.*?)".*?<\/i>(.*?)</g);
+        for (let _0x409720 = 0x0; _0x409720 < _0x320de2.length; _0x409720++) {
+            alt = _0x320de2[_0x409720][0x2].trim().replace('HD', '');
+            if (!alt.includes("ragman")) {
+                _0x257229[alt + _0x409720] = fixUrl(_0x320de2[_0x409720][0x1]);
             }
         }
-    } catch (_0x10ae84) {
-        error(_0x10ae84.message);
+    } catch (_0x581a2a) {
+        error(_0x581a2a.message);
     }
-    if (!_0xf7ad47.includes('#') && JSON.stringify(_0x2e21e9) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x2e21e9));
+    if (!_0x555f43.includes('#') && JSON.stringify(_0x257229) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x257229));
     } else {
-        if (_0xf7ad47.includes('#')) {
-            part = _0xf7ad47.split('#')[1];
+        if (_0x555f43.includes('#')) {
+            part = _0x555f43.split('#')[0x1];
         }
         consolelog(part);
-        _0x11e7fb = fetch(part);
-        url(_0x11e7fb.match(/<iframe.*?src="(.*?)"/)[1]);
+        _0x4e8db6 = fetch(part);
+        url(_0x4e8db6.match(/<iframe.*?src="(.*?)"/)[0x1]);
         parser();
     }
 }
+
 function filmizlesene() {
-    var _0x2c373e = url();
-    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36';
-    var _0x51ae0a = fetch();
-    var _0x3452fc = _0x51ae0a.match(/(?:inepisode|bolumler)(.*?)vidcontainer/)[1];
-    if (_0x3452fc == '' && !_0x2c373e.includes('#')) {
-        _0x51ae0a = _0x51ae0a.match(/iframe\s*src="(.*?)"/)[1];
-        if (_0x51ae0a.includes('/ok/')) {
-            var _0x4495d3 = _0x51ae0a.split('?v=')[1];
-            _0x4495d3 = atob(_0x4495d3);
-            url('https://odnoklassniki.ru/videoembed/' + _0x4495d3);
+    var _0x30bf9d = url();
+    headers["User-Agent"] = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36";
+    var _0x4a6447 = fetch();
+    var _0x41d79d = '';
+    if (_0x4a6447.includes("vidcontainer")) {
+        _0x41d79d = _0x4a6447.match(/(?:inepisode|bolumler)(.*?)vidcontainer/)[0x1];
+    }
+    if (_0x41d79d == '' && !_0x30bf9d.includes('#')) {
+        _0x4a6447 = _0x4a6447.match(/iframe\s*src="(.*?)"/)[0x1];
+        if (_0x4a6447.includes("/ok/")) {
+            var _0x4b02f3 = _0x4a6447.split('?v=')[0x1];
+            _0x4b02f3 = atob(_0x4b02f3);
+            url('https://odnoklassniki.ru/videoembed/' + _0x4b02f3);
+        } else {
+            url(_0x4a6447);
         }
         parser();
     } else {
-        _0x51ae0a = _0x3452fc;
-        if (!_0x2c373e.includes('#')) {
-            var _0x12d3f6 = {
-                _0x37df4f: _0x10dfbd
-            };
+        _0x4a6447 = _0x41d79d;
+        if (!_0x30bf9d.includes('#')) {
+            var _0x11bfba = {};
             try {
-                var _0x22dd25 = matchAll(_0x51ae0a, /dil="(.*?)">(.*?)<.*?iframe\s*src="(.*?)"/g);
-                for (let _0x270bb1 = 0; _0x270bb1 < _0x22dd25.length; _0x270bb1++) {
-                    if (_0x37df4f != 'opn' && _0x37df4f != 'up') {
-                        var _0x10dfbd = _0x22dd25[_0x270bb1][3];
-                        var _0x37df4f = _0x22dd25[_0x270bb1][2] + ', ' + _0x22dd25[_0x270bb1][1];
-                        ;
+                var _0x12b6b2 = matchAll(_0x4a6447, /dil="(.*?)">(.*?)<.*?iframe\s*src="(.*?)"/g);
+                for (let _0x53e314 = 0x0; _0x53e314 < _0x12b6b2.length; _0x53e314++) {
+                    if (_0x22d122 != "opn" && _0x22d122 != 'up') {
+                        var _0x2adc74 = _0x12b6b2[_0x53e314][0x3];
+                        var _0x22d122 = _0x12b6b2[_0x53e314][0x2] + ", " + _0x12b6b2[_0x53e314][0x1];
+                        _0x11bfba[_0x22d122] = _0x2adc74;
                     }
                 }
-            } catch (_0x3d2a6a) {
-                error(_0x3d2a6a.message);
+            } catch (_0x5e1662) {
+                error(_0x5e1662.message);
             }
-            Core.showAlternatesJS(JSON.stringify(_0x12d3f6));
+            Core.showAlternatesJS(JSON.stringify(_0x11bfba));
         } else {
-            url(_0x2c373e.split('#')[1]);
-            if (url(['vidmoly'], 1)) {
-                url(url().match(/vid=(.*?)$/)[1]);
+            url(_0x30bf9d.split('#')[0x1]);
+            if (url(["vidmoly"], 0x1)) {
+                url(url().match(/vid=(.*?)$/)[0x1]);
             } else {
-                if (url(['mail.ru'], 1)) { } else {
-                    _0x51ae0a = fetch();
-                    _0x51ae0a = _0x51ae0a.match(/iframe\s*src=(?:\'|")(.*?)(?:\'|")/)[1];
-                    if (_0x51ae0a.includes('hdplayer') || _0x51ae0a.includes('vidmo')) {
-                        var _0x14e860 = fetchResponseHeader(url(), g.getHeadersJSON(), 'set-cookie');
-                        headers('Cookie', '');
+                if (url(["mail.ru"], 0x1)) {} else {
+                    _0x4a6447 = fetch();
+                    _0x4a6447 = _0x4a6447.match(/iframe\s*src=(?:\'|")(.*?)(?:\'|")/)[0x1];
+                    if (_0x4a6447.includes("hdplayer") || _0x4a6447.includes("vidmo")) {
+                        var _0x24a114 = fetchResponseHeader(url(), g.getHeadersJSON(), 'set-cookie');
+                        headers("Cookie", '');
                         try {
-                            _0x14e860 = _0x14e860.match(/(PHPS.*?;)/)[1];
-                            headers('Cookie', _0x14e860 + '');
+                            _0x24a114 = _0x24a114.match(/(PHPS.*?;)/)[0x1];
+                            headers("Cookie", _0x24a114 + '');
                             g.logHeader();
-                        } catch (_0x3f4034) { }
-                        _0x14e860 = fetchResponseHeader(_0x51ae0a, g.getHeadersJSON(), 'set-cookie');
-                        headers('Cookie', headers('Cookie') + _0x14e860);
-                        _0x51ae0a = fetch(_0x51ae0a);
+                        } catch (_0x582d89) {}
+                        _0x24a114 = fetchResponseHeader(_0x4a6447, g.getHeadersJSON(), "set-cookie");
+                        headers("Cookie", headers("Cookie") + _0x24a114);
+                        _0x4a6447 = fetch(_0x4a6447);
                         g.logHeader();
-                        var _0x4e9c88 = false;
-                        _0x51ae0a = _0x51ae0a.match(/iframe.*?src\s*=\s*"(.*?)"/)[1];
-                        if (_0x51ae0a.includes('odnoklass')) {
-                            url(_0x51ae0a);
-                            _0x4e9c88 = true;
+                        var _0x14d23a = false;
+                        _0x4a6447 = _0x4a6447.match(/iframe.*?src\s*=\s*"(.*?)"/)[0x1];
+                        if (_0x4a6447.includes("odnoklass")) {
+                            url(_0x4a6447);
+                            _0x14d23a = true;
                         }
-                        if (!_0x51ae0a.includes('hdplayer')) {
-                            url(_0x51ae0a + '/sheila');
-                            g.deleteHeader('Cookie');
-                            headers('Referer', _0x51ae0a);
-                            _0x4e9c88 = true;
+                        if (!_0x4a6447.includes("hdplayer")) {
+                            url(_0x4a6447 + '/sheila');
+                            g.deleteHeader("Cookie");
+                            headers("Referer", _0x4a6447);
+                            _0x14d23a = true;
                         }
                     } else {
-                        url(_0x51ae0a);
+                        url(_0x4a6447);
                     }
                 }
             }
@@ -2043,3045 +2179,3423 @@ function filmizlesene() {
         }
     }
 }
+
 function filmkovasi() {
     try {
-        var _0x198127 = fetch();
-    } catch (_0x45de1d) {
-        error('Telif');
+        var _0x5de889 = fetch();
+    } catch (_0x5b9867) {
+        error("Telif");
     }
-    var _0x1ae622 = _0x198127.match(/iframe.*?src=["']?(.*?)[\s>"']/)[1];
-    if (!_0x1ae622.includes('trstx') && !_0x1ae622.includes('sobreatsesuyp') && !_0x1ae622.includes('vidrame')) {
-        _0x198127 = fetch(_0x1ae622);
-        var _0xb77bf0 = baseUrl(_0x1ae622);
-        var _0x19c298 = _0x198127.match(/uid":"(.*?)"/)[1];
-        var _0xfb3d61 = _0x198127.match(/md5":"(.*?)"/)[1];
-        var _0xfbc363 = _0x198127.match(/"id":"(.*?)"/)[1];
-        var _0x578ca2 = _0x198127.match(/status":"(.*?)"/)[1];
-        _0x1ae622 = _0x198127.match(/file:\s*(.*?m3u8.*?),/)[1];
-        _0x1ae622 = _0xb77bf0 + _0x1ae622.replace('`', '').replace('`', '').replace('${video.uid}', _0x19c298).replace('${video.id}', _0xfbc363).replace('${video.status}', _0x578ca2).replace('${video.md5}', _0xfb3d61);
-        headers('Referer', 'https://watch.trplayer.site/');
-        headers('Accept', '*/*');
+    var _0x2a7198 = _0x5de889.match(/iframe.*?src=["']?(.*?)[\s>"']/)[0x1];
+    if (!_0x2a7198.includes("trstx") && !_0x2a7198.includes("sobreatsesuyp") && !_0x2a7198.includes("vidrame")) {
+        if (g.getLang() == '1') {
+            url(url() + '2/');
+            var _0x5de889 = fetch();
+            _0x2a7198 = _0x5de889.match(/iframe.*?src=["']?(.*?)[\s>"']/)[0x1];
+        }
+        headers('Referer', _0x2a7198);
+        _0x5de889 = fetch(_0x2a7198);
+        var _0x5c6173 = baseUrl(_0x2a7198);
+        var _0x107224 = _0x5de889.match(/uid":"(.*?)"/)[0x1];
+        var _0x8788db = _0x5de889.match(/md5":"(.*?)"/)[0x1];
+        var _0x1cdbd5 = _0x5de889.match(/"id":"(.*?)"/)[0x1];
+        var _0x4dc691 = _0x5de889.match(/status":"(.*?)"/)[0x1];
+        _0x2a7198 = _0x5de889.match(/file:\s*(.*?m3u8.*?),/)[0x1];
+        _0x2a7198 = _0x5c6173 + _0x2a7198.replace('`', '').replace('`', '').replace("${video.uid}", _0x107224).replace("${video.id}", _0x1cdbd5).replace("${video.status}", _0x4dc691).replace("${video.md5}", _0x8788db);
+        headers("Accept", '*/*');
+        headers("accept-language", "tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7");
     }
-    url(_0x1ae622);
+    url(_0x2a7198);
+    consolelog(_0x2a7198);
     parser();
 }
+
 function filmmakinesi() {
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
+    headers("User-Agent", 'Google');
     try {
-        var _0x18d9aa = fetch(fetch().match(/php.*?(https:\/\/closeload.filmmakinesi.*?embed.*?) /)[1]);
-    } catch (_0x39710b) {
-        if (fetch().toLowerCase().includes('telif haklar')) {
-            error('Telif');
+        var _0x4daa52 = fetch(fetch().match(/<iframe.*?src="(https:\/\/closeload.filmmakinesi.*?embed.*?)"/)[0x1]);
+    } catch (_0x3ae249) {
+        if (fetch().toLowerCase().includes("telif haklar")) {
+            error("Telif");
         }
     }
-    var _0x536985 = 'https://closeload.' + baseUrl(url(), true);
+    var _0x3e5a8b = "https://closeload." + baseUrl(url(), true);
     try {
-        var _0x23f2e3 = matchAll(_0x18d9aa, /<track src="(.*?)"\s*kind="captions"/g);
-        for (let _0x46ea29 = 0; _0x46ea29 < _0x23f2e3.length; _0x46ea29++) {
-            if (_0x23f2e3[_0x46ea29][1].includes('tr')) {
-                sub(_0x536985 + '/' + _0x23f2e3[_0x46ea29][1]);
+        var _0x3e7eb1 = matchAll(_0x4daa52, /<track src="(.*?)"\s*kind="captions"/g);
+        for (let _0x361b63 = 0x0; _0x361b63 < _0x3e7eb1.length; _0x361b63++) {
+            if (_0x3e7eb1[_0x361b63][0x1].includes('tr')) {
+                sub(_0x3e5a8b + '/' + _0x3e7eb1[_0x361b63][0x1]);
                 break;
             }
         }
-    } catch (_0x3f03e6) { }
-    url(atob(unPack(_0x18d9aa.match('(eval.*?)</script>')[1]).match("(aHR0cH.*?)\"")[1]));
-    headers('Referer', _0x536985);
-    g.setMediaType('mimeType:MPEG-TS');
+    } catch (_0x134cfa) {}
+    _0x4daa52 = _0x4daa52.match(/(eval.*?)<\/script>/)[0x1];
+    _0x4daa52 = unPack(_0x4daa52);
+    var _0x30285e = _0x4daa52.match(/function\s*(dc_.*?)\(value_parts\)/)[0x1];
+    var _0x2ef4c7 = _0x30285e + "\\(.*?\\)\\s*{([\\s\\S]*?)}\\s*func";
+    var _0x359fbc = new RegExp(_0x2ef4c7);
+    var _0x5419f3 = _0x359fbc.exec(_0x4daa52);
+    var _0x2a9053 = "function test(value_parts){" + _0x5419f3[0x1] + '}';
+    eval(_0x2a9053);
+    _0x2ef4c7 = "=\\s*" + _0x30285e + "\\((.*?)\\)";
+    _0x359fbc = new RegExp(_0x2ef4c7);
+    _0x5419f3 = _0x359fbc.exec(_0x4daa52);
+    var _0x50254e = _0x5419f3[0x1];
+    try {
+        _0x50254e = JSON.parse(_0x50254e);
+    } catch (_0x12933f) {}
+    _0x50254e = test(_0x50254e);
+    url(_0x50254e);
+    headers('Referer', _0x3e5a8b);
+    g.setMediaType("mimeType:MPEG-TS");
     parser();
 }
+
 function filmmax() {
-    var _0x5214fe = fetch();
-    var _0x76129e = _0x5214fe.match(/iframe.*?src="(.*?)"/)[1];
-    _0x5214fe = fetch(_0x76129e);
-    url(_0x5214fe.match(/'\/playlist\/(.*?).json';/)[1]);
-    _0x5214fe = fetch('https://videoseyred.in/playlist/' + url() + '.json');
-    var _0x7d6540 = JSON.parse(_0x5214fe);
-    url(_0x7d6540[0].sources[0].file);
-    var _0x21c20b = _0x7d6540[0].tracks;
-    for (var _0x19827f = 0; _0x19827f < _0x21c20b.length; _0x19827f++) {
-        if (_0x21c20b[_0x19827f].hasOwnProperty('language')) {
-            if (_0x21c20b[_0x19827f].language == 'tur') {
-                sub(_0x21c20b[_0x19827f].file);
+    var _0x46da27 = fetch();
+    var _0x161834 = _0x46da27.match(/iframe.*?src="(.*?)"/)[0x1];
+    _0x46da27 = fetch(_0x161834);
+    url(_0x46da27.match(/'\/playlist\/(.*?).json';/)[0x1]);
+    _0x46da27 = fetch("https://videoseyred.in/playlist/" + url() + ".json");
+    var _0x5bfe6a = JSON.parse(_0x46da27);
+    url(_0x5bfe6a[0x0].sources[0x0].file);
+    var _0xbd27fc = _0x5bfe6a[0x0].tracks;
+    for (var _0x2465db = 0x0; _0x2465db < _0xbd27fc.length; _0x2465db++) {
+        if (_0xbd27fc[_0x2465db].hasOwnProperty("language")) {
+            if (_0xbd27fc[_0x2465db].language == "tur") {
+                sub(_0xbd27fc[_0x2465db].file);
             }
         }
     }
-    headers('Referer', 'https://videoseyred.in/');
+    headers("Referer", "https://videoseyred.in/");
     parser();
 }
+
 function filmmodu() {
-    var _0x567234 = JSON.parse(fetch());
-    if (_0x567234.hasOwnProperty('subtitle')) {
-        sub(baseUrl(url()) + _0x567234.subtitle);
+    var _0x3dabde = JSON.parse(fetch());
+    if (_0x3dabde.hasOwnProperty("subtitle")) {
+        sub(baseUrl(url()) + _0x3dabde.subtitle);
     }
-    var _0x4ddd2e = _0x567234.sources;
-    _0x4ddd2e.sort(function (_0x534f32, _0x283a09) {
-        return _0x534f32.label.localeCompare(_0x283a09.label);
+    var _0x3821fe = _0x3dabde.sources;
+    _0x3821fe.sort(function(_0x4c7083, _0x3dc83b) {
+        return _0x4c7083.label.localeCompare(_0x3dc83b.label);
     });
-    url(_0x4ddd2e[0].src);
+    url(_0x3821fe[0x0].src);
     parser();
 }
+
 function filmon() {
-    url(url('https://www.filmon.com/', ''));
-    var _0x50df0c = 'channel_id=' + url() + '&quality=low';
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('X-Requested-With', 'XMLHttpRequest');
-    headers('Cookie', 'PHPSESSID=');
-    var _0x1d8b01 = fetchPost(_0x50df0c, 'https://www.filmon.com/ajax/getChannelInfo');
-    var _0x3bc221 = JSON.parse(_0x1d8b01);
-    url(_0x3bc221.serverURL);
+    url(url("https://www.filmon.com/", ''));
+    var _0x441b1e = "channel_id=" + url() + "&quality=low";
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("X-Requested-With", "XMLHttpRequest");
+    headers('Cookie', "PHPSESSID=");
+    var _0x59a34b = fetchPost(_0x441b1e, "https://www.filmon.com/ajax/getChannelInfo");
+    var _0x445a91 = JSON.parse(_0x59a34b);
+    url(_0x445a91.serverURL);
     parser();
 }
+
 function fullhdfilm() {
-    var _0x542e51 = url();
-    var _0x47faf6 = fetch();
-    var _0x39bcf9 = {};
+    var _0x380b7c = url();
+    var _0x1d041d = fetch();
+    var _0x430d9d = {};
     try {
-        var _0x2b1670 = matchAll(_0x47faf6, /id='(\d+)'.*?href=\"#\">(.*?)<\/a><\/li>/g);
-        for (let _0x55987b = 0; _0x55987b < _0x2b1670.length; _0x55987b++) {
-            _0x39bcf9[_0x2b1670[_0x55987b][2]] = fixUrl(_0x2b1670[_0x55987b][1]);
+        var _0xaa850d = matchAll(_0x1d041d, /id='(\d+)'.*?href=\"#\">(.*?)<\/a><\/li>/g);
+        for (let _0x366ad9 = 0x0; _0x366ad9 < _0xaa850d.length; _0x366ad9++) {
+            _0x430d9d[_0xaa850d[_0x366ad9][0x2]] = fixUrl(_0xaa850d[_0x366ad9][0x1]);
         }
-    } catch (_0x364208) {
-        error(_0x364208.message);
+    } catch (_0x108d75) {
+        error(_0x108d75.message);
     }
-    if (!_0x542e51.includes('#') && JSON.stringify(_0x39bcf9) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x39bcf9));
+    if (!_0x380b7c.includes('#') && JSON.stringify(_0x430d9d) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x430d9d));
     } else {
-        if (_0x542e51.includes('#')) {
-            part = _0x542e51.split('#')[1].replace('https://', '');
+        if (_0x380b7c.includes('#')) {
+            part = _0x380b7c.split('#')[0x1].replace("https://", '');
         }
-        var _0x18755c = "pdata\\['prt_" + part + "'\\]\\s*=\\s*'(.*?)'";
-        var _0x1fed05 = new RegExp(_0x18755c);
-        var _0x354fe8 = 'PGlmcmFtZSB' + _0x47faf6.match(_0x1fed05)[1];
-        var _0x224e3b = g.base64Decode(_0x354fe8);
-        url(_0x224e3b.match(/src=["\\\'](.*?)["\\\']/)[1]);
+        var _0x215607 = "pdata\\['prt_" + part + "'\\]\\s*=\\s*'(.*?)'";
+        var _0x47ccd8 = new RegExp(_0x215607);
+        var _0x13ab22 = 'PGlmcmFtZSB' + _0x1d041d.match(_0x47ccd8)[0x1];
+        var _0x1e0475 = g.base64Decode(_0x13ab22);
+        url(_0x1e0475.match(/src=["\\\'](.*?)["\\\']/)[0x1]);
         parser();
     }
 }
+
 function fullhdfilmizlesene() {
-    var _0x3223b6 = url();
-    var _0x589cf1 = fetch().match(/var\s*scx\s*=\s*(.*?);/)[1];
-    var _0x4d6962 = JSON.parse(_0x589cf1);
-    var _0x44b129 = 'tr';
-    var _0x27b6c9 = {
-        _0x5638b0: atob(_0x3af67c)
-    };
-    var _0x335b73 = {
-        _0x5638b0: _0x4d6962[_0x5638b0].sx.t[0].replace(/\\/g, ''),
-        _0x5638b0: _0x4d6962[_0x5638b0].sx.t[_0x44b129].replace(/\\/g, '')
-    };
-    if (g.getLang() == 1) {
-        _0x44b129 = 'en';
+    var _0x32dc3f = url();
+    var _0x253e5b = fetch().match(/var\s*scx\s*=\s*(.*?);/)[0x1];
+    var _0x415485 = JSON.parse(_0x253e5b);
+    var _0x34523d = 'tr';
+    var _0x46a2c2 = {};
+    var _0x333d8d = {};
+    if (g.getLang() == 0x1) {
+        _0x34523d = 'en';
     }
-    for (let _0x10fc61 = 0; _0x10fc61 < Object.keys(_0x4d6962).length; _0x10fc61++) {
-        var _0x5638b0 = Object.keys(_0x4d6962)[_0x10fc61];
+    for (let _0xbe70fa = 0x0; _0xbe70fa < Object.keys(_0x415485).length; _0xbe70fa++) {
+        var _0x22cd22 = Object.keys(_0x415485)[_0xbe70fa];
         try {
-            ;
-        } catch (_0x12ddf5) {
-            ;
+            _0x333d8d[_0x22cd22] = _0x415485[_0x22cd22].sx.t[0x0].replace(/\\/g, '');
+        } catch (_0x2e7a98) {
+            _0x333d8d[_0x22cd22] = _0x415485[_0x22cd22].sx.t[_0x34523d].replace(/\\/g, '');
         }
     }
-    var _0x3af67c = '';
-    for (let _0x52c615 = 0; _0x52c615 < Object.keys(_0x335b73).length; _0x52c615++) {
-        var _0x5638b0 = Object.keys(_0x335b73)[_0x52c615];
-        for (let _0x1e03d2 = 0; _0x1e03d2 < _0x335b73[_0x5638b0].length; _0x1e03d2++) {
-            _0x3af67c += findRealChar(_0x335b73[_0x5638b0].substring(_0x1e03d2, _0x1e03d2 + 1));
+    var _0x3c003a = '';
+    for (let _0x2ae480 = 0x0; _0x2ae480 < Object.keys(_0x333d8d).length; _0x2ae480++) {
+        var _0x22cd22 = Object.keys(_0x333d8d)[_0x2ae480];
+        for (let _0x5c66dd = 0x0; _0x5c66dd < _0x333d8d[_0x22cd22].length; _0x5c66dd++) {
+            _0x3c003a += findRealChar(_0x333d8d[_0x22cd22].substring(_0x5c66dd, _0x5c66dd + 0x1));
         }
-        ;
+        _0x46a2c2[_0x22cd22] = atob(_0x3c003a);
     }
-    if (!_0x3223b6.includes('#') && Object.keys(_0x27b6c9).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x27b6c9));
+    if (!_0x32dc3f.includes('#') && Object.keys(_0x46a2c2).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x46a2c2));
     } else {
-        url(_0x27b6c9[Object.keys(_0x27b6c9)[0]]);
-        _0x589cf1 = fetch();
+        url(_0x46a2c2[Object.keys(_0x46a2c2)[0x0]]);
+        _0x253e5b = fetch();
         try {
-            var _0x49d926 = JSON.parse(_0x589cf1.match(/jwSetup\.tracks\s*=\s*(\[.*?\])/)[1]);
-            for (let _0x318fc4 = 0; _0x318fc4 < _0x49d926.length; _0x318fc4++) {
-                if (_0x49d926[_0x318fc4].hasOwnProperty('label') && _0x49d926[_0x318fc4].label.includes("Ã¼rkÃ§e")) {
-                    sub(_0x49d926[_0x318fc4].file);
+            var _0x162524 = JSON.parse(_0x253e5b.match(/jwSetup\.tracks\s*=\s*(\[.*?\])/)[0x1]);
+            for (let _0x29d265 = 0x0; _0x29d265 < _0x162524.length; _0x29d265++) {
+                if (_0x162524[_0x29d265].hasOwnProperty('label') && _0x162524[_0x29d265].label.includes("Ã¼rkÃ§e")) {
+                    sub(_0x162524[_0x29d265].file);
                 }
             }
-        } catch (_0x276c8c) { }
-        try {
-            url(hexToString(_0x589cf1.match(/(?:"|)(?:file|hls)(?:"|)\s*:\s*"(.*?)"/)[1]));
-        } catch (_0x14507e) {
-            url(_0x27b6c9[Object.keys(_0x27b6c9)[0]]);
-        }
-        if (url() == '') {
-            url(_0x27b6c9[Object.keys(_0x27b6c9)[0]]);
-        }
-        sub(sub().replace('.vtt', '.srt'));
+            sub(sub().replace('.vtt', '.srt'));
+        } catch (_0x2fefdc) {}
+        url(decryptFor4KIzle(_0x253e5b.match(/"file":\s*av\('(.*?)'\),/)[0x1]));
         parser();
     }
 }
+
 function govids() {
-    var _0x2f73d3 = url().split('?')[1].split('=');
-    var _0x3e45ce = _0x2f73d3[1];
-    var _0x2ad009 = _0x2f73d3[2];
-    var _0x14cb12 = _0x2f73d3[3];
-    var _0x1e24c7 = 'i=' + _0x3e45ce + '=' + _0x2ad009 + '=' + _0x14cb12;
+    var _0x1533f1 = url().split('?')[0x1].split('=');
+    var _0x55a777 = _0x1533f1[0x1];
+    var _0x1fa75a = _0x1533f1[0x2];
+    var _0x150619 = _0x1533f1[0x3];
+    var _0x3c6648 = 'i=' + _0x55a777 + '=' + _0x1fa75a + '=' + _0x150619;
     headers('Referer', url());
-    headers('sec-ch-ua-platform', "\"Windows\"");
-    headers('sec-ch-ua-mobile', '?0');
-    url('/embed?', '/embed/get?');
-    var _0x1575d7 = fetchPost(_0x1e24c7);
+    headers("sec-ch-ua-platform", "\"Windows\"");
+    headers("sec-ch-ua-mobile", '?0');
+    url('/embed?', "/embed/get?");
+    var _0x520d76 = fetchPost(_0x3c6648);
     try {
-        var _0x5d74ce = JSON.parse(_0x1575d7);
-        var _0x48f46a = _0x5d74ce.Links[0];
-        _0x48f46a = _0x48f46a.split('redirect')[1];
-        var _0x17999f = '#.mp4';
-        if (url(['setplay'], 1)) {
-            _0x17999f = '';
+        var _0xef6123 = JSON.parse(_0x520d76);
+        var _0x31df52 = _0xef6123.Links[0x0];
+        _0x31df52 = _0x31df52.split('redirect')[0x1];
+        var _0x319435 = "#.mp4";
+        if (url(["setplay"], 0x1)) {
+            _0x319435 = '';
         }
-        url(baseUrl(url()) + '/redirect' + _0x48f46a + _0x17999f);
-    } catch (_0x41f895) {
+        url(baseUrl(url()) + '/redirect' + _0x31df52 + _0x319435);
+    } catch (_0x3e7cac) {
         url('');
     }
     g.logHeader();
     parser();
 }
+
 function haberturk() {
-    url(fetch().match(/videoUrl\s*=\s*"(.*?)"/)[1]);
+    url(fetch().match(/videoUrl\s*=\s*"(.*?)"/)[0x1]);
     parser();
 }
+
+function halktv() {
+    url(fetch().match(/videoUrl\s*=\s*"(.*?)"/)[0x1]);
+    parser();
+}
+
 function hdabla() {
-    var _0x13b46f = fetch();
-    var _0x534935 = _0x13b46f.match(/<iframe\s*src="(.*?)"/)[1];
-    _0x534935 = fixUrl(_0x534935);
-    _0x13b46f = fetch(_0x534935);
-    url(_0x13b46f.match(/file\s*:\s*'(.*?)'/)[1]);
-    headers('Referer', 'https://wai.moonfast.site/');
+    var _0x34816d = fetch();
+    var _0x19c40c = _0x34816d.match(/<iframe\s*src="(.*?)"/)[0x1];
+    _0x19c40c = fixUrl(_0x19c40c);
+    _0x34816d = fetch(_0x19c40c);
+    url(_0x34816d.match(/file\s*:\s*'(.*?)'/)[0x1]);
+    headers("Referer", "https://wai.moonfast.site/");
     parser();
 }
+
+function hdfilmce() {
+    url(url().split('#')[0x0]);
+    var _0x2b5364 = fetch();
+    var _0x342cbe = _0x2b5364.match(/ilkpartkod\s*=\s*['\"](.*?)['\"]/)[0x1];
+    var _0x13bfd5 = atob(_0x342cbe);
+    _0x13bfd5 = _0x13bfd5.match(/src=['\"](.*?)['\"]/)[0x1];
+    _0x2b5364 = fetch(_0x13bfd5);
+    var _0x12a4ed = extractLink(_0x2b5364);
+    url(_0x12a4ed);
+    headers("Referer", _0x13bfd5);
+    parser();
+}
+
 function hdfilmcehennemi() {
-    var _0x3ff77b = url();
-    var _0x3d6713 = fetch();
-    var _0x338c36 = '';
-    if (g.getLang() == 0) {
-        _0x338c36 = _0x3d6713.match(/videostr(.*?)<\/nav/)[1];
-    } else {
-        _0x338c36 = _0x3d6713.match(/videosen(.*?)<\/nav/)[1];
+    var _0x552cbb = url();
+    var _0x30d085 = fetch();
+    var _0x19733e = '';
+    try {
+        if (g.getLang() == 0x0) {
+            _0x19733e = _0x30d085.match(/videostr(.*?)<\/nav/)[0x1];
+        } else {
+            _0x19733e = _0x30d085.match(/videosen(.*?)<\/nav/)[0x1];
+        }
+    } catch (_0x53ea97) {
+        _0x19733e = _0x30d085;
     }
-    var _0x5a885a = matchAll(_0x338c36, /nav-link\s*px-3\s*py-1.*?"\s*href="(.*?)"/g);
-    var _0xd6e0e8 = {};
-    for (let _0x1292a8 = 0; _0x1292a8 < _0x5a885a.length; _0x1292a8++) {
-        _0xd6e0e8['Kaynak ' + (_0x1292a8 + 1)] = _0x5a885a[_0x1292a8][1];
+    var _0x3fc054 = matchAll(_0x19733e, /nav-link\s*px-3\s*py-1.*?"\s*href="(.*?)"/g);
+    var _0x1ea65a = {};
+    for (let _0x506f2b = 0x0; _0x506f2b < _0x3fc054.length; _0x506f2b++) {
+        _0x1ea65a["Kaynak " + (_0x506f2b + 0x1)] = _0x3fc054[_0x506f2b][0x1];
     }
-    if (!_0x3ff77b.includes('#') && Object.keys(_0xd6e0e8).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0xd6e0e8));
+    if (!_0x552cbb.includes('#') && Object.keys(_0x1ea65a).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x1ea65a));
     } else {
-        _0x3d6713 = fetch();
+        url(_0x552cbb.split('#')[0x1]);
+        _0x30d085 = fetch();
         try {
-            _0x3d6713 = _0x3d6713.match(/<script>var.*?'(.*?)'/)[1].match(/iframe.*?src\s*=\s*(?:"|\')(.*?)(?:"|\')/)[1].toLowerCase();
-            _0x3d6713 = fixUrl(_0x3d6713);
-            if (_0x3d6713.includes('moly')) {
-                if (_0x3d6713.includes('watch.php')) {
-                    url('https://vidmoly.to/embed-' + _0x3d6713.split('watch.php')[1] + '.html');
+            _0x30d085 = _0x30d085.match(/<script>var.*?'(.*?)'/)[0x1].match(/iframe.*?src\s*=\s*(?:"|\')(.*?)(?:"|\')/)[0x1].toLowerCase();
+            _0x30d085 = fixUrl(_0x30d085);
+            if (_0x30d085.includes("moly")) {
+                if (_0x30d085.includes("watch.php")) {
+                    url('https://vidmoly.to/embed-' + _0x30d085.split("watch.php")[0x1] + ".html");
                 }
             } else {
-                if (_0x3d6713.includes('odnok') || _0x3d6713.includes('ok.ru')) {
-                    if (_0x3d6713.includes('watch.php')) {
-                        url('https://odnoklassniki.ru/videoembed/' + _0x3d6713.split('watch.php')[1]);
+                if (_0x30d085.includes('odnok') || _0x30d085.includes("ok.ru")) {
+                    if (_0x30d085.includes("watch.php")) {
+                        url('https://odnoklassniki.ru/videoembed/' + _0x30d085.split('watch.php')[0x1]);
                     }
                 } else {
-                    if (_0x3d6713.includes('up')) {
-                        if (_0x3d6713.includes('watch.php')) {
-                            url('https://uptostream.com/iframe/' + _0x3d6713.split('watch.php')[1]);
+                    if (_0x30d085.includes('up')) {
+                        if (_0x30d085.includes('watch.php')) {
+                            url('https://uptostream.com/iframe/' + _0x30d085.split("watch.php")[0x1]);
                         }
                     } else {
-                        if (_0x3d6713.includes('fembed')) {
-                            if (_0x3d6713.includes('watch.php')) {
-                                url('https://www.fembed.net/v/' + _0x3d6713.split('watch.php')[1]);
+                        if (_0x30d085.includes("fembed")) {
+                            if (_0x30d085.includes('watch.php')) {
+                                url("https://www.fembed.net/v/" + _0x30d085.split("watch.php")[0x1]);
                             }
                         }
                     }
                 }
             }
-        } catch (_0x50585f) {
-            _0x3d6713 = _0x3d6713.match(/<iframe.*?src\s*=\s*(?:"|\')(.*?)(?:"|\')/)[1];
-            _0x3d6713 = fixUrl(_0x3d6713);
-            if (_0x3d6713.includes('ashortl')) {
-                _0x3d6713 = fetch(_0x3d6713);
-                _0x3d6713 = _0x3d6713.match(/<iframe.*?src\\s*=\\s*(?:\"|\\')(.*?)(?:\"|\\')/)[1];
-            }
-            url(_0x3d6713);
+        } catch (_0x18dd86) {
+            url(_0x30d085.match(/<iframe.*?src\s*=\s*(?:"|\')(.*?)(?:"|\')/)[0x1]);
+            url(fixUrl(url()));
+            _0x30d085 = fetch(url());
+            url(baseUrl(url()) + _0x30d085.match(/<source src="(.*?)" type="application\/x-mpegURL">/)[0x1]);
         }
         parser();
     }
 }
+
 function hdfilmcehennemi2() {
     url(url('syrtrk', ''));
-    var _0x1f39e4 = url();
-    headers('User-Agent', 'Cloudflare');
+    var _0x8833c1 = url();
+    headers("User-Agent", "Cloudflare");
     try {
-        var _0xfdf084 = fetch();
-    } catch (_0x434eb1) {
+        var _0x2fa084 = fetch();
+    } catch (_0x5e1bd4) {
         if (g.isWebView()) {
-            Core.saveCookie(url(), 'on_dz', 'description');
-            var _0xfdf084 = Core.pageContent.split("\n").join('');
+            Core.saveCookie(url(), "on_dz", "description");
+            var _0x2fa084 = Core.pageContent.split("\n").join('');
         } else {
             error('');
         }
     }
-    _0xfdf084 = _0xfdf084.match(/<nav\s*class="video-alternatives">(.*?)player-container/)[1];
-    var _0x3113b9 = {
-        _0x27c7af: _0x24e4f6
-    };
-    var _0x870c = '';
+    _0x2fa084 = _0x2fa084.match(/<nav\s*class="video-alternatives">(.*?)player-container/)[0x1];
+    var _0xb5f03c = {};
+    var _0x4f28a2 = '';
     try {
-        var _0x1b4034 = matchAll(_0xfdf084, /<div\s*class="alternative-links".*?data-lang="(.*?)">/g);
-        var _0x3606f4 = _0xfdf084.split("class=\"alternative-links");
-        for (let _0x43d0f6 = 0; _0x43d0f6 < _0x1b4034.length; _0x43d0f6++) {
-            _0xfdf084 = _0x3606f4[_0x43d0f6 + 1];
-            var _0xaa5733 = matchAll(_0xfdf084, /data-video="(.*?)">(.*?)<\/button>/g);
-            for (let _0x4611a5 = 0; _0x4611a5 < _0xaa5733.length; _0x4611a5++) {
-                var _0x27c7af = _0xaa5733[_0x4611a5][2].replace(/ /g, '');
-                var _0x24e4f6 = _0xaa5733[_0x4611a5][1];
-                _0x870c = _0x24e4f6;
-                if (_0x1b4034[_0x43d0f6][1] == 'dual') {
-                    _0x27c7af = _0x27c7af + " - AltyazÄ± & Dublaj";
+        var _0x223b71 = matchAll(_0x2fa084, /<div\s*class="alternative-links".*?data-lang="(.*?)">/g);
+        var _0x39bf18 = _0x2fa084.split("class=\"alternative-links");
+        for (let _0x631218 = 0x0; _0x631218 < _0x223b71.length; _0x631218++) {
+            _0x2fa084 = _0x39bf18[_0x631218 + 0x1];
+            var _0x3621a7 = matchAll(_0x2fa084, /data-video="(.*?)">(.*?)<\/button>/g);
+            for (let _0x25f13a = 0x0; _0x25f13a < _0x3621a7.length; _0x25f13a++) {
+                var _0x417d87 = _0x3621a7[_0x25f13a][0x2].replace(/ /g, '');
+                var _0xe9ce96 = _0x3621a7[_0x25f13a][0x1];
+                _0x4f28a2 = _0xe9ce96;
+                if (_0x223b71[_0x631218][0x1] == "dual") {
+                    _0x417d87 = _0x417d87 + " - AltyazÄ± & Dublaj";
                 } else {
-                    if (_0x1b4034[_0x43d0f6][1] == 'tr') {
-                        _0x27c7af = _0x27c7af + ' - Dublaj';
+                    if (_0x223b71[_0x631218][0x1] == 'tr') {
+                        _0x417d87 = _0x417d87 + " - Dublaj";
                     } else {
-                        _0x27c7af = _0x27c7af + " - AltyazÄ±";
+                        _0x417d87 = _0x417d87 + " - AltyazÄ±";
                     }
                 }
-                ;
+                _0xb5f03c[_0x417d87] = _0xe9ce96;
             }
         }
-    } catch (_0x64a74) {
-        error(_0x64a74.message);
+    } catch (_0x3fb1b1) {
+        error(_0x3fb1b1.message);
     }
-    if (!_0x1f39e4.includes('#') && JSON.stringify(_0x3113b9) != '{}' && Object.keys(_0x3113b9).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x3113b9));
+    if (!_0x8833c1.includes('#') && JSON.stringify(_0xb5f03c) != '{}' && Object.keys(_0xb5f03c).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0xb5f03c));
     } else {
-        if (_0x1f39e4.includes('#')) {
-            url(_0x1f39e4.split('#')[1]);
+        if (_0x8833c1.includes('#')) {
+            url(_0x8833c1.split('#')[0x1]);
         } else {
-            url(_0x870c);
+            url(_0x4f28a2);
         }
-        headers('X-Requested-With', 'fetch');
-        _0xfdf084 = fetch(baseUrl(_0x1f39e4) + '/video/' + url() + '/');
-        _0xfdf084 = _0xfdf084.match(/<iframe.*?data-src=\\"(.*?)\\"/)[1].replace(/\\\//g, '/');
-        var _0x30f3f2 = [];
-        if (_0xfdf084.includes('player')) {
-            _0xfdf084 = fetch(_0xfdf084);
-            url('eval(' + _0xfdf084.match(/eval\((.*?)\{\}\)\)/)[1] + '{}))');
-            _0xfdf084 = _0xfdf084.match(/tracks:\s*(.*?\]),/)[1];
-            _0x30f3f2 = [];
+        headers("X-Requested-With", 'fetch');
+        _0x2fa084 = fetch(baseUrl(_0x8833c1) + '/video/' + url() + '/');
+        _0x2fa084 = _0x2fa084.match(/<iframe.*?data-src=\\"(.*?)\\"/)[0x1].replace(/\\\//g, '/');
+        var _0x4ced7b = [];
+        if (_0x2fa084.includes("player")) {
+            _0x2fa084 = fetch(_0x2fa084);
+            url('eval(' + _0x2fa084.match(/eval\((.*?)\{\}\)\)/)[0x1] + "{}))");
+            _0x2fa084 = _0x2fa084.match(/tracks:\s*(.*?\]),/)[0x1];
+            _0x4ced7b = [];
             try {
-                var _0xaa5733 = matchAll(_0xfdf084, /"file":"(.*?)"/g);
-                for (let _0x53c3fd = 0; _0x53c3fd < _0xaa5733.length; _0x53c3fd++) {
-                    var _0x30268b = '';
-                    if (_0xaa5733[_0x53c3fd][1].includes('Turkish')) {
-                        _0x30268b = 'tr';
+                var _0x3621a7 = matchAll(_0x2fa084, /"file":"(.*?)"/g);
+                for (let _0xa3d3 = 0x0; _0xa3d3 < _0x3621a7.length; _0xa3d3++) {
+                    var _0x176a15 = '';
+                    if (_0x3621a7[_0xa3d3][0x1].includes('Turkish')) {
+                        _0x176a15 = 'tr';
                     } else {
-                        if (_0xaa5733[_0x53c3fd][1].includes('English')) {
-                            _0x30268b = 'en';
+                        if (_0x3621a7[_0xa3d3][0x1].includes('English')) {
+                            _0x176a15 = 'en';
                         }
                     }
-                    if (_0x30268b != '') {
-                        var _0x5d8ac0 = _0xaa5733[_0x53c3fd][1].replace(/\\\//g, '/') + '/';
-                        var _0x4b155a = {
-                            'lang': _0x30268b,
-                            'url': baseUrl(_0x1f39e4) + _0x5d8ac0
+                    if (_0x176a15 != '') {
+                        var _0x403920 = _0x3621a7[_0xa3d3][0x1].replace(/\\\//g, '/') + '/';
+                        var _0x2ddd61 = {
+                            'lang': _0x176a15,
+                            'url': baseUrl(_0x8833c1) + _0x403920
                         };
-                        _0x30f3f2.push(_0x4b155a);
+                        _0x4ced7b.push(_0x2ddd61);
                     }
                 }
-            } catch (_0x3b6f4e) { }
-            _0xfdf084 = unPack(url()).replace("var file_link=\"", '').replace("\";", '');
-            url(g.base64Decode(_0xfdf084));
-            g.deleteHeader('X-Requested-With');
+            } catch (_0x48e61a) {}
+            _0x2fa084 = unPack(url()).replace("var file_link=\"", '').replace("\";", '');
+            url(g.base64Decode(_0x2fa084));
+            g.deleteHeader("X-Requested-With");
         } else {
-            if (_0xfdf084.includes('video/embed')) {
-                headers('Referer', _0xfdf084);
-                _0xfdf084 = fetch(_0xfdf084);
-                _0x30f3f2 = [];
+            if (_0x2fa084.includes('video/embed')) {
+                headers("Referer", _0x2fa084);
+                _0x2fa084 = fetch(_0x2fa084);
+                _0x4ced7b = [];
                 try {
-                    var _0xaa5733 = matchAll(_0xfdf084, /<track\s*src="(.*?\.vtt)".*?label="(.*?)"/g);
-                    for (let _0x5a852d = 0; _0x5a852d < _0xaa5733.length; _0x5a852d++) {
-                        var _0x30268b = '';
-                        if (_0xaa5733[_0x5a852d][2].includes('Turkish')) {
-                            _0x30268b = 'tr';
+                    var _0x3621a7 = matchAll(_0x2fa084, /<track\s*src="(.*?\.vtt)".*?label="(.*?)"/g);
+                    for (let _0x53255f = 0x0; _0x53255f < _0x3621a7.length; _0x53255f++) {
+                        var _0x176a15 = '';
+                        if (_0x3621a7[_0x53255f][0x2].includes("Turkish")) {
+                            _0x176a15 = 'tr';
                         }
-                        if (_0x30268b != '') {
-                            var _0x5d8ac0 = _0xaa5733[_0x5a852d][1].replace(/\\\//g, '/');
-                            var _0x4b155a = {
-                                'lang': _0x30268b,
-                                'url': baseUrl(headers.Referer) + _0x5d8ac0
+                        if (_0x176a15 != '') {
+                            var _0x403920 = _0x3621a7[_0x53255f][0x1].replace(/\\\//g, '/');
+                            var _0x2ddd61 = {
+                                'lang': _0x176a15,
+                                'url': baseUrl(headers.Referer) + _0x403920
                             };
-                            _0x30f3f2.push(_0x4b155a);
+                            _0x4ced7b.push(_0x2ddd61);
                         }
                     }
-                } catch (_0x29dd95) { }
-                url('eval(' + _0xfdf084.match(/eval\((.*?)\{\}\)\)/)[1] + '{}))');
-                _0xfdf084 = unPack(url()).replace("var file_link=\"", '');
-                url(_0xfdf084.match(/"(aHR0c.*?)"/)[1]);
+                } catch (_0xdd397a) {}
+                url("eval(" + _0x2fa084.match(/eval\((.*?)\{\}\)\)/)[0x1] + "{}))");
+                _0x2fa084 = unPack(url()).replace("var file_link=\"", '');
+                url(_0x2fa084.match(/"(aHR0c.*?)"/)[0x1]);
                 url(atob(url()));
             }
         }
-        sub(JSON.stringify(_0x30f3f2));
+        sub(JSON.stringify(_0x4ced7b));
         parser();
     }
 }
+
 function hdfilmcehennemi3() {
-    var _0x32f1df = url().split('?l=');
-    url(_0x32f1df[0]);
-    var _0x52ff37 = 'en';
-    if (g.getLang() == 0 || _0x32f1df[1] == '1') {
-        _0x52ff37 = 'tr';
+    var _0x585bd8 = url().split("?l=");
+    url(_0x585bd8[0x0]);
+    var _0x2bafc0 = 'en';
+    if (g.getLang() == 0x0 || _0x585bd8[0x1] == '1') {
+        _0x2bafc0 = 'tr';
     } else {
-        if (g.getLang() == 2 || _0x32f1df[1] == '2') {
-            _0x52ff37 = 'dual';
+        if (g.getLang() == 0x2 || _0x585bd8[0x1] == '2') {
+            _0x2bafc0 = "dual";
         }
     }
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x3d8829 = matchAll(fetch(), /let\s*parts\s*=\s*(.*?);/g);
+    headers('User-Agent', "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x45b81e = matchAll(fetch(), /let\s*parts\s*=\s*(.*?);/g);
     url('');
-    if (_0x3d8829.length > 0) {
-        var _0x38a680 = JSON.parse(_0x3d8829[0][1]);
-        for (var _0x14d76c = 0; _0x14d76c < _0x38a680.length; _0x14d76c++) {
-            if (_0x38a680[_0x14d76c].lang == _0x52ff37) {
-                url(_0x38a680[_0x14d76c].data.match(/iframe\s*src="(.*?)"/)[1]);
+    if (_0x45b81e.length > 0x0) {
+        var _0x189a12 = JSON.parse(_0x45b81e[0x0][0x1]);
+        for (var _0xa03880 = 0x0; _0xa03880 < _0x189a12.length; _0xa03880++) {
+            if (_0x189a12[_0xa03880].lang == _0x2bafc0) {
+                url(_0x189a12[_0xa03880].data.match(/iframe\s*src="(.*?)"/)[0x1]);
                 break;
             }
         }
     } else {
-        url(_0x3d8829.match(/<iframe\s*src="(.*?)"/)[1]);
+        url(_0x45b81e.match(/<iframe\s*src="(.*?)"/)[0x1]);
     }
     parser();
 }
+
 function hdtoday() {
     if (!g.isWebView()) {
-        error('No Webview');
+        error("No Webview");
     }
-    var _0x314f4d = url().split('#')[0];
-    headers('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
-    var _0x577214 = '';
-    if (_0x314f4d.includes('/movie/')) {
-        _0x314f4d = _0x314f4d.replace('/movie/', '/watch-movie/');
+    var _0x18a6e1 = url().split('#')[0x0];
+    headers("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36");
+    var _0x3053ff = '';
+    if (_0x18a6e1.includes("/movie/")) {
+        _0x18a6e1 = _0x18a6e1.replace('/movie/', "/watch-movie/");
     } else {
-        if (_0x314f4d.includes('/tv/')) {
-            _0x314f4d = _0x314f4d.replace('/tv/', '/watch-tv/').replace('-full-', '-hd-').replace('.se', '.tv');
-            _0x577214 = _0x314f4d.split('.')[_0x314f4d.split('.').length - 1];
-            _0x577214 = _0x577214.split('/')[0];
-            var _0x274c86 = fetch(baseUrl(_0x314f4d) + '/ajax/episode/servers/' + _0x577214);
-            _0x314f4d = _0x314f4d.replace(_0x577214, _0x274c86.match(/<a data-id="(.*?)"/)[1]).split('/sezon')[0];
+        if (_0x18a6e1.includes("/tv/")) {
+            _0x18a6e1 = _0x18a6e1.replace("/tv/", "/watch-tv/").replace("-full-", "-hd-").replace(".se", '.tv');
+            _0x3053ff = _0x18a6e1.split('.')[_0x18a6e1.split('.').length - 0x1];
+            _0x3053ff = _0x3053ff.split('/')[0x0];
+            var _0x4582ac = fetch(baseUrl(_0x18a6e1) + "/ajax/episode/servers/" + _0x3053ff);
+            _0x18a6e1 = _0x18a6e1.replace(_0x3053ff, _0x4582ac.match(/<a data-id="(.*?)"/)[0x1]).split("/sezon")[0x0];
         }
     }
     if (!url().includes('#')) {
-        getWebViewOwnContentJS(_0x314f4d, 'aW5kZXgubTN1OA==.m3u8', 'embed', 'jw-icon jw-icon-display jw-button-color jw-reset', '', 0, false, g.getHeadersJSON(), 2);
+        getWebViewOwnContentJS(_0x18a6e1, "==.m3u8", "embed", "jw-icon jw-icon-display jw-button-color jw-reset", '', 0x0, false, g.getHeadersJSON(), 0x2);
     } else {
-        var _0x2a0217 = url().split('#')[2];
-        url(url().split('#')[1]);
-        if (_0x2a0217.includes('http')) {
-            headers('x-requested-with', 'XMLHttpRequest');
-            var _0x7f597d = _0x2a0217.split('/')[_0x2a0217.split('/').length - 1];
-            _0x7f597d = _0x7f597d.split('?')[1];
-            var _0xda76b5 = fetch(_0x2a0217);
-            var _0x28b321 = [];
-            try {
-                var _0x3d38d6 = JSON.parse(_0xda76b5);
-                var _0x249b38 = _0x3d38d6.tracks;
-                for (var _0x10bd3d = 0; _0x10bd3d < _0x249b38.length; _0x10bd3d++) {
-                    var _0x4e3910 = _0x249b38[_0x10bd3d];
-                    if (_0x4e3910.hasOwnProperty('label') && _0x4e3910.hasOwnProperty('file')) {
-                        if (_0x4e3910.label.includes('English') || _0x4e3910.label.includes('German') || _0x4e3910.label.includes('Turkish')) {
-                            var _0x2d1a12 = 'Eng';
-                            if (_0x4e3910.label.includes('German')) {
-                                _0x2d1a12 = 'Ger';
+        var _0x4247a1 = url().split('#')[0x2];
+        consolelog('TEst123');
+        url(url().split('#')[0x1]);
+        if (_0x4247a1.includes("http")) {
+            headers("x-requested-with", 'XMLHttpRequest');
+            var _0x38069f = _0x4247a1.split('/')[_0x4247a1.split('/').length - 0x1];
+            _0x38069f = _0x38069f.split('?')[0x1].split('&')[0x0].replace("id=", '');
+            headers('Referer', 'https://hdtodayz.to');
+            var _0xf6bfbd = fetch("https://videostr.net/embed-1/v3/e-1/" + _0x38069f + "?z=");
+            if (_0xf6bfbd.includes("_is_th")) {
+                _0xf6bfbd = _0xf6bfbd.match(/_is_th:(.*?)/)[0x1];
+            } else {
+                if (_0xf6bfbd.includes("_xy_ws")) {
+                    _0xf6bfbd = _0xf6bfbd.match(/window._xy_ws\s*=\s*"(.*?)";/)[0x1];
+                } else {
+                    if (_0xf6bfbd.includes('_gg_fb')) {
+                        _0xf6bfbd = _0xf6bfbd.match(/name="_gg_fb"\s*content="(.*?)"/)[0x1];
+                    } else {
+                        if (_0xf6bfbd.includes('_lk_db')) {
+                            var _0x50615e = _0xf6bfbd.match(/{x:\s*"(.*?)",\s*y:\s*".*?",\s*z:\s*".*?"};/)[0x1];
+                            var _0x1fbce7 = _0xf6bfbd.match(/{x:\s*".*?",\s*y:\s*"(.*?)",\s*z:\s*".*?"};/)[0x1];
+                            var _0x307788 = _0xf6bfbd.match(/{x:\s*".*?",\s*y:\s*".*?",\s*z:\s*"(.*?)"};/)[0x1];
+                            _0xf6bfbd = _0x50615e + _0x1fbce7 + _0x307788;
+                        } else {
+                            if (_0xf6bfbd.includes("nonce")) {
+                                _0xf6bfbd = _0xf6bfbd.match(/nonce="(.*?)"/)[0x1];
                             } else {
-                                if (_0x4e3910.label.includes('Turkish')) {
-                                    _0x2d1a12 = 'Tur';
+                                if (_0xf6bfbd.includes("data-dpi")) {
+                                    _0xf6bfbd = _0xf6bfbd.match(/<data-dpi="(.*?)"/)[0x1];
                                 }
                             }
-                            var _0x468fc9 = {
-                                'lang': _0x2d1a12,
-                                'url': _0x4e3910.file
-                            };
-                            _0x28b321.push(_0x468fc9);
-                        }
-                    }
-                }
-            } catch (_0x1481db) { }
-            var _0x3f4540 = '';
-            var _0x2919e1 = '';
-            var _0x1e9ca9 = '';
-            for (var _0x10bd3d = 0; _0x10bd3d < _0x28b321.length; _0x10bd3d++) {
-                if (_0x28b321[_0x10bd3d].lang == 'Tur') {
-                    _0x3f4540 = _0x28b321[_0x10bd3d].url;
-                } else {
-                    if (_0x28b321[_0x10bd3d].lang == 'Eng') {
-                        _0x2919e1 = _0x28b321[_0x10bd3d].url;
-                    } else {
-                        if (_0x28b321[_0x10bd3d].lang == 'Ger') {
-                            _0x1e9ca9 = _0x28b321[_0x10bd3d].url;
                         }
                     }
                 }
             }
-            var _0x8a416e = [];
-            if (_0x3f4540 == '') {
-                var _0x46dd68 = '';
-                if (_0x2919e1 != '') {
-                    _0x46dd68 = _0x2919e1;
-                } else {
-                    if (_0x1e9ca9 != '') {
-                        _0x46dd68 = _0x1e9ca9;
+            _0x4247a1 = _0x4247a1.split('k=')[0x0] + 'k=' + _0xf6bfbd;
+            headers("Referer", baseUrl(_0x4247a1) + '/');
+            _0xf6bfbd = fetch(_0x4247a1);
+            var _0x47de34 = [];
+            try {
+                var _0x48e6f9 = JSON.parse(_0xf6bfbd);
+                var _0x4ef611 = _0x48e6f9.tracks;
+                for (var _0x239da3 = 0x0; _0x239da3 < _0x4ef611.length; _0x239da3++) {
+                    var _0x4c1f23 = _0x4ef611[_0x239da3];
+                    if (_0x4c1f23.hasOwnProperty('label') && _0x4c1f23.hasOwnProperty('file')) {
+                        if (_0x4c1f23.label.includes('English') || _0x4c1f23.label.includes('German') || _0x4c1f23.label.includes("Turkish")) {
+                            var _0x28e8fc = "Eng";
+                            if (_0x4c1f23.label.includes("German")) {
+                                _0x28e8fc = 'Ger';
+                            } else {
+                                if (_0x4c1f23.label.includes("Turkish")) {
+                                    _0x28e8fc = "Tur";
+                                }
+                            }
+                            var _0x1fc55e = {
+                                'lang': _0x28e8fc,
+                                'url': _0x4c1f23.file
+                            };
+                            _0x47de34.push(_0x1fc55e);
+                        }
                     }
                 }
-                if (_0x46dd68 != '') {
-                    headers('forHelper', 'c2V5L3RyYW5zbGF0ZS8');
-                    headers('forHelper2', 'Q2V2aXJpQUkuVFIucGhwP3VybD0');
-                    var _0x2e64bd = 'm_';
-                    if (_0x577214 != '') {
-                        _0x2e64bd = 't_';
+            } catch (_0x2a20ee) {}
+            var _0x11c57a = '';
+            var _0x3401e3 = '';
+            var _0x15cffb = '';
+            for (var _0x239da3 = 0x0; _0x239da3 < _0x47de34.length; _0x239da3++) {
+                if (_0x47de34[_0x239da3].lang == "Tur") {
+                    _0x11c57a = _0x47de34[_0x239da3].url;
+                } else {
+                    if (_0x47de34[_0x239da3].lang == "Eng") {
+                        _0x3401e3 = _0x47de34[_0x239da3].url;
+                    } else {
+                        if (_0x47de34[_0x239da3].lang == "Ger") {
+                            _0x15cffb = _0x47de34[_0x239da3].url;
+                        }
                     }
-                    sub(subHelp(_0x46dd68, _0x2e64bd + 'hd'));
-                    if (_0x2919e1 != '') {
-                        var _0x2a0217 = {
-                            lang: 'en',
-                            url: _0x2919e1
-                        };
-                        ;
-                        ;
-                        _0x8a416e = JSON.parse(sub());
-                        _0x8a416e.push(_0x2a0217);
-                        sub(JSON.stringify(_0x8a416e));
+                }
+            }
+            var _0x117846 = [];
+            if (_0x11c57a == '') {
+                var _0x31890b = '';
+                if (_0x3401e3 != '') {
+                    _0x31890b = _0x3401e3;
+                } else {
+                    if (_0x15cffb != '') {
+                        _0x31890b = _0x15cffb;
+                    }
+                }
+                if (_0x31890b != '') {
+                    headers("forHelper", 'c2V5L3RyYW5zbGF0ZS8');
+                    headers("forHelper2", 'Q2V2aXJpQUkuVFIucGhwP3VybD0');
+                    var _0x241224 = 'm_';
+                    if (_0x3053ff != '') {
+                        _0x241224 = 't_';
+                    }
+                    sub(subHelp(_0x31890b, _0x241224 + 'hd'));
+                    if (_0x3401e3 != '') {
+                        var _0x4247a1 = {};
+                        _0x4247a1.lang = 'en';
+                        _0x4247a1.url = _0x3401e3;
+                        _0x117846 = JSON.parse(sub());
+                        _0x117846.push(_0x4247a1);
+                        sub(JSON.stringify(_0x117846));
                     }
                 }
             } else {
-                sub(_0x3f4540);
+                sub(_0x11c57a);
             }
             parser();
         }
     }
 }
+
 function imdb() {
     url(url() + '/');
-    var _0x4d45d6 = fetch().match(/"embedUrl"\s*:\s*"(.*?)"/)[1];
-    var _0x2336db = _0x4d45d6.replace('video/imdb', 'videoembed');
-    if (!_0x2336db.startsWith('https')) {
-        _0x2336db = 'https://imdb.com' + _0x2336db;
+    var _0x3b8c21 = fetch().match(/"embedUrl"\s*:\s*"(.*?)"/)[0x1];
+    var _0x5031a7 = _0x3b8c21.replace('video/imdb', 'videoembed');
+    if (!_0x5031a7.startsWith('https')) {
+        _0x5031a7 = "https://imdb.com" + _0x5031a7;
     }
-    var _0x3a9a9e = fetch(_0x2336db);
+    var _0x5ea813 = fetch(_0x5031a7);
     try {
-        var _0x44704b = matchAll(_0x3a9a9e, /"videoUrl":"(.*?)"},{"definition":"(.*?)"/);
-        if (_0x44704b.length > 0) {
-            for (var _0x7a0c14 = 0; _0x7a0c14 < _0x44704b.length; _0x7a0c14++) { }
+        var _0xccff39 = matchAll(_0x5ea813, /"videoUrl":"(.*?)"},{"definition":"(.*?)"/);
+        if (_0xccff39.length > 0x0) {
+            for (var _0x13809f = 0x0; _0x13809f < _0xccff39.length; _0x13809f++) {}
         } else {
             throw Error();
         }
-    } catch (_0x5d0d27) {
-        var _0x212825 = JSON.parse(_0x3a9a9e.match(/videoEmbedPlaybackData":(.*?)}],/)[1] + '}]}');
-        url(_0x212825.playbackURLs[0].url);
+    } catch (_0x5244f2) {
+        var _0x13d253 = JSON.parse(_0x5ea813.match(/<script id="__NEXT_DATA__" type="application\/json">(.*?)<\/script>/)[0x1]);
+        url(_0x13d253.props.pageProps.videoPlaybackData.video.playbackURLs[0x0].url);
     }
     parser();
 }
+
 function istanbuluseyret() {
-    var _0x35c877 = fetch();
-    _0x35c877 = _0x35c877.match(/"dataProvider":(.*?\}),/)[1];
-    var _0x22ac5d = JSON.parse(_0x35c877);
-    url(_0x22ac5d.source[0].url);
+    var _0x15ccf4 = fetch();
+    _0x15ccf4 = _0x15ccf4.match(/"dataProvider":(.*?\}),/)[0x1];
+    var _0x4920e7 = JSON.parse(_0x15ccf4);
+    url(_0x4920e7.source[0x0].url);
     parser();
 }
+
 function sinefil() {
-    var _0x3d4ace = url();
-    var _0x49dcf3 = fetch();
-    var _0xbf90c8 = {};
+    var _0x8eb3ec = fetch();
+    _0x8eb3ec = _0x8eb3ec.match(/secureData\":\"(.*?)\"/)[0x1];
+    var _0x5c7be6 = _0x8eb3ec;
+    _0x8eb3ec = atob(_0x8eb3ec);
+    var _0x578ae8 = _0x8eb3ec;
     try {
-        var _0x34aabd = matchAll(_0x49dcf3, /<iframe.*?src="(.*?)".*?<\/iframe>/g);
-        var _0x845f4c = 1;
-        for (let _0x252470 = 0; _0x252470 < _0x34aabd.length; _0x252470++) {
-            if (!_0x34aabd[_0x252470][1].includes('youtube')) {
-                _0xbf90c8['Alternatif ' + _0x845f4c] = _0x34aabd[_0x252470][1];
-                _0x845f4c++;
+        if (!_0x8eb3ec.includes('pichive')) {
+            consolelog(_0x5c7be6);
+            _0x8eb3ec = getSecureData(_0x5c7be6);
+        }
+        _0x8eb3ec = JSON.parse(_0x8eb3ec);
+        _0x8eb3ec = _0x8eb3ec.RelatedResults.getEpisodeSources.result;
+        for (var _0x5cbe46 = 0x0; _0x5cbe46 < _0x8eb3ec.length; _0x5cbe46++) {
+            if ((g.getLang() >= 0x1 && url(["yabancidizi"], 0x1) || url(["selcukflix"], 0x1)) && _0x8eb3ec[_0x5cbe46].language_name.includes("Altyaz") || g.getLang() == 0x0 && _0x8eb3ec[_0x5cbe46].language_name.includes('Dublaj')) {
+                if (_0x8eb3ec[_0x5cbe46].source_content.includes('pichive') || !_0x8eb3ec[_0x5cbe46].source_content.includes("pichive")) {
+                    url(_0x8eb3ec[_0x5cbe46].source_content.match(/src="(.*?)"/)[0x1]);
+                    break;
+                }
             }
         }
-        if (Object.keys(_0xbf90c8).length < 1) {
-            throw new Error('Telif');
-        }
-    } catch (_0x3663fc) {
-        if (!_0x49dcf3.includes('allowfullscreen') && _0x49dcf3.toLowerCase().includes('telif nedeniyle')) {
-            error('Telif');
-        } else {
-            error(_0x3663fc.message);
-        }
+    } catch (_0xdc2d7f) {
+        url(_0x578ae8.match(/src=\\"(.*?)\\"/)[0x1]);
     }
-    if (!_0x3d4ace.includes('#') && _0xbf90c8.length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0xbf90c8));
-    } else {
-        if (_0xbf90c8.length > 1) {
-            url(_0x3d4ace.split('#')[1]);
-        } else {
-            url(_0xbf90c8[Object.keys(_0xbf90c8)[0]]);
-        }
-        parser();
-    }
+    url(fixUrl(url()));
+    parser();
 }
+
 function jetfilm() {
-    var _0x7cf8e8 = url();
-    headers('User-Agent', 'cloudflare');
-    var _0x85bf1b = fetch().match(/film_part(.*?)(?:pbgiris|iframe)/)[1];
-    consolelog(_0x85bf1b);
-    var _0x5e499c = matchAll(_0x85bf1b, /<span>(.*?)<\/span>/g);
-    var _0x23a893 = matchAll(_0x85bf1b, /href="(.*?)"/g);
-    var _0x1bc318 = {};
-    var _0x6ec6ca = ['vupload', 'letsupload', 'jetplay', 'mail', 'aparat', 'vidmoly', 'mixplay', 'jetv.xyz', 'platin', 'moly', 'okru', 'vk', 'jet', 'seg', 'one', 'tr-en', 'yx', 'trp', 'dood', 'fmoon'];
-    _0x23a893.unshift(['', url()]);
-    for (let _0x1357bb = 0; _0x1357bb < _0x5e499c.length; _0x1357bb++) {
-        if (_0x6ec6ca.indexOf((_0x5e499c[_0x1357bb][1] + '').toLowerCase()) !== -1) {
-            _0x1bc318[_0x5e499c[_0x1357bb][1]] = _0x23a893[_0x1357bb][1];
+    var _0x55eb74 = url();
+    headers("User-Agent", "cloudflare");
+    var _0x5ae2fb = fetch().match(/film_part(.*?)(?:pbgiris|iframe)/)[0x1];
+    consolelog(_0x5ae2fb);
+    var _0x2d9af3 = matchAll(_0x5ae2fb, /<span>(.*?)<\/span>/g);
+    var _0xe4c84c = matchAll(_0x5ae2fb, /href="(.*?)"/g);
+    var _0x1a3e4c = {};
+    var _0x39b76d = ["vip", "vupload", 'letsupload', "jetplay", "mail", "aparat", "vidmoly", "mixplay", "jetv.xyz", "platin", 'moly', "okru", 'vk', 'jet', 'seg', 'one', "tr-en", 'yx', "trp", "dood", 'fmoon'];
+    _0xe4c84c.unshift(['', url()]);
+    for (let _0x1f5d1f = 0x0; _0x1f5d1f < _0x2d9af3.length; _0x1f5d1f++) {
+        if (_0x39b76d.indexOf((_0x2d9af3[_0x1f5d1f][0x1] + '').toLowerCase()) !== -0x1) {
+            _0x1a3e4c[_0x2d9af3[_0x1f5d1f][0x1]] = _0xe4c84c[_0x1f5d1f][0x1];
         }
     }
-    if (!_0x7cf8e8.includes('#') && Object.keys(_0x1bc318).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x1bc318));
+    if (!_0x55eb74.includes('#') && Object.keys(_0x1a3e4c).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x1a3e4c));
     } else {
-        url(url().split('#')[1]);
-        _0x85bf1b = fetch();
+        url(url().split('#')[0x1]);
+        _0x5ae2fb = fetch();
         try {
-            url(_0x85bf1b.match(/<iframe.*?data(?:-litespeed|)-src=["|'](.*?)['|"]\s*(?:width|frame|)/)[1]);
-        } catch (_0x2eda2f) {
+            url(_0x5ae2fb.match(/<iframe.*?data(?:-litespeed|)-src=["|'](.*?)['|"]\s*(?:width|frame|)/)[0x1]);
+        } catch (_0x3fddd7) {
             try {
-                url(_0x85bf1b.match(/<iframe.*?data-src="(.*?)"/)[1]);
-            } catch (_0x5e5180) {
+                url(_0x5ae2fb.match(/<iframe.*?data-src="(.*?)"/)[0x1]);
+            } catch (_0x556b4f) {
                 try {
-                    url(_0x85bf1b.match(/iframe src='(.*?)'/)[1]);
-                } catch (_0xc7335e) {
-                    url(_0x85bf1b.match(/class="film_partiframe src='(.*?)'/)[1]);
+                    url(_0x5ae2fb.match(/iframe src='(.*?)'/)[0x1]);
+                } catch (_0x484130) {
+                    url(_0x5ae2fb.match(/class="film_partiframe src='(.*?)'/)[0x1]);
                 }
             }
         }
-        if (!url(['mixdrop', 'videobin', 'upstream', 'vidmoly', 'ok.ru', 'odnoklassniki', 'vk.com', 'dood', 'trstx'], 1)) {
-            if (url(['jetv.xyz/yx'], 1)) {
-                var _0x43ed5e = 'vars=' + url().match(/id=(.*?)$/)[1];
-                _0x85bf1b = fetchPost(_0x43ed5e, 'https://jetv.xyz/yx/api.php');
-                url(_0x85bf1b.match(/file:.*?"(.*?)",/)[1]);
+        if (!url(["mixdrop", "videobin", 'upstream', "vidmoly", "ok.ru", "odnoklassniki", "vk.com", "dood", "trstx"], 0x1)) {
+            if (url(["jetv.xyz/yx"], 0x1)) {
+                var _0x354a26 = "vars=" + url().match(/id=(.*?)$/)[0x1];
+                _0x5ae2fb = fetchPost(_0x354a26, "https://jetv.xyz/yx/api.php");
+                url(_0x5ae2fb.match(/file:.*?"(.*?)",/)[0x1]);
             } else {
-                _0x85bf1b = fetch();
-                if (url(['jtfi'], 1)) {
-                    try {
-                        url(_0x85bf1b.match(/"hls","file":"(.*?)"/)[1].replace(/\\/g, ''));
-                    } catch (_0x45a717) {
-                        _0x85bf1b = matchAll(_0x85bf1b, /"file":"(.*?)"/g);
-                        url(_0x85bf1b[_0x85bf1b.length - 1][1].replace(/\\/g, '') + '#.mp4');
-                    }
-                    headers('Referer', url());
-                    headers('Range', 'bytes=0-');
+                if (url(["jfvid"], 0x1)) {
+                    url("/play/", "/stream/");
                 } else {
-                    if (url(['oneupload', 'segavid'], 1)) {
-                        url(fetch().match(/file:"(.*?)"/)[1]);
-                    } else {
-                        if (url(['jetv.xyz'], 1)) {
-                            if (_0x85bf1b.includes('jetESources')) {
-                                var _0x454606 = {
-                                    iv: '987654jetfilmcom',
-                                    s: '987654321jetfilm',
-                                    ct: _0x85bf1b.match(/jetESources\s*=\s*"(.*?)";/)[1]
-                                };
-                                url(getAes('', JSON.stringify(_0x454606)));
-                            } else {
-                                if (_0x85bf1b.includes('Contents =')) {
-                                    url(url());
-                                } else {
-                                    if (_0x85bf1b.includes("\"label\":")) {
-                                        consolelog('label');
-                                    } else {
-                                        if (_0x85bf1b.includes('m3u8')) {
-                                            consolelog('m3u8');
-                                        } else {
-                                            if (_0x85bf1b.includes('src=')) {
-                                                consolelog('src=');
-                                            } else {
-                                                consolelog('other');
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        } else {
-                            _0x85bf1b = _0x85bf1b.match(/"?file"? ?: ?"([^"]+)", ?"(?:type|label)": ?"([^"]+)"/);
+                    _0x5ae2fb = fetch();
+                    if (url(["jtfi"], 0x1)) {
+                        try {
+                            url(_0x5ae2fb.match(/"hls","file":"(.*?)"/)[0x1].replace(/\\/g, ''));
+                        } catch (_0x2cd472) {
+                            _0x5ae2fb = matchAll(_0x5ae2fb, /"file":"(.*?)"/g);
+                            url(_0x5ae2fb[_0x5ae2fb.length - 0x1][0x1].replace(/\\/g, '') + "#.mp4");
                         }
-                    }
-                }
-            }
-        }
-        consolelog('Test: ' + url());
-        url(fixUrl(url()));
-        parser();
-    }
-}
-function kanal7() {
-    if (url(['canli-izle'], 1)) {
-        url(fetch().match(/hls:\s*'(.*?)'/)[1]);
-    } else {
-        var _0x30bacf = fetch().match(/<iframe.*?src="(https:\/\/www.izle7.com\/.*?)"/)[1];
-        _0x30bacf = fetch(_0x30bacf).match(/play_video\s*=\s*"(.*?)"/)[1];
-        url('https://www.dailymotion.com/embed/video/' + _0x30bacf);
-    }
-    parser();
-}
-function kanalb() {
-    url('https://baskentaudiovideo.xyz/LiveApp/streams/' + fetch().match(/\?name=(.*?)"/)[1] + '.m3u8');
-    parser(url(), 1, '', '', false);
-}
-function kanald() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x27cd7a = fetch();
-        url(_0x27cd7a.match(/data-url="(.*?)"/)[1].replace('https://media.duhnet.tv', ''));
-        parser();
-    } else {
-        var _0x27cd7a = fetch();
-        _0x27cd7a = _0x27cd7a.match(/\/embed\/(.*?)">/)[1];
-        _0x27cd7a = fetch('https://www.kanald.com.tr/actions/media?id=' + _0x27cd7a + '&p=1&pc=1');
-        var _0x355fd0 = JSON.parse(_0x27cd7a);
-        var _0x32da00 = _0x355fd0.data.media.link.securePath;
-        if (_0x355fd0.data.media.link.hasOwnProperty('serviceUrl')) {
-            if (!_0x32da00.startsWith('/') && !_0x32da00.startsWith('http')) {
-                _0x32da00 = _0x355fd0.data.media.link.serviceUrl + '/' + _0x355fd0.data.media.link.securePath;
-            } else {
-                _0x32da00 = _0x355fd0.data.media.link.serviceUrl + '' + _0x355fd0.data.media.link.securePath;
-            }
-        }
-        url(_0x32da00);
-        parser();
-    }
-}
-function koreanturk() {
-    var _0x580cc8 = url();
-    var _0x3c8a65 = fetch();
-    _0x3c8a65 = matchAll(_0x3c8a65.match(/tab-content icerikler(.*?)text\/css/)[1], /id="(.*?)".*?(?:iframe.*?src|a.*?href)="(.*?)"/g);
-    streamUrls = {};
-    for (let _0x40131e = 0; _0x40131e < _0x3c8a65.length; _0x40131e++) {
-        if (!_0x3c8a65[_0x40131e][1].includes('guard') && !_0x3c8a65[_0x40131e][1].includes('mega')) {
-            streamUrls[_0x3c8a65[_0x40131e][1]] = _0x3c8a65[_0x40131e][2];
-        }
-    }
-    if (!_0x580cc8.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(streamUrls));
-    } else {
-        url(url().split('#')[1]);
-        parser();
-    }
-}
-function kultfilmler() {
-    var _0x2a2e03 = url();
-    var _0x51773f = fetch();
-    _0x51773f = _0x51773f.match(/player-control(.*?)button\s*report-button\s*trigger/)[1];
-    var _0x326d54 = {};
-    try {
-        var _0x3fb73 = matchAll(_0x51773f, /part-name">(.*?)<.*?"part-lang">(.*?)<\/div/g);
-        var _0x59354f = 0;
-        for (let _0x385cfd = 0; _0x385cfd < _0x3fb73.length; _0x385cfd++) {
-            var _0x2030e0 = url();
-            if (_0x59354f > 0) {
-                _0x2030e0 = url() + (_0x59354f + 1) + '/';
-            }
-            var _0x374da9 = 'cc';
-            if (g.getLang() == 1) {
-                _0x374da9 = 'tr';
-            }
-            if (_0x3fb73[_0x385cfd][2].includes(_0x374da9) || _0x374da9 != 1 && _0x3fb73[_0x385cfd][2].length < 2) {
-                if (!_0x3fb73[_0x385cfd][1].includes('KULTPlayer')) {
-                    _0x326d54[_0x3fb73[_0x385cfd][1]] = _0x2030e0;
-                }
-            }
-            _0x59354f++;
-        }
-    } catch (_0x24eb31) {
-        error(_0x24eb31.message);
-    }
-    if (!_0x2a2e03.includes('#') && _0x326d54.length > 0) {
-        Core.showAlternatesJS(JSON.stringify(_0x326d54));
-    } else {
-        if (_0x2a2e03.includes('#')) {
-            url(_0x2a2e03.split('#')[1]);
-        } else {
-            url(_0x2a2e03);
-        }
-        _0x51773f = fetch();
-        url(_0x51773f.match(/new ContentManager\(.*?, "(.*?)", 10\);/)[1]);
-        url(atob(url()));
-        url(url().match(/iframe.*?src="(.*?)"/)[1]);
-        url(fixUrl(url()));
-        if (url(['yildizkisafilm'], 0)) {
-            var _0x166a02 = url().split('/')[url().split('/').length - 1];
-            url('https://yildizkisafilm.org/player/index.php?data=' + _0x166a02 + '&do=getVideo');
-            var _0x2227d2 = 'hash=' + _0x166a02 + '&r=';
-            headers('X-Requested-With', 'XMLHttpRequest');
-            try {
-                _0x51773f = fetch();
-                sub(_0x51773f.match(/var playerjsSubtitle = "\[TÃ¼rkÃ§e\](.*?\.srt)";/)[1]);
-            } catch (_0x26b7c1) {
-                sub('');
-            }
-            g.logHeader();
-            var _0x28199a = fetchPost(_0x2227d2);
-            try {
-                _0x2227d2 = JSON.parse(_0x28199a);
-                url(_0x2227d2.securedLink);
-                parser();
-            } catch (_0x8d5bdb) {
-                error(_0x8d5bdb.message);
-            }
-        } else {
-            parser();
-        }
-    }
-}
-function mailru() {
-    url(fixUrl(url()));
-    var _0xd12e47 = matchAll(fetch(), /"video":(.*?),/g);
-    var _0x63e6bd = '';
-    for (let _0x2a6c80 = 0; _0x2a6c80 < _0xd12e47.length; _0x2a6c80++) {
-        _0x63e6bd = 'https://my.mail.ru' + _0xd12e47[_0x2a6c80][1].split("\"").join('').split('{').join('').split(':').join('').split('metadataUrl').join('').split(' ').join('');
-    }
-    var _0x48b836 = JSON.parse(fetch(_0x63e6bd)).videos;
-    var _0x569706 = ['360p', '480p', '720p', '1080p', 'Alone'];
-    var _0x439288 = -1;
-    var _0x5ab25b = -1;
-    for (let _0x35dd4e = 0; _0x35dd4e < _0x48b836.length; _0x35dd4e++) {
-        try {
-            var _0x476172 = _0x569706.indexOf(_0x48b836[_0x35dd4e].key);
-            if (_0x439288 < _0x476172) {
-                _0x439288 = _0x476172;
-                _0x5ab25b = _0x35dd4e;
-            }
-        } catch (_0x55904b) { }
-    }
-    if (_0x439288 != -1) {
-        url(fixUrl(_0x48b836[_0x5ab25b].url));
-    }
-    parser();
-}
-function mixdrop() {
-    url(fixUrl(url()));
-    var _0x3ce7e2 = fetch();
-    _0x3ce7e2 = unPack(_0x3ce7e2.match(/(eval\(function\(p,a,c,k,e,d.*?)<\/script>/)[1]);
-    var _0x551f87 = /MDCore.wurl="(.*?)"/;
-    if (url(['luluvdo'], 1)) {
-        _0x551f87 = /file:"(.*?)"/;
-    } else {
-        if (url(['streamhub'], 1)) {
-            _0x551f87 = /src:"(.*?)"/;
-        }
-    }
-    url(fixUrl(_0x3ce7e2.match(_0x551f87)[1]));
-    parser();
-}
-function movies123() {
-    if (!g.isWebView()) {
-        error('No Webview');
-    }
-    var _0x5746b9 = url().split('#')[0];
-    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36';
-    var _0x1f2e8c = -1;
-    getWebViewOwnContentJS(_0x5746b9, 'site/hls', 'I AM NOT LOOKING', 'play-now', '', _0x1f2e8c, false, g.getHeadersJSON, 0);
-}
-function movie4k() {
-    var _0x1f0b9c = url();
-    var _0x451b1d = fetch();
-    var _0x19bd3b = {};
-    try {
-        var _0x300caa = matchAll(_0x451b1d, /class="tablinks"\s*href="#"\s*data-link="(.*?)">(.*?)</g);
-        var _0x4cdf3f = 1;
-        for (let _0x3c576a = 0; _0x3c576a < _0x300caa.length; _0x3c576a++) {
-            if (!_0x300caa[_0x3c576a][2].includes('Player HD') && !_0x300caa[_0x3c576a][2].includes('Trailer') && !_0x300caa[_0x3c576a][2].includes('Server 4K') && !_0x300caa[_0x3c576a][2].includes('Goodstream')) {
-                _0x19bd3b[_0x300caa[_0x3c576a][2]] = _0x300caa[_0x3c576a][1];
-                _0x4cdf3f++;
-            }
-        }
-    } catch (_0x32221b) {
-        error(_0x32221b.message);
-    }
-    if (!_0x1f0b9c.includes('#') && JSON.stringify(_0x19bd3b) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x19bd3b));
-    } else {
-        url(_0x1f0b9c.split('#')[1]);
-        url(fixUrl(url()));
-        if (url(['goodstream'], 1)) { } else {
-            parser();
-        }
-    }
-}
-function nowtv() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x7b152f = fetch();
-        ;
-        url(_0x7b152f.match(/(?:videoSrc|daiUrl)\s*:\s*'(.*?)'/)[1]);
-        parser();
-    } else {
-        var _0x7b152f = fetch();
-        url(_0x7b152f.match(/'(https:\/\/nowtv-.*?)'/)[1]);
-        parser();
-    }
-}
-function myvideoaz() {
-    url(fetch().match(/application\/x-mpegURL"\s*src="(.*?)"/)[1]);
-    parser();
-}
-function okru() {
-    url(fixUrl(url()));
-    headers('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0');
-    var _0x624b7e = url().match(/https?:\/\/(?:www.)?(?:odnoklassniki|ok).ru\/(?:videoembed\/|dk\?cmd=videoPlayerMetadata&mid=)(\d+)/)[1];
-    var _0xc5eb5b = JSON.parse(fetchPost('cmd=videoPlayerMetadata&mid=' + _0x624b7e, 'http://www.ok.ru/dk'));
-    _0xc5eb5b = _0xc5eb5b.videos;
-    var _0xda31b1 = ['mobile', 'lowest', 'low', 'sd', 'hd', 'full'];
-    var _0x34b9d1 = -1;
-    var _0x121aad = -1;
-    for (let _0x1c4f89 = 0; _0x1c4f89 < _0xc5eb5b.length; _0x1c4f89++) {
-        try {
-            var _0x8c539 = _0xda31b1.indexOf(_0xc5eb5b[_0x1c4f89].name);
-            if (_0x34b9d1 < _0x8c539) {
-                _0x34b9d1 = _0x8c539;
-                _0x121aad = _0x1c4f89;
-            }
-        } catch (_0x544146) { }
-    }
-    if (_0x34b9d1 != -1) {
-        url(_0xc5eb5b[_0x121aad].url + '#.mp4');
-        headers('Referer', 'https://odnoklassniki.ru/');
-    }
-    parser();
-}
-function oneupload() {
-    var _0x755307 = fetch();
-    url(_0x755307.match(/\[\{file:"(.*?)"/)[1]);
-    parser();
-}
-function onlinedizi() {
-    var _0x38bf5b = url();
-    var _0x362a3b = 'episode-buttons';
-    if (url(['/film/'], 1)) {
-        _0x362a3b = 'active';
-        if (!url(['izle'], 1)) {
-            url(url() + '/turkce-altyazi-izle');
-        }
-    }
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x528e3c = fetch();
-    try {
-        _0x528e3c = _0x528e3c.match(/Alternatif(.*?)episode-buttons/)[1];
-    } catch (_0x585c1a) { }
-    var _0x31fd16 = {
-        _0x3959b9: _0x3dfb46
-    };
-    try {
-        var _0x330486 = matchAll(_0x528e3c, /href="(.*?)".*?>(.*?)</g);
-        for (let _0x378dee = 0; _0x378dee < _0x330486.length; _0x378dee++) {
-            var _0x3dfb46 = _0x330486[_0x378dee][1];
-            var _0x3959b9 = _0x330486[_0x378dee][2];
-            ;
-        }
-    } catch (_0x5a79f3) {
-        error(_0x5a79f3.message);
-    }
-    if (Object.keys(_0x31fd16).length == 0 || Object.keys(_0x31fd16).length > 8) {
-        error('Onlinedizi 1371');
-    }
-    if (!_0x38bf5b.includes('#') && JSON.stringify(_0x31fd16) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x31fd16));
-    } else {
-        url(_0x38bf5b.split('#')[1]);
-        _0x528e3c = fetch();
-        url(_0x528e3c.match(/iframe\s*src="(.*?)"/)[1]);
-        if (!url().startsWith('http')) {
-            url(baseUrl(_0x38bf5b) + url());
-        }
-        _0x528e3c = fetch();
-        var _0x216118 = _0x528e3c.match(/ifsrc = "(.*?)"/)[1];
-        if (!_0x216118.startsWith('http')) {
-            _0x216118 = 'https:' + _0x216118;
-        }
-        url(Core.getRedirectUrlJS(_0x216118));
-        if (url() == '') {
-            error('Onlinedizi 1393');
-        } else {
-            if (url(['gdplayer'], 1)) {
-                _0x528e3c = fetch();
-                url('https:' + _0x528e3c.match(/(\/\/gdplayer.org\/api\/.*?)"/)[1]);
-                _0x528e3c = fetch();
-                try {
-                    var _0x505280 = JSON.parse(_0x528e3c);
-                    url(_0x505280.sources[0].file);
-                } catch (_0x3ccb07) {
-                    error(_0x3ccb07.message);
-                }
-            } else {
-                if (url(['fscdn.xyz'], 1)) {
-                    var _0x158b31 = url().split('/')[4];
-                    var _0x52d073 = url() + '?do=getVideo';
-                    var _0x18e648 = 'hash=' + _0x158b31 + '&r=' + baseUrl(_0x38bf5b) + '&s=';
-                    url(_0x52d073);
-                    headers('content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-                    headers('x-requested-with', 'XMLHttpRequest');
-                    _0x528e3c = fetchPost(_0x18e648);
-                    try {
-                        var _0x505280 = JSON.parse(_0x528e3c);
-                        _0x52d073 = _0x505280.videoSources[0].file;
-                        url(_0x52d073);
-                        if (_0x52d073.includes('fcdn')) {
-                            _0x528e3c = fetch();
-                            url('');
-                            try {
-                                var _0x330486 = matchAll(_0x528e3c, /sticon-film"><\/span><b>(.*?)</g);
-                                for (let _0x865c0d = 0; _0x865c0d < alts_raw.length; _0x865c0d++) {
-                                    if (url() == '') {
-                                        url(_0x330486[_0x865c0d][1]);
+                        headers('Referer', url());
+                        headers('Range', "bytes=0-");
+                    } else {
+                        if (url(["oneupload", "segavid"], 0x1)) {
+                            url(fetch().match(/file:"(.*?)"/)[0x1]);
+                        } else {
+                            if (url(['jetv.xyz'], 0x1)) {
+                                if (_0x5ae2fb.includes("jetESources")) {
+                                    var _0x3e3bd3 = {
+                                        iv: "987654jetfilmcom",
+                                        s: "987654321jetfilm",
+                                        ct: _0x5ae2fb.match(/jetESources\s*=\s*"(.*?)";/)[0x1]
+                                    };
+                                    url(getAes('', JSON.stringify(_0x3e3bd3)));
+                                } else {
+                                    if (_0x5ae2fb.includes("Contents =")) {
+                                        url(url());
                                     } else {
-                                        if (_0x330486[_0x865c0d][1].includes('1080p/playlist')) {
-                                            url(_0x330486[_0x865c0d][1]);
+                                        if (_0x5ae2fb.includes("\"label\":")) {
+                                            consolelog("label");
                                         } else {
-                                            if (_0x330486[_0x865c0d][1].includes('720p/playlist') && !url.includes('1080p/playlist')) {
-                                                url(_0x330486[_0x865c0d][1]);
+                                            if (_0x5ae2fb.includes("m3u8")) {
+                                                consolelog("m3u8");
                                             } else {
-                                                if (_0x330486[_0x865c0d][1].includes('480p/playlist') && !url.includes('1080p/playlist') && !url.includes('720p/playlist')) {
-                                                    url(_0x330486[_0x865c0d][1]);
+                                                if (_0x5ae2fb.includes('src=')) {
+                                                    consolelog("src=");
                                                 } else {
-                                                    if (_0x330486[_0x865c0d][1].includes('360p/playlist') && !url.includes('1080p/playlist') && !url.includes('720p/playlist') && !url.includes('480p/playlist')) {
-                                                        url(_0x330486[_0x865c0d][1]);
-                                                    }
+                                                    consolelog("other");
                                                 }
                                             }
                                         }
                                     }
                                 }
-                            } catch (_0x4af6ee) { }
+                            } else {
+                                _0x5ae2fb = _0x5ae2fb.match(/"?file"? ?: ?"([^"]+)", ?"(?:type|label)": ?"([^"]+)"/);
+                            }
                         }
-                        g.deleteHeader('content-type');
-                        g.deleteHeader('x-requested-with');
-                        headers('Referer', 'https://yandex.ru');
-                    } catch (_0xddb21d) {
-                        error(_0xddb21d.message);
                     }
-                } else {
-                    if (url(['ondembed.xyz'], 1)) {
-                        url('ondembed.xyz', 'fembed.com');
+                }
+            }
+        }
+        consolelog("Test: " + url());
+        url(fixUrl(url()));
+        parser();
+    }
+}
+
+function kanal7() {
+    if (url(['canli-izle'], 0x1)) {
+        url(fetch().match(/hls:\s*'(.*?)'/)[0x1]);
+    } else {
+        var _0x54a902 = fetch().match(/<iframe.*?src="(https:\/\/www.izle7.com\/.*?)"/)[0x1];
+        _0x54a902 = fetch(_0x54a902).match(/play_video\s*=\s*"(.*?)"/)[0x1];
+        url('https://www.dailymotion.com/embed/video/' + _0x54a902);
+    }
+    parser();
+}
+
+function kanalb() {
+    url("https://baskentaudiovideo.xyz/LiveApp/streams/" + fetch().match(/\?name=(.*?)"/)[0x1] + ".m3u8");
+    parser(url(), 0x1, '', '', false);
+}
+
+function kanald() {
+    if (url(['canli-yayin'], 0x0)) {
+        var _0x568ce1 = fetch();
+        url(_0x568ce1.match(/data-url="(.*?)"/)[0x1].replace("https://media.duhnet.tv", ''));
+        parser();
+    } else {
+        var _0x568ce1 = fetch();
+        _0x568ce1 = _0x568ce1.match(/"contentUrl":"(.*?)"/)[0x1];
+        url(_0x568ce1);
+        parser();
+    }
+}
+
+function koreanturk() {
+    var _0xdf3c2f = url();
+    var _0x421832 = fetch();
+    _0x421832 = matchAll(_0x421832.match(/tab-content icerikler(.*?)text\/css/)[0x1], /id="(.*?)".*?(?:iframe.*?src|a.*?href)="(.*?)"/g);
+    streamUrls = {};
+    for (let _0x2b1f7f = 0x0; _0x2b1f7f < _0x421832.length; _0x2b1f7f++) {
+        if (!_0x421832[_0x2b1f7f][0x1].includes("guard") && !_0x421832[_0x2b1f7f][0x1].includes("mega")) {
+            streamUrls[_0x421832[_0x2b1f7f][0x1]] = _0x421832[_0x2b1f7f][0x2];
+        }
+    }
+    if (!_0xdf3c2f.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(streamUrls));
+    } else {
+        url(url().split('#')[0x1]);
+        parser();
+    }
+}
+
+function kultfilmler() {
+    var _0x55abef = url();
+    var _0x1ba771 = fetch();
+    _0x1ba771 = _0x1ba771.match(/player-control(.*?)button\s*report-button\s*trigger/)[0x1];
+    var _0x155769 = {};
+    try {
+        var _0x284e8c = matchAll(_0x1ba771, /part-name">(.*?)<.*?"part-lang">(.*?)<\/div/g);
+        var _0x13dc15 = 0x0;
+        for (let _0x482df4 = 0x0; _0x482df4 < _0x284e8c.length; _0x482df4++) {
+            var _0x4dfb6f = url();
+            if (_0x13dc15 > 0x0) {
+                _0x4dfb6f = url() + (_0x13dc15 + 0x1) + '/';
+            }
+            var _0x4aa30b = 'cc';
+            if (g.getLang() == 0x1) {
+                _0x4aa30b = 'tr';
+            }
+            if (_0x284e8c[_0x482df4][0x2].includes(_0x4aa30b) || _0x4aa30b != 0x1 && _0x284e8c[_0x482df4][0x2].length < 0x2) {
+                if (!_0x284e8c[_0x482df4][0x1].includes('KULTPlayer')) {
+                    _0x155769[_0x284e8c[_0x482df4][0x1]] = _0x4dfb6f;
+                }
+            }
+            _0x13dc15++;
+        }
+    } catch (_0x178cfe) {
+        error(_0x178cfe.message);
+    }
+    if (!_0x55abef.includes('#') && _0x155769.length > 0x0) {
+        Core.showAlternatesJS(JSON.stringify(_0x155769));
+    } else {
+        if (_0x55abef.includes('#')) {
+            url(_0x55abef.split('#')[0x1]);
+        } else {
+            url(_0x55abef);
+        }
+        _0x1ba771 = fetch();
+        url(_0x1ba771.match(/new ContentManager\(.*?, "(.*?)", 15\);/)[0x1]);
+        url(atob(url()));
+        url(url().match(/iframe.*?src="(.*?)"/)[0x1]);
+        url(fixUrl(url()));
+        if (url(["yildizkisafilm"], 0x0)) {
+            var _0x9a31b9 = url().split('/')[url().split('/').length - 0x1];
+            url('https://yildizkisafilm.org/player/index.php?data=' + _0x9a31b9 + "&do=getVideo");
+            var _0x1240c9 = "hash=" + _0x9a31b9 + '&r=';
+            headers('X-Requested-With', "XMLHttpRequest");
+            try {
+                _0x1ba771 = fetch();
+                sub(_0x1ba771.match(/var playerjsSubtitle = "\[TÃ¼rkÃ§e\](.*?\.srt)";/)[0x1]);
+            } catch (_0x59232d) {
+                sub('');
+            }
+            g.logHeader();
+            var _0x4aec55 = fetchPost(_0x1240c9);
+            try {
+                _0x1240c9 = JSON.parse(_0x4aec55);
+                url(_0x1240c9.securedLink);
+                parser();
+            } catch (_0x45a76b) {
+                error(_0x45a76b.message);
+            }
+        } else {
+            parser();
+        }
+    }
+}
+
+function mailru() {
+    url(fixUrl(url()));
+    var _0x9db150 = matchAll(fetch(), /"video":(.*?),/g);
+    var _0x1e0eda = '';
+    for (let _0x3a1147 = 0x0; _0x3a1147 < _0x9db150.length; _0x3a1147++) {
+        _0x1e0eda = 'https://my.mail.ru' + _0x9db150[_0x3a1147][0x1].split("\"").join('').split('{').join('').split(':').join('').split('metadataUrl').join('').split(" ").join('');
+    }
+    var _0x3f749e = JSON.parse(fetch(_0x1e0eda)).videos;
+    var _0x36fefc = ["360p", "480p", '720p', "1080p", 'Alone'];
+    var _0x5c2d4d = -0x1;
+    var _0x3be0ad = -0x1;
+    for (let _0x4c1663 = 0x0; _0x4c1663 < _0x3f749e.length; _0x4c1663++) {
+        try {
+            var _0xb1a215 = _0x36fefc.indexOf(_0x3f749e[_0x4c1663].key);
+            if (_0x5c2d4d < _0xb1a215) {
+                _0x5c2d4d = _0xb1a215;
+                _0x3be0ad = _0x4c1663;
+            }
+        } catch (_0x597785) {}
+    }
+    if (_0x5c2d4d != -0x1) {
+        url(fixUrl(_0x3f749e[_0x3be0ad].url));
+    }
+    parser();
+}
+
+function mixdrop() {
+    url(fixUrl(url()));
+    var _0x430947 = fetch();
+    _0x430947 = unPack(_0x430947.match(/(eval\(function\(p,a,c,k,e,d.*?)<\/script>/)[0x1]);
+    var _0x5a0117 = /MDCore.wurl="(.*?)"/;
+    if (url(["luluvdo"], 0x1)) {
+        _0x5a0117 = /file:"(.*?)"/;
+    } else {
+        if (url(["streamhub"], 0x1)) {
+            _0x5a0117 = /src:"(.*?)"/;
+        }
+    }
+    url(fixUrl(_0x430947.match(_0x5a0117)[0x1]));
+    parser();
+}
+
+function movies123() {
+    if (!g.isWebView()) {
+        error("No Webview");
+    }
+    var _0x38c774 = url().split('#')[0x0];
+    headers["User-Agent"] = "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36";
+    var _0x24edff = -0x1;
+    getWebViewOwnContentJS(_0x38c774, "site/hls", "I AM NOT LOOKING", 'play-now', '', _0x24edff, false, g.getHeadersJSON, 0x0);
+}
+
+function movie4k() {
+    var _0x2279ca = url();
+    var _0x242fc9 = fetch();
+    var _0x54e49e = {};
+    try {
+        var _0x4861b9 = matchAll(_0x242fc9, /class="tablinks"\s*href="#"\s*data-link="(.*?)">(.*?)</g);
+        var _0x10ad32 = 0x1;
+        for (let _0xa08266 = 0x0; _0xa08266 < _0x4861b9.length; _0xa08266++) {
+            if (!_0x4861b9[_0xa08266][0x2].includes("Player HD") && !_0x4861b9[_0xa08266][0x2].includes("Trailer") && !_0x4861b9[_0xa08266][0x2].includes("Server 4K") && !_0x4861b9[_0xa08266][0x2].includes("Goodstream")) {
+                _0x54e49e[_0x4861b9[_0xa08266][0x2]] = _0x4861b9[_0xa08266][0x1];
+                _0x10ad32++;
+            }
+        }
+    } catch (_0x5dd8bc) {
+        error(_0x5dd8bc.message);
+    }
+    if (!_0x2279ca.includes('#') && JSON.stringify(_0x54e49e) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x54e49e));
+    } else {
+        url(_0x2279ca.split('#')[0x1]);
+        url(fixUrl(url()));
+        if (url(["goodstream"], 0x1)) {} else {
+            parser();
+        }
+    }
+}
+
+function nowtv() {
+    if (url(["canli-yayin"], 0x0)) {
+        var _0xd7b817 = fetch();
+        var _0x14516d = /(?:videoSrc|daiUrl)\s*:\s*'(.*?)'/;
+        url(_0xd7b817.match(_0x14516d)[0x1]);
+        parser();
+    } else {
+        var _0xd7b817 = fetch();
+        url(_0xd7b817.match(/'(https:\/\/nowtv-.*?)'/)[0x1]);
+        parser();
+    }
+}
+
+function myvideoaz() {
+    url(fetch().match(/application\/x-mpegURL"\s*src="(.*?)"/)[0x1]);
+    parser();
+}
+
+function okru() {
+    url(fixUrl(url()));
+    headers('User-Agent', "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0");
+    var _0x8e7f90 = url().match(/https?:\/\/(?:www.)?(?:odnoklassniki|ok).ru\/(?:videoembed\/|dk\?cmd=videoPlayerMetadata&mid=)(\d+)/)[0x1];
+    var _0x52a23e = JSON.parse(fetchPost("cmd=videoPlayerMetadata&mid=" + _0x8e7f90, "http://www.ok.ru/dk"));
+    _0x52a23e = _0x52a23e.videos;
+    var _0xf9d021 = ["mobile", "lowest", "low", 'sd', 'hd', "full"];
+    var _0xb0485c = -0x1;
+    var _0x8dd5a5 = -0x1;
+    for (let _0xb66e2 = 0x0; _0xb66e2 < _0x52a23e.length; _0xb66e2++) {
+        try {
+            var _0x42f453 = _0xf9d021.indexOf(_0x52a23e[_0xb66e2].name);
+            if (_0xb0485c < _0x42f453) {
+                _0xb0485c = _0x42f453;
+                _0x8dd5a5 = _0xb66e2;
+            }
+        } catch (_0x31db40) {}
+    }
+    if (_0xb0485c != -0x1) {
+        url(_0x52a23e[_0x8dd5a5].url + "#.mp4");
+        headers("Referer", "https://odnoklassniki.ru/");
+    }
+    parser();
+}
+
+function oneupload() {
+    var _0x13e268 = fetch();
+    url(_0x13e268.match(/\[\{file:"(.*?)"/)[0x1]);
+    parser();
+}
+
+function onlinedizi() {
+    var _0xd123bc = url();
+    var _0x16319e = "episode-buttons";
+    if (url(["/film/"], 0x1)) {
+        _0x16319e = 'active';
+        if (!url(["izle"], 0x1)) {
+            url(url() + '/turkce-altyazi-izle');
+        }
+    }
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x78755 = fetch();
+    try {
+        _0x78755 = _0x78755.match(/Alternatif(.*?)episode-buttons/)[0x1];
+    } catch (_0x1ea145) {}
+    var _0x4c89a2 = {};
+    try {
+        var _0x3b6403 = matchAll(_0x78755, /href="(.*?)".*?>(.*?)</g);
+        for (let _0x1c23f9 = 0x0; _0x1c23f9 < _0x3b6403.length; _0x1c23f9++) {
+            var _0x4bbe7e = _0x3b6403[_0x1c23f9][0x1];
+            var _0x16a5e2 = _0x3b6403[_0x1c23f9][0x2];
+            _0x4c89a2[_0x16a5e2] = _0x4bbe7e;
+        }
+    } catch (_0x32b6c0) {
+        error(_0x32b6c0.message);
+    }
+    if (Object.keys(_0x4c89a2).length == 0x0 || Object.keys(_0x4c89a2).length > 0x8) {
+        error("Onlinedizi 1371");
+    }
+    if (!_0xd123bc.includes('#') && JSON.stringify(_0x4c89a2) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x4c89a2));
+    } else {
+        url(_0xd123bc.split('#')[0x1]);
+        _0x78755 = fetch();
+        url(_0x78755.match(/iframe\s*src="(.*?)"/)[0x1]);
+        if (!url().startsWith("http")) {
+            url(baseUrl(_0xd123bc) + url());
+        }
+        _0x78755 = fetch();
+        var _0x538259 = _0x78755.match(/ifsrc = "(.*?)"/)[0x1];
+        if (!_0x538259.startsWith("http")) {
+            _0x538259 = baseUrl(url()) + _0x538259;
+        }
+        url(Core.getRedirectUrlJS(_0x538259));
+        if (url() == '') {
+            error("Onlinedizi 1393");
+        } else {
+            if (url(["gdplayer"], 0x1)) {
+                _0x78755 = fetch();
+                url('https:' + _0x78755.match(/(\/\/gdplayer.org\/api\/.*?)"/)[0x1]);
+                _0x78755 = fetch();
+                try {
+                    var _0x20c2fd = JSON.parse(_0x78755);
+                    url(_0x20c2fd.sources[0x0].file);
+                } catch (_0x452e95) {
+                    error(_0x452e95.message);
+                }
+            } else {
+                if (url(["fscdn.xyz"], 0x1)) {
+                    var _0xbb60c9 = url().split('/')[0x4];
+                    var _0x412701 = url() + '?do=getVideo';
+                    var _0x5dd2b2 = "hash=" + _0xbb60c9 + '&r=' + baseUrl(_0xd123bc) + '&s=';
+                    url(_0x412701);
+                    headers("content-type", "application/x-www-form-urlencoded; charset=UTF-8");
+                    headers("x-requested-with", 'XMLHttpRequest');
+                    _0x78755 = fetchPost(_0x5dd2b2);
+                    try {
+                        var _0x20c2fd = JSON.parse(_0x78755);
+                        _0x412701 = _0x20c2fd.videoSources[0x0].file;
+                        url(_0x412701);
+                        if (_0x412701.includes("fcdn")) {
+                            _0x78755 = fetch();
+                            url('');
+                            try {
+                                var _0x3b6403 = matchAll(_0x78755, /sticon-film"><\/span><b>(.*?)</g);
+                                for (let _0x3d2195 = 0x0; _0x3d2195 < alts_raw.length; _0x3d2195++) {
+                                    if (url() == '') {
+                                        url(_0x3b6403[_0x3d2195][0x1]);
+                                    } else {
+                                        if (_0x3b6403[_0x3d2195][0x1].includes("1080p/playlist")) {
+                                            url(_0x3b6403[_0x3d2195][0x1]);
+                                        } else {
+                                            if (_0x3b6403[_0x3d2195][0x1].includes("720p/playlist") && !url.includes("1080p/playlist")) {
+                                                url(_0x3b6403[_0x3d2195][0x1]);
+                                            } else {
+                                                if (_0x3b6403[_0x3d2195][0x1].includes("480p/playlist") && !url.includes("1080p/playlist") && !url.includes("720p/playlist")) {
+                                                    url(_0x3b6403[_0x3d2195][0x1]);
+                                                } else if (_0x3b6403[_0x3d2195][0x1].includes("360p/playlist") && !url.includes("1080p/playlist") && !url.includes("720p/playlist") && !url.includes('480p/playlist')) {
+                                                    url(_0x3b6403[_0x3d2195][0x1]);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            } catch (_0x2f2b93) {}
+                        }
+                        g.deleteHeader("content-type");
+                        g.deleteHeader("x-requested-with");
+                        headers('Referer', "https://yandex.ru");
+                    } catch (_0x440464) {
+                        error(_0x440464.message);
                     }
+                } else if (url(['ondembed.xyz'], 0x1)) {
+                    url("ondembed.xyz", "fembed.com");
                 }
             }
         }
         parser();
     }
 }
+
 function onlineradiobox() {
-    url(fetch().match(/stream="(.*?)"/)[1]);
+    url(fetch().match(/stream="(.*?)"/)[0x1]);
     g.setMediaType('mp3');
     parser();
 }
+
 function parsatv() {
-    var _0x584fc2 = fetch();
+    var _0x2ee723 = fetch();
     try {
-        url(_0x584fc2.match(/file:\s*"(.*?)"/)[1]);
-    } catch (_0x19f552) {
-        url(_0x584fc2.match(/<iframe.*src="(.*embed.*)"/)[1]);
+        url(_0x2ee723.match(/file:\s*"(.*?)"/)[0x1]);
+    } catch (_0x50368c) {
+        url(_0x2ee723.match(/<iframe.*src="(.*embed.*)"/)[0x1]);
     }
-    if (url(['youtube'], 1)) {
-        url(url().match(/youtube-nocookie.com\/embed\/(.*?)\?/)[1]);
-        url('https://m.youtube.com/watch?v=' + url());
+    if (url(["youtube"], 0x1)) {
+        url(url().match(/youtube-nocookie.com\/embed\/(.*?)\?/)[0x1]);
+        url("https://m.youtube.com/watch?v=" + url());
     }
     parser();
 }
+
 function pokitv() {
-    var _0x44c1cd = url();
-    var _0x440aee = fetch();
-    url(_0x440aee.match(/<iframe.*?data-litespeed-src="(.*?)"/)[1]);
-    var _0xb9b53b = url().split('/')[5];
-    headers('X-Requested-With', 'XMLHttpRequest');
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    _0x440aee = fetchPost('hash=' + _0xb9b53b + '&r=' + _0x44c1cd + '&s=', url() + '?do=getVideo');
-    var _0x1a89ce = JSON.parse(_0x440aee);
-    if (_0x1a89ce.hasOwnProperty('videoSources')) {
-        url(_0x1a89ce.videoSources[0].file);
+    var _0x1eeb87 = url();
+    var _0x127731 = fetch();
+    url(_0x127731.match(/<iframe.*?data-litespeed-src="(.*?)"/)[0x1]);
+    var _0x5f277e = url().split('/')[0x5];
+    headers("X-Requested-With", 'XMLHttpRequest');
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    _0x127731 = fetchPost('hash=' + _0x5f277e + "&r=" + _0x1eeb87 + '&s=', url() + "?do=getVideo");
+    var _0x340a43 = JSON.parse(_0x127731);
+    if (_0x340a43.hasOwnProperty('videoSources')) {
+        url(_0x340a43.videoSources[0x0].file);
     } else {
-        url(_0x1a89ce.videoSrc);
-        _0x440aee = fetch();
-        url(_0x440aee.match(/source.*?src=\"(.*?)\"/)[1]);
+        url(_0x340a43.videoSrc);
+        _0x127731 = fetch();
+        url(_0x127731.match(/source.*?src=\"(.*?)\"/)[0x1]);
     }
     parser();
 }
+
 function pornhub() {
-    var _0x3f2d34 = matchAll(fetch(), /var flashvars_.*?=\s*(\{.*?});/g);
-    var _0x3c737c = {};
-    for (let _0x48f3b4 = 0; _0x48f3b4 < _0x3f2d34.length; _0x48f3b4++) {
+    var _0x4adf3b = matchAll(fetch(), /var flashvars_.*?=\s*(\{.*?});/g);
+    var _0x46a7ad = {};
+    for (let _0x39e710 = 0x0; _0x39e710 < _0x4adf3b.length; _0x39e710++) {
         try {
-            var _0x342e9c = JSON.parse(_0x3f2d34[_0x48f3b4][1]);
-            var _0x502d9a = _0x342e9c.defaultQuality;
-            for (let _0x28385e = 0; _0x28385e < _0x502d9a.length; _0x28385e++) {
-                var _0x4888ed = _0x342e9c.mediaDefinitions;
-                for (let _0x19260a = 0; _0x19260a < _0x4888ed.length; _0x19260a++) {
-                    if (_0x502d9a[_0x28385e] == _0x4888ed[_0x19260a].quality) {
-                        _0x3c737c[_0x502d9a[_0x28385e]] = _0x4888ed[_0x19260a].videoUrl;
+            var _0xfd6000 = JSON.parse(_0x4adf3b[_0x39e710][0x1]);
+            var _0x29ff55 = _0xfd6000.defaultQuality;
+            for (let _0x278c61 = 0x0; _0x278c61 < _0x29ff55.length; _0x278c61++) {
+                var _0x54a739 = _0xfd6000.mediaDefinitions;
+                for (let _0xd8b434 = 0x0; _0xd8b434 < _0x54a739.length; _0xd8b434++) {
+                    if (_0x29ff55[_0x278c61] == _0x54a739[_0xd8b434].quality) {
+                        _0x46a7ad[_0x29ff55[_0x278c61]] = _0x54a739[_0xd8b434].videoUrl;
                     }
                 }
             }
-        } catch (_0x1ba5f9) { }
+        } catch (_0x5743aa) {}
     }
-    var _0x4a2172 = ['240', '360', '480', '720', '1080', 'Alone'];
-    var _0x167f56 = -1;
-    var _0x2963d9 = -1;
-    for (let _0x1c6c8c = 0; _0x1c6c8c < Object.keys(_0x3c737c).length; _0x1c6c8c++) {
+    var _0x1421bf = ['240', '360', '480', "720", '1080', "Alone"];
+    var _0x2d8c23 = -0x1;
+    var _0x48f1bd = -0x1;
+    for (let _0x2d14f6 = 0x0; _0x2d14f6 < Object.keys(_0x46a7ad).length; _0x2d14f6++) {
         try {
-            var _0xcb7edb = Object.keys(_0x3c737c)[_0x1c6c8c];
-            var _0x1bb19f = _0x4a2172.indexOf(_0xcb7edb);
-            if (_0x167f56 < _0x1bb19f) {
-                _0x167f56 = _0x1bb19f;
-                _0x2963d9 = _0xcb7edb;
+            var _0x5818cc = Object.keys(_0x46a7ad)[_0x2d14f6];
+            var _0x17507d = _0x1421bf.indexOf(_0x5818cc);
+            if (_0x2d8c23 < _0x17507d) {
+                _0x2d8c23 = _0x17507d;
+                _0x48f1bd = _0x5818cc;
             }
-        } catch (_0x3ac4fc) { }
+        } catch (_0x3ae8f9) {}
     }
-    if (_0x167f56 != -1) {
-        url(fixUrl(_0x3c737c[_0x2963d9].replace(/\\/g, '')));
+    if (_0x2d8c23 != -0x1) {
+        url(fixUrl(_0x46a7ad[_0x48f1bd].replace(/\\/g, '')));
     }
     parser();
 }
+
+function pornpics() {
+    var _0x5a46e2 = fetch();
+    var _0x581a52 = _0x5a46e2.match(/var\s*P_LINK\s*=\s*\'\w{2,6}\/(.*?)\'/)[0x1];
+    _0x581a52 = atob(_0x581a52);
+    url(_0x581a52);
+    parser();
+}
+
 function puhutv() {
     url(fixUrl(url()));
-    var _0x4f043d = fetch().match(/movieAssets".*?"video_id":"(PUHU_.*?)"/)[1];
-    url('https://dygvideo.dygdigital.com/api/video_info?akamai=true&PublisherId=29&ReferenceId=' + _0x4f043d + '&SecretKey=NtvApiSecret2014');
-    _0x4f043d = fetch();
-    var _0x58be68 = JSON.parse(_0x4f043d);
+    var _0x528059 = fetch().match(/movieAssets".*?"video_id":"(PUHU_.*?)"/)[0x1];
+    url('https://dygvideo.dygdigital.com/api/video_info?akamai=true&PublisherId=29&ReferenceId=' + _0x528059 + "&SecretKey=NtvApiSecret2014");
+    _0x528059 = fetch();
+    var _0x45c301 = JSON.parse(_0x528059);
     try {
-        url(_0x58be68.data.flavors['0'].file_url_1);
-    } catch (_0x332c1c) {
-        url(_0x58be68.data.flavors.hls);
+        url(_0x45c301.data.flavors['0'].file_url_1);
+    } catch (_0x452fd9) {
+        url(_0x45c301.data.flavors.hls);
     }
     parser();
 }
+
 function radyodelisi() {
-    var _0xd2fdbb = fetch();
-    url(_0xd2fdbb.match(/source src=\"(.*?)\"/)[1]);
+    var _0x16f1bd = fetch();
+    url(_0x16f1bd.match(/source src=\"(.*?)\"/)[0x1]);
     parser();
 }
+
 function radyohome() {
-    var _0x3fa7ab = matchAll(fetch(), /"hls","url":"(.*?)"/g);
-    consolelog(_0x3fa7ab.length, 'Test');
-    url(_0x3fa7ab[_0x3fa7ab.length - 1][1].replace(/\\/g, ''));
+    var _0x29c80d = matchAll(fetch(), /"hls","url":"(.*?)"/g);
+    consolelog(_0x29c80d.length, "Test");
+    url(_0x29c80d[_0x29c80d.length - 0x1][0x1].replace(/\\/g, ''));
     parser();
 }
+
 function realfilmizle() {
-    var _0x47f670 = fetch().toLowerCase();
-    var _0x34e15c = _0x47f670.match(/iframe.*?src="(https.*?)"/)[1];
-    _0x47f670 = fetch(_0x34e15c);
-    url(_0x47f670.match(/{\s*file:"(.*?)"/)[1]);
-    headers('Referer', _0x34e15c);
-    headers('Accept', '*/*');
-    headers('Origin', _0x34e15c);
+    var _0x48f41d = fetch().toLowerCase();
+    var _0x177c3c = _0x48f41d.match(/iframe.*?src="(https.*?)"/)[0x1];
+    g.deleteHeader("Referer");
+    _0x48f41d = fetch(_0x177c3c);
+    var _0x58161c = _0x48f41d.match(/bePlayer\('(.*?)',\s*'(.*?)'\);/)[0x1];
+    var _0x3eb0f3 = _0x48f41d.match(/bePlayer\('(.*?)',\s*'(.*?)'\);/)[0x2];
+    consolelog(_0x3eb0f3);
+    _0x48f41d = getAes(_0x58161c, _0x3eb0f3).split("video_location] => ")[0x1].split('==')[0x0] + '==';
+    url(_0x48f41d);
+    headers("Referer", _0x177c3c);
+    headers("Accept", "*/*");
     parser();
 }
+
 function setfilmizle() {
     url('boncuk45', '');
-    var _0x3a4872 = url();
-    if (url(['#'], 1)) {
-        url(url().split('#')[0]);
+    var _0x47b974 = url();
+    if (url(['#'], 0x1)) {
+        url(url().split('#')[0x0]);
     }
-    var _0xfbc150 = fetch();
-    var _0x34b515 = _0xfbc150.match("data.*?-id=\"(.*?)\"")[1];
-    var _0x3009d2 = {};
+    var _0x263ffe = fetch();
+    var _0x9b4493 = _0x263ffe.match("data-post-id=\"(.*?)\"")[0x1];
+    var _0x523a25 = {};
     try {
-        var _0x45b3fc = matchAll(_0xfbc150, /sticon-film"><\/span><b>(.*?)</g);
-        for (let _0x4b8421 = 0; _0x4b8421 < _0x45b3fc.length; _0x4b8421++) {
-            if (_0x45b3fc[_0x4b8421][1] != 'Raca') {
-                _0x3009d2[_0x45b3fc[_0x4b8421][1]] = _0x45b3fc[_0x4b8421][1];
+        var _0x5cde40 = matchAll(_0x263ffe, /icon_film">.*?<b>(.*?)<\/b>/g);
+        if (!url(["setfilm"], 0x1)) {
+            _0x5cde40 = matchAll(_0x263ffe, /sticon-film"><\/span><b>(.*?)</g);
+        }
+        for (let _0x33791d = 0x0; _0x33791d < _0x5cde40.length; _0x33791d++) {
+            if (_0x5cde40[_0x33791d][0x1] != 'Raca') {
+                _0x523a25[_0x5cde40[_0x33791d][0x1]] = _0x5cde40[_0x33791d][0x1];
             }
         }
-    } catch (_0x872e00) { }
-    var _0x5c36cf = _0x45b3fc.length == _0x3009d2.length;
-    if (!_0x3a4872.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x3009d2));
+    } catch (_0x100654) {}
+    var _0x4e8d95 = _0x5cde40.length == _0x523a25.length;
+    if (!url(['setfilm'], 0x1)) {
+        _0x4e8d95 = !_0x263ffe.includes("tercihimturkcealtyazi");
+    }
+    if (!_0x47b974.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x523a25));
     } else {
         try {
-            var _0x56b48d = _0x3009d2[_0x3a4872.split('#')[1]];
-            var _0x419f69 = baseUrl(url()) + '/wp-admin/admin-ajax.php';
-            var _0x3375b5 = _0xfbc150.match(/window\.videoAjax.*?nonce:\s*'(.*?)'/)[1];
-            var _0x251f20 = 'action=get_video_url&post_id=' + _0x34b515 + '&player_name=' + _0x56b48d + '&nonce=' + _0x3375b5 + '&partKey=';
-            if (!_0x5c36cf) {
-                if (lang == 1) {
-                    _0x251f20 += 'turkcedublaj';
-                } else {
-                    _0x251f20 += 'turkcealtyazi';
+            var _0x9566ed = _0x523a25[_0x47b974.split('#')[0x1]];
+            var _0x3e7772 = baseUrl(url()) + '/wp-admin/admin-ajax.php';
+            var _0x235859 = '';
+            if (url(["setfilm"], 0x1)) {
+                var _0x521f37 = _0x263ffe.match(/"nonce":\s*"(.*?)"/)[0x1];
+                var _0x48e0f3 = {
+                    'action': "get_video_url",
+                    'post_id': _0x9b4493,
+                    'player_name': _0x9566ed,
+                    'nonce': _0x521f37,
+                    'part_key': ''
+                };
+                if (!_0x4e8d95) {
+                    if (lang == 0x1) {
+                        _0x48e0f3.part_key = "turkcedublaj";
+                    } else {
+                        _0x48e0f3.part_key = "turkcealtyazi";
+                    }
                 }
+                var _0x1d2eb2 = generateBoundary();
+                var _0x331212 = buildMultipartData(_0x1d2eb2, _0x48e0f3);
+                headers("Content-Type", "multipart/form-data; boundary=" + _0x1d2eb2);
+                headers("Content-Length", '');
+                _0x235859 = fetchPost(_0x331212, _0x3e7772);
+            } else {
+                var _0x521f37 = _0x263ffe.match(/ajaxurl:.*?nonce:\s*'(.*?)'/)[0x1];
+                var _0x48e0f3 = "action=get_video_url&nonce=" + _0x521f37 + "&post_id=" + _0x9b4493 + '&player_name=' + _0x9566ed + "&part_key=";
+                if (!_0x4e8d95) {
+                    if (lang == 0x1) {
+                        _0x48e0f3 += 'turkcedublaj';
+                    } else {
+                        _0x48e0f3 += "turkcealtyazi";
+                    }
+                }
+                _0x235859 = fetchPost(_0x48e0f3, _0x3e7772);
             }
-            var _0x39723e = fetchPost(_0x251f20, _0x419f69);
-            url(_0x39723e.match(/url":"(.*?)"/)[1].replace(/\\/g, ''));
-            if (url(['setplay', 'player'], 1)) {
-                headers('Referer', url());
-                headers('Accept', '*/*');
-                _0xfbc150 = fetch(url());
-                var _0x596b37 = _0xfbc150.match(/"videoServer":"(.*?)"/)[1];
-                var _0x2e928a = baseUrl(url()).replace(/\\/g, '');
-                var _0x4e443a = _0xfbc150.match(/"videoUrl":"(.*?)"/)[1].replace(/\\/g, '');
-                url(_0x2e928a + '' + _0x4e443a + '?s=' + _0x596b37);
+            url(_0x235859.match(/url":"(.*?)"/)[0x1].replace(/\\/g, ''));
+            if (url(["setplay", "player"], 0x1)) {
+                headers("Referer", url());
+                headers("Accept", "*/*");
+                g.deleteHeader('Content-Type');
+                g.deleteHeader("Content-Length");
+                _0x263ffe = fetch(url());
+                var _0x2984dd = _0x263ffe.match(/"videoServer":"(.*?)"/)[0x1];
+                var _0x3c7d67 = baseUrl(url()).replace(/\\/g, '');
+                var _0x5581ec = _0x263ffe.match(/"videoUrl":"(.*?)"/)[0x1].replace(/\\/g, '');
+                url(_0x3c7d67 + '' + _0x5581ec + "?s=" + _0x2984dd);
+                consolelog(url());
+            } else if (url(["vctplay"], 0x1)) {
+                headers("Referer", url());
+                g.deleteHeader("Content-Type");
+                g.deleteHeader('Content-Length');
+                _0x3c7d67 = baseUrl(url());
+                _0x263ffe = fetch(url());
+                _0x3c7d67 = _0x3c7d67 + _0x263ffe.match(/streamUrl\s*=\s*"(.*?)"/)[0x1];
+                url(_0x3c7d67);
                 consolelog(url());
             }
             parser();
-        } catch (_0x20e53a) {
-            error(_0x20e53a.message);
+        } catch (_0x4acde3) {
+            error(_0x4acde3.message);
         }
     }
 }
+
 function showtv() {
-    if (url(['canli-yayin', 'canliyayin'], 1)) {
-        var _0x2fcb6e = fetch();
-        var _0x2c2f6e = /var\s*videoUrl\s*=\s*"(.*?)"/;
-        if (url(['turk', 'max'], 1)) {
-            _0x2c2f6e = /"ht_stream_m3u8":"(https.*?playlist.m3u8.*?)"/;
+    if (url(["canli-yayin", "canliyayin"], 0x1)) {
+        var _0x5c4daa = fetch();
+        var _0x580036 = /var\s*videoUrl\s*=\s*"(.*?)"/;
+        if (url(['turk', "max"], 0x1)) {
+            _0x580036 = /"ht_stream_m3u8":"(https.*?playlist.m3u8.*?)"/;
         }
-        url(_0x2fcb6e.match(_0x2c2f6e)[1]);
+        url(_0x5c4daa.match(_0x580036)[0x1]);
         parser();
     } else {
-        var _0x2fcb6e = fetch().match(/data-ht='(.*?)'/)[1];
-        _0x2fcb6e = _0x2fcb6e.replace("'", "\"");
-        var _0x15b453 = JSON.parse(_0x2fcb6e + '');
-        try {
-            _0x15b453 = _0x15b453.ht_files[1].mp4;
-        } catch (_0x2fff2e) {
-            _0x15b453 = _0x15b453.ht_files[0].mp4;
-        }
-        var _0x1aef6f = ['240', '360', '480', '720', '1080', 'Alone'];
-        var _0x55056e = -1;
-        var _0x2d5f2 = -1;
-        for (let _0x414c35 = 0; _0x414c35 < _0x15b453.length; _0x414c35++) {
-            try {
-                var _0xd0a851 = _0x1aef6f.indexOf(_0x15b453[_0x414c35].name + '');
-                if (_0x55056e < _0xd0a851) {
-                    _0x55056e = _0xd0a851;
-                    _0x2d5f2 = _0x414c35;
-                }
-            } catch (_0x48e894) { }
-        }
-        if (_0x55056e != -1) {
-            url(fixUrl(_0x15b453[_0x2d5f2].file));
-        }
+        var _0x5c4daa = fetch().match(/"Standart","src":"(.*?)"/)[0x1];
+        _0x5c4daa = _0x5c4daa.replace("\\", '');
+        url(_0x5c4daa);
         parser();
     }
 }
+
 function sezonlukdizi() {
-    var _0x48603c = url();
-    var _0x20cd64 = fetch();
-    _0x20cd64 = _0x20cd64.match(/<div\s*bid="(\d*)"\s*did=/)[1];
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    headers('X-Requested-With', 'XMLHttpRequest');
-    _0x20cd64 = fetchPost('bid=' + _0x20cd64 + '&dil=' + g.getLang(), baseUrl(url()) + '/ajax/dataAlternatif2.asp');
-    if (_0x20cd64.includes('eklenmedi')) {
-        error('Sezonlukdizi 1544');
+    var _0x6e6eef = url();
+    var _0x41ceb5 = fetch();
+    _0x41ceb5 = _0x41ceb5.match(/<div\s*bid="(\d*)"\s*did=/)[0x1];
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    headers("X-Requested-With", "XMLHttpRequest");
+    _0x41ceb5 = fetchPost("bid=" + _0x41ceb5 + '&dil=' + g.getLang(), baseUrl(url()) + "/ajax/dataAlternatif22.asp");
+    if (_0x41ceb5.includes("eklenmedi")) {
+        error("Sezonlukdizi 1544");
     }
-    var _0x59368f = JSON.parse(_0x20cd64);
-    var _0x2f412c = {
-        _0x2e7d9f: _0x5650fd
-    };
-    for (var _0xf7c64a = 0; _0xf7c64a < _0x59368f.data.length; _0xf7c64a++) {
-        if (!_0x59368f.data[_0xf7c64a].baslik.toLowerCase().includes('netu') && !_0x59368f.data[_0xf7c64a].baslik.toLowerCase().includes('upto') && !_0x59368f.data[_0xf7c64a].baslik.toLowerCase().includes('multi') && !_0x59368f.data[_0xf7c64a].baslik.toLowerCase().includes('upstream') && !_0x59368f.data[_0xf7c64a].baslik.toLowerCase().includes('videoseyred')) {
-            var _0x5650fd = _0x59368f.data[_0xf7c64a].id + '';
-            var _0x2e7d9f = _0x59368f.data[_0xf7c64a].baslik;
-            ;
+    var _0x5f06e8 = JSON.parse(_0x41ceb5);
+    var _0x17a264 = {};
+    for (var _0x20e850 = 0x0; _0x20e850 < _0x5f06e8.data.length; _0x20e850++) {
+        if (!_0x5f06e8.data[_0x20e850].baslik.toLowerCase().includes("netu") && !_0x5f06e8.data[_0x20e850].baslik.toLowerCase().includes("upto") && !_0x5f06e8.data[_0x20e850].baslik.toLowerCase().includes("multi") && !_0x5f06e8.data[_0x20e850].baslik.toLowerCase().includes("upstream") && !_0x5f06e8.data[_0x20e850].baslik.toLowerCase().includes("videoseyred")) {
+            var _0xa375cb = _0x5f06e8.data[_0x20e850].id + '';
+            var _0x3bd0bb = _0x5f06e8.data[_0x20e850].baslik;
+            _0x17a264[_0x3bd0bb] = _0xa375cb;
         }
     }
-    if (_0x2f412c.length == 0) {
-        error('Sezonlukdizi 1560');
+    if (_0x17a264.length == 0x0) {
+        error("Sezonlukdizi 1560");
     }
-    if (!_0x48603c.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x2f412c));
+    if (!_0x6e6eef.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x17a264));
     } else {
-        url(_0x48603c.split('#')[1]);
-        _0x20cd64 = fetchPost('id=' + url(), baseUrl(_0x48603c) + '/ajax/dataEmbed.asp');
-        _0x20cd64 = _0x20cd64.match(/(?:SRC|src)="(.*?)"/)[1];
-        if (_0x20cd64.startsWith('//')) {
-            _0x20cd64 = 'https:' + _0x20cd64;
+        url(_0x6e6eef.split('#')[0x1]);
+        _0x41ceb5 = fetchPost("id=" + url(), baseUrl(_0x6e6eef) + '/ajax/dataEmbed22.asp');
+        _0x41ceb5 = _0x41ceb5.match(/(?:SRC|src)="(.*?)"/)[0x1];
+        if (_0x41ceb5.startsWith('//')) {
+            _0x41ceb5 = "https:" + _0x41ceb5;
         }
-        if (_0x20cd64.includes('/player/fembed.asp')) {
-            url('https://dutrag.com/v/' + _0x20cd64.split("\\?v=")[1]);
+        if (_0x41ceb5.includes('/player/fembed.asp')) {
+            url("https://dutrag.com/v/" + _0x41ceb5.split("\\?v=")[0x1]);
         } else {
-            if (_0x20cd64.includes('sbembed')) {
-                var _0x4d12f0 = _0x20cd64.split('/')[4].replace('.html', '');
-                var _0x344bd3 = Core.makeID(12) + '||' + _0x4d12f0 + '||' + Core.makeID(12) + '||streamsb';
-                var _0x348585 = Core.bytesToHex(_0x344bd3);
-                var _0x208dd3 = decodeURIComponent(_0x348585);
-                _0x344bd3 = Core.makeID(12) + '||' + Core.makeID(12) + '||' + Core.makeID(12) + '||streamsb';
-                _0x348585 = Core.bytesToHex(_0x344bd3);
-                var _0x120b66 = decodeURIComponent(_0x348585);
-                _0x344bd3 = Core.makeID(12) + '||' + _0x120b66 + '||' + Core.makeID(12) + '||streamsb';
-                _0x348585 = Core.bytesToHex(_0x344bd3);
-                var _0x59679f = decodeURIComponent(_0x348585);
-                url(baseUrl(url()) + '/sourcesx38/' + _0x208dd3 + '/' + _0x59679f);
-                _0x20cd64 = fetch();
+            if (_0x41ceb5.includes("sbembed")) {
+                var _0x486d13 = _0x41ceb5.split('/')[0x4].replace(".html", '');
+                var _0x1fd4d2 = Core.makeID(0xc) + '||' + _0x486d13 + '||' + Core.makeID(0xc) + "||streamsb";
+                var _0x38f2e2 = Core.bytesToHex(_0x1fd4d2);
+                var _0x1844e2 = decodeURIComponent(_0x38f2e2);
+                _0x1fd4d2 = Core.makeID(0xc) + '||' + Core.makeID(0xc) + '||' + Core.makeID(0xc) + "||streamsb";
+                _0x38f2e2 = Core.bytesToHex(_0x1fd4d2);
+                var _0x100c42 = decodeURIComponent(_0x38f2e2);
+                _0x1fd4d2 = Core.makeID(0xc) + '||' + _0x100c42 + '||' + Core.makeID(0xc) + "||streamsb";
+                _0x38f2e2 = Core.bytesToHex(_0x1fd4d2);
+                var _0x49c0fb = decodeURIComponent(_0x38f2e2);
+                url(baseUrl(url()) + "/sourcesx38/" + _0x1844e2 + '/' + _0x49c0fb);
+                _0x41ceb5 = fetch();
                 try {
-                    url(JSON.parse(_0x20cd64).stream_data.file);
-                } catch (_0x1090e1) {
-                    url(JSON.parse(_0x20cd64).stream_data.backup);
+                    url(JSON.parse(_0x41ceb5).stream_data.file);
+                } catch (_0x48cc4f) {
+                    url(JSON.parse(_0x41ceb5).stream_data.backup);
                 }
             } else {
-                if (_0x20cd64.includes('playerjs')) {
-                    var _0x4d12f0 = _0x20cd64.split('/')[4].split('&v=')[1];
-                    url(hexToString(_0x4d12f0));
+                if (_0x41ceb5.includes("playerjs")) {
+                    var _0x486d13 = _0x41ceb5.split('/')[0x4].split("&v=")[0x1];
+                    url(hexToString(_0x486d13));
                 } else {
-                    url(_0x20cd64);
+                    url(_0x41ceb5);
                 }
             }
         }
-        g.deleteHeader('X-Requested-With');
+        g.deleteHeader("X-Requested-With");
         g.deleteHeader('Content-Length');
         parser();
     }
 }
+
 function sibnet() {
     data = fetch();
-    headers('Referer', url());
-    data = (data + '').match(/src:\s*"(.*?)",/)[1];
+    headers("Referer", url());
+    data = (data + '').match(/src:\s*"(.*?)",/)[0x1];
     url(baseUrl(url()) + data);
     parser();
 }
+
 function sinefy() {
-    var _0x23d127 = url();
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x138e70 = fetch();
-    var _0x4ad842 = {
-        _0x5332ee: _0x109899
-    };
+    var _0x119bb0 = url();
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    var _0x33af3f = fetch();
+    var _0x3f57a2 = {};
     try {
-        var _0x18e5c4 = matchAll(_0x138e70, /data-querytype=".*?">\s*<a href="(.*?)"\s*data-navigo.*?>(.*?)</g);
-        for (let _0x5c9504 = 0; _0x5c9504 < _0x18e5c4.length; _0x5c9504++) {
-            var _0x109899 = _0x18e5c4[_0x5c9504][1];
-            var _0x5332ee = _0x18e5c4[_0x5c9504][2];
-            ;
+        var _0x567c90 = matchAll(_0x33af3f, /data-querytype=".*?">\s*<a href="(.*?)"\s*data-navigo.*?>(.*?)</g);
+        for (let _0x2574ac = 0x0; _0x2574ac < _0x567c90.length; _0x2574ac++) {
+            var _0x1ba019 = _0x567c90[_0x2574ac][0x1];
+            var _0xbee8d4 = _0x567c90[_0x2574ac][0x2];
+            _0x3f57a2[_0xbee8d4] = _0x1ba019;
         }
-    } catch (_0x3c4c63) {
-        error(_0x3c4c63.message);
+    } catch (_0x5467b5) {
+        error(_0x5467b5.message);
     }
-    if (!_0x23d127.includes('#')) {
-        if (g.getLang() == 0) {
-            Core.setLang(1);
+    if (!_0x119bb0.includes('#')) {
+        if (g.getLang() == 0x0) {
+            Core.setLang(0x1);
         } else {
-            Core.setLang(0);
+            Core.setLang(0x0);
         }
     }
-    if (!_0x23d127.includes('#') && JSON.stringify(_0x4ad842) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x4ad842));
+    if (!_0x119bb0.includes('#') && JSON.stringify(_0x3f57a2) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x3f57a2));
     } else {
-        url(_0x23d127.split('#')[1]);
-        headers('Accept', '*/*');
-        _0x138e70 = fetch();
-        if (url(['rapid'], 1)) {
-            url(_0x138e70.match(/file:"(.*?)"/)[1]);
+        url(_0x119bb0.split('#')[0x1]);
+        headers("Accept", '*/*');
+        _0x33af3f = fetch();
+        if (url(['rapid'], 0x1)) {
+            url(_0x33af3f.match(/file:"(.*?)"/)[0x1]);
         } else {
             try {
-                var _0x18e5c4 = matchAll(_0x138e70, /iframe.*?src="(.*?)"/g);
-                for (let _0x4515d4 = 0; _0x4515d4 < _0x18e5c4.length; _0x4515d4++) {
-                    var _0x109899 = _0x18e5c4[_0x4515d4][1];
-                    if (!_0x109899.includes('finema')) {
-                        url(_0x109899);
+                var _0x567c90 = matchAll(_0x33af3f, /iframe.*?src="(.*?)"/g);
+                for (let _0x2de31a = 0x0; _0x2de31a < _0x567c90.length; _0x2de31a++) {
+                    var _0x1ba019 = _0x567c90[_0x2de31a][0x1];
+                    if (!_0x1ba019.includes("finema")) {
+                        url(_0x1ba019);
                         break;
                     }
                 }
                 url(fixUrl(url()));
-            } catch (_0x47d0c6) {
-                error(_0x47d0c6.message);
+            } catch (_0x2a1cfd) {
+                error(_0x2a1cfd.message);
             }
         }
         parser();
     }
 }
+
 function sinemacx() {
-    var _0x432a4f = url();
-    url('?l=2', '');
-    var _0x353a0b = fetch();
-    _0x353a0b = _0x353a0b.match(/iframe.*?data-vsrc="(.*?)"/)[1];
-    var _0x373018 = _0x353a0b.split('/')[4];
-    url(_0x353a0b);
+    var _0x44ae32 = url();
+    url("?l=2", '');
+    var _0x2d278d = fetch();
+    _0x2d278d = _0x2d278d.match(/iframe.*?data-vsrc="(.*?)"/)[0x1];
+    var _0x5a9384 = _0x2d278d.split('/')[0x4];
+    url(_0x2d278d);
     url(fixUrl(url()));
-    _0x353a0b = fetch();
-    var _0x546871 = '';
+    _0x2d278d = fetch();
+    var _0x38d0c1 = '';
     try {
-        _0x546871 = _0x353a0b.match(/playerjsSubtitle.*?(http.*?vtt)"/)[1];
-    } catch (_0x19792c) {
-        _0x546871 = '';
+        _0x38d0c1 = _0x2d278d.match(/playerjsSubtitle.*?(http.*?vtt)"/)[0x1];
+    } catch (_0x3d4d7b) {
+        _0x38d0c1 = '';
     }
-    headers('content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('x-requested-with', 'XMLHttpRequest');
-    url('video/', 'player/index.php?data=');
-    url(url() + '&do=getVideo');
-    _0x353a0b = fetchPost('hash=' + _0x373018 + '&r=' + baseUrl(_0x432a4f), url());
-    var _0x5a0b2b = JSON.parse(_0x353a0b);
-    url(_0x5a0b2b.securedLink);
-    g.deleteHeader('content-type');
+    headers('content-type', "application/x-www-form-urlencoded; charset=UTF-8");
+    headers('x-requested-with', "XMLHttpRequest");
+    url("video/", 'player/index.php?data=');
+    url(url() + "&do=getVideo");
+    _0x2d278d = fetchPost("hash=" + _0x5a9384 + "&r=" + baseUrl(_0x44ae32), url());
+    var _0x217884 = JSON.parse(_0x2d278d);
+    url(_0x217884.securedLink);
+    g.deleteHeader("content-type");
     g.deleteHeader('x-requested-with');
     parser();
 }
+
 function sinemadelisi() {
     error("Sinemadelisi isimli kaynak site kapalÄ± olduÄŸundan oynatÄ±lamÄ±yor.");
-    var _0x14db2e = url();
-    var _0x54e46f = fetch();
-    _0x54e46f = _0x54e46f.match(/inepisode">(.*?)"butonlar">/)[1];
-    var _0x36d45d = {
-        _0x36c80f: url()
+    var _0x45dc2c = url();
+    var _0x41b18b = fetch();
+    _0x41b18b = _0x41b18b.match(/inepisode">(.*?)"butonlar">/)[0x1];
+    var _0x37fa44 = {
+        _0x305041: url()
     };
     try {
-        var _0x2074af = matchAll(_0x54e46f, /<a\s*href="(.*?)"\s*class="post.*?dil="undefined">(.*?)</g);
-        for (let _0x4bf26d = 0; _0x4bf26d < _0x2074af.length; _0x4bf26d++) {
-            _0x36d45d[_0x2074af[_0x4bf26d][2] + '-' + _0x4bf26d] = _0x2074af[_0x4bf26d][1];
+        var _0x267290 = matchAll(_0x41b18b, /<a\s*href="(.*?)"\s*class="post.*?dil="undefined">(.*?)</g);
+        for (let _0x13d799 = 0x0; _0x13d799 < _0x267290.length; _0x13d799++) {
+            _0x37fa44[_0x267290[_0x13d799][0x2] + '-' + _0x13d799] = _0x267290[_0x13d799][0x1];
         }
-    } catch (_0x52454b) { }
-    if (!_0x14db2e.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x36d45d));
+    } catch (_0xd4c145) {}
+    if (!_0x45dc2c.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x37fa44));
     } else {
-        url(_0x14db2e.split('#')[1]);
+        url(_0x45dc2c.split('#')[0x1]);
         url('?l=2', '');
-        _0x54e46f = fetch();
-        url(_0x54e46f.match(/fitvidscompatible"\s*data-lazy-src="(.*?)"/)[1]);
+        _0x41b18b = fetch();
+        url(_0x41b18b.match(/fitvidscompatible"\s*data-lazy-src="(.*?)"/)[0x1]);
         url(fixUrl(url()));
         parser();
     }
 }
+
 function sinemafilmizle() {
-    var _0x968ae9 = url();
-    headers('Referer', url());
-    var _0x2e0e97 = fetch();
-    var _0x2ca03c = [];
-    var _0x38247d = [];
-    var _0x26eef6 = [];
-    var _0x3a0670 = {};
-    var _0x1b4c67 = 'tra';
-    if (g.getLang() == 0) {
-        _0x1b4c67 = 'trd';
+    var _0x2502a9 = url();
+    headers("Referer", url());
+    var _0x2e1e1f = fetch();
+    var _0x3c5729 = [];
+    var _0x13283c = [];
+    var _0xba26a = [];
+    var _0x2bfcab = {};
+    var _0x6aec46 = "tra";
+    if (g.getLang() == 0x0) {
+        _0x6aec46 = "trd";
     }
     try {
-        var _0x363f63 = matchAll(_0x2e0e97, /dil="(.*?)">.*?<\/span>/g);
-        for (let _0x275415 = 0; _0x275415 < _0x363f63.length; _0x275415++) {
-            _0x2ca03c.push(_0x363f63[_0x275415][1]);
+        var _0x2dd280 = matchAll(_0x2e1e1f, /dil="(.*?)">.*?<\/span>/g);
+        for (let _0x4d0b66 = 0x0; _0x4d0b66 < _0x2dd280.length; _0x4d0b66++) {
+            _0x3c5729.push(_0x2dd280[_0x4d0b66][0x1]);
         }
-        _0x363f63 = matchAll(_0x2e0e97, /dil=".*?">(.*?)<\/span>/g);
-        for (let _0x4811c0 = 0; _0x4811c0 < _0x363f63.length; _0x4811c0++) {
-            _0x38247d.push(_0x363f63[_0x4811c0][1]);
+        _0x2dd280 = matchAll(_0x2e1e1f, /dil=".*?">(.*?)<\/span>/g);
+        for (let _0x3895db = 0x0; _0x3895db < _0x2dd280.length; _0x3895db++) {
+            _0x13283c.push(_0x2dd280[_0x3895db][0x1]);
         }
-        _0x363f63 = matchAll(_0x2e0e97, /html\('.*?<iframe.*?src="(.*?)"/g);
-        for (let _0x578ad4 = 0; _0x578ad4 < _0x363f63.length; _0x578ad4++) {
-            _0x26eef6.push(_0x363f63[_0x578ad4][1]);
+        _0x2dd280 = matchAll(_0x2e1e1f, /html\('.*?<iframe.*?src="(.*?)"/g);
+        for (let _0x458263 = 0x0; _0x458263 < _0x2dd280.length; _0x458263++) {
+            _0xba26a.push(_0x2dd280[_0x458263][0x1]);
         }
-    } catch (_0x2c8d45) {
-        error(_0x2c8d45.message);
+    } catch (_0x36399c) {
+        error(_0x36399c.message);
     }
-    for (var _0x34979c = 0; _0x34979c < _0x2ca03c.length; _0x34979c++) {
-        if (_0x2ca03c[_0x34979c] == _0x1b4c67) {
+    for (var _0x30cac3 = 0x0; _0x30cac3 < _0x3c5729.length; _0x30cac3++) {
+        if (_0x3c5729[_0x30cac3] == _0x6aec46) {
             try {
-                _0x3a0670[_0x38247d[_0x34979c]] = _0x26eef6[_0x34979c];
-            } catch (_0x243fac) { }
+                _0x2bfcab[_0x13283c[_0x30cac3]] = _0xba26a[_0x30cac3];
+            } catch (_0x2397c8) {}
         }
     }
-    if (!_0x968ae9.includes('#') && JSON.stringify(_0x3a0670) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x3a0670));
+    if (!_0x2502a9.includes('#') && JSON.stringify(_0x2bfcab) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x2bfcab));
     } else {
-        url(_0x968ae9.split('#')[1]);
-        var _0x459028 = _0x26eef6.indexOf(url());
-        var _0x2bc1a7 = '';
-        if (_0x459028 != null) {
-            _0x2bc1a7 = _0x38247d[_0x459028];
+        url(_0x2502a9.split('#')[0x1]);
+        var _0x28adcd = _0xba26a.indexOf(url());
+        var _0x5a9956 = '';
+        if (_0x28adcd != null) {
+            _0x5a9956 = _0x13283c[_0x28adcd];
         }
-        if (_0x2bc1a7.toLowerCase().includes('sine')) {
+        if (_0x5a9956.toLowerCase().includes("sine")) {
             if (!g.isWebView()) {
-                error('No Webview');
+                error("No Webview");
             } else {
-                getWebViewOwnContentJS(_0x968ae9, 'popcornvakti', 'I AM NOT LOOKING', 'playSheilaBtn', '', 0, false, g.getHeadersJSON() + '', 1);
+                getWebViewOwnContentJS(_0x2502a9, "popcornvakti", "I AM NOT LOOKING", "playSheilaBtn", '', 0x0, false, g.getHeadersJSON() + '', 0x1);
             }
         } else {
-            if (url(['my.mail.ru', 'vidmoly'], 1)) {
-                if (url(['vidmoly'], 1)) {
-                    url(url().split('vid=')[1]);
+            if (url(['my.mail.ru', "vidmoly"], 0x1)) {
+                if (url(['vidmoly'], 0x1)) {
+                    url(url().split('vid=')[0x1]);
                 }
             } else {
-                headers('Referer', _0x968ae9);
-                _0x2e0e97 = fetch();
-                url(_0x2e0e97.match(/player"><iframe.*?src=["\'](.*?)["\']/)[1]);
-                if (!url(['odno'], 1) && !url(['ok.ru'], 1)) {
-                    _0x2e0e97 = fetch();
-                    url(_0x2e0e97.match(/<iframe.*?src="(.*?)"/)[1]);
+                headers('Referer', _0x2502a9);
+                _0x2e1e1f = fetch();
+                url(_0x2e1e1f.match(/player"><iframe.*?src=["\'](.*?)["\']/)[0x1]);
+                if (!url(["odno"], 0x1) && !url(['ok.ru'], 0x1)) {
+                    _0x2e1e1f = fetch();
+                    url(_0x2e1e1f.match(/<iframe.*?src="(.*?)"/)[0x1]);
                 }
             }
             parser();
         }
     }
 }
+
 function siyahfilmizle() {
-    var _0x2e7c4c = url();
-    var _0x1aa2cc = fetch();
-    var _0x50735c = {
-        _0x207f6c: _0x6fd06a,
-        _0x207f6c: _0x6fd06a
-    };
+    var _0x4c786f = url();
+    headers("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36");
+    headers('Cookie', "reklamlar=1; footerreklam=1; _ga=GA1.1.630178980.1748966407; cf_clearance=TbDtWgimRBuNHyQdJqmyELXQTo42tL_yPB5PpNifRb4-1748970923-1.2.1.1-gYA63kMcNnBseNGc32R47J8EzmV1dtkttjuyp5sKxKCetrTo1Yt1nHVmWmYhbwdW5ZxATcSsdwH7FWbKfWssR_Gye0g0Y0IIfWd7TQ2U53UfvZ0GkssilTraYwECIG3iyf_7.0EE_qcqTuzAykL9KRV4GDtI4hyZnh5mm3JVtflUm2GD6.nS4tAlKwADqWDap04KRHnZ1XrdjQdMevPnFANtsJkhwWCt8suZHscBrCMT0xTQPhEh4ddgI.Q5NJQ6iVo8SOI0N0pCUVOBfFkr46ogJn6HIIXj0GUI08mmI.KAI0uiLuM0soXZrKhsO6Ts8_ntT2Yftn0uG6fxU0NcPu7cRf9uxeldK99oLwK2c7TE4Aog4ZyKLJVC0nBEezdO; _ga_H37YEWQ148=GS2.1.s1748970902$o2$g1$t1748970922$j40$l0$h0");
+    var _0x3d1554 = fetch();
+    var _0x17e786 = {};
     try {
-        var _0x42a144 = matchAll(_0x1aa2cc, /<li><span.*?href="(.*?)".*?i class="(.*?)"><\/i>(.*?)</g);
-        for (let _0x4bc831 = 0; _0x4bc831 < _0x42a144.length; _0x4bc831++) {
-            var _0x387bcc = _0x42a144[_0x4bc831][2];
-            var _0x6fd06a = _0x42a144[_0x4bc831][1];
-            var _0x207f6c = _0x42a144[_0x4bc831][3];
-            if (_0x207f6c == '') {
-                _0x207f6c = 'FilmPlatin';
-                ;
+        var _0x2ba16c = matchAll(_0x3d1554, /<li>.*?<a href="(.*?)".*?<\/i>.*?(Film.*?)<.*?<\/li>/g);
+        for (let _0x55c2a4 = 0x0; _0x55c2a4 < _0x2ba16c.length; _0x55c2a4++) {
+            var _0x55e766 = _0x2ba16c[_0x55c2a4][0x2];
+            var _0x5d43b4 = _0x2ba16c[_0x55c2a4][0x1];
+            var _0x42d891 = _0x2ba16c[_0x55c2a4][0x3];
+            if (_0x42d891 == '') {
+                _0x42d891 = 'FilmPlatin';
+                _0x17e786[_0x42d891] = _0x5d43b4;
             }
-            if (_0x387bcc != null) {
-                if (_0x387bcc.includes('en') && g.getLang() == 1 || _0x387bcc.includes('tr') && g.getLang() == 0) {
-                    ;
+            if (_0x55e766 != null) {
+                if (_0x55e766.includes('en') && g.getLang() == 0x1 || _0x55e766.includes('tr') && g.getLang() == 0x0) {
+                    _0x17e786[_0x42d891] = _0x5d43b4;
                 }
             }
         }
-    } catch (_0x504f5d) {
-        error(_0x504f5d.message);
+    } catch (_0x907ba0) {
+        error(_0x907ba0.message);
     }
-    if (!_0x2e7c4c.includes('#') && JSON.stringify(_0x50735c) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x50735c));
+    if (!_0x4c786f.includes('#') && JSON.stringify(_0x17e786) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x17e786));
     } else {
-        if (_0x2e7c4c.includes('#')) {
-            url(_0x2e7c4c.split('#')[1]);
+        if (_0x4c786f.includes('#')) {
+            url(_0x4c786f.split('#')[0x1]);
         }
-        _0x1aa2cc = fetch();
-        url(_0x1aa2cc.match(/iframe.*?src=["\'](.*?)["\']/)[1].replace('#038;', ''));
+        _0x3d1554 = fetch();
+        url(_0x3d1554.match(/iframe.*?src=["\'](.*?)["\']/)[0x1].replace("#038;", ''));
         url(fixUrl(url()));
         parser();
     }
 }
+
 function startv() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x5b5b02 = fetch('https://dyg-ads-cdn.s3.eu-west-1.amazonaws.com/live-broadcast-player/v1/bundle.js');
-        var _0x2ac222 = /Ntv.*?development":"(.*?)"/;
-        if (url(['startv'], 0)) {
-            _0x2ac222 = /Startv.*?development":"(.*?)"/;
+    if (url(["canli-yayin"], 0x0)) {
+        var _0x84729a = fetch("https://dyg-ads-cdn.s3.eu-west-1.amazonaws.com/live-broadcast-player/v1/bundle.js");
+        var _0x1aca52 = /Ntv.*?development":"(.*?)"/;
+        if (url(["startv"], 0x0)) {
+            _0x1aca52 = /Startv.*?development":"(.*?)"/;
         }
-        url(_0x5b5b02.match(_0x2ac222)[1]);
+        url(_0x84729a.match(_0x1aca52)[0x1]);
         parser();
     } else {
-        var _0x5b5b02 = fetch();
-        refId = _0x5b5b02.match(/<meta property="dyg:tags" content="(.*?)"\/>/)[1].split(',')[2];
-        var _0x23e43c = JSON.parse(fetch('https://dygvideo.dygdigital.com/api/video_info?akamai=true&PublisherId=1&ReferenceId=StarTv_' + refId + '&SecretKey=NtvApiSecret2014*'));
-        url(fixUrl(_0x23e43c.data.flavors['0'].file_url_1));
+        var _0x84729a = fetch();
+        refId = _0x84729a.match(/<meta property="dyg:tags" content="(.*?)"\/>/)[0x1].split(',')[0x2];
+        var _0x3d0cf4 = JSON.parse(fetch('https://dygvideo.dygdigital.com/api/video_info?akamai=true&PublisherId=1&ReferenceId=StarTv_' + refId + "&SecretKey=NtvApiSecret2014*"));
+        url(fixUrl(_0x3d0cf4.data.flavors['0'].file_url_1));
         parser();
     }
 }
+
 function sto() {
-    var _0x4e9349 = url();
-    var _0x2249ea = fetch();
-    var _0x1052b3 = baseUrl(url());
-    var _0x144a8e = {
-        _0x3a0415: _0x1052b3 + _0x5afd90
-    };
+    var _0x131436 = url();
+    var _0xb48b4a = fetch();
+    var _0x4fc1f2 = baseUrl(url());
+    var _0x5dafb1 = {};
     try {
-        var _0x495edc = matchAll(_0x2249ea, /data-lang-key="(\d)"\s*data-link-id="\d+"\s*data-link-target="(.*?)".*?Hoster\s(.*?)"/g);
-        for (let _0x53f057 = 0; _0x53f057 < _0x495edc.length; _0x53f057++) {
-            var _0x1114c8 = _0x495edc[_0x53f057][1];
-            var _0x5afd90 = _0x495edc[_0x53f057][2];
-            var _0x3a0415 = _0x495edc[_0x53f057][3];
-            if (_0x1114c8 != null) {
-                if (_0x1114c8 == '2' && g.getLang() == 0 || _0x1114c8 == '1' && g.getLang() == 2) {
-                    ;
+        var _0x50e203 = matchAll(_0xb48b4a, /data-lang-key="(\d)"\s*data-link-id="\d+"\s*data-link-target="(.*?)".*?Hoster\s(.*?)"/g);
+        for (let _0x4bcc3b = 0x0; _0x4bcc3b < _0x50e203.length; _0x4bcc3b++) {
+            var _0x4be333 = _0x50e203[_0x4bcc3b][0x1];
+            var _0x5a9f98 = _0x50e203[_0x4bcc3b][0x2];
+            var _0x53bbd5 = _0x50e203[_0x4bcc3b][0x3];
+            if (_0x4be333 != null) {
+                if (_0x4be333 == '2' && g.getLang() == 0x0 || _0x4be333 == '1' && g.getLang() == 0x2) {
+                    _0x5dafb1[_0x53bbd5] = _0x4fc1f2 + _0x5a9f98;
                 }
             }
         }
-    } catch (_0x4f17e0) {
-        error(_0x4f17e0.message);
+    } catch (_0x5b05aa) {
+        error(_0x5b05aa.message);
     }
-    if (!_0x4e9349.includes('#') && JSON.stringify(_0x144a8e) != '{}') {
-        Core.showAlternatesJS(JSON.stringify(_0x144a8e));
+    if (!_0x131436.includes('#') && JSON.stringify(_0x5dafb1) != '{}') {
+        Core.showAlternatesJS(JSON.stringify(_0x5dafb1));
     } else {
-        url(_0x4e9349.split('#')[1]);
+        url(_0x131436.split('#')[0x1]);
         url(Core.getRedirectUrlJS(url()));
-        if (url(['vidoza', 'videzz'], 1)) {
-            _0x2249ea = fetch();
-            url(_0x2249ea.match(/source\s*src="(.*?)"/)[1]);
+        if (url(["vidoza", "videzz"], 0x1)) {
+            _0xb48b4a = fetch();
+            url(_0xb48b4a.match(/source\s*src="(.*?)"/)[0x1]);
         }
         parser();
     }
 }
+
 function streamplayer() {
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('x-requested-with', 'XMLHttpRequest');
-    var _0xddbf1e = fetch();
-    url(_0xddbf1e.match(/sources\s*:\s* \[\{file:"(.*?)"/)[1]);
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("x-requested-with", "XMLHttpRequest");
+    var _0x5066c5 = fetch();
+    url(_0x5066c5.match(/sources\s*:\s* \[\{file:"(.*?)"/)[0x1]);
     headers('Referer', 'https://vidmoly.to/');
     parser();
 }
+
 function streamruby() {
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36');
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Mobile Safari/537.36");
     data = fetch();
-    url((data + '').match(/file:"(.*?m3u8.*?)"/)[1]);
-    headers('Referer', 'https://streamruby.com/');
+    url((data + '').match(/file:"(.*?m3u8.*?)"/)[0x1]);
+    headers("Referer", "https://streamruby.com/");
     parser();
 }
+
 function streamtheworld() {
-    var _0x578532 = fetch().split('<transports>');
-    var _0x108458 = '';
-    for (let _0x179d52 = 0; _0x179d52 < _0x578532.length; _0x179d52++) {
-        if (_0x578532[_0x179d52].includes('AAC')) {
-            _0x108458 = _0x578532[_0x179d52];
+    var _0x18f9ac = fetch().split("<transports>");
+    var _0x503ba6 = '';
+    for (let _0x1328cd = 0x0; _0x1328cd < _0x18f9ac.length; _0x1328cd++) {
+        if (_0x18f9ac[_0x1328cd].includes("AAC")) {
+            _0x503ba6 = _0x18f9ac[_0x1328cd];
             break;
         }
     }
-    var _0x5b4a94 = _0x108458.match(/<ip>(.*?)<\/ip>/)[1];
-    var _0xdd9b92 = _0x108458.match(/<mount>(.*?)<\/mount>/)[1];
-    g.setMediaType('mp5');
-    url('https://' + _0x5b4a94 + '/' + _0xdd9b92 + '.aac');
-    headers('Connection', 'keep-alive');
+    var _0x5e34ce = _0x503ba6.match(/<ip>(.*?)<\/ip>/)[0x1];
+    var _0x897ccd = _0x503ba6.match(/<mount>(.*?)<\/mount>/)[0x1];
+    g.setMediaType("mp5");
+    url('https://' + _0x5e34ce + '/' + _0x897ccd + '.aac');
+    headers("Connection", "keep-alive");
     parser();
 }
+
 function streamoupload() {
-    var _0x1238d6 = fetch();
-    _0x1238d6 = _0x1238d6.match(/<script\s*type=".*?text\/javascript">\s*(eval[\s\S]*?)\s*<\/script>/)[1];
-    _0x1238d6 = unPack(_0x1238d6);
-    url(_0x1238d6.match(/file\s*:\s*"(.*?streamoupload.*?)"/)[1].replace(/\\\\\//g, '/'));
-    g.deleteHeader('Referer');
-    g.deleteHeader('Base');
+    var _0x19cbc2 = fetch();
+    _0x19cbc2 = _0x19cbc2.match(/<script\s*type=".*?text\/javascript">\s*(eval[\s\S]*?)\s*<\/script>/)[0x1];
+    _0x19cbc2 = unPack(_0x19cbc2);
+    url(_0x19cbc2.match(/file\s*:\s*"(.*?streamoupload.*?)"/)[0x1].replace(/\\\\\//g, '/'));
+    g.deleteHeader("Referer");
+    g.deleteHeader("Base");
     parser();
 }
+
 function streamtape() {
     url(fixUrl(url()));
     headers('Referer', 'https://streamtape.com/');
-    var _0x267b8f = fetch();
-    _0x267b8f = matchAll(_0x267b8f, /ById\('.+?=\s*(["']\/\/[^;<]+)/g);
-    _0x267b8f = _0x267b8f[_0x267b8f.length - 1][1];
-    var _0x3ca728 = _0x267b8f.split('+');
-    var _0x17b41f = '';
-    for (let _0x543b1e = 0; _0x543b1e < _0x3ca728.length; _0x543b1e++) {
-        var _0x2906f2 = _0x3ca728[_0x543b1e].split("'").join("\"");
+    var _0x6b83a4 = fetch();
+    _0x6b83a4 = matchAll(_0x6b83a4, /ById\('.+?=\s*(["']\/\/[^;<]+)/g);
+    _0x6b83a4 = _0x6b83a4[_0x6b83a4.length - 0x1][0x1];
+    var _0x3f4d14 = _0x6b83a4.split('+');
+    var _0x2ad021 = '';
+    for (let _0x2593bc = 0x0; _0x2593bc < _0x3f4d14.length; _0x2593bc++) {
+        var _0x5cf9a6 = _0x3f4d14[_0x2593bc].split("'").join("\"");
         try {
-            var _0x699def = _0x2906f2.match(/"([^"]*)/)[1];
-            var _0x558932 = 0;
-            if (_0x2906f2.includes('substring')) {
-                var _0x309825 = matchAll(_0x2906f2, /substring\((\d+)/g);
-                for (let _0x5dc67b = 0; _0x5dc67b < _0x309825.length; _0x5dc67b++) {
-                    _0x558932 = _0x558932 + parseInt(_0x309825[_0x5dc67b][1]);
+            var _0x1ce66d = _0x5cf9a6.match(/"([^"]*)/)[0x1];
+            var _0x48aa78 = 0x0;
+            if (_0x5cf9a6.includes("substring")) {
+                var _0x21ffb8 = matchAll(_0x5cf9a6, /substring\((\d+)/g);
+                for (let _0x30d60a = 0x0; _0x30d60a < _0x21ffb8.length; _0x30d60a++) {
+                    _0x48aa78 = _0x48aa78 + parseInt(_0x21ffb8[_0x30d60a][0x1]);
                 }
             }
-            _0x17b41f = _0x17b41f + _0x699def.substring(_0x558932);
-        } catch (_0x11067a) { }
+            _0x2ad021 = _0x2ad021 + _0x1ce66d.substring(_0x48aa78);
+        } catch (_0x29d8c8) {}
     }
-    _0x17b41f = _0x17b41f + '&stream=1';
-    url(fixUrl(_0x17b41f));
+    _0x2ad021 = _0x2ad021 + "&stream=1";
+    url(fixUrl(_0x2ad021));
     parser();
 }
+
 function superfilmgeldi() {
-    var _0x3fcf83 = url();
-    var _0x48a753 = fetch(url().replace('?l=1', '').replace('?l=0', ''));
-    _0x48a753 = _0x48a753.match(/iframe\s*src="(.*?)"/)[1];
-    if (_0x48a753.startsWith('/')) {
-        _0x48a753 = 'https:' + _0x48a753;
+    var _0x36fb0b = url();
+    var _0x479f7a = fetch(url().replace("?l=1", '').replace("?l=0", ''));
+    _0x479f7a = _0x479f7a.match(/iframe\s*src="(.*?)"/)[0x1];
+    if (_0x479f7a.startsWith('/')) {
+        _0x479f7a = "https:" + _0x479f7a;
     }
-    if (_0x48a753.includes('vidmoly') || _0x48a753.includes('ok.ru') || _0x48a753.includes('odnoklas')) {
-        url(_0x48a753);
+    if (_0x479f7a.includes("vidmoly") || _0x479f7a.includes("ok.ru") || _0x479f7a.includes("odnoklas")) {
+        url(_0x479f7a);
         parser();
     } else {
-        if (_0x48a753.includes('mixlion')) {
-            _0x48a753 = fetch(_0x48a753);
-            var _0x430b57 = _0x48a753.match(/"videoServer":"(.*?)"/)[1];
-            var _0x3356a7 = 'https://mixlion.com' + _0x48a753.match(/"videoUrl":"(.*?)"/)[1].replace(/\\/g, '');
-            _0x3356a7 = _0x3356a7 + '?s=' + _0x430b57 + '&d=';
-            headers('Referer', _0x3356a7);
-            headers('Accept', '*/*');
-            _0x48a753 = fetch(_0x3356a7);
-            url(_0x48a753.match(/(htt.*?)$/)[1]);
+        if (_0x479f7a.includes("mixlion")) {
+            _0x479f7a = fetch(_0x479f7a);
+            var _0x19576f = _0x479f7a.match(/"videoServer":"(.*?)"/)[0x1];
+            var _0x4677c2 = "https://mixlion.com" + _0x479f7a.match(/"videoUrl":"(.*?)"/)[0x1].replace(/\\/g, '');
+            _0x4677c2 = _0x4677c2 + '?s=' + _0x19576f + "&d=";
+            headers("Referer", _0x4677c2);
+            headers("Accept", "*/*");
+            _0x479f7a = fetch(_0x4677c2);
+            url(_0x479f7a.match(/(htt.*?)$/)[0x1]);
         } else {
-            if (_0x48a753.includes('mixtiger')) {
-                headers('content-type', 'application/x-www-form-urlencoded; charset=UTF-8');
-                headers('x-requested-with', 'XMLHttpRequest');
-                var _0xdbf030 = _0x48a753.split('/')[5];
-                fetch(_0x48a753);
-                _0x48a753 = fetchPost('hash=' + _0xdbf030 + '&r=' + baseUrl(_0x3fcf83) + '&s=', _0x48a753 + '?do=getVideo');
-                var _0x47896b = JSON.parse(_0x48a753);
-                if (_0x47896b.hasOwnProperty('videoSrc')) {
-                    _0x48a753 = _0x47896b.videoSrc;
+            if (_0x479f7a.includes("mixtiger")) {
+                headers('content-type', "application/x-www-form-urlencoded; charset=UTF-8");
+                headers('x-requested-with', "XMLHttpRequest");
+                var _0x31cdd3 = _0x479f7a.split('/')[0x5];
+                fetch(_0x479f7a);
+                _0x479f7a = fetchPost("hash=" + _0x31cdd3 + '&r=' + baseUrl(_0x36fb0b) + "&s=", _0x479f7a + "?do=getVideo");
+                var _0x54cea5 = JSON.parse(_0x479f7a);
+                if (_0x54cea5.hasOwnProperty("videoSrc")) {
+                    _0x479f7a = _0x54cea5.videoSrc;
                 } else {
-                    _0x48a753 = _0x47896b.videoSources[0].file;
+                    _0x479f7a = _0x54cea5.videoSources[0x0].file;
                 }
-                url(_0x48a753);
+                url(_0x479f7a);
             } else {
-                if (_0x48a753.includes('mixeagle')) {
-                    headers('Referer', baseUrl(_0x48a753));
-                    headers('Accept', '*/*');
-                    var _0x453d2c = baseUrl(_0x48a753);
-                    var _0x48a753 = fetch(_0x48a753);
-                    var _0x43a32b = _0x48a753.match(/"videoServer":"(.*?)"/)[1];
-                    _0x48a753 = _0x453d2c + _0x48a753.match(/videoUrl":"(.*?)"/)[1].split("\\").join('') + '?s=' + _0x43a32b + '&d=';
-                    url(_0x48a753);
+                if (_0x479f7a.includes("mixeagle")) {
+                    headers('Referer', baseUrl(_0x479f7a));
+                    headers("Accept", '*/*');
+                    var _0x4cd717 = baseUrl(_0x479f7a);
+                    var _0x479f7a = fetch(_0x479f7a);
+                    var _0x6ca64f = _0x479f7a.match(/"videoServer":"(.*?)"/)[0x1];
+                    _0x479f7a = _0x4cd717 + _0x479f7a.match(/videoUrl":"(.*?)"/)[0x1].split("\\").join('') + '?s=' + _0x6ca64f + "&d=";
+                    url(_0x479f7a);
                 }
             }
         }
     }
     parser();
 }
+
 function supervideo() {
     url(fixUrl(url()));
-    var _0x2b28fb = fetch();
+    var _0x578beb = fetch();
     try {
-        _0x2b28fb = unPack(_0x2b28fb.match(/(eval\(function.*?)<\/script>/)[1]);
+        _0x578beb = unPack(_0x578beb.match(/(eval\(function.*?)<\/script>/)[0x1]);
         try {
-            url(_0x2b28fb.match(/file:"(.*?)"/)[1]);
-        } catch (_0x7e403a) {
-            url(_0x2b28fb.match(/src:"(.*?)"/)[1]);
+            url(_0x578beb.match(/file:"(.*?)"/)[0x1]);
+        } catch (_0x44c214) {
+            url(_0x578beb.match(/src:"(.*?)"/)[0x1]);
         }
-    } catch (_0x49dabb) {
-        url(_0x2b28fb.match(/\[\{file:"(.*?)"/)[1]);
+    } catch (_0x5c3288) {
+        url(_0x578beb.match(/\[\{file:"(.*?)"/)[0x1]);
     }
     parser();
 }
+
+function tafdi() {
+    headers("X-requested-with", "XMLHttpRequest");
+    headers("Content-Type", "Application/x-wwww-form-urlencoded; charset=UTF-8");
+    var _0x15b275 = fetch();
+    var _0x19b656 = _0x15b275.match(/<iframe\s*src=[\'"](.*?)[\'"]/)[0x1];
+    url(_0x19b656);
+    headers("Referer", url());
+    _0x15b275 = fetch();
+    var _0x5a1b41 = matchAll(_0x15b275, /"file":\s*"((?:(?!thumbs).)*?)"/g);
+    var _0x253996 = '';
+    var _0x40c673 = '';
+    try {
+        _0x253996 = _0x5a1b41[0x1][0x1].replace(/\\/g, '');
+    } catch (_0x28b532) {}
+    try {
+        _0x40c673 = _0x5a1b41[0x2][0x1].replace(/\\/g, '');
+    } catch (_0x8476cf) {}
+    var _0x1df70d = _0x253996;
+    if (_0x40c673.includes("tur") || _0x40c673.includes('tr')) {
+        _0x1df70d = _0x40c673;
+    }
+    link = _0x5a1b41[0x0][0x1];
+    link = unescape(link.replace(/\\x/g, '%'));
+    sub(_0x1df70d.replace(".vtt", '.srt'));
+    url(link);
+    parser();
+}
+
 function tele1() {
-    url(fetch().match(/iframe.*?src="(https:\/\/www.youtube.*?)"/)[1].replace('https://www', 'https://m').replace('/embed/', '/watch?v='));
-    parser(url(), 1, '', '', false);
+    url(fetch().match(/iframe.*?src="(https:\/\/www.youtube.*?)"/)[0x1].replace("https://www", "https://m").replace("/embed/", "/watch?v="));
+    parser(url(), 0x1, '', '', false);
 }
+
 function teve2() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x300ec0 = fetch();
+    if (url(["canli-yayin"], 0x0)) {
+        var _0x29dcea = fetch();
         try {
-            url(_0x300ec0.match(/file:'(.*?)'/)[1]);
-        } catch (_0xcd2356) {
-            url(_0x300ec0.match(/contentUrl"\s*:\s*"(.*?)"/)[1]);
+            url(_0x29dcea.match(/file:'(.*?)'/)[0x1]);
+        } catch (_0x32d250) {
+            url(_0x29dcea.match(/contentUrl"\s*:\s*"(.*?)"/)[0x1]);
         }
         parser();
     } else {
-        var _0x300ec0 = fetch().match(/itemprop="embedURL" href="(.*?)"/)[1].replace('video', 'action/media');
-        _0x300ec0 = fetch(_0x300ec0);
-        var _0x1bc2da = JSON.parse(_0x300ec0);
-        url(_0x1bc2da.Media.Link.ServiceUrl + '/' + _0x1bc2da.Media.Link.SecurePath);
+        var _0x29dcea = fetch().match(/itemprop="embedURL" href="(.*?)"/)[0x1].replace("video", "action/media");
+        _0x29dcea = fetch(_0x29dcea);
+        var _0x5b8842 = JSON.parse(_0x29dcea);
+        url(_0x5b8842.Media.Link.ServiceUrl + '/' + _0x5b8842.Media.Link.SecurePath);
         parser();
     }
 }
+
 function thehun() {
-    url(fetch().match(/source src="(.*?)"/)[1]);
+    url(fixUrl(fetch().match(/source src="(.*?)"/)[0x1]));
     parser();
 }
+
 function tjk() {
-    url(fetch().match(/hls\s*:\s*'(.*?)'/)[1]);
+    url(fetch().match(/hls\s*:\s*'(.*?)'/)[0x1]);
     parser();
 }
+
 function tlc() {
-    if (url(['canli-izle'], 0)) {
-        var _0x438c74 = fetch();
-        url(_0x438c74.match(/(?:daionUrl|liveUrl)\s*(?:=|\:)\s*(?:\'|")(.*?)(?:\'|")/)[1]);
+    if (url(["canli-izle"], 0x0)) {
+        var _0x29e7b8 = fetch();
+        url(_0x29e7b8.match(/(?:daionUrl|liveUrl)\s*(?:=|\:)\s*(?:\'|")(.*?)(?:\'|")/)[0x1]);
         parser();
     } else {
-        var _0x1c8484 = '';
-        var _0xe6491d = '20';
-        if (url(['dmax'], 1)) {
-            _0xe6491d = '27';
+        var _0x2eeeb3 = '';
+        var _0x5cf3e6 = '20';
+        if (url(["dmax"], 0x1)) {
+            _0x5cf3e6 = '27';
         }
-        _0x1c8484 = fetch().match(/referenceId\s*:\s*'(.*?)'/)[1];
-        url('https://dygvideo.dygdigital.com/api/redirect?PublisherId=' + _0xe6491d + '&ReferenceId=' + _0x1c8484 + '&SecretKey=NtvApiSecret2014*');
+        _0x2eeeb3 = fetch().match(/referenceId\s*:\s*'(.*?)'/)[0x1];
+        url("https://dygvideo.dygdigital.com/api/redirect?PublisherId=" + _0x5cf3e6 + '&ReferenceId=' + _0x2eeeb3 + '&SecretKey=NtvApiSecret2014*');
         parser();
     }
 }
+
 function trstx() {
-    var _0x3f35f7 = fetch().match(/playerConfigs\s*=\s*(.*?);/)[1];
-    var _0x37f9d8 = JSON.parse(_0x3f35f7).href + '' + JSON.parse(_0x3f35f7).file;
-    url(fixUrl(_0x37f9d8));
-    _0x3f35f7 = matchAll(fetch(), /title":\s*"(.*?)".*?file":\s*"(.*?)"/g);
-    var _0x4132a8 = '';
-    var _0x1b5ad9 = {};
-    for (var _0x4895e0 = 0; _0x4895e0 < _0x3f35f7.length; _0x4895e0++) {
-        if (g.getLang() == 1 && _0x3f35f7[_0x4895e0][1].includes('Altyaz')) {
-            _0x4132a8 = _0x3f35f7[_0x4895e0][2];
+    var _0x4d1b6a = fetch().match(/playerConfigs\s*=\s*(.*?);/)[0x1];
+    var _0x53c71d = JSON.parse(_0x4d1b6a).href + '' + JSON.parse(_0x4d1b6a).file;
+    url(fixUrl(_0x53c71d));
+    _0x4d1b6a = matchAll(fetch(), /title":\s*"(.*?)".*?file":\s*"(.*?)"/g);
+    var _0x4d12ac = '';
+    var _0x3660d4 = {};
+    for (var _0x5bc161 = 0x0; _0x5bc161 < _0x4d1b6a.length; _0x5bc161++) {
+        if (g.getLang() == 0x1 && _0x4d1b6a[_0x5bc161][0x1].includes("Altyaz")) {
+            _0x4d12ac = _0x4d1b6a[_0x5bc161][0x2];
         } else {
-            if (g.getLang() == 0 && _0x3f35f7[_0x4895e0][1].includes('Dublaj')) {
-                _0x4132a8 = _0x3f35f7[_0x4895e0][2];
+            if (g.getLang() == 0x0 && _0x4d1b6a[_0x5bc161][0x1].includes('Dublaj')) {
+                _0x4d12ac = _0x4d1b6a[_0x5bc161][0x2];
             } else {
-                _0x1b5ad9[_0x3f35f7[_0x4895e0][1]] = _0x3f35f7[_0x4895e0][1];
-                if (g.getLang() == 2) {
-                    _0x4132a8 = _0x3f35f7[_0x4895e0][2];
+                _0x3660d4[_0x4d1b6a[_0x5bc161][0x1]] = _0x4d1b6a[_0x5bc161][0x1];
+                if (g.getLang() == 0x2) {
+                    _0x4d12ac = _0x4d1b6a[_0x5bc161][0x2];
                 }
             }
         }
     }
-    if (Object.keys(_0x1b5ad9).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x1b5ad9));
+    if (Object.keys(_0x3660d4).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x3660d4));
     } else {
-        var _0x27989a = url().split('playlist');
-        url(_0x27989a[0] + 'playlist/' + _0x4132a8 + '!!.txt');
+        var _0x316a9e = url().split("playlist");
+        url(_0x316a9e[0x0] + "playlist/" + _0x4d12ac + "!!.txt");
         url(fetch());
         parser();
     }
 }
+
 function tv360() {
-    var _0x23f980 = fetch();
-    url(_0x23f980.match(/source\s*src="(.*?)"/)[1]);
+    var _0x1a632f = fetch();
+    url(_0x1a632f.match(/source\s*src="(.*?)"/)[0x1]);
     parser();
 }
+
 function tv8() {
-    if (url(['canli-yayin'], 0)) {
-        var _0x421979 = fetch();
-        url(_0x421979.match(/var videoUrl = "(.*?)"/)[1]);
+    if (url(["canli-yayin"], 0x0)) {
+        var _0x46bf61 = fetch();
+        url(_0x46bf61.match(/var videoUrl = "(.*?)"/)[0x1]);
         parser();
     } else {
-        url(fetch().match(/hls\s*:\s*"(.*?)"/)[1].replace(/ /g, '').replace(/\"/g, ''));
+        url(fetch().match(/hls\s*:\s*"(.*?)"/)[0x1].replace(/ /g, '').replace(/\"/g, ''));
         parser();
     }
 }
+
 function tvem() {
-    var _0x542ebc = fetch();
-    url(fetch(fixUrl(_0x542ebc.match(/<div class="live-area">\s*.*?<script src="(.*?)"><\/script>/)[1])).match(/yayincomtr4="(.*?)"/)[1]);
+    var _0x11a2f0 = fetch();
+    url(fetch(fixUrl(_0x11a2f0.match(/<div class="live-area">\s*.*?<script src="(.*?)"><\/script>/)[0x1])).match(/yayincomtr4="(.*?)"/)[0x1]);
     parser();
 }
+
 function tvnet() {
-    url(fetch().match(/live-image"\s*href="(.*?)"/)[1]);
+    url(fetch().match(/live-image"\s*href="(.*?)"/)[0x1]);
     parser();
 }
+
 function ucankus() {
-    url(fetch().match(/<source\s*src="(.*?)"/)[1]);
+    url(fetch().match(/<source\s*src="(.*?)"/)[0x1]);
     parser();
 }
+
 function ugurfilm() {
-    var _0x23d64b = url();
-    var _0x30b1ed = fetch();
-    var _0x3940a5 = _0x30b1ed;
-    var _0x53e9fb = {
-        Mailru: _0x1082ee,
-        Fembed: _0x1082ee,
-        Youtube: _0x1082ee,
-        Vidmoly: _0x1082ee,
-        Mailru: _0x1082ee,
-        Fembed: _0x1082ee,
-        Youtube: _0x1082ee,
-        Vidmoly: _0x1082ee,
-        Youtube: _0x30b1ed,
-        Dublaj: 'https:' + fetch(_0x350e44).match(/"hls":"(.*?)"/)[1].replace(/\//g, '')
-    };
-    if (!url(['#'], 1)) {
+    var _0x335137 = url();
+    var _0x49bc8e = fetch();
+    var _0x71f792 = _0x49bc8e;
+    var _0x5a4765 = {};
+    if (!url(['#'], 0x1)) {
         try {
-            _0x30b1ed = _0x30b1ed.match("<iframe.*?src=\"https://" + url().split('/')[2] + "/player(.*?)\"")[1];
-            url('https://' + url().split('/')[2] + '/player' + _0x30b1ed);
-            if (url([url().split('/')[2] + '/player/play.php'], 1)) {
-                var _0x128706 = url().replace('https://' + url().split('/')[2] + '/player/play.php?vid=', '');
-                _0x30b1ed = matchAll(fetch(), /class="c-dropdown__item"\s*data-dropdown-value="(.*?)" data-order-value="(\d+)"/g);
-                var _0x3bdb0f = 'https://' + url().split('/')[2] + '/player/ajax_sources.php';
-                for (var _0x36d74c = 0; _0x36d74c < _0x30b1ed.length; _0x36d74c++) {
-                    var _0xdce363 = 'vid=' + _0x128706 + '&alternative=' + _0x30b1ed[_0x36d74c][1] + '&ord=' + _0x30b1ed[_0x36d74c][2];
+            _0x49bc8e = _0x49bc8e.match("<iframe.*?src=\"https://" + url().split('/')[0x2] + "/player(.*?)\"")[0x1];
+            url("https://" + url().split('/')[0x2] + "/player" + _0x49bc8e);
+            if (url([url().split('/')[0x2] + '/player/play.php'], 0x1)) {
+                var _0x4f5170 = url().replace('https://' + url().split('/')[0x2] + "/player/play.php?vid=", '');
+                _0x49bc8e = matchAll(fetch(), /class="c-dropdown__item"\s*data-dropdown-value="(.*?)" data-order-value="(\d+)"/g);
+                var _0x395a65 = "https://" + url().split('/')[0x2] + "/player/ajax_sources.php";
+                for (var _0x48a46e = 0x0; _0x48a46e < _0x49bc8e.length; _0x48a46e++) {
+                    var _0x2a3775 = "vid=" + _0x4f5170 + '&alternative=' + _0x49bc8e[_0x48a46e][0x1] + '&ord=' + _0x49bc8e[_0x48a46e][0x2];
                     try {
-                        headers('X-Requested-With', 'XMLHttpRequest');
-                        var _0x1082ee = JSON.parse(fetchPost(_0xdce363, _0x3bdb0f)).iframe + '';
-                        _0x1082ee = fixUrl(_0x1082ee) + '';
-                        if (_0x1082ee.includes('mail')) {
-                            ;
+                        headers("X-Requested-With", "XMLHttpRequest");
+                        var _0x2ce67f = JSON.parse(fetchPost(_0x2a3775, _0x395a65)).iframe + '';
+                        _0x2ce67f = fixUrl(_0x2ce67f) + '';
+                        if (_0x2ce67f.includes("mail")) {
+                            _0x5a4765.Mailru = _0x2ce67f;
                         } else {
-                            if (_0x1082ee.includes('fembed')) {
-                                ;
+                            if (_0x2ce67f.includes("fembed")) {
+                                _0x5a4765.Fembed = _0x2ce67f;
                             } else {
-                                if (_0x1082ee.includes('ok.ru')) {
-                                    _0x53e9fb['Ok.ru'] = _0x1082ee;
+                                if (_0x2ce67f.includes("ok.ru")) {
+                                    _0x5a4765['Ok.ru'] = _0x2ce67f;
                                 } else {
-                                    if (_0x1082ee.includes('odnoklassniki')) {
-                                        _0x53e9fb['Ok.ru'] = _0x1082ee;
+                                    if (_0x2ce67f.includes("odnoklassniki")) {
+                                        _0x5a4765['Ok.ru'] = _0x2ce67f;
                                     } else {
-                                        if (_0x1082ee.includes('youtube')) {
-                                            ;
+                                        if (_0x2ce67f.includes("youtube")) {
+                                            _0x5a4765.Youtube = _0x2ce67f;
                                         } else {
-                                            if (_0x1082ee.includes('vidmoly')) {
-                                                ;
-                                            } else {
-                                                if (_0x1082ee.includes('1x')) {
-                                                    _0x53e9fb['1x'] = _0x1082ee;
-                                                }
+                                            if (_0x2ce67f.includes("vidmoly")) {
+                                                _0x5a4765.Vidmoly = _0x2ce67f;
+                                            } else if (_0x2ce67f.includes('1x')) {
+                                                _0x5a4765['1x'] = _0x2ce67f;
                                             }
                                         }
                                     }
                                 }
                             }
                         }
-                    } catch (_0x54d740) { }
+                    } catch (_0xede477) {}
                 }
             } else {
                 try {
-                    _0x30b1ed = _0x3940a5.match(/parttab tab-aktif(.*?)<\/iframe>/)[1].match(/href="(.*?)"/)[1];
-                    var _0x1082ee = fetch(_0x30b1ed).match(/iframe.*?src=(?:'|")(.*?)(?:'|")/)[1];
-                    if (_0x1082ee.includes('mail')) {
-                        ;
+                    _0x49bc8e = _0x71f792.match(/parttab tab-aktif(.*?)<\/iframe>/)[0x1].match(/href="(.*?)"/)[0x1];
+                    var _0x2ce67f = fetch(_0x49bc8e).match(/iframe.*?src=(?:'|")(.*?)(?:'|")/)[0x1];
+                    if (_0x2ce67f.includes("mail")) {
+                        _0x5a4765.Mailru = _0x2ce67f;
                     } else {
-                        if (_0x1082ee.includes('fembed')) {
-                            ;
+                        if (_0x2ce67f.includes('fembed')) {
+                            _0x5a4765.Fembed = _0x2ce67f;
                         } else {
-                            if (_0x1082ee.includes('ok.ru')) {
-                                _0x53e9fb['Ok.ru'] = _0x1082ee;
+                            if (_0x2ce67f.includes("ok.ru")) {
+                                _0x5a4765["Ok.ru"] = _0x2ce67f;
                             } else {
-                                if (_0x1082ee.includes('odnoklassniki')) {
-                                    _0x53e9fb['Ok.ru'] = _0x1082ee;
+                                if (_0x2ce67f.includes("odnoklassniki")) {
+                                    _0x5a4765["Ok.ru"] = _0x2ce67f;
                                 } else {
-                                    if (_0x1082ee.includes('youtube')) {
-                                        ;
+                                    if (_0x2ce67f.includes("youtube")) {
+                                        _0x5a4765.Youtube = _0x2ce67f;
                                     } else {
-                                        if (_0x1082ee.includes('vidmoly')) {
-                                            ;
-                                        } else {
-                                            if (_0x1082ee.includes('1x')) {
-                                                _0x53e9fb['1x'] = _0x1082ee;
-                                            }
+                                        if (_0x2ce67f.includes("vidmoly")) {
+                                            _0x5a4765.Vidmoly = _0x2ce67f;
+                                        } else if (_0x2ce67f.includes('1x')) {
+                                            _0x5a4765['1x'] = _0x2ce67f;
                                         }
                                     }
                                 }
                             }
                         }
                     }
-                } catch (_0x423deb) {
+                } catch (_0x383980) {
                     try {
-                        _0x30b1ed = _0x3940a5.match(/iframe.*?src="(.*?)"/)[1];
-                        ;
-                    } catch (_0x3e2506) { }
+                        _0x49bc8e = _0x71f792.match(/iframe.*?src="(.*?)"/)[0x1];
+                        _0x5a4765.Youtube = _0x49bc8e;
+                    } catch (_0xc83619) {}
                 }
             }
-        } catch (_0x5762bd) {
-            var _0x350e44 = '';
+        } catch (_0x4d2e25) {
+            var _0xee6c51 = '';
             try {
-                _0x350e44 = _0x30b1ed.match(/<iframe.*?src="(.*?)"/)[2];
-            } catch (_0x42e3c0) {
-                _0x350e44 = _0x30b1ed.match(/<iframe.*?src="(.*?)"/)[1];
+                _0xee6c51 = _0x49bc8e.match(/<iframe.*?src="(.*?)"/)[0x2];
+            } catch (_0x5a626a) {
+                _0xee6c51 = _0x49bc8e.match(/<iframe.*?src="(.*?)"/)[0x1];
             }
-            var _0x167e47 = _0x30b1ed.match(/movie\/(.*?)\/iframe/)[1];
-            if (_0x350e44.includes('trstx') || _0x350e44.includes('sobreatsesuyp')) {
-                url(_0x350e44);
+            var _0x452751 = _0x49bc8e.match(/movie\/(.*?)\/iframe/)[0x1];
+            if (_0xee6c51.includes("trstx") || _0xee6c51.includes("sobreatsesuyp")) {
+                url(_0xee6c51);
             } else {
-                _0x53e9fb["AltyazÄ±lÄ±"] = 'https:' + fetch(_0x350e44 + '?t=' + _0x167e47).match(/"hls":"(.*?)"/)[1].replace(/\//g, '');
-                ;
+                _0x5a4765["AltyazÄ±lÄ±"] = "https:" + fetch(_0xee6c51 + "?t=" + _0x452751).match(/"hls":"(.*?)"/)[0x1].replace(/\//g, '');
+                _0x5a4765.Dublaj = "https:" + fetch(_0xee6c51).match(/"hls":"(.*?)"/)[0x1].replace(/\//g, '');
             }
         }
     }
-    if (!_0x23d64b.includes('#') && Object.keys(_0x53e9fb).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x53e9fb));
+    if (!_0x335137.includes('#') && Object.keys(_0x5a4765).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x5a4765));
     } else {
-        if (url(['#'], 1)) {
-            url(url().split('#')[1].replace(/\\/g, ''));
+        if (url(['#'], 0x1)) {
+            url(url().split('#')[0x1].replace(/\\/g, ''));
             url(fixUrl(url()));
         } else {
-            url(_0x53e9fb[Object.keys(_0x53e9fb)[0]]);
+            url(_0x5a4765[Object.keys(_0x5a4765)[0x0]]);
         }
         parser();
     }
 }
+
 function unutulmaz() {
-    var _0x4d2018 = url();
-    var _0x3ee614 = fetch();
-    var _0x49255d = _0x3ee614.match(/<iframe.*?src=(.*?)\s/)[1];
-    _0x49255d = _0x49255d.replace(/"/g, '');
-    if (!_0x49255d.startsWith('http')) {
-        _0x49255d = 'https:' + _0x49255d;
+    var _0x3ba8b7 = url();
+    var _0x5f243e = fetch();
+    var _0xe058b8 = _0x5f243e.match(/<iframe.*?src=(.*?)\s/)[0x1];
+    _0xe058b8 = _0xe058b8.replace(/"/g, '');
+    if (!_0xe058b8.startsWith("http")) {
+        _0xe058b8 = 'https:' + _0xe058b8;
     }
-    var _0x105199 = {
-        _0x233da6: _0x49255d
+    var _0x32239 = {
+        _0x3f90ee: _0xe058b8
     };
     try {
-        var _0x38160f = matchAll(_0x3ee614, /<li class="part">\s*<a href="(.*?)"/g);
-        for (let _0x54c763 = 0; _0x54c763 < _0x38160f.length; _0x54c763++) {
-            var _0xfe46d = fetch(_0x38160f[_0x54c763][1]);
-            var _0x2ec3d0 = _0xfe46d.match(/<iframe.*?src=(.*?)\s/)[1];
-            if (!_0x2ec3d0.startsWith('http')) {
-                _0x2ec3d0 = 'https:' + _0x2ec3d0;
+        var _0x370c3b = matchAll(_0x5f243e, /<li class="part">\s*<a href="(.*?)"/g);
+        for (let _0x304d62 = 0x0; _0x304d62 < _0x370c3b.length; _0x304d62++) {
+            var _0x275840 = fetch(_0x370c3b[_0x304d62][0x1]);
+            var _0x46d2a4 = _0x275840.match(/<iframe.*?src=(.*?)\s/)[0x1];
+            if (!_0x46d2a4.startsWith("http")) {
+                _0x46d2a4 = "https:" + _0x46d2a4;
             }
-            var _0x4a7cd9 = _0x2ec3d0.match(/(?:\/\/www|\/\/)(.*?)\./);
-            _0x105199[_0x4a7cd9] = _0x2ec3d0;
+            var _0x2cd451 = _0x46d2a4.match(/(?:\/\/www|\/\/)(.*?)\./);
+            _0x32239[_0x2cd451] = _0x46d2a4;
         }
-    } catch (_0x21e460) {
-        error(_0x21e460.message);
+    } catch (_0x20ce9f) {
+        error(_0x20ce9f.message);
     }
-    if (!_0x4d2018.includes('#') && JSON.stringify(_0x105199) != '{}' && Object.keys(_0x105199).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x105199));
+    if (!_0x3ba8b7.includes('#') && JSON.stringify(_0x32239) != '{}' && Object.keys(_0x32239).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0x32239));
     } else {
-        if (_0x4d2018.includes('#')) {
-            url(_0x4d2018.split('#')[1]);
+        if (_0x3ba8b7.includes('#')) {
+            url(_0x3ba8b7.split('#')[0x1]);
         }
-        if (Object.keys(_0x105199).length == 1) {
-            url(_0x49255d);
+        if (Object.keys(_0x32239).length == 0x1) {
+            url(_0xe058b8);
         }
-        if (g.getLang() == 1) {
-            Core.setLang(0);
+        if (g.getLang() == 0x1) {
+            Core.setLang(0x0);
         } else {
-            Core.setLang(1);
+            Core.setLang(0x1);
         }
-        headers('Referer', _0x4d2018);
+        headers("Referer", _0x3ba8b7);
         parser();
     }
 }
+
 function vectorx() {
-    headers('Referer', baseUrl(url()));
-    var _0x4d206a = fetch();
-    var _0x1e6275 = _0x4d206a.match(/'({.*?})'/)[1];
-    _0x4d206a = getAes('1FHuaQhhcsKgpTRB', _0x1e6275);
-    url(JSON.parse(_0x4d206a.match(/sources:(.*?]),/)[1])[0].file);
+    headers("Referer", baseUrl(url()));
+    var _0x3172a3 = fetch() + '';
+    var _0x11f9d4 = _0x3172a3.match(/Klauios = '(.*?)'/)[0x1];
+    _0x3172a3 = getVectorx(_0x11f9d4);
+    consolelog(_0x3172a3);
+    url(_0x3172a3.match(/file:\s*"(.*?)",/)[0x1]);
     try {
-        subs = JSON.parse(_0x4d206a.match(/tracks:(.*?]),/)[1]);
-        for (let _0x32bee1 = 0; _0x32bee1 < subs.length; _0x32bee1++) {
-            if (subs[_0x32bee1].label.toLowerCase().includes('tur') && !subs[_0x32bee1].default) {
-                sub(subs[_0x32bee1].file.replace('.srt', '.vtt'));
-                break;
-            }
-        }
-    } catch (_0x595cc8) { }
+        sub(_0x3172a3.match(/subtitle:\s*"\[Turkish\](.*?)",/)[0x1]);
+    } catch (_0x4cd235) {}
     parser();
 }
+
 function videoseyred() {
     url(fixUrl(url()));
     headers('Referer', baseUrl(url()));
-    url('https://videoseyred.in' + fetch().match(/playlistUrl='(.*?)'/)[1]);
-    var _0x2b79c1 = JSON.parse(fetch());
-    url(_0x2b79c1[0].sources[0].file);
-    var _0x486fc1 = _0x2b79c1[0].tracks;
-    for (let _0x18efae = 0; _0x18efae < _0x486fc1.length; _0x18efae++) {
-        if (_0x486fc1[_0x18efae].hasOwnProperty('label')) {
-            if (_0x486fc1[_0x18efae].label.includes('T')) {
-                sub(_0x486fc1[_0x18efae].file);
+    url("https://videoseyred.in" + fetch().match(/playlistUrl='(.*?)'/)[0x1]);
+    var _0x1c5de5 = JSON.parse(fetch());
+    url(_0x1c5de5[0x0].sources[0x0].file);
+    var _0x5a8079 = _0x1c5de5[0x0].tracks;
+    for (let _0x54f8d6 = 0x0; _0x54f8d6 < _0x5a8079.length; _0x54f8d6++) {
+        if (_0x5a8079[_0x54f8d6].hasOwnProperty("label")) {
+            if (_0x5a8079[_0x54f8d6].label.includes('T')) {
+                sub(_0x5a8079[_0x54f8d6].file);
                 break;
             }
         }
     }
     parser();
 }
+
 function vidload() {
     url(fixUrl(url()));
-    var _0x63e5ad = url();
-    var _0x2a9d43 = new Date().getTime();
-    url(baseUrl(url()) + '/video.js?' + _0x2a9d43);
-    var _0x32f105 = fetch();
-    var _0x328a8c = _0x32f105.match(/window,["\'](.*?)["\'],["\'].*?["\']/)[1];
-    var _0x4598b1 = _0x32f105.match(/window,["\'].*?["\'],["\'](.*?)["\']/)[1];
-    headers(_0x328a8c, _0x4598b1);
-    headers('Referer', _0x63e5ad);
-    var _0x17ecd7 = _0x63e5ad.split('iframe/');
-    var _0x5f082f = _0x17ecd7[_0x17ecd7.length - 1];
-    url(baseUrl(_0x63e5ad) + '/ajax/' + _0x5f082f + '?' + _0x2a9d43);
-    _0x32f105 = fetch();
-    var _0x499f80 = JSON.parse(_0x32f105);
-    url(_0x499f80.file + '?' + _0x499f80.hash);
+    var _0x32f654 = url();
+    var _0x46cd42 = new Date().getTime();
+    url(baseUrl(url()) + '/video.js?' + _0x46cd42);
+    var _0x3fefab = fetch();
+    var _0x469dba = _0x3fefab.match(/window,["\'](.*?)["\'],["\'].*?["\']/)[0x1];
+    var _0x3101e4 = _0x3fefab.match(/window,["\'].*?["\'],["\'](.*?)["\']/)[0x1];
+    headers(_0x469dba, _0x3101e4);
+    headers("Referer", _0x32f654);
+    var _0x29c06b = _0x32f654.split('iframe/');
+    var _0x5856b6 = _0x29c06b[_0x29c06b.length - 0x1];
+    url(baseUrl(_0x32f654) + "/ajax/" + _0x5856b6 + '?' + _0x46cd42);
+    _0x3fefab = fetch();
+    var _0x4e0389 = JSON.parse(_0x3fefab);
+    url(_0x4e0389.file + '?' + _0x4e0389.hash);
     parser();
 }
+
 function vidlop() {
-    var _0x417621 = url().split('/');
-    _0x417621 = _0x417621[_0x417621.length - 1];
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('x-requested-with', 'XMLHttpRequest');
-    var _0x361ae8 = fetchPost('hash=' + _0x417621 + '&r=' + baseUrl(url()), 'https://vidlop.com/player/index.php?data=' + _0x417621 + '&do=getVideo');
-    _0x361ae8 = JSON.parse(_0x361ae8);
-    url(_0x361ae8.securedLink);
-    var _0x4219aa = fetch();
+    var _0x55e63f = url().split('/');
+    _0x55e63f = _0x55e63f[_0x55e63f.length - 0x1];
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("x-requested-with", 'XMLHttpRequest');
+    var _0x3e19c8 = fetchPost("hash=" + _0x55e63f + "&r=" + baseUrl(url()), "https://vidlop.com/player/index.php?data=" + _0x55e63f + "&do=getVideo");
+    _0x3e19c8 = JSON.parse(_0x3e19c8);
+    url(_0x3e19c8.securedLink);
+    var _0x574c04 = fetch();
     try {
-        var _0x4773fb = matchAll(_0x4219aa, /URI="(.*?\.vtt)"/g);
-        for (let _0x50a291 = 0; _0x50a291 < _0x4773fb.length; _0x50a291++) {
-            if (_0x4773fb[_0x50a291][1].includes('tur') && _0x4773fb[_0x50a291][1].includes('.vtt')) {
-                sub(_0x4773fb[_0x50a291][1]);
+        var _0x258d09 = matchAll(_0x574c04, /URI="(.*?\.vtt)"/g);
+        for (let _0x4d3506 = 0x0; _0x4d3506 < _0x258d09.length; _0x4d3506++) {
+            if (_0x258d09[_0x4d3506][0x1].includes("tur") && _0x258d09[_0x4d3506][0x1].includes(".vtt")) {
+                sub(_0x258d09[_0x4d3506][0x1]);
             }
         }
-    } catch (_0x149c63) { }
+    } catch (_0x414f48) {}
     parser();
 }
+
 function vidmoly() {
     url(fixUrl(url()));
-    url('.to', '.me');
+    url(".to", ".me");
     url.fasturl;
-    url['document has moved'];
-    headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-    headers('Accept', 'text/html');
+    url["document has moved"];
+    headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+    headers("Accept", "text/html");
     headers('charset', 'utf-8');
-    headers('sec-fetch-dest', 'iframe');
+    headers("sec-fetch-dest", 'iframe');
     headers('Referer', baseUrl(url()));
     g.logHeader();
-    var _0xe71ade = fetch();
-    url(_0xe71ade.match(/sources:\s*.*?(https.*?m3u8).*?\],/)[1]);
+    var _0xc8e3d7 = fetch();
+    url(_0xc8e3d7.match(/sources:\s*.*?(https.*?m3u8).*?\],/)[0x1]);
     try {
-        sub(_0xe71ade.match(/file\\s*:\\s*"(\/srt.*?)"/)[1]);
-    } catch (_0x8eb36b) { }
+        sub(_0xc8e3d7.match(/file\\s*:\\s*"(\/srt.*?)"/)[0x1]);
+    } catch (_0xe0c656) {}
     parser();
 }
+
 function vidmoxy() {
-    ;
+    var _0x200958 = fetch();
     try {
-        ;
-        for (let _0x1ef8bb = 0; _0x1ef8bb < _0x8eb154.length; _0x1ef8bb++) {
-            if (_0x8eb154[_0x1ef8bb][1].includes('Tur')) {
-                sub(_0x8eb154[_0x1ef8bb][1].split("\\").join(''));
+        var _0x589683 = matchAll(_0x200958, /file":"(.*?)"/g);
+        for (let _0x5a3a53 = 0x0; _0x5a3a53 < _0x589683.length; _0x5a3a53++) {
+            if (_0x589683[_0x5a3a53][0x1].includes('Tur')) {
+                sub(_0x589683[_0x5a3a53][0x1].split("\\").join(''));
             }
         }
-    } catch (_0x1120ad) { }
+    } catch (_0x2be615) {}
     try {
-        _0x8b7aa0 = _0x8b7aa0.match(/EE\.dd\("(.*?)"\)/)[1];
-        eval(function (_0x52e22b, _0x4d4382, _0x53b6d5, _0x4c2d77, _0x248c84, _0x2cd003) {
-            _0x248c84 = function (_0x475c33) {
-                return _0x475c33.toString(_0x4d4382);
+        _0x200958 = _0x200958.match(/EE\.dd\("(.*?)"\)/)[0x1];
+        eval(function(_0x42dcef, _0xd3f17c, _0x196428, _0x38f62b, _0x3e1d99, _0x29af5c) {
+            _0x3e1d99 = function(_0x191c1f) {
+                return _0x191c1f.toString(_0xd3f17c);
             };
             if (!''.replace(/^/, String)) {
-                while (_0x53b6d5--) {
-                    _0x2cd003[_0x248c84(_0x53b6d5)] = _0x4c2d77[_0x53b6d5] || _0x248c84(_0x53b6d5);
+                while (_0x196428--) {
+                    _0x29af5c[_0x3e1d99(_0x196428)] = _0x38f62b[_0x196428] || _0x3e1d99(_0x196428);
                 }
-                _0x4c2d77 = [function (_0x2a2bbb) {
-                    return _0x2cd003[_0x2a2bbb];
+                _0x38f62b = [function(_0x20a178) {
+                    return _0x29af5c[_0x20a178];
                 }];
-                _0x248c84 = function () {
+                _0x3e1d99 = function() {
                     return "\\w+";
                 };
-                _0x53b6d5 = 1;
-            }
-            ;
-            while (_0x53b6d5--) {
-                if (_0x4c2d77[_0x53b6d5]) {
-                    _0x52e22b = _0x52e22b.replace(new RegExp("\\b" + _0x248c84(_0x53b6d5) + "\\b", 'g'), _0x4c2d77[_0x53b6d5]);
+                _0x196428 = 0x1;
+            };
+            while (_0x196428--) {
+                if (_0x38f62b[_0x196428]) {
+                    _0x42dcef = _0x42dcef.replace(new RegExp("\\b" + _0x3e1d99(_0x196428) + "\\b", 'g'), _0x38f62b[_0x196428]);
                 }
             }
-            return _0x52e22b;
-        }("1 e={7:3(s){5 s.f('').h().i('')},8:3(s){5 s.2(/[a-j-9]/g,3(c){5 k.l((c<='9'?m:n)>=(c=c.o(0)+p)?c:c-q)})},t:3(s){1 r=6.7(s);1 a=6.8(r);1 b=u(a);5 b.2(/\\+/g,'-').2(/\\//g,'d').2(/=+$/,'')},v:3(s){s=s.2(/-/g,'+').2(/d/g,'/');w(s.x%4!==0){s+='='}1 a=y(s);1 b=6.8(a);5 6.7(b)}};", 35, 35, '|var|replace|function||return|this|rs|rr|Z||||_|EE|split||reverse|join|zA|String|fromCharCode|90|122|charCodeAt|13|26|||ee|btoa|dd|while|length|atob'.split('|'), 0, {}));
-        url(EE.dd(_0x8b7aa0));
-    } catch (_0x17ac4a) {
+            return _0x42dcef;
+        }("1 e={7:3(s){5 s.f('').h().i('')},8:3(s){5 s.2(/[a-j-9]/g,3(c){5 k.l((c<='9'?m:n)>=(c=c.o(0)+p)?c:c-q)})},t:3(s){1 r=6.7(s);1 a=6.8(r);1 b=u(a);5 b.2(/\\+/g,'-').2(/\\//g,'d').2(/=+$/,'')},v:3(s){s=s.2(/-/g,'+').2(/d/g,'/');w(s.x%4!==0){s+='='}1 a=y(s);1 b=6.8(a);5 6.7(b)}};", 0x23, 0x23, "|var|replace|function||return|this|rs|rr|Z||||_|EE|split||reverse|join|zA|String|fromCharCode|90|122|charCodeAt|13|26|||ee|btoa|dd|while|length|atob".split('|'), 0x0, {}));
+        url(EE.dd(_0x200958));
+    } catch (_0x28dc5f) {
         try {
-            url(_0x8b7aa0.match(/{file: "(.*?)", type: ".*?"}/)[1]);
-        } catch (_0x22430e) {
-            _0x8b7aa0 = _0x8b7aa0.match(/(eval\(function\(p,a,c,k,e,d.*?\}\)\);)/)[1];
-            _0x8b7aa0 = unPack(_0x8b7aa0);
-            ;
-            ;
-            url(moxyUnpacker(_0x34178f, _0x1944cf));
+            url(_0x200958.match(/{file: "(.*?)", type: ".*?"}/)[0x1]);
+        } catch (_0x33d514) {
+            _0x200958 = _0x200958.match(/(eval\(function\(p,a,c,k,e,d.*?\}\)\);)/)[0x1];
+            _0x200958 = unPack(_0x200958);
+            var _0x1e1d62 = _0x200958.match(/"(\\.*?)"/)[0x1];
+            var _0xcc4e55 = _0x200958.match(/'(\|.*?)'/)[0x1];
+            url(moxyUnpacker(_0xcc4e55, _0x1e1d62));
         }
     }
     parser();
 }
+
 function vimeo() {
-    var _0x4ca1e1 = fetch();
-    var _0x43b394 = _0x4ca1e1.match(/playerConfig\s*=\s*(\{.*?\})</)[1];
+    var _0x5b62c3 = fetch();
+    var _0x41a8df = _0x5b62c3.match(/playerConfig\s*=\s*(\{.*?\})</)[0x1];
     try {
-        _0x43b394 = JSON.parse(_0x43b394);
-        url(_0x43b394.request.files.hls.cdns.akfire_interconnect_quic.url);
+        _0x41a8df = JSON.parse(_0x41a8df);
+        url(_0x41a8df.request.files.hls.cdns.akfire_interconnect_quic.url);
         parser();
-    } catch (_0x4a79e5) {
-        error(_0x4a79e5.message);
+    } catch (_0x591e88) {
+        error(_0x591e88.message);
     }
 }
+
 function vkcom() {
     url(fixUrl(url()));
-    headers('X-requested-with', 'XMLHttpRequest');
-    var _0x4e5fc2 = fetchPost('act=show&al=1&claim=&dmcah=&hd=&list=&module=direct&playlist_id=' + url().split('video')[1].split('_')[0] + '_-2&show_original=&t=&video=' + url().split('video')[1], 'https://vk.com/al_video.php?act=show');
-    url(JSON.parse(_0x4e5fc2).payload[1][4].player.params[0].hls);
+    headers("X-requested-with", "XMLHttpRequest");
+    var _0x943db1 = fetchPost("act=show&al=1&claim=&dmcah=&hd=&list=&module=direct&playlist_id=" + url().split("video")[0x1].split('_')[0x0] + "_-2&show_original=&t=&video=" + url().split("video")[0x1], "https://vk.com/al_video.php?act=show");
+    url(JSON.parse(_0x943db1).payload[0x1][0x4].player.params[0x0].hls);
     parser();
 }
+
 function voe() {
-    url('https://voe.sx/', 'https://jessicaglassauthor.com/');
-    url(atob(fetch().match(/["']hls["']\s*:\s*["'](.*?)["'],/)[1]));
+    url("https://voe.sx/", 'https://jessicaglassauthor.com/');
+    url(atob(fetch().match(/["']hls["']\s*:\s*["'](.*?)["'],/)[0x1]));
     parser();
 }
+
 function vudeo() {
-    var _0x2fbafa = fetch();
-    url(_0x2fbafa.match(/sources\s*:\s*\["(.*?)"/)[1]);
+    var _0x19dbed = fetch();
+    url(_0x19dbed.match(/sources\s*:\s*\["(.*?)"/)[0x1]);
     headers('Referer', baseUrl(url()) + '/');
     parser();
 }
+
 function vumoox() {
     error("Vumoox isimli kaynak site kapalÄ± olduÄŸundan oynatÄ±lamÄ±yor.");
     if (!g.isWebView()) {
-        error('No Webview');
+        error("No Webview");
     }
-    var _0x528a45 = url().split('#')[0];
-    headers('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
-    if (!url(['#'], 1)) {
-        getWebViewOwnContentJS(_0x528a45, 'm3u8', 'ajax/episode/subtitle', 'server active', '', 0, false, g.getHeadersJSON(), 2);
+    var _0x24293a = url().split('#')[0x0];
+    headers("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36");
+    if (!url(['#'], 0x1)) {
+        getWebViewOwnContentJS(_0x24293a, "m3u8", "ajax/episode/subtitle", "server active", '', 0x0, false, g.getHeadersJSON(), 0x2);
     } else {
-        var _0x51e878 = '';
-        var _0x77887a = '';
-        var _0xb39539 = '';
-        var _0x27e788 = '';
-        var _0x579a9 = '';
-        if (url(['episode/subtitle'], 1)) {
-            _0x51e878 = url().split('#')[2];
-            data = fetch(_0x51e878);
-            var _0x463dd0 = JSON.parse(data);
-            for (var _0x140909 = 0; _0x140909 < _0x463dd0.length; _0x140909++) {
-                if (_0x463dd0[_0x140909].label == 'Turkish') {
-                    _0x77887a = _0x463dd0[_0x140909].file;
+        var _0x39b171 = '';
+        var _0x38e41c = '';
+        var _0x1aa103 = '';
+        var _0x51ad23 = '';
+        var _0x2a57a1 = '';
+        if (url(["episode/subtitle"], 0x1)) {
+            _0x39b171 = url().split('#')[0x2];
+            data = fetch(_0x39b171);
+            var _0x575307 = JSON.parse(data);
+            for (var _0x2c0a6f = 0x0; _0x2c0a6f < _0x575307.length; _0x2c0a6f++) {
+                if (_0x575307[_0x2c0a6f].label == "Turkish") {
+                    _0x38e41c = _0x575307[_0x2c0a6f].file;
                 } else {
-                    if (_0x463dd0[_0x140909].label == 'English') {
-                        _0xb39539 = _0x463dd0[_0x140909].file;
+                    if (_0x575307[_0x2c0a6f].label == 'English') {
+                        _0x1aa103 = _0x575307[_0x2c0a6f].file;
                     } else {
-                        if (_0x463dd0[_0x140909].label == 'French') {
-                            _0x27e788 = _0x463dd0[_0x140909].file;
+                        if (_0x575307[_0x2c0a6f].label == "French") {
+                            _0x51ad23 = _0x575307[_0x2c0a6f].file;
                         } else {
-                            if (_0x463dd0[_0x140909].label == 'German') {
-                                _0x579a9 = _0x463dd0[_0x140909].file;
+                            if (_0x575307[_0x2c0a6f].label == "German") {
+                                _0x2a57a1 = _0x575307[_0x2c0a6f].file;
                             }
                         }
                     }
                 }
             }
         }
-        url(url().split('#')[1]);
-        var _0x1807ee = [];
-        if (_0x77887a == '') {
-            var _0x53f6f8 = '';
-            if (_0xb39539 != '') {
-                _0x53f6f8 = _0xb39539;
+        url(url().split('#')[0x1]);
+        var _0x3e6d1e = [];
+        if (_0x38e41c == '') {
+            var _0x28e0d0 = '';
+            if (_0x1aa103 != '') {
+                _0x28e0d0 = _0x1aa103;
             } else {
-                if (_0x27e788 != '') {
-                    _0x53f6f8 = _0x27e788;
+                if (_0x51ad23 != '') {
+                    _0x28e0d0 = _0x51ad23;
                 } else {
-                    if (_0x579a9 != '') {
-                        _0x53f6f8 = _0x579a9;
+                    if (_0x2a57a1 != '') {
+                        _0x28e0d0 = _0x2a57a1;
                     }
                 }
             }
-            if (_0x53f6f8 != '') {
-                headers.forHelper = 'c2V5L3RyYW5zbGF0ZS8';
-                headers.forHelper2 = 'Q2V2aXJpQUkuVFIucGhwP3VybD0';
-                sub(subHelp(_0x53f6f8, 'vumoo'));
-                if (_0xb39539 != '') {
-                    var _0x3fbc8a = {
-                        'lang': 'en',
-                        url: _0xb39539
+            if (_0x28e0d0 != '') {
+                headers.forHelper = "c2V5L3RyYW5zbGF0ZS8";
+                headers.forHelper2 = "Q2V2aXJpQUkuVFIucGhwP3VybD0";
+                sub(subHelp(_0x28e0d0, "vumoo"));
+                if (_0x1aa103 != '') {
+                    var _0x5c9c75 = {
+                        "lang": 'en',
+                        "url": _0x1aa103
                     };
-                    _0x1807ee = JSON.parse(sub());
-                    _0x1807ee.push(_0x3fbc8a);
-                    sub(JSON.stringify(_0x1807ee));
+                    _0x3e6d1e = JSON.parse(sub());
+                    _0x3e6d1e.push(_0x5c9c75);
+                    sub(JSON.stringify(_0x3e6d1e));
                 }
             }
         } else {
-            sub(_0x77887a);
+            sub(_0x38e41c);
         }
-        if (url(['http'], 1)) {
+        if (url(["http"], 0x1)) {
             parser();
         }
     }
 }
+
 function watchomovies() {
-    var _0x494d5a = fetch();
-    url(_0x494d5a.match(/<iframe src="(.*?)"/i)[1]);
+    var _0x341c62 = fetch();
+    url(_0x341c62.match(/<iframe src="(.*?)"/i)[0x1]);
     parser();
 }
+
 function webteizle() {
-    var _0x18ffb3 = url();
-    var _0x1f637f = fetch();
-    _0x1f637f = _0x1f637f.match(/data-id="(.*?)"/)[1];
-    var _0x824adc = 'filmid=' + _0x1f637f + '&dil=' + (_0x18ffb3.includes('altyazi') ? '1' : '0');
-    if (_0x18ffb3.includes('sezon')) {
-        var _0x74275f = _0x1f637f.match(/(\d*)-sezon-(\d*)-/);
-        _0x824adc += '&s=' + _0x74275f[1] + '&b=' + _0x74275f[2];
+    var _0x593093 = url();
+    var _0x2a96b3 = fetch();
+    _0x2a96b3 = _0x2a96b3.match(/data-id="(.*?)"/)[0x1];
+    consolelog(g.getLang());
+    var _0x5eac36 = "filmid=" + _0x2a96b3 + '&dil=' + g.getLang();
+    if (_0x593093.includes("sezon")) {
+        var _0xba928a = _0x2a96b3.match(/(\d*)-sezon-(\d*)-/);
+        _0x5eac36 += '&s=' + _0xba928a[0x1] + "&b=" + _0xba928a[0x2];
     }
-    _0x824adc += '&bot=0';
-    var _0x111a6e = '';
-    var _0x488b73 = '';
-    headers('X-Requested-With', 'XMLHttpRequest');
-    var _0xb85c9 = fetch(baseUrl(_0x18ffb3) + '/js/site.min.js');
-    _0x488b73 = _0xb85c9.match(/#embed'\)\.addClass\('loading'\);\$\.post\("\/(.*?)"/)[1];
-    _0x111a6e = _0xb85c9.match(/s,b\)\{\$.post\('\/(.*?)'/)[1];
-    url(baseUrl(url()) + '/' + _0x111a6e);
-    _0x1f637f = fetchPost(_0x824adc);
-    var _0x81ca45 = JSON.parse(_0x1f637f).data;
-    var _0x476d6c = {};
-    for (let _0x3cd26e = 0; _0x3cd26e < _0x81ca45.length; _0x3cd26e++) {
-        if (_0x81ca45[_0x3cd26e].baslik != 'Netu' && _0x81ca45[_0x3cd26e].baslik != 'PLUS') {
-            _0x476d6c[_0x81ca45[_0x3cd26e].baslik] = '' + _0x81ca45[_0x3cd26e].id;
+    _0x5eac36 += '&bot=0';
+    var _0x227dde = '';
+    var _0x1c3dee = '';
+    headers('X-Requested-With', "XMLHttpRequest");
+    var _0x451005 = fetch(baseUrl(_0x593093) + "/js/site.min.js");
+    _0x1c3dee = _0x451005.match(/#embed"\)\.addClass\(".*?loading"\),\$\.post\("\/(.*?)"/)[0x1];
+    _0x227dde = _0x451005.match(/t,n\)\{\$.post\("\/(.*?)"/)[0x1];
+    url(baseUrl(url()) + '/' + _0x227dde);
+    _0x2a96b3 = fetchPost(_0x5eac36);
+    if (_0x2a96b3.includes("errorMsg")) {
+        _0x5eac36 = _0x5eac36.replace("&dil=0", "&dil=1");
+        _0x2a96b3 = fetchPost(_0x5eac36);
+    }
+    var _0x3cdc8d = JSON.parse(_0x2a96b3).data;
+    var _0xf118a2 = {};
+    for (let _0x178ca2 = 0x0; _0x178ca2 < _0x3cdc8d.length; _0x178ca2++) {
+        if (_0x3cdc8d[_0x178ca2].baslik != "Netu" && _0x3cdc8d[_0x178ca2].baslik != "PLUS") {
+            _0xf118a2[_0x3cdc8d[_0x178ca2].baslik] = '' + _0x3cdc8d[_0x178ca2].id;
         }
     }
-    if (!_0x18ffb3.includes('#') && Object.keys(_0x476d6c).length > 1) {
-        Core.showAlternatesJS(JSON.stringify(_0x476d6c));
+    if (!_0x593093.includes('#') && Object.keys(_0xf118a2).length > 0x1) {
+        Core.showAlternatesJS(JSON.stringify(_0xf118a2));
     } else {
-        headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-        var _0x2ae687 = _0x18ffb3.split('#')[2];
-        _0x824adc = 'id=' + _0x18ffb3.split('#')[1];
-        url(baseUrl(_0x18ffb3.split('#')[0]) + '/' + _0x488b73);
-        _0x1f637f = fetchPost(_0x824adc);
+        headers('Content-Type', "application/x-www-form-urlencoded; charset=UTF-8");
+        var _0x7e31aa = _0x593093.split('#')[0x2];
+        _0x5eac36 = 'id=' + _0x593093.split('#')[0x1];
+        url(baseUrl(_0x593093.split('#')[0x0]) + '/' + _0x1c3dee);
+        _0x2a96b3 = fetchPost(_0x5eac36);
         try {
-            url(_0x1f637f.match(/<script>(.*?)\('(.*?)',.*?\);<\/script>/)[2]);
-        } catch (_0x3f2563) {
-            url(_0x1f637f.match(/\/player\/video.asp\?v=(.*?)"/)[1]);
+            url(_0x2a96b3.match(/<script>(.*?)\('(.*?)',.*?\);<\/script>/)[0x2]);
+        } catch (_0x124e23) {
+            try {
+                url(_0x2a96b3.match(/\/player\/video.asp\?v=(.*?)"/)[0x1]);
+            } catch (_0x10f556) {
+                try {
+                    url(_0x2a96b3.match(/iframe.*?src="(.*?)"/)[0x1]);
+                } catch (_0x339f47) {
+                    url(_0x2a96b3.match(/vid\s*=\s*'(.*?)';/)[0x1]);
+                }
+            }
         }
-        switch (_0x2ae687.toLowerCase()) {
-            case 'uptobox':
-                url('https://uptostream.com/iframe/' + url());
+        switch (_0x7e31aa.toLowerCase()) {
+            case "uptobox":
+                url("https://uptostream.com/iframe/" + url());
                 break;
-            case 'sper':
+            case "sper":
                 url('https://supervideo.tv/e/' + url());
                 break;
-            case 'fembed':
-                url('https://www.fembed.net/v/' + url());
+            case "fembed":
+                url("https://www.fembed.net/v/" + url());
                 break;
             case 'vidmoly':
-                url('https://vidmoly.me/embed-' + url() + '.html');
+                url("https://vidmoly.me/embed-" + url() + ".html");
                 break;
-            case 'mailru':
-                var _0x5e8744 = url().split('/');
-                url('https://my.mail.ru/' + _0x5e8744[0] + '/' + _0x5e8744[1] + '/video/embed/' + _0x5e8744[2] + '/' + _0x5e8744[3]);
+            case "mailru":
+                var _0x48e78d = url().split('/');
+                url("https://my.mail.ru/" + _0x48e78d[0x0] + '/' + _0x48e78d[0x1] + "/video/embed/" + _0x48e78d[0x2] + '/' + _0x48e78d[0x3]);
                 break;
-            case 'ok.ru':
-                url('https://odnoklassniki.ru/videoembed/' + url());
+            case "ok.ru":
+                url("https://odnoklassniki.ru/videoembed/" + url());
                 break;
-            case 'streamlare':
-                url('https://streamlare.com/e/' + url());
+            case "streamlare":
+                url("https://streamlare.com/e/" + url());
                 break;
-            case 'streamsb':
-                url('https://streamsb.net/e/' + url());
+            case "streamsb":
+                url("https://streamsb.net/e/" + url());
                 break;
             case 'filemoon':
                 url('https://filemoon.sx/e/' + url());
                 break;
+            case "fullhd":
+                var _0x48087f = url().match(/t=(.*?)$/)[0x1];
+                url(decodeURIComponent(atob(url().match(/v=(.*?)&/)[0x1]).replace(/\\x/g, '%')));
+                try {
+                    var _0x3cdc8d = JSON.parse('[' + atob(_0x48087f) + ']');
+                    var _0x3abcf1 = [];
+                    for (var _0x45d422 = 0x0; _0x45d422 < _0x3cdc8d.length; _0x45d422++) {
+                        var _0x18419c = {};
+                        if ((_0x3cdc8d[_0x45d422].label + '').includes('rk')) {
+                            _0x18419c.lang = 'tr';
+                        } else {
+                            if (_0x3cdc8d[_0x45d422].label && _0x3cdc8d[_0x45d422].label != "Forced") {
+                                _0x18419c.lang = 'en';
+                            }
+                        }
+                        _0x18419c.url = _0x3cdc8d[_0x45d422].file.replace('.vtt', '.srt');
+                        if (_0x18419c.lang && _0x18419c.lang.length > 0x1) {
+                            _0x3abcf1.push(_0x18419c);
+                        }
+                    }
+                    sub(JSON.stringify(_0x3abcf1));
+                } catch (_0x4fdb56) {
+                    consolelog(_0x4fdb56);
+                }
+                break;
+            case 'pixel':
+                url("https://pixeldrain.com/u/" + url() + '?embed&style=hacker');
+                _0x2a96b3 = fetch();
+                url(_0x2a96b3.match(/<meta property="og:video:url" content="(.*?)" \/>/)[0x1]);
+                g.setMediaType("mp4");
+                break;
+            case "dzen":
+                url("https://dzen.ru/embed/vRoRFtbASFSI");
+                _0x2a96b3 = fetch();
+                consolelog(_0x2a96b3);
+                url(_0x2a96b3.match(/url":"(.*?m3u8.*?)"/)[0x1]);
+                break;
         }
         parser();
     }
 }
+
 function wfilmizle() {
-    var _0x5d8f61 = url();
-    var _0x5081cb = fetch();
-    _0x5081cb = _0x5081cb.match('keremiya_part(.*?)wide-button')[1];
-    var _0x3f5d60 = {
+    var _0x1d4214 = url();
+    var _0x550062 = fetch();
+    _0x550062 = _0x550062.match("keremiya_part(.*?)wide-button")[0x1];
+    var _0x31957d = {
         WHDPlayer: url()
     };
     try {
-        var _0x53515d = matchAll(_0x5081cb, /<a href="(.*?)" class="post-page-numbers"><span>(.*?)<\/span>/g);
-        for (let _0x536383 = 0; _0x536383 < _0x53515d.length; _0x536383++) {
-            if (_0x53515d[_0x536383][2].toLowerCase() != 'fragman') {
-                if (_0x3f5d60.hasOwnProperty(_0x53515d[_0x536383][2])) {
-                    _0x3f5d60[_0x53515d[_0x536383][2] + '' + _0x536383] = _0x53515d[_0x536383][1];
+        var _0x438efe = matchAll(_0x550062, /<a href="(.*?)" class="post-page-numbers"><span>(.*?)<\/span>/g);
+        for (let _0x16d279 = 0x0; _0x16d279 < _0x438efe.length; _0x16d279++) {
+            if (_0x438efe[_0x16d279][0x2].toLowerCase() != "fragman") {
+                if (_0x31957d.hasOwnProperty(_0x438efe[_0x16d279][0x2])) {
+                    _0x31957d[_0x438efe[_0x16d279][0x2] + '' + _0x16d279] = _0x438efe[_0x16d279][0x1];
                 } else {
-                    _0x3f5d60[_0x53515d[_0x536383][2]] = _0x53515d[_0x536383][1];
+                    _0x31957d[_0x438efe[_0x16d279][0x2]] = _0x438efe[_0x16d279][0x1];
                 }
             }
         }
-    } catch (_0x4d2de6) { }
-    if (!_0x5d8f61.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x3f5d60));
+    } catch (_0x3ea320) {}
+    if (!_0x1d4214.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x31957d));
     } else {
-        url(_0x5d8f61.split('#')[1]);
-        _0x5081cb = fetch();
+        url(_0x1d4214.split('#')[0x1]);
+        _0x550062 = fetch();
         try {
-            _0x5081cb = _0x5081cb.match(/<iframe loading="lazy".*?src="(.*?)"/)[1];
-            url(_0x5081cb);
-        } catch (_0x6fd9b1) {
-            _0x5081cb = _0x5081cb.match(/<iframe(?![^>]*\bid\b)[^>]*?src=["'](.*?)["']/)[1];
-            if (_0x5081cb.startsWith('//')) {
-                _0x5081cb = 'https:' + _0x5081cb;
+            _0x550062 = _0x550062.match(/<iframe loading="lazy".*?src="(.*?)"/)[0x1];
+            url(_0x550062);
+        } catch (_0x177d15) {
+            _0x550062 = _0x550062.match(/<iframe(?![^>]*\bid\b)[^>]*?src=["'](.*?)["']/)[0x1];
+            if (_0x550062.startsWith('//')) {
+                _0x550062 = "https:" + _0x550062;
             }
-            if (_0x5081cb.includes('/v/')) {
-                var _0x3e1571 = _0x5081cb.split('/');
-                _0x3e1571[2] = 'fembed.com';
+            if (_0x550062.includes("/v/")) {
+                var _0x26e07b = _0x550062.split('/');
+                _0x26e07b[0x2] = "fembed.com";
                 url('');
-                for (var _0x208aca = 0; _0x208aca < _0x3e1571.length; _0x208aca++) {
-                    if (_0x208aca != 0) {
+                for (var _0x4d80a7 = 0x0; _0x4d80a7 < _0x26e07b.length; _0x4d80a7++) {
+                    if (_0x4d80a7 != 0x0) {
                         url(url() + '/');
                     }
-                    url(url(_0x3e1571[_0x208aca]));
+                    url(url(_0x26e07b[_0x4d80a7]));
                 }
             }
-            if (_0x5081cb.includes('hdplayersystem.live')) {
-                var _0x238a51 = '';
-                if (_0x5081cb.includes('/video/')) {
-                    _0x238a51 = _0x5081cb.replace('https://hdplayersystem.live/video/', '');
+            if (_0x550062.includes("hdplayersystem.live")) {
+                var _0x2701c7 = '';
+                if (_0x550062.includes("/video/")) {
+                    _0x2701c7 = _0x550062.replace("https://hdplayersystem.live/video/", '');
                 } else {
-                    _0x238a51 = _0x5081cb.split('data=')[1];
+                    _0x2701c7 = _0x550062.split("data=")[0x1];
                 }
-                url('https://hdplayersystem.live/player/index.php?data=' + _0x238a51 + '&do=getVideo');
-                headers('X-Requested-with', 'XMLHttpRequest');
-                headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-                _0x5081cb = fetchPost("{hash:\"" + _0x238a51 + "\", r:\"" + url() + "\"}");
+                url("https://hdplayersystem.live/player/index.php?data=" + _0x2701c7 + "&do=getVideo");
+                headers("X-Requested-with", "XMLHttpRequest");
+                headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+                _0x550062 = fetchPost("{hash:\"" + _0x2701c7 + "\", r:\"" + url() + "\"}");
                 try {
-                    var _0x4cba4e = JSON.parse(_0x5081cb);
-                    url(_0x4cba4e.videoSource);
-                } catch (_0x3fe1d2) {
-                    error(_0x3fe1d2.message);
+                    var _0xe8551c = JSON.parse(_0x550062);
+                    url(_0xe8551c.videoSource);
+                } catch (_0x4e2038) {
+                    error(_0x4e2038.message);
                 }
             }
-            g.deleteHeader('Content-Type');
-            g.deleteHeader('X-Requested-with');
-            headers('Accept', '*/*');
+            g.deleteHeader("Content-Type");
+            g.deleteHeader("X-Requested-with");
+            headers("Accept", "*/*");
         }
         parser();
     }
 }
+
 function wikiflix() {
-    var _0x3a173c = url();
-    var _0x56c268 = _0x3a173c.split('#');
-    var _0x4cd287 = url().split('?')[1];
-    var _0x4dfebd = _0x4cd287.split('&');
-    var _0x346832 = {};
-    if (_0x4dfebd.length > 0) {
-        for (var _0x1ae6bb = 0; _0x1ae6bb < _0x4dfebd.length; _0x1ae6bb++) {
-            _0x346832['Kaynak ' + (_0x1ae6bb + 1)] = _0x4dfebd[_0x1ae6bb];
+    var _0x6eec37 = url();
+    var _0x5959bf = _0x6eec37.split('#');
+    var _0x553732 = url().split('?')[0x1];
+    var _0x5d075c = _0x553732.split('&');
+    var _0x27f192 = {};
+    if (_0x5d075c.length > 0x0) {
+        for (var _0x2e0d28 = 0x0; _0x2e0d28 < _0x5d075c.length; _0x2e0d28++) {
+            _0x27f192["Kaynak " + (_0x2e0d28 + 0x1)] = _0x5d075c[_0x2e0d28];
         }
     } else {
-        error('Wikiflix 1957');
+        error("Wikiflix 1957");
     }
-    if (!_0x3a173c.includes('#')) {
-        Core.showAlternatesJS(JSON.stringify(_0x346832));
+    if (!_0x6eec37.includes('#')) {
+        Core.showAlternatesJS(JSON.stringify(_0x27f192));
     } else {
-        var _0x26a87e = url().split('#')[_0x56c268.length - 2] + '';
-        if (_0x26a87e.startsWith('m_')) {
-            _0x26a87e = url().split('#')[_0x56c268.length - 2] + '';
+        var _0x646418 = url().split('#')[_0x5959bf.length - 0x2] + '';
+        if (_0x646418.startsWith('m_')) {
+            _0x646418 = url().split('#')[_0x5959bf.length - 0x2] + '';
         }
-        if (_0x26a87e.length == 11) {
-            url('https://www.youtube.com/watch?v=' + _0x26a87e);
+        if (_0x646418.length == 0xb) {
+            url("https://www.youtube.com/watch?v=" + _0x646418);
         } else {
-            url('https://commons.m.wikimedia.org/wiki/File:' + _0x26a87e + '?embedplayer=yes');
+            url('https://commons.m.wikimedia.org/wiki/File:' + _0x646418 + "?embedplayer=yes");
             data = fetch() + '';
             data = data + '';
-            var _0x3025f7 = (data + '').match(/(https[^"]+vp9.webm)/)[1];
-            url(_0x3025f7);
+            var _0x4c24c8 = (data + '').match(/(https[^"]+vp9.webm)/)[0x1];
+            url(_0x4c24c8);
             try {
-                var _0x8f8806 = matchAll(data + '', /\/w\/[^"]+vtt/g);
-                for (let _0x5f450a = 0; _0x5f450a < _0x8f8806.length; _0x5f450a++) {
-                    if (_0x8f8806[_0x5f450a][1].includes('lang=en')) {
-                        sub(_0x8f8806[_0x5f450a][1]);
+                var _0x29c92e = matchAll(data + '', /\/w\/[^"]+vtt/g);
+                for (let _0x3c2cba = 0x0; _0x3c2cba < _0x29c92e.length; _0x3c2cba++) {
+                    if (_0x29c92e[_0x3c2cba][0x1].includes("lang=en")) {
+                        sub(_0x29c92e[_0x3c2cba][0x1]);
                         break;
                     }
                 }
-            } catch (_0x287c9d) {
-                error(_0x287c9d.message);
+            } catch (_0x1c48e6) {
+                error(_0x1c48e6.message);
             }
         }
         parser();
     }
 }
+
 function womantv() {
     url(JSON.parse(fetch('https://appie.vidpanel.com/wmtv/video/live')).video);
     parser();
 }
+
 function xcine() {
-    var _0x47eb60 = url();
-    var _0x282a22 = '';
+    var _0x5a3229 = url();
+    var _0x5770c2 = '';
     try {
-        _0x282a22 = url().split('html-')[1].split('x')[1];
-    } catch (_0x460490) { }
-    url(url().split('html-')[0]) + 'html';
-    var _0x127c15 = matchAll(fetch(), /<span\s*data-link="(.*?)"><i><\/i>\s*(.*?)\s*<\/span/g);
-    if (_0x127c15.length == 0) {
-        _0x127c15 = matchAll(fetch(), new RegExp("as*href=\"#\"s*id=\".*?1_" + _0x282a22 + "\"s*data-link=\"(.*?)\">s*(.*?)s*</a>", 'g'));
+        _0x5770c2 = url().split("html-")[0x1].split('x')[0x1];
+    } catch (_0x5d3d5d) {}
+    url(url().split("html-")[0x0]) + 'html';
+    var _0x188c92 = matchAll(fetch(), /<span\s*data-link="(.*?)"><i><\/i>\s*(.*?)\s*<\/span/g);
+    if (_0x188c92.length == 0x0) {
+        _0x188c92 = matchAll(fetch(), new RegExp("as*href=\"#\"s*id=\".*?1_" + _0x5770c2 + "\"s*data-link=\"(.*?)\">s*(.*?)s*</a>", 'g'));
     }
     streamUrls = {};
-    for (let _0x3d67cb = 0; _0x3d67cb < _0x127c15.length; _0x3d67cb++) {
-        if (_0x127c15[_0x3d67cb][2] != 'Trailer') {
-            streamUrls[_0x127c15[_0x3d67cb][2]] = _0x127c15[_0x3d67cb][1];
+    for (let _0x307647 = 0x0; _0x307647 < _0x188c92.length; _0x307647++) {
+        if (_0x188c92[_0x307647][0x2] != 'Trailer') {
+            streamUrls[_0x188c92[_0x307647][0x2]] = _0x188c92[_0x307647][0x1];
         }
     }
-    if (Object.keys(streamUrls).length > 0 && !_0x47eb60.includes('#')) {
+    if (Object.keys(streamUrls).length > 0x0 && !_0x5a3229.includes('#')) {
         Core.showAlternatesJS(JSON.stringify(streamUrls));
     } else {
-        url(fixUrl(url().split('#')[1]));
+        url(fixUrl(url().split('#')[0x1]));
         parser();
     }
 }
+
 function xhamster() {
-    var _0x1e2b3f = baseUrl(url());
-    var _0x212fa7 = url().split('-');
-    _0x212fa7 = _0x212fa7[_0x212fa7.length - 1];
-    url(_0x1e2b3f + '/embed/' + _0x212fa7);
-    var _0x359d07 = JSON.parse(fetch().match(/"sources":(.*?\}\}\}),/)[1]);
-    for (let _0x4e8e68 = 0; _0x4e8e68 < _0x359d07.standard.h264.length; _0x4e8e68++) {
-        if (_0x359d07.standard.h264[_0x4e8e68].quality == 'auto') {
-            url(_0x359d07.standard.h264[_0x4e8e68].url);
-            break;
-        }
-    }
+    var _0x56870a = fetch().match(/<link\s*rel="preload"\s*href="(.*?)"/)[0x1];
+    url(_0x56870a);
     parser();
 }
+
 function xnxx() {
-    url(fetch().match(/setVideoHLS\('(.*?)'/)[1]);
+    url(fetch().match(/setVideoHLS\('(.*?)'/)[0x1]);
     parser();
 }
+
 function xvideos() {
-    url(fetch().match(/setVideoHLS\('(.*?)'/)[1]);
+    url(fetch().match(/setVideoHLS\('(.*?)'/)[0x1]);
     parser();
 }
+
 function yabancidizi() {
-    var _0x411f1e = url();
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    var _0x58e2a2 = {
-        _0x450ef4: _0x3395b9
-    };
-    if (!_0x411f1e.includes('#')) {
-        var _0x2a5d02 = fetch();
-        _0x2a5d02 = _0x2a5d02.match(/series-tabs(.*?)mofycon/)[1];
-        var _0xaf92ab;
-        if (_0xaf92ab === undefined) {
-            _0xaf92ab = 'udys=123;';
+    var _0x435396 = url();
+    headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+    headers("User-Agent", "google");
+    var _0x4eac08 = {};
+    if (!_0x435396.includes('#')) {
+        var _0x16670d = fetch();
+        _0x16670d = _0x16670d.match(/series-tabs(.*?)mofycon/)[0x1];
+        var _0x406188;
+        if (_0x406188 === undefined) {
+            _0x406188 = "udys=123;";
         }
-        var _0x2a65bc = 1;
-        if (g.getLang() == 0) {
-            _0x2a65bc = 2;
+        var _0x1ae16d = 0x1;
+        if (g.getLang() == 0x0) {
+            _0x1ae16d = 0x2;
         }
         try {
-            var _0x31a5c2 = matchAll(_0x2a5d02, /data-eid="(.*?)"\s*data-type="(.*?)"/g);
-            for (let _0x5992ea = 0; _0x5992ea < _0x31a5c2.length; _0x5992ea++) {
-                if (_0x31a5c2[_0x5992ea][2] == '' + _0x2a65bc) {
-                    url(_0x31a5c2[_0x5992ea][1]);
+            var _0x24a3b0 = matchAll(_0x16670d, /data-eid="(.*?)"\s*data-type="(.*?)"/g);
+            for (let _0x2985c7 = 0x0; _0x2985c7 < _0x24a3b0.length; _0x2985c7++) {
+                if (_0x24a3b0[_0x2985c7][0x2] == '' + _0x1ae16d) {
+                    url(_0x24a3b0[_0x2985c7][0x1]);
                 }
             }
-        } catch (_0x2f68ec) {
-            error(_0x2f68ec.message);
+        } catch (_0xdc8702) {
+            error(_0xdc8702.message);
         }
-        if (url() == _0x411f1e) {
-            error('Yabanci Dizi - 2029');
+        if (url() == _0x435396) {
+            error("Yabanci Dizi - 2029");
         } else {
-            var _0x5a5e88 = encodeURIComponent(url());
-            var _0x118af2 = 'lang=' + _0x2a65bc + '&episode=' + _0x5a5e88 + '&type=langTab';
-            url(baseUrl(_0x411f1e) + '/ajax/service');
-            headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-            headers('X-Requested-With', 'XMLHttpRequest');
-            headers('Cookie', _0xaf92ab);
-            _0x2a5d02 = fetchPost(_0x118af2);
+            var _0x1e7a08 = encodeURIComponent(url());
+            var _0x11ac6c = "lang=" + _0x1ae16d + '&episode=' + _0x1e7a08 + '&type=langTab';
+            url(baseUrl(_0x435396) + '/ajax/service');
+            headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+            headers("X-Requested-With", 'XMLHttpRequest');
+            headers("Cookie", _0x406188);
+            _0x16670d = fetchPost(_0x11ac6c);
             try {
-                var _0x31a5c2 = matchAll(_0x2a5d02, /data-hash=\\"(.*?)\\"\s*data-link=\\"(.*?)\\"/g);
-                for (let _0x4da100 = 0; _0x4da100 < _0x31a5c2.length; _0x4da100++) {
-                    _0x118af2 = 'hash' + _0x31a5c2[_0x4da100][1].replace(/\\/g, '') + '&link=' + encodeURIComponent(_0x31a5c2[_0x4da100][2].replace(/\\/g, '')) + '&querytype=alternate&type=videoGet';
-                    var _0x3395b9 = fetchPost(_0x118af2);
-                    var _0x3395b9 = _0x3395b9.match(/"api_iframe":\s*"(.*?)"/)[1].replace(/\\/g, '');
-                    if (_0x3395b9 != '') {
-                        var _0x450ef4 = _0x3395b9.match(/\/api\/(.*?)\//)[1];
-                        ;
+                var _0x24a3b0 = matchAll(_0x16670d, /data-hash=\\"(.*?)\\"\s*data-link=\\"(.*?)\\"/g);
+                for (let _0x59891c = 0x0; _0x59891c < _0x24a3b0.length; _0x59891c++) {
+                    _0x11ac6c = "hash" + _0x24a3b0[_0x59891c][0x1].replace(/\\/g, '') + "&link=" + encodeURIComponent(_0x24a3b0[_0x59891c][0x2].replace(/\\/g, '')) + "&querytype=alternate&type=videoGet";
+                    var _0x5732d4 = fetchPost(_0x11ac6c);
+                    var _0x5732d4 = _0x5732d4.match(/"api_iframe":\s*"(.*?)"/)[0x1].replace(/\\/g, '');
+                    if (_0x5732d4 != '') {
+                        var _0x1f55e9 = _0x5732d4.match(/\/api\/(.*?)\//)[0x1];
+                        _0x4eac08[_0x1f55e9] = _0x5732d4;
                     }
                 }
-            } catch (_0x32cee6) {
-                error(_0x32cee6.message);
+            } catch (_0x57022f) {
+                error(_0x57022f.message);
             }
-            Core.showAlternatesJS(JSON.stringify(_0x58e2a2));
+            Core.showAlternatesJS(JSON.stringify(_0x4eac08));
         }
     } else {
-        url(_0x411f1e.split('#')[1]);
-        var _0x474b78 = _0x411f1e.split('#')[2];
-        g.deleteHeader('Cookie');
-        g.deleteHeader('X-Requested-With');
-        g.deleteHeader('Content-Type');
-        if (_0x474b78.toLowerCase().includes('drive')) {
+        url(_0x435396.split('#')[0x1]);
+        var _0x65138d = _0x435396.split('#')[0x2];
+        g.deleteHeader("Cookie");
+        g.deleteHeader("X-Requested-With");
+        g.deleteHeader("Content-Type");
+        if (_0x65138d.toLowerCase().includes('drive')) {
             if (!g.isWebView()) {
-                error('No Webview');
+                error("No Webview");
             }
-            getWebViewOwnContentJS(url(), 'molystream', 'I AM NOT LOOKING', 'playSheilaBtn', '', 0, false, g.getHeadersJSON, 1);
+            getWebViewOwnContentJS(url(), 'molystream', "I AM NOT LOOKING", "playSheilaBtn", '', 0x0, false, g.getHeadersJSON, 0x1);
         } else {
-            headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
-            var _0x2a5d02 = fetch();
+            headers('Content-Type', "application/x-www-form-urlencoded; charset=UTF-8");
+            var _0x16670d = fetch();
             try {
-                var _0x31a5c2 = matchAll(_0x2a5d02, /<iframe(.*?)<\/iframe/g);
-                for (let _0x1ddc48 = 0; _0x1ddc48 < _0x31a5c2.length; _0x1ddc48++) {
-                    if (!_0x31a5c2[_0x1ddc48][1].includes('display:')) {
-                        url(_0x31a5c2[_0x1ddc48][1]);
+                var _0x24a3b0 = matchAll(_0x16670d, /<iframe(.*?)<\/iframe/g);
+                for (let _0x1a5097 = 0x0; _0x1a5097 < _0x24a3b0.length; _0x1a5097++) {
+                    if (!_0x24a3b0[_0x1a5097][0x1].includes("display:")) {
+                        url(_0x24a3b0[_0x1a5097][0x1]);
                         break;
                     }
                 }
-                url(url().match(/src=['"](.*?)['"]/)[1]);
-            } catch (_0x441d9f) {
-                error(_0x441d9f.message);
+                url(url().match(/src=['"](.*?)['"]/)[0x1]);
+            } catch (_0x1e4c15) {
+                error(_0x1e4c15.message);
             }
-            g.deleteHeader('Cookie');
-            g.deleteHeader('Content-Type');
+            g.deleteHeader("Cookie");
+            g.deleteHeader("Content-Type");
             parser();
         }
     }
 }
+
 function yabanci_dizi() {
-    url('yabanci-dizi', 'yabancidizi');
-    var _0xd9b6df = 'bolum-menu';
-    if (url(['/film/'], 1)) {
-        _0xd9b6df = 'active';
+    url('yabanci-dizi', "yabancidizi");
+    headers('User-Agent', "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0");
+    if (url(["yabancidizi", "dizilla"], 0x1)) {
+        headers('Referer', url());
+        var _0x2ac7b6 = fetch();
+        _0x2ac7b6 = _0x2ac7b6.match(/secureData\":\"(.*?)\"/)[0x1];
+        var _0x26b609 = _0x2ac7b6;
+        _0x2ac7b6 = atob(_0x2ac7b6);
+        var _0x1109e3 = _0x2ac7b6;
+        try {
+            if (!_0x2ac7b6.includes("pichive")) {
+                consolelog(_0x26b609);
+                _0x2ac7b6 = getSecureData(_0x26b609);
+            }
+            _0x2ac7b6 = JSON.parse(_0x2ac7b6);
+            _0x2ac7b6 = _0x2ac7b6.RelatedResults.getEpisodeSources.result;
+            for (var _0xc771d7 = 0x0; _0xc771d7 < _0x2ac7b6.length; _0xc771d7++) {
+                if ((g.getLang() >= 0x1 && url(["yabancidizi"], 0x1) || url(["dizilla"], 0x1)) && _0x2ac7b6[_0xc771d7].language_name.includes('Altyaz') || g.getLang() == 0x0 && _0x2ac7b6[_0xc771d7].language_name.includes('Dublaj')) {
+                    if (_0x2ac7b6[_0xc771d7].source_content.includes("pichive") || !_0x2ac7b6[_0xc771d7].source_content.includes("pichive")) {
+                        url(_0x2ac7b6[_0xc771d7].source_content.match(/src="(.*?)"/)[0x1]);
+                        break;
+                    }
+                }
+            }
+        } catch (_0x2f4dd0) {
+            url(_0x1109e3.match(/src=\\"(.*?)\\"/)[0x1]);
+        }
+        url(fixUrl(url()));
+        parser();
+    } else {
+        var _0x2c1779 = "bolum-menu";
+        if (url(["/film/"], 0x1)) {
+            _0x2c1779 = "active";
+        }
+        headers("User-Agent", "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36");
+        url("/turkce", '');
+        var _0x2ac7b6 = fetch();
+        url(_0x2ac7b6.match(/iframe.*?loading.*?src="(.*?)"/)[0x1]);
+        url(fixUrl(url()));
+        parser();
     }
-    headers('User-Agent', 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36');
-    url('/turkce', '');
-    var _0x16508a = fetch();
-    url(_0x16508a.match(/<iframe.*?allowfullscreen.*?src="(.*?)"/)[1]);
-    url(fixUrl(url()));
-    parser();
 }
+
 function yabantv() {
-    url(fetch(fixUrl(fetch().match(/<iframe.*?src="(.*?)"/)[1])).match(/file\s*:\s*"(.*?)"/)[1]);
+    url(fetch(fixUrl(fetch().match(/<iframe.*?src="(.*?)"/)[0x1])).match(/file\s*:\s*"(.*?)"/)[0x1]);
     parser();
 }
+
 function yesmovies() {
     if (!g.isWebView()) {
-        error('No Webview');
+        error("No Webview");
     }
-    var _0xa808c8 = url().split('#')[0];
-    var _0x1edae1 = '';
-    var _0x44d223 = '';
-    if (url(['sezon'], 1)) {
-        _0x1edae1 = url().match(/sezon-(.*?)\//)[1];
-        _0x44d223 = url().match(/bolum-(.*?)?/)[1];
-        _0xa808c8 = url().split('.html')[0] + '.html';
+    var _0x510e96 = url().split('#')[0x0];
+    var _0x1c42ba = '';
+    var _0xe5d65d = '';
+    if (url(["sezon"], 0x1)) {
+        _0x1c42ba = url().match(/sezon-(.*?)\//)[0x1];
+        _0xe5d65d = url().match(/bolum-(.*?)?/)[0x1];
+        _0x510e96 = url().split(".html")[0x0] + ".html";
     }
-    headers('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36');
-    if (!url(['#'], 1)) {
-        var _0x185d81 = 'bwac-btn';
-        var _0x2c35f3 = 0;
-        var _0x3bf240 = '';
-        if (_0x44d223 != '') {
-            _0x2c35f3 = -1;
-            _0x3bf240 = 'ep-' + _0x44d223 + "').getElementsByTagName('a')[0];//";
-            _0x185d81 = "btnp').getElementsByTagName('a')[0];//";
+    headers('User-Agent', "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36");
+    if (!url(['#'], 0x1)) {
+        var _0x5f5b3a = "bwac-btn";
+        var _0x339aef = 0x0;
+        var _0x57e40d = '';
+        if (_0xe5d65d != '') {
+            _0x339aef = -0x1;
+            _0x57e40d = "ep-" + _0xe5d65d + "').getElementsByTagName('a')[0];//";
+            _0x5f5b3a = "btnp').getElementsByTagName('a')[0];//";
         }
-        getWebViewOwnContentJS(_0xa808c8, 'master.m3u8', 'en.vtt', _0x185d81, _0x3bf240, _0x2c35f3, false, g.getHeadersJSON, 2);
+        getWebViewOwnContentJS(_0x510e96, "master.m3u8", "en.vtt", _0x5f5b3a, _0x57e40d, _0x339aef, false, g.getHeadersJSON, 0x2);
     } else {
-        if (url(['.vtt'], 1)) {
-            var _0x2838fc = url().split('#')[2];
+        if (url([".vtt"], 0x1)) {
+            var _0x435eb2 = url().split('#')[0x2];
             try {
-                fetch(_0x2838fc);
-            } catch (_0x5834b5) {
-                _0x2838fc = '';
+                fetch(_0x435eb2);
+            } catch (_0x315a9a) {
+                _0x435eb2 = '';
             }
-            if (_0x2838fc != '') {
-                headers('forHelper', 'c2V5L3RyYW5zbGF0ZS8');
-                headers('forHelper2', 'Q2V2aXJpQUkuVFIucGhwP3VybD0');
-                var _0x54a9bf = 'm_';
-                if (_0x44d223 != '') {
-                    _0x54a9bf = 't_';
+            if (_0x435eb2 != '') {
+                headers('forHelper', "c2V5L3RyYW5zbGF0ZS8");
+                headers("forHelper2", "Q2V2aXJpQUkuVFIucGhwP3VybD0");
+                var _0x413d12 = 'm_';
+                if (_0xe5d65d != '') {
+                    _0x413d12 = 't_';
                 }
-                sub(subHelp(_0x2838fc, _0x54a9bf + 'ym'));
+                sub(subHelp(_0x435eb2, _0x413d12 + 'ym'));
             }
         }
-        url(url().split('#')[1]);
-        if (url(['http'], 1)) {
+        url(url().split('#')[0x1]);
+        if (url(['http'], 0x1)) {
             parser();
         }
     }
 }
+
 function yirmidort() {
-    url(fetch().match(/source\s*src="(.*?)"/)[1]);
+    url(fetch().match(/source\s*src="(.*?)"/)[0x1]);
     parser();
 }
+
 function yoltv() {
-    url(fetch().match(/data-item.*?(https:.*?\.m3u8)/)[1].replace(/\\/, ''));
+    url(fetch().match(/data-item.*?(https:.*?\.m3u8)/)[0x1].replace(/\\/, ''));
     parser();
 }
+
 function youporn() {
-    var _0x3f2edc = fetch().match(/playervars:\s*(.*?)\}\s*page_params/)[1];
-    var _0x3967dd = {
-        Alone: _0xcd88b3[_0x3baf9e].videoUrl,
-        Alone: _0xcd88b3[_0x165c4a].videoUrl
-    };
-    var _0xcd88b3 = JSON.parse(_0x3f2edc).mediaDefinitions;
-    for (let _0x3baf9e = 0; _0x3baf9e < _0xcd88b3.length; _0x3baf9e++) {
+    var _0x5b3f67 = fetch().match(/playervars:\s*(.*?)\}\s*page_params/)[0x1];
+    var _0x426464 = {};
+    var _0x4a81fd = JSON.parse(_0x5b3f67).mediaDefinitions;
+    for (let _0x34978d = 0x0; _0x34978d < _0x4a81fd.length; _0x34978d++) {
         try {
-            _0x3967dd[_0xcd88b3[_0x3baf9e].format] = _0xcd88b3[_0x3baf9e].videoUrl;
-        } catch (_0x24043a) {
-            ;
+            _0x426464[_0x4a81fd[_0x34978d].format] = _0x4a81fd[_0x34978d].videoUrl;
+        } catch (_0x217d3b) {
+            _0x426464.Alone = _0x4a81fd[_0x34978d].videoUrl;
         }
     }
-    if (Object.keys(_0x3967dd).indexOf('hls') !== -1) {
-        var _0xcd88b3 = JSON.parse(fetch(_0x3967dd.hls));
-        _0x3967dd = {};
-        for (let _0x165c4a = 0; _0x165c4a < _0xcd88b3.length; _0x165c4a++) {
+    if (Object.keys(_0x426464).indexOf("hls") !== -0x1) {
+        var _0x4a81fd = JSON.parse(fetch(_0x426464.hls));
+        _0x426464 = {};
+        for (let _0x4ec05a = 0x0; _0x4ec05a < _0x4a81fd.length; _0x4ec05a++) {
             try {
-                _0x3967dd[_0xcd88b3[_0x165c4a].quality] = _0xcd88b3[_0x165c4a].videoUrl;
-            } catch (_0x1d18e9) {
-                ;
+                _0x426464[_0x4a81fd[_0x4ec05a].quality] = _0x4a81fd[_0x4ec05a].videoUrl;
+            } catch (_0x49335a) {
+                _0x426464.Alone = _0x4a81fd[_0x4ec05a].videoUrl;
             }
         }
-        var _0x1107df = ['240', '360', '480', '720', '1080', 'Alone'];
-        var _0x56ff64 = -1;
-        var _0x9c4d26 = -1;
-        for (let _0x2423fb = 0; _0x2423fb < Object.keys(_0x3967dd).length; _0x2423fb++) {
+        var _0x358138 = ['240', "360", '480', "720", '1080', "Alone"];
+        var _0x1527f2 = -0x1;
+        var _0x180a07 = -0x1;
+        for (let _0x18cfe0 = 0x0; _0x18cfe0 < Object.keys(_0x426464).length; _0x18cfe0++) {
             try {
-                var _0x97b1f = Object.keys(_0x3967dd)[_0x2423fb];
-                var _0x453dd9 = _0x1107df.indexOf(_0x97b1f);
-                if (_0x56ff64 < _0x453dd9) {
-                    _0x56ff64 = _0x453dd9;
-                    _0x9c4d26 = _0x97b1f;
+                var _0x389f9e = Object.keys(_0x426464)[_0x18cfe0];
+                var _0x368b69 = _0x358138.indexOf(_0x389f9e);
+                if (_0x1527f2 < _0x368b69) {
+                    _0x1527f2 = _0x368b69;
+                    _0x180a07 = _0x389f9e;
                 }
-            } catch (_0x3f156a) { }
+            } catch (_0x4a13b6) {}
         }
-        if (_0x56ff64 != -1) {
-            url(_0x3967dd[_0x9c4d26].replace(/\\/g, ''));
+        if (_0x1527f2 != -0x1) {
+            url(_0x426464[_0x180a07].replace(/\\/g, ''));
         }
     } else {
-        if (Object.keys(_0x3967dd).indexOf('Alone') !== -1) {
-            url(_0x3967dd.Alone);
+        if (Object.keys(_0x426464).indexOf("Alone") !== -0x1) {
+            url(_0x426464.Alone);
         } else {
-            url(_0x3967dd.mp4);
+            url(_0x426464.mp4);
         }
     }
     url(fixUrl(url()));
     parser();
 }
+
 function youtube() {
-    if (url(['youtubeiptvs'], 0)) {
-        var _0x495ea8 = 0;
-        if (url(['#'], 0)) {
-            _0x495ea8 = parseInt(url().split('#')[1]);
+    if (url(["youtubeiptvs"], 0x0)) {
+        var _0x58536a = 0x0;
+        if (url(['#'], 0x0)) {
+            _0x58536a = parseInt(url().split('#')[0x1]);
         }
-        url(url().replace('youtubeiptvs', 'https://www.youtube.com'));
-        var _0x4436c8 = fetch();
-        _0x4436c8 = matchAll(_0x4436c8, /LIVE.*?"addedVideoId":"(.*?)","/g);
-        for (let _0xd3bdc1 = 0; _0xd3bdc1 < _0x4436c8.length; _0xd3bdc1++) {
-            if (_0xd3bdc1 == _0x495ea8) {
-                url(_0x4436c8[_0xd3bdc1][1]);
+        url(url().replace("youtubeiptvs", 'https://www.youtube.com'));
+        var _0x571629 = fetch();
+        _0x571629 = matchAll(_0x571629, /LIVE.*?"addedVideoId":"(.*?)","/g);
+        for (let _0xbf8366 = 0x0; _0xbf8366 < _0x571629.length; _0xbf8366++) {
+            if (_0xbf8366 == _0x58536a) {
+                url(_0x571629[_0xbf8366][0x1]);
             }
         }
-        url('https://m.youtube.com/watch?v=' + url());
+        url("https://m.youtube.com/watch?v=" + url());
     }
-    _0x4436c8 = fetch();
-    if (_0x4436c8.includes('hlsManifestUrl')) {
-        url(_0x4436c8.match(/hlsManifestUrl":"(.*?)"/)[1]);
-        headers('Referer', 'https://youtube.com');
+    _0x571629 = fetch();
+    if (_0x571629.includes("hlsManifestUrl")) {
+        url(_0x571629.match(/hlsManifestUrl":"(.*?)"/)[0x1]);
+        headers("Referer", 'https://youtube.com');
     } else {
-        var _0x41935d = url().match(/(?:v=|embed\/)(.*?)(?:&|$)/)[1];
+        var _0x193cd5 = url().match(/(?:v=|embed\/)(.*?)(?:&|$)/)[0x1];
         try {
-            _0x41935d = _0x41935d.split('?rel')[0];
-        } catch (_0x2f207e) { }
+            _0x193cd5 = _0x193cd5.split("?rel")[0x0];
+        } catch (_0x2a957) {}
         try {
-            var _0x165ae3 = fetch('https://ab.cococococ.com/ajax/download.php?copyright=0&format=1080&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D' + _0x41935d + '&api=dfcb6d76f2f6a9894gjkege8a4ab232222');
-            _0x165ae3 = fetch('https://p.oceansaver.in/ajax/progress.php?id=' + JSON.parse(_0x165ae3).id);
-            var _0x59a42a = JSON.parse(_0x165ae3).download_url;
-            if (_0x59a42a == null || _0x59a42a == 'null') {
-                var _0x165ae3 = fetch('https://ab.cococococ.com/ajax/download.php?copyright=0&format=720&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D' + _0x41935d + '&api=dfcb6d76f2f6a9894gjkege8a4ab232222');
-                _0x165ae3 = fetch('https://p.oceansaver.in/ajax/progress.php?id=' + JSON.parse(_0x165ae3).id);
-                var _0x59a42a = JSON.parse(_0x165ae3).download_url;
-                if (_0x59a42a == null || _0x59a42a == 'null') {
+            var _0x298ac0 = fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=1080&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D" + _0x193cd5 + "&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
+            _0x298ac0 = fetch("https://p.oceansaver.in/ajax/progress.php?id=" + JSON.parse(_0x298ac0).id);
+            var _0x27baba = JSON.parse(_0x298ac0).download_url;
+            if (_0x27baba == null || _0x27baba == "null") {
+                var _0x298ac0 = fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=720&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D" + _0x193cd5 + "&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
+                _0x298ac0 = fetch("https://p.oceansaver.in/ajax/progress.php?id=" + JSON.parse(_0x298ac0).id);
+                var _0x27baba = JSON.parse(_0x298ac0).download_url;
+                if (_0x27baba == null || _0x27baba == "null") {
                     throw new Error('m');
                 }
             }
-            url(_0x59a42a);
-            print(_0x59a42a);
-            g.setMediaType('mp4');
-        } catch (_0x48cb12) {
-            headers('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+            url(_0x27baba);
+            print(_0x27baba);
+            g.setMediaType("mp4");
+        } catch (_0x45235a) {
+            headers("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
             headers('Referer', 'https://www.y2mate.com/');
-            _0x4436c8 = fetchPost('k_query=' + url() + '&k_page=home&kl=en&q_auto=', 'https://www.y2mate.com/mates/analyzeV2/ajax');
-            var _0x3775aa = JSON.parse(_0x4436c8);
-            k = _0x3775aa.links.mp4.auto.k;
-            _0x4436c8 = fetchPost('vid=' + _0x41935d + '&k=' + encodeURIComponent(k), 'https://www.y2mate.com/mates/convertV2/index');
-            _0x3775aa = JSON.parse(_0x4436c8);
-            url(_0x3775aa.dlink + '#.mp4');
+            _0x571629 = fetchPost("k_query=" + url() + "&k_page=home&kl=en&q_auto=", "https://www.y2mate.com/mates/analyzeV2/ajax");
+            var _0x415570 = JSON.parse(_0x571629);
+            k = _0x415570.links.mp4.auto.k;
+            _0x571629 = fetchPost("vid=" + _0x193cd5 + '&k=' + encodeURIComponent(k), "https://www.y2mate.com/mates/convertV2/index");
+            _0x415570 = JSON.parse(_0x571629);
+            url(_0x415570.dlink + "#.mp4");
         }
     }
     parser();
 }
-function url(_0x200ded, _0x384825) {
-    var _0x4f18a7 = g.getUrl() + '';
-    if (arguments.length === 0) {
-        return _0x4f18a7;
+
+function url(_0x14d776, _0x250ca5) {
+    var _0x125b37 = g.getUrl() + '';
+    if (arguments.length === 0x0) {
+        return _0x125b37;
     } else {
-        if (arguments.length === 1) {
-            return g.setUrl(_0x200ded);
+        if (arguments.length === 0x1) {
+            return g.setUrl(_0x14d776);
         } else {
-            if (arguments.length === 2) {
-                if (typeof _0x384825 === 'string') {
-                    url(_0x4f18a7.replace(_0x200ded, _0x384825));
+            if (arguments.length === 0x2) {
+                if (typeof _0x250ca5 === "string") {
+                    url(_0x125b37.replace(_0x14d776, _0x250ca5));
                     return url();
                 } else {
-                    var _0x20162a;
-                    for (let _0x6d384f = 0; _0x6d384f < _0x200ded.length; _0x6d384f++) {
-                        if (!_0x4f18a7.includes(_0x200ded[_0x6d384f]) && _0x384825 == 0 || _0x4f18a7.includes(_0x200ded[_0x6d384f]) && _0x384825 == 1 || _0x4f18a7.includes(_0x200ded[_0x6d384f]) && _0x384825 == 2) {
-                            _0x20162a = _0x384825 == 1;
+                    var _0x3f3b4a;
+                    for (let _0x49653c = 0x0; _0x49653c < _0x14d776.length; _0x49653c++) {
+                        if (!_0x125b37.includes(_0x14d776[_0x49653c]) && _0x250ca5 == 0x0 || _0x125b37.includes(_0x14d776[_0x49653c]) && _0x250ca5 == 0x1 || _0x125b37.includes(_0x14d776[_0x49653c]) && _0x250ca5 == 0x2) {
+                            _0x3f3b4a = _0x250ca5 == 0x1;
                             break;
                         }
                     }
-                    return ((_0x20162a == null ? _0x384825 == 0 : _0x20162a) || _0x384825 == 2) && !((_0x20162a == null ? _0x384825 == 0 : _0x20162a) && _0x384825 == 2);
+                    return ((_0x3f3b4a == null ? _0x250ca5 == 0x0 : _0x3f3b4a) || _0x250ca5 == 0x2) && !((_0x3f3b4a == null ? _0x250ca5 == 0x0 : _0x3f3b4a) && _0x250ca5 == 0x2);
                 }
             }
         }
     }
 }
-function sub(_0x55cad6) {
-    if (arguments.length === 0) {
+
+function sub(_0x5b1baa) {
+    if (arguments.length === 0x0) {
         return g.getSub() + '';
     } else {
-        if (arguments.length === 1) {
-            if (typeof _0x55cad6 === 'object') {
-                _0x55cad6 = JSON.stringify(_0x55cad6);
+        if (arguments.length === 0x1) {
+            if (typeof _0x5b1baa === "object") {
+                _0x5b1baa = JSON.stringify(_0x5b1baa);
             }
-            g.setSub(_0x55cad6);
+            g.setSub(_0x5b1baa);
         }
     }
 }
-function isPreview(_0x24baed) {
+
+function isPreview(_0x13b802) {
     try {
-        if (arguments.length === 0) {
+        if (arguments.length === 0x0) {
             return g.isPreview();
         } else {
-            if (arguments.length === 1) {
-                if (typeof _0x24baed === 'object') {
-                    _0x24baed = JSON.stringify(_0x24baed);
+            if (arguments.length === 0x1) {
+                if (typeof _0x13b802 === "object") {
+                    _0x13b802 = JSON.stringify(_0x13b802);
                 }
-                g.setPreview(_0x24baed);
+                g.setPreview(_0x13b802);
             }
         }
-    } catch (_0x216881) {
+    } catch (_0x478ece) {
         return false;
     }
 }
-function headers(_0x20026, _0x5a81f5) {
-    if (arguments.length === 0) {
+
+function headers(_0x4a0acf, _0x4e3964) {
+    if (arguments.length === 0x0) {
         return g.getHeaderSize();
     } else {
-        if (arguments.length === 1) {
-            return g.getHeader(_0x20026) + '';
-        } else {
-            if (arguments.length === 2) {
-                g.setHeader(_0x20026, _0x5a81f5);
-            }
+        if (arguments.length === 0x1) {
+            return g.getHeader(_0x4a0acf) + '';
+        } else if (arguments.length === 0x2) {
+            g.setHeader(_0x4a0acf, _0x4e3964);
         }
     }
 }
+
 function lang() {
     return g.getLang();
 }
+
 function isWebView() {
     return g.isWebView();
 }
-function consolelog(_0x5037f8, _0x31073d) {
-    if (typeof _0x5037f8 === 'object' && _0x5037f8 !== null) {
-        _0x5037f8 = JSON.stringify(_0x5037f8);
+
+function consolelog(_0x460d85, _0x434f33) {
+    if (typeof _0x460d85 === "object" && _0x460d85 !== null) {
+        _0x460d85 = JSON.stringify(_0x460d85);
     }
-    if (typeof _0x31073d === 'object' && _0x31073d !== null) {
-        _0x31073d = JSON.stringify(_0x31073d);
+    if (typeof _0x434f33 === "object" && _0x434f33 !== null) {
+        _0x434f33 = JSON.stringify(_0x434f33);
     }
-    Core.consolelog(_0x5037f8 + ': ' + _0x31073d);
+    Core.consolelog(_0x460d85 + ": " + _0x434f33);
 }
-function fetch(_0x381d59) {
-    var _0x1e578c = url();
-    if (arguments.length === 1) {
-        url(_0x381d59);
+
+function fetch(_0x136187) {
+    var _0x370f35 = url();
+    if (arguments.length === 0x1) {
+        url(_0x136187);
     }
     consolelog(url());
-    var _0x2969a9 = Core.fetch();
-    if (arguments.length === 1) {
-        url(_0x1e578c);
+    var _0x4e18f2 = Core.fetch();
+    if (arguments.length === 0x1) {
+        url(_0x370f35);
     }
-    if (_0x2969a9 == 'Error') {
-        error('Fetch Error: ' + url() + ' / ' + _0x381d59);
+    if (_0x4e18f2 == "Error") {
+        error("Fetch Error: " + url() + " / " + _0x136187);
     } else {
-        return _0x2969a9 + '';
+        return _0x4e18f2 + '';
     }
 }
-function fetchResponseHeader(_0x3c379a, _0x48db6d, _0x197a9c) {
-    var _0x136b32 = Core.fetchResponseHeader(_0x3c379a, _0x48db6d, _0x197a9c);
-    if (_0x136b32 == 'Error') {
-        error('Fetch Response Error:');
+
+function fetchResponseHeader(_0x1e3e44, _0x16f89f, _0x475fb6) {
+    var _0x2cc846 = Core.fetchResponseHeader(_0x1e3e44, _0x16f89f, _0x475fb6);
+    if (_0x2cc846 == 'Error') {
+        error("Fetch Response Error:");
     } else {
-        return _0x136b32;
+        return _0x2cc846;
     }
 }
-function fetchPost(_0x49feef, _0x423efe) {
-    var _0x35265b = url();
-    if (arguments.length === 2) {
-        url(_0x423efe);
+
+function fetchPost(_0x3591cb, _0x5de48b) {
+    var _0x8c2452 = url();
+    if (arguments.length === 0x2) {
+        url(_0x5de48b);
     }
-    consolelog('Fetch Post: ', url());
-    consolelog(_0x49feef, _0x423efe);
-    var _0x35a121 = Core.fetchPost(_0x49feef) + '';
-    if (arguments.length === 2) {
-        url(_0x35265b);
+    consolelog("Fetch Post: ", url());
+    consolelog(_0x3591cb, _0x5de48b);
+    var _0x373c31 = Core.fetchPost(_0x3591cb) + '';
+    if (arguments.length === 0x2) {
+        url(_0x8c2452);
     }
-    if (_0x35a121 == 'Error') {
-        error('FetchPost Error:' + url() + ' / ' + _0x423efe);
+    if (_0x373c31 == 'Error') {
+        error("FetchPost Error:" + url() + " / " + _0x5de48b);
     } else {
-        consolelog(5086, _0x35a121 + '');
-        return _0x35a121;
+        consolelog(0x13de, _0x373c31 + '');
+        return _0x373c31;
     }
 }
-function getWebViewOwnContentJS(_0x35fe25, _0x5d407c, _0x557bc2, _0x2b3b0a, _0x550bf1, _0x14ebbc, _0x294e0b, _0x16e14d, _0x1c7d30) {
-    Core.getWebViewOwnContentJS(_0x35fe25, _0x5d407c, _0x557bc2, _0x2b3b0a, _0x550bf1, _0x14ebbc, _0x294e0b, _0x16e14d, _0x1c7d30);
+
+function getWebViewOwnContentJS(_0x41e4a9, _0x3136b0, _0x43320a, _0x1840a3, _0x1942b8, _0x8620d5, _0xed2c31, _0x3449a6, _0x219383) {
+    Core.getWebViewOwnContentJS(_0x41e4a9, _0x3136b0, _0x43320a, _0x1840a3, _0x1942b8, _0x8620d5, _0xed2c31, _0x3449a6, _0x219383);
 }
-function error(_0x19540e) {
-    throw new Error(_0x19540e);
+
+function error(_0x22d97d) {
+    throw new Error(_0x22d97d);
 }
-function moxyUnpacker(_0x4be5f4, _0x267339) {
-    _0x4be5f4 = _0x4be5f4.split('|');
+
+function moxyUnpacker(_0x45818b, _0x215ef3) {
+    _0x45818b = _0x45818b.split('|');
     a = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-    var _0x35a09b = '';
-    _0x267339 = _0x267339.split("\\\\");
-    for (var _0x5b938f = 1; _0x5b938f < _0x267339.length; _0x5b938f++) {
-        _0x35a09b += "\\\\" + _0x4be5f4[a.indexOf(_0x267339[_0x5b938f])];
+    var _0x22e649 = '';
+    _0x215ef3 = _0x215ef3.split("\\\\");
+    for (var _0x1f820b = 0x1; _0x1f820b < _0x215ef3.length; _0x1f820b++) {
+        _0x22e649 += "\\\\" + _0x45818b[a.indexOf(_0x215ef3[_0x1f820b])];
     }
-    return hexToString(_0x35a09b);
+    return hexToString(_0x22e649);
 }
-function matchAll(_0x26e00c, _0x337f36) {
-    var _0x58bbf9 = [];
-    var _0x1b6bc2;
-    while ((_0x1b6bc2 = _0x337f36.exec(_0x26e00c)) !== null) {
-        _0x58bbf9.push(_0x1b6bc2);
+
+function matchAll(_0x50b498, _0x2595cd) {
+    var _0x289a21 = [];
+    var _0x2b2f48;
+    while ((_0x2b2f48 = _0x2595cd.exec(_0x50b498)) !== null) {
+        _0x289a21.push(_0x2b2f48);
     }
-    return _0x58bbf9;
+    return _0x289a21;
 }
-function urlChanger(_0x366c8b) {
-    consolelog('--------------------Url Changer Start--------------------');
-    consolelog(18, url());
+
+function urlChanger(_0x22817a) {
+    consolelog("--------------------Url Changer Start--------------------");
+    consolelog(0x12, url());
     if (url().includes('#')) {
-        var _0x35b8ef = url().split('#');
-        _0x35b8ef[0] = _0x366c8b;
-        url(_0x35b8ef.join('#'));
+        var _0x22b11b = url().split('#');
+        _0x22b11b[0x0] = _0x22817a;
+        url(_0x22b11b.join('#'));
     } else {
-        url(_0x366c8b);
+        url(_0x22817a);
     }
-    consolelog(18, url());
-    consolelog('--------------------Url Changer Start--------------------');
+    consolelog(0x12, url());
+    consolelog("--------------------Url Changer Start--------------------");
 }
-function logicalXor(_0x3d6744, _0x4442f9) {
-    return (_0x3d6744 || _0x4442f9) && !(_0x3d6744 && _0x4442f9);
+
+function logicalXor(_0xc292ef, _0xe78f64) {
+    return (_0xc292ef || _0xe78f64) && !(_0xc292ef && _0xe78f64);
 }
-function trim(_0x1f61e2) {
-    return _0x1f61e2.split(' ').join('').split("\n").join('').split("\t").join('');
+
+function trim(_0x124907) {
+    return _0x124907.split(" ").join('').split("\n").join('').split("\t").join('');
 }
-function getAes(_0xa12cec, _0x1387fd) {
-    var _0x2a8e17 = fetch(atob(headers('base') + '==')) + '';
-    _0x2a8e17 = atob(reverseString(_0x2a8e17)) + '';
-    var _0x5b4afd = fetchPost('v1=' + encodeURIComponent(_0xa12cec) + '&v2=' + encodeURIComponent(_0x1387fd), _0x2a8e17 + 'sey/back/v2/parser/aes.php') + '';
-    return _0x5b4afd;
+
+function getAes(_0x469afe, _0x170dae) {
+    var _0x16c03e = fetch(atob(headers("base") + '==')) + '';
+    _0x16c03e = atob(reverseString(_0x16c03e)) + '';
+    var _0x402182 = fetchPost('v1=' + encodeURIComponent(_0x469afe) + "&v2=" + encodeURIComponent(_0x170dae), _0x16c03e + "sey/back/v2/parser/aes.php") + '';
+    return _0x402182;
 }
-function hdmomplayer(_0x1ad351, _0x2d505d) {
-    var _0x31227f = getAes(_0x1ad351, _0x2d505d);
-    var _0x287cfd = _0x31227f.match(/video_location.*?(https.*?) /)[1];
-    var _0x5dc8d0 = '';
+
+function getVectorx(_0x41a463) {
+    var _0x3ce670 = fetch(atob(headers("base") + '==')) + '';
+    _0x3ce670 = atob(reverseString(_0x3ce670)) + '';
+    var _0x3f1a6a = fetchPost("v1=" + encodeURIComponent(_0x41a463), _0x3ce670 + "sey/back/v2/parser/vectorx.php") + '';
+    consolelog(_0x3ce670 + "sey/back/v2/parser/vectorx.php");
+    consolelog('v1=' + encodeURIComponent(_0x41a463));
+    return _0x3f1a6a;
+}
+
+function getSecureData(_0xd9d0b0) {
+    var _0x33e485 = fetch(atob(headers("base") + '==')) + '';
+    _0x33e485 = atob(reverseString(_0x33e485)) + '';
+    var _0x4c264b = fetchPost("v1=" + encodeURIComponent(_0xd9d0b0), _0x33e485 + "sey/back/v2/parser/dizilla.php") + '';
+    consolelog(_0x33e485 + 'sey/back/v2/parser/vectorx.php');
+    consolelog('v1=' + encodeURIComponent(_0xd9d0b0));
+    return _0x4c264b;
+}
+
+function hdmomplayer(_0x7e9be4, _0x4069cf) {
+    var _0x2be9f2 = getAes(_0x7e9be4, _0x4069cf);
+    var _0x4b8127 = _0x2be9f2.match(/video_location.*?(https.*?) /)[0x1];
+    var _0x2a510c = '';
     try {
-        var _0x3d1458 = matchAll(_0x31227f, /file.*?(\/upload.*?.vtt)/g);
-        for (let _0x56734d = 0; _0x56734d < _0x3d1458.length; _0x56734d++) {
-            if (_0x3d1458[_0x56734d][1].includes('tur')) {
-                _0x5dc8d0 = baseUrl(_0x287cfd) + _0x3d1458[_0x56734d][1];
+        var _0x4b695d = matchAll(_0x2be9f2, /file.*?(\/upload.*?.vtt)/g);
+        for (let _0x4d0b6b = 0x0; _0x4d0b6b < _0x4b695d.length; _0x4d0b6b++) {
+            if (_0x4b695d[_0x4d0b6b][0x1].includes("tur")) {
+                _0x2a510c = baseUrl(_0x4b8127) + _0x4b695d[_0x4d0b6b][0x1];
                 break;
             }
         }
-    } catch (_0x4396f5) { }
-    return [_0x287cfd, _0x5dc8d0];
+    } catch (_0x53ece6) {}
+    return [_0x4b8127, _0x2a510c];
 }
-function hex2a(_0x5efccd) {
-    var _0x595f51 = _0x5efccd.toString();
-    var _0x1a91e6 = '';
-    for (var _0x5aedea = 0; _0x5aedea < _0x595f51.length; _0x5aedea += 2) {
-        _0x1a91e6 += String.fromCharCode(parseInt(_0x595f51.substr(_0x5aedea, 2), 16));
+
+function hex2a(_0x14c5c1) {
+    var _0x231dcf = _0x14c5c1.toString();
+    var _0x3b8c64 = '';
+    for (var _0x4ded1e = 0x0; _0x4ded1e < _0x231dcf.length; _0x4ded1e += 0x2) {
+        _0x3b8c64 += String.fromCharCode(parseInt(_0x231dcf.substr(_0x4ded1e, 0x2), 0x10));
     }
-    return _0x1a91e6;
+    return _0x3b8c64;
 }
-function hexToString(_0x14a49d) {
-    var _0x12380e = _0x14a49d.split("\\x");
-    var _0x381fd5 = '';
-    for (var _0x1f3997 = 1; _0x1f3997 < _0x12380e.length; _0x1f3997++) {
-        var _0x45c1db = parseInt(_0x12380e[_0x1f3997], 16);
-        _0x381fd5 += String.fromCharCode(_0x45c1db);
+
+function hexToString(_0x235cb0) {
+    var _0xaaf4cd = _0x235cb0.split("\\x");
+    var _0x3ffb9f = '';
+    for (var _0x41d711 = 0x1; _0x41d711 < _0xaaf4cd.length; _0x41d711++) {
+        var _0x3ec660 = parseInt(_0xaaf4cd[_0x41d711], 0x10);
+        _0x3ffb9f += String.fromCharCode(_0x3ec660);
     }
-    return _0x381fd5;
+    return _0x3ffb9f;
 }
-function subHelp(_0x43e60e, _0x32a008) {
-    data = fetch(atob(headers('base') + '=='));
+
+function subHelp(_0x50bd40, _0x47e930) {
+    data = fetch(atob(headers("base") + '=='));
     data = atob(reverseString(data + ''));
-    h1 = atob(headers('forHelper') + '=');
-    h2 = atob(headers('forHelper2') + '=');
-    if (_0x32a008 == 'vumoo') {
-        id = _0x43e60e.match(/subtitle\/(.*?).vtt/)[1];
+    h1 = atob(headers("forHelper") + '=');
+    h2 = atob(headers("forHelper2") + '=');
+    if (_0x47e930 == "vumoo") {
+        id = _0x50bd40.match(/subtitle\/(.*?).vtt/)[0x1];
     } else {
-        if (_0x32a008 == 't_hd' || _0x32a008 == 'm_hd' || _0x32a008 == 't_ym' || _0x32a008 == 'm_ym') {
-            id = _0x43e60e.split('/')[4];
-        } else {
-            if (_0x32a008.includes('123chill')) {
-                raw = _0x32a008.split('-');
-                id = raw[0];
-                _0x32a008 = raw[1];
-            }
+        if (_0x47e930 == "t_hd" || _0x47e930 == "m_hd" || _0x47e930 == 't_ym' || _0x47e930 == "m_ym") {
+            id = _0x50bd40.split('/')[0x4];
+        } else if (_0x47e930.includes("123chill")) {
+            raw = _0x47e930.split('-');
+            id = raw[0x0];
+            _0x47e930 = raw[0x1];
         }
     }
-    var _0x47f971 = fetch(data + '' + h1 + h2 + _0x43e60e + '&id=' + _0x32a008 + '_' + id);
-    _0x47f971 = [];
-    var _0x42cd87 = {
-        'lang': "AI Ã‡eviri(TR)",
-        'url': data + h1 + _0x32a008 + '_' + id + '.vtt'
+    var _0x1a218a = fetch(data + '' + h1 + h2 + _0x50bd40 + "&id=" + _0x47e930 + '_' + id);
+    _0x1a218a = [];
+    var _0x528f18 = {
+        "lang": "AI Ã‡eviri(TR)",
+        "url": data + h1 + _0x47e930 + '_' + id + ".vtt"
     };
-    _0x47f971.push(_0x42cd87);
-    return JSON.stringify(_0x47f971);
+    _0x1a218a.push(_0x528f18);
+    return JSON.stringify(_0x1a218a);
 }
-function reverseString(_0x481c74) {
-    var _0x5ea30e = '';
-    for (var _0x15da45 = _0x481c74.length - 1; _0x15da45 >= 0; _0x15da45--) {
-        _0x5ea30e += _0x481c74[_0x15da45];
+
+function reverseString(_0x6e99c9) {
+    var _0x5e4170 = '';
+    for (var _0x31e5d9 = _0x6e99c9.length - 0x1; _0x31e5d9 >= 0x0; _0x31e5d9--) {
+        _0x5e4170 += _0x6e99c9[_0x31e5d9];
     }
-    return _0x5ea30e;
+    return _0x5e4170;
 }
-function atob(_0x15c561) {
-    var _0x2ccc0a = String(_0x15c561).replace(/=+$/, '');
-    var _0x278ab6 = '';
-    if (_0x2ccc0a.length % 4 == 1) {
+
+function atob(_0x26186f) {
+    var _0x520b2d = String(_0x26186f).replace(/=+$/, '');
+    var _0x2647a1 = '';
+    if (_0x520b2d.length % 0x4 == 0x1) {
         throw new Error("'atob' failed: The string to be decoded is not correctly encoded.");
     }
-    var _0x21f522 = 0;
-    var _0x1d486d;
-    var _0x27a0c8;
-    for (var _0x4393d8 = 0; _0x27a0c8 = _0x2ccc0a.charAt(_0x4393d8++); ~_0x27a0c8 && (_0x1d486d = _0x21f522 % 4 ? _0x1d486d * 64 + _0x27a0c8 : _0x27a0c8, _0x21f522++ % 4) ? _0x278ab6 += String.fromCharCode(255 & _0x1d486d >> (-2 * _0x21f522 & 6)) : 0) {
-        _0x27a0c8 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='.indexOf(_0x27a0c8);
+    var _0x4520bd = 0x0;
+    var _0x2224da;
+    var _0x1fcba7;
+    for (var _0x51b83b = 0x0; _0x1fcba7 = _0x520b2d.charAt(_0x51b83b++); ~_0x1fcba7 && (_0x2224da = _0x4520bd % 0x4 ? _0x2224da * 0x40 + _0x1fcba7 : _0x1fcba7, _0x4520bd++ % 0x4) ? _0x2647a1 += String.fromCharCode(0xff & _0x2224da >> (-0x2 * _0x4520bd & 0x6)) : 0x0) {
+        _0x1fcba7 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='.indexOf(_0x1fcba7);
     }
-    return _0x278ab6;
+    return _0x2647a1;
 }
-function baseUrl(_0x10ad4d, _0x4046ba) {
-    _0x10ad4d = _0x10ad4d.replace('boncuk44', '');
-    _0x10ad4d = _0x10ad4d.replace('boncuk45', '');
-    _0x10ad4d = _0x10ad4d.replace('syrtrk', '');
-    var _0x386cc9 = _0x10ad4d.split('/');
-    var _0x1c7c69 = _0x386cc9[0];
-    var _0x472aa5 = _0x386cc9[2];
-    var _0x10ad4d = _0x1c7c69 + '//' + _0x472aa5;
-    return _0x4046ba ? _0x472aa5 : _0x10ad4d;
+
+function baseUrl(_0x4e2c0c, _0x55fe7a) {
+    _0x4e2c0c = _0x4e2c0c.replace("boncuk44", '');
+    _0x4e2c0c = _0x4e2c0c.replace("boncuk45", '');
+    _0x4e2c0c = _0x4e2c0c.replace("syrtrk", '');
+    var _0x1f29a1 = _0x4e2c0c.split('/');
+    var _0x4f5c33 = _0x1f29a1[0x0];
+    var _0x294f44 = _0x1f29a1[0x2];
+    var _0x4e2c0c = _0x4f5c33 + '//' + _0x294f44;
+    return _0x55fe7a ? _0x294f44 : _0x4e2c0c;
 }
-function fixUrl(_0x4b1d34) {
-    if (!_0x4b1d34.startsWith('http')) {
-        var _0x122ca0 = 'https';
-        if (!_0x4b1d34.startsWith(':')) {
-            _0x122ca0 = _0x122ca0 + ':';
-            if (!_0x4b1d34.startsWith('//')) {
-                _0x122ca0 = _0x122ca0 + '//';
+
+function fixUrl(_0x4427a3) {
+    if (!_0x4427a3.startsWith("http")) {
+        var _0x471eae = "https";
+        if (!_0x4427a3.startsWith(':')) {
+            _0x471eae = _0x471eae + ':';
+            if (!_0x4427a3.startsWith('//')) {
+                _0x471eae = _0x471eae + '//';
             }
         }
-        _0x4b1d34 = _0x122ca0 + _0x4b1d34;
+        _0x4427a3 = _0x471eae + _0x4427a3;
     }
-    return _0x4b1d34;
+    return _0x4427a3;
 }
-function getKeyByValue(_0x1f33ae, _0x132791) {
-    return Object.keys(_0x1f33ae).find(_0x8844e0 => _0x1f33ae[_0x8844e0] === _0x132791);
+
+function getKeyByValue(_0x17b9a2, _0x56f92f) {
+    return Object.keys(_0x17b9a2).find(_0x59c499 => _0x17b9a2[_0x59c499] === _0x56f92f);
 }
-function unPack(_0x1dc9ae) {
-    function _0x1b4744(_0xb4f4c5) {
+
+function unPack(_0x268375) {
+    function _0x340353(_0x5be3c9) {
         try {
-            var _0x1383c4 = 0;
-            var _0x191338 = -1;
-            var _0x255f6e = '';
-            for (var _0x3c4072 = 0; _0x3c4072 < _0xb4f4c5.length; _0x3c4072++) {
-                if (_0xb4f4c5[_0x3c4072].indexOf('{') != -1) {
-                    _0x1383c4++;
+            var _0x2c6ddc = 0x0;
+            var _0x12dbdd = -0x1;
+            var _0x3c06db = '';
+            for (var _0xd22cc = 0x0; _0xd22cc < _0x5be3c9.length; _0xd22cc++) {
+                if (_0x5be3c9[_0xd22cc].indexOf('{') != -0x1) {
+                    _0x2c6ddc++;
                 }
-                if (_0xb4f4c5[_0x3c4072].indexOf('}') != -1) {
-                    _0x1383c4--;
+                if (_0x5be3c9[_0xd22cc].indexOf('}') != -0x1) {
+                    _0x2c6ddc--;
                 }
-                if (_0x191338 != _0x1383c4) {
-                    _0x191338 = _0x1383c4;
-                    _0x255f6e = '';
-                    while (_0x191338 > 0) {
-                        _0x255f6e += "\t";
-                        _0x191338--;
+                if (_0x12dbdd != _0x2c6ddc) {
+                    _0x12dbdd = _0x2c6ddc;
+                    _0x3c06db = '';
+                    while (_0x12dbdd > 0x0) {
+                        _0x3c06db += "\t";
+                        _0x12dbdd--;
                     }
-                    _0x191338 = _0x1383c4;
+                    _0x12dbdd = _0x2c6ddc;
                 }
-                _0xb4f4c5[_0x3c4072] = _0x255f6e + _0xb4f4c5[_0x3c4072];
+                _0x5be3c9[_0xd22cc] = _0x3c06db + _0x5be3c9[_0xd22cc];
             }
         } finally {
-            _0x1383c4 = null;
-            _0x191338 = null;
-            _0x255f6e = null;
+            _0x2c6ddc = null;
+            _0x12dbdd = null;
+            _0x3c06db = null;
         }
-        return _0xb4f4c5;
+        return _0x5be3c9;
     }
-    eval('with(env) {' + _0x1dc9ae + '}');
-    _0x1dc9ae = (_0x1dc9ae + '').replace(/;/g, ";\n").replace(/{/g, "\n{\n").replace(/}/g, "\n}\n").replace(/\n;\n/g, ";\n").replace(/\n\n/g, "\n");
-    _0x1dc9ae = _0x1dc9ae.split("\n");
-    _0x1dc9ae = _0x1b4744(_0x1dc9ae);
-    _0x1dc9ae = _0x1dc9ae.join("\n");
-    return _0x1dc9ae;
+    eval("with(env) {" + _0x268375 + '}');
+    _0x268375 = (_0x268375 + '').replace(/;/g, ";\n").replace(/{/g, "\n{\n").replace(/}/g, "\n}\n").replace(/\n;\n/g, ";\n").replace(/\n\n/g, "\n");
+    _0x268375 = _0x268375.split("\n");
+    _0x268375 = _0x340353(_0x268375);
+    _0x268375 = _0x268375.join("\n");
+    return _0x268375;
 }
-function findRealChar(_0x587600) {
-    if (/[a-zA-Z]/.test(_0x587600.charAt(0))) {
-        if (_0x587600.toLowerCase().charAt(0) < 'n' || _0x587600.toLowerCase().charAt(0) === "Ä±") {
-            var _0x38726c = _0x587600.charCodeAt(0);
-            _0x38726c += 13;
-            return String.fromCharCode(_0x38726c);
+
+function findRealChar(_0x16b5f5) {
+    if (/[a-zA-Z]/.test(_0x16b5f5.charAt(0x0))) {
+        if (_0x16b5f5.toLowerCase().charAt(0x0) < 'n' || _0x16b5f5.toLowerCase().charAt(0x0) === 'Ä±') {
+            var _0x251fe9 = _0x16b5f5.charCodeAt(0x0);
+            _0x251fe9 += 0xd;
+            return String.fromCharCode(_0x251fe9);
         } else {
-            var _0x38726c = _0x587600.charCodeAt(0);
-            _0x38726c -= 13;
-            return String.fromCharCode(_0x38726c);
+            var _0x251fe9 = _0x16b5f5.charCodeAt(0x0);
+            _0x251fe9 -= 0xd;
+            return String.fromCharCode(_0x251fe9);
         }
     } else {
-        return _0x587600;
+        return _0x16b5f5;
     }
 }
-function replaceCustomChars(_0x572c08) {
-    var _0x111d53 = '';
-    for (var _0x4d90d2 = 0; _0x4d90d2 < _0x572c08.length; _0x4d90d2++) {
-        var _0x572d4a = _0x572c08[_0x4d90d2];
-        var _0xc23b62 = 'xyzabcdefghijklmnopqrstuvw'.indexOf(_0x572d4a);
-        if (_0xc23b62 !== -1) {
-            _0x111d53 += 'abcdefghijklmnopqrstuvwxyz '[_0xc23b62];
+
+function replaceCustomChars(_0x2d864e) {
+    var _0x17d91f = '';
+    for (var _0x17a864 = 0x0; _0x17a864 < _0x2d864e.length; _0x17a864++) {
+        var _0x1a0e99 = _0x2d864e[_0x17a864];
+        var _0x412452 = 'xyzabcdefghijklmnopqrstuvw'.indexOf(_0x1a0e99);
+        if (_0x412452 !== -0x1) {
+            _0x17d91f += "abcdefghijklmnopqrstuvwxyz " [_0x412452];
         } else {
-            _0x111d53 += _0x572d4a;
+            _0x17d91f += _0x1a0e99;
         }
     }
-    return _0x111d53;
+    return _0x17d91f;
 }
-function findSource(_0x55374a) {
-    var _0x3926ae = fetch(atob(headers('base') + '==')) + '';
-    _0x3926ae = atob(reverseString(_0x3926ae)) + '';
-    var _0x2a09b4 = fetch(_0x3926ae + '' + 'sey/back/sourceViaLink.php?link=' + encodeURIComponent(_0x55374a));
-    if (_0x2a09b4.includes('http')) {
-        url(_0x2a09b4);
+
+function findSource(_0x54627e) {
+    var _0xfc1755 = fetch(atob(headers("base") + '==')) + '';
+    _0xfc1755 = atob(reverseString(_0xfc1755)) + '';
+    var _0x3bf0f3 = fetch(_0xfc1755 + '' + "sey/back/sourceViaLink.php?link=" + encodeURIComponent(_0x54627e));
+    if (_0x3bf0f3.includes("http")) {
+        url(_0x3bf0f3);
     } else {
         url('');
     }
+}
+
+function generateBoundary() {
+    var _0x342dba = "----WebKitFormBoundary";
+    for (var _0x1a22f4 = 0x0; _0x1a22f4 < 0x10; _0x1a22f4++) {
+        _0x342dba += 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'.charAt(Math.floor(Math.random() * 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'.length));
+    }
+    return _0x342dba;
+}
+
+function buildMultipartData(_0x3b8b76, _0x7fe594) {
+    var _0x38e530 = '';
+    for (var _0x1a3f3c in _0x7fe594) {
+        _0x38e530 += '--' + _0x3b8b76 + "\r\n";
+        _0x38e530 += "Content-Disposition: form-data; name=\"" + _0x1a3f3c + "\"" + "\r\n" + "\r\n";
+        _0x38e530 += _0x7fe594[_0x1a3f3c] + "\r\n";
+    }
+    _0x38e530 += '--' + _0x3b8b76 + '--' + "\r\n";
+    return _0x38e530;
+}
+
+function decryptFor4KIzle(_0x2c3430) {
+    let _0x415fd4 = _0x2c3430.split('').reverse().join('');
+    let _0x153cc9 = atob(_0x415fd4);
+    let _0x467308 = '';
+    for (let _0x5e127e = 0x0; _0x5e127e < _0x153cc9.length; _0x5e127e++) {
+        let _0x461a42 = "K9L" [_0x5e127e % "K9L".length];
+        let _0xb15d3c = _0x461a42.charCodeAt(0x0) % 0x5 + 0x1;
+        let _0xd0beaa = _0x153cc9.charCodeAt(_0x5e127e) - _0xb15d3c;
+        _0x467308 += String.fromCharCode(_0xd0beaa);
+    }
+    return atob(_0x467308);
+}
+
+function extractLink(_0x5a1164) {
+    var _0x371b00 = /\)\('([0-9A-Fa-f]+)'\s*,\s*(\d+)\)/g;
+    var _0xea3eb3;
+    while ((_0xea3eb3 = _0x371b00.exec(_0x5a1164)) !== null) {
+        var _0x1a6c69 = _0xea3eb3[0x1];
+        var _0x1f023a = parseInt(_0xea3eb3[0x2], 0xa);
+        var _0xc3ea6c = [];
+        for (var _0x34ff95 = 0x0; _0x34ff95 < _0x1a6c69.length; _0x34ff95 += 0x2) {
+            _0xc3ea6c.push(parseInt(_0x1a6c69.substr(_0x34ff95, 0x2), 0x10));
+        }
+        var _0x55f2a3 = String.fromCharCode.apply(null, _0xc3ea6c).split('').reverse().join('');
+        var _0x1f16af;
+        try {
+            _0x1f16af = base64DecodeToBytes(_0x55f2a3);
+        } catch (_0x3a4907) {
+            continue;
+        }
+        var _0x1a0b31 = [];
+        for (var _0x311e2b = 0x0; _0x311e2b < _0x1f16af.length; _0x311e2b++) {
+            _0x1a0b31.push(String.fromCharCode(_0x1f16af[_0x311e2b] - _0x1f023a & 0xff));
+        }
+        var _0x1e46cc = _0x1a0b31.join('');
+        var _0x5ce8c1 = /file\s*:\s*'([^']+)'/.exec(_0x1e46cc);
+        if (_0x5ce8c1) {
+            var _0x3c8df = _0x5ce8c1[0x1];
+            var _0x377fb6 = _0x3c8df.replace(/\\x([0-9a-fA-F]{2})/g, function(_0x22da2c, _0xceec41) {
+                return String.fromCharCode(parseInt(_0xceec41, 0x10));
+            });
+            return _0x377fb6;
+        }
+    }
+    return null;
+}
+
+function base64DecodeToBytes(_0x5a83d3) {
+    if (typeof atob === 'function') {
+        var _0x40eb4c = atob(_0x5a83d3);
+        var _0x4c34b0 = new Array(_0x40eb4c.length);
+        for (var _0x51296b = 0x0; _0x51296b < _0x40eb4c.length; _0x51296b++) {
+            _0x4c34b0[_0x51296b] = _0x40eb4c.charCodeAt(_0x51296b) & 0xff;
+        }
+        return _0x4c34b0;
+    }
+    try {
+        var _0x212771 = java.util.Base64.getDecoder();
+        var _0x4d1132 = _0x212771.decode(new java.lang.String(_0x5a83d3));
+        var _0x163ef9 = [];
+        for (var _0xfcdec7 = 0x0; _0xfcdec7 < _0x4d1132.length; _0xfcdec7++) {
+            _0x163ef9[_0xfcdec7] = _0x4d1132[_0xfcdec7] + 0x100 & 0xff;
+        }
+        return _0x163ef9;
+    } catch (_0x316c08) {}
+    try {
+        var _0x587582 = javax.xml.bind.DatatypeConverter;
+        var _0x5ce26d = _0x587582.parseBase64Binary(_0x5a83d3);
+        var _0x4634af = [];
+        for (var _0x3a14da = 0x0; _0x3a14da < _0x5ce26d.length; _0x3a14da++) {
+            _0x4634af[_0x3a14da] = _0x5ce26d[_0x3a14da] + 0x100 & 0xff;
+        }
+        return _0x4634af;
+    } catch (_0x3b49fb) {}
+    throw new Error("No Base64 decoder available in this Rhino environment.");
 }
